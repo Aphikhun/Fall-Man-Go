@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate MinDistance="1" MaxDistance="16" IsShowShadow="true" IntervalTime="2" SoundFileNum="0" WoundBone="" AttackScale="1" WoundAngle="25" TextHeight="0" Alpha="1" Originalscale="1 1 1" Volume="0.8" SelectedRingSize="1" name="111.actor" SoundName3="" SoundName4="" SoundName2="" SoundName5="" SoundName1="" Skeleton="8_weapon.skel">
+		<Anims/>
+		<BodyParts>
+			<BodyPart SlaveName="group0" EdgeColor="1 1 1 1" MasterName="body" DefaultUse="true" ColorParams="1 1 1 1">
+				<Effect>
+					<scale value="1"/>
+					<Alpha value="1"/>
+					<yaw value="-10"/>
+					<Position_X value="0"/>
+					<type_name value="g2021_25_B"/>
+					<Position_Z value="0"/>
+					<roll value="90"/>
+					<pitch value="0"/>
+					<SocketName value="Bone002"/>
+					<TimeScale value="1"/>
+					<FileName value="asset/Effect/Continuous_footman_weapon_effect.effect"/>
+					<Position_Y value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

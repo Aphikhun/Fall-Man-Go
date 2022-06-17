@@ -1,0 +1,25 @@
+{
+  "data": {
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/3fd64444-f189-4c30-bb1a-fa1e1964d7f9",
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Silver Short Cannonball/g2050_grenadier_bullet.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "missile_a10b4380-f21c-495c-98ad-db409e074831"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d641767a688208c729933a05a6ec6aea",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

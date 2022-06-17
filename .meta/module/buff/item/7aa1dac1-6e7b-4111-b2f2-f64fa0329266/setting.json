@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Effect/Continuous_frozen.effect"
+      }
+    },
+    "moveSpeed": -9999,
+    "name": {
+      "value": "buff_7aa1dac1-6e7b-4111-b2f2-f64fa0329266"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8c21ffdbf5ffefb4287f0fcc4a56f29a"
+    },
+    "VERSION": "0.20"
+  }
+}

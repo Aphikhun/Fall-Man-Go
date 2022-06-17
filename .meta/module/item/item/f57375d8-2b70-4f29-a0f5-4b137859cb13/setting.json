@@ -1,0 +1,27 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Item/445-4453292_minecraft-pocket-skins-minecraft-texture-pack-item-clipart (7) (1).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/f8fe3f04-548c-472b-bde8-c7ac34f3e312"
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_f57375d8-2b70-4f29-a0f5-4b137859cb13"
+    },
+    "stack_count_max": 10
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "105097c2d796ade4d8862e2cce1c49bf",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

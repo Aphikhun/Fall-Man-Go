@@ -1,0 +1,22 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/electricity.actor"
+    },
+    "girlactor": {
+      "asset": "asset/electricity.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_f359f20e-349c-4068-b095-6bda256f4da3"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d87f03ad89196a48c98028edfa7b728a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Effect/Burst_rod_hook_rainbow_set.effect"
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "name": {
+      "value": "buff_76c54988-1df6-4d47-979f-f4666faa49eb"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6430addb9d0f04ffc431228176ececd0"
+    },
+    "VERSION": "0.20"
+  }
+}

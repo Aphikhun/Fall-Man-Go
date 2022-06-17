@@ -1,0 +1,5177 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8675952980042366977"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0e6f619b-2013-4d4c-a64e-27e4262f8c50",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/start.png"
+            },
+            "id": "8675972348357558273"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675971609149046785",
+        "isLockedInEditor": true,
+        "mass": 44,
+        "massCenter": {
+          "x": 50,
+          "y": 20,
+          "z": -50
+        },
+        "name": "Start",
+        "position": {
+          "x": 50,
+          "y": 20,
+          "z": -50
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "size": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "useAnchor": true,
+        "volume": 20
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "09e89adc-13f1-4aed-a1c6-a446e757fb5d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/end.png"
+            },
+            "id": "8675975729955422209"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8675974749433167873",
+        "isLockedInEditor": true,
+        "mass": 44,
+        "massCenter": {
+          "x": -50,
+          "y": 20,
+          "z": -50
+        },
+        "name": "Goal",
+        "position": {
+          "x": -50,
+          "y": 20,
+          "z": -50
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "size": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "useAnchor": true,
+        "volume": 20
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b2c401ef-b9e3-469d-8a1c-b43499ec7e56",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/dw.png"
+            },
+            "id": "8676027060120125441"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676027060119060481",
+        "isLockedInEditor": true,
+        "mass": 44,
+        "massCenter": {
+          "x": -50,
+          "y": 20,
+          "z": 50
+        },
+        "name": "Checkpoint",
+        "position": {
+          "x": -50,
+          "y": 20,
+          "z": 50
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "size": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "useAnchor": true,
+        "volume": 20
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c48644ec-ee88-40bd-b59a-672910389c6d",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/dw.png"
+            },
+            "id": "8676032837836947457"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676032837835849729",
+        "mass": 44,
+        "massCenter": {
+          "x": 50,
+          "y": 20,
+          "z": 50
+        },
+        "name": "Checkpoint",
+        "position": {
+          "x": 50,
+          "y": 20,
+          "z": 50
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "size": {
+          "x": 10,
+          "y": 0.2,
+          "z": 10
+        },
+        "useAnchor": true,
+        "volume": 20
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "750c7a5e-984a-47a9-947c-6dccfe245998",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676004953279578113"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676004953278660609",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -42.480499267578
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -42.480499267578
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2ef0d182-4716-4f79-8f1d-cb26bf3a3b2a",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676005547597971457"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676005547597447169",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": -42.480499267578
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": -42.480499267578
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "120fd480-6a5a-4a75-aaa0-64f860bdb873",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676005620283736065"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676005620283211777",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -42.480499267578
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -42.480499267578
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ea81944b-9e4b-4c68-88d5-16debac63e82",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007515856076801"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007515855536129",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -38.858497619629
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -38.858497619629
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b5dc69dd-1fa4-44c0-a07d-64f29e865b1a",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007515860582401"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007515860041729",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -38.858497619629
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -38.858497619629
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d27aa786-89c9-4c7f-9616-db9864192123",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007515866152961"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007515865612289",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": -38.858497619629
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": -38.858497619629
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b8945b33-edf8-42ec-aeed-943d16529c55",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007708871180289"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007708870770689",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -31.876522064209
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -31.876522064209
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "26e4b7e5-1461-42bc-96f1-e2432ca04c8b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007708874620929"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007708874211329",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -35.498512268066
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -35.498512268066
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2e142cfa-ca58-4dc6-b810-0daf1698b5bd",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007708878077953"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007708877668353",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -35.498512268066
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -35.498512268066
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d4135015-feb8-42ae-ac68-e0367b3bc039",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007708881485825"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007708881092609",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -31.876522064209
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -31.876522064209
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e221ab67-058f-4c33-be78-d0caf5586828",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007708884910081"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007708884467713",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": -35.498512268066
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": -35.498512268066
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6267b990-1217-42ab-8298-bcf55645402d",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007708889071617"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007708888662017",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": -31.876522064209
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": -31.876522064209
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ac7d7d80-99e6-4b8e-9d10-3ec908197488",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007861885075457"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007861884633089",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -24.600494384766
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -24.600494384766
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "721e0845-2616-42e4-b423-5276cfdc340f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007861888745473"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007861888286721",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": -24.600494384766
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": -24.600494384766
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "769c04cf-ee11-4128-8663-e1155254e625",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007861892366337"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007861891940353",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": -28.222499847412
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": -28.222499847412
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e2f233d6-c1d1-4da6-9850-299a5b49bd68",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007861896904705"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007861896478721",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -24.600494384766
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -24.600494384766
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8df2fff8-450e-4537-a332-e09faf11aea9",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007861900476417"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007861900034049",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -28.222499847412
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -28.222499847412
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4958107f-6852-470e-a69f-dcf1d0e92590",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676007861903982593"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676007861903572993",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -28.222499847412
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -28.222499847412
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "132d5b0e-6df7-48c8-8e95-e36457c61d77",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676008976510074881"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676008976509681665",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50.000007629395,
+              "y": 20,
+              "z": -17.385494232178
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50.000007629395,
+              "y": 20,
+              "z": -17.385494232178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "78eb2dcb-8929-4e8b-aa8c-e63a02f7aa2b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676008976513499137"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676008976513105921",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -21.007495880127
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -21.007495880127
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3fbe998f-c972-49b8-9167-365c6efeaaf4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676008976516988929"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676008976516562945",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -21.007495880127
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -21.007495880127
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "da64a6f0-1b44-4885-bfa1-6fcb32b3de38",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676008976520511489"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676008976520085505",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 50.000007629395,
+              "y": 20,
+              "z": -21.007495880127
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 50.000007629395,
+              "y": 20,
+              "z": -21.007495880127
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c1a98664-5b6b-432f-8512-594422be9f1d",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676008976524197889"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676008976523771905",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -17.385494232178
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 54.000007629395,
+              "y": 20,
+              "z": -17.385494232178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e5b550be-7d60-4f92-94a3-2b03cd216daa",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8676008976527785985"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676008976527343617",
+            "isLockedInEditor": true,
+            "mass": 1.760000026226,
+            "massCenter": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -17.385494232178
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              }
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 46.000003814697,
+              "y": 20,
+              "z": -17.385494232178
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 0.80000001192093
+          }
+        ],
+        "id": "8676011588102701057",
+        "isLockedInEditor": true,
+        "name": "Zone01",
+        "position": {
+          "x": 50,
+          "y": 20,
+          "z": -29.923988342285
+        },
+        "rotation": {
+          "y": 90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "18890459-38e7-4eae-8247-8cdc38780bf7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/penhuo.png"
+            },
+            "id": "8676014994913345537"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8676012113411489793",
+        "isLockedInEditor": true,
+        "lineVelocity": {
+          "z": 2
+        },
+        "mass": 175.99996643066,
+        "massCenter": {
+          "x": 50,
+          "y": 20,
+          "z": 5.5179862976074
+        },
+        "name": "Zone02",
+        "position": {
+          "x": 50,
+          "y": 20,
+          "z": 5.5179862976074
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 40,
+          "y": 0.2,
+          "z": 10
+        },
+        "size": {
+          "x": 40,
+          "y": 0.2,
+          "z": 10
+        },
+        "useAnchor": true,
+        "volume": 79.999984741211
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0efc9b29-e325-482e-8749-42fe7ff72d37",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676017025473757185"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676016162216951809",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "x": -5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": 28.327003479004
+            },
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": 28.327003479004
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bf08e2c4-fc56-4781-92ce-bf9388f26fa6",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676022628314808321"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676022628314152961",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "x": 5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": 31.813011169434
+            },
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": 31.813011169434
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "89b51864-45d4-47cf-bf59-de17db800689",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676023099637907457"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676023099637497857",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "x": -5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": 35.297985076904
+            },
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": 35.297985076904
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "eb23c1e2-0497-4c4f-9326-d6569c9e6a4c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676023099641298945"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676023099640872961",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "x": 5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": 38.783996582031
+            },
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": 38.783996582031
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c0a7286a-1b41-4f6d-9aa3-5b23afa7c3fc",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676023362960769025"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676023362960146433",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "x": -5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 50,
+              "y": 20,
+              "z": 42.397983551025
+            },
+            "position": {
+              "x": 50,
+              "y": 20,
+              "z": 42.397983551025
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          }
+        ],
+        "id": "8676024542089166849",
+        "isLockedInEditor": true,
+        "name": "Zone03",
+        "position": {
+          "x": 50,
+          "y": 20,
+          "z": 37.105501174927
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "0efc9b29-e325-482e-8749-42fe7ff72d37",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676027436942000129"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676027436940836865",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "z": 5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 28.030494689941,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": 28.030494689941,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bf08e2c4-fc56-4781-92ce-bf9388f26fa6",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676027436948897793"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676027436948275201",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "z": -5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 31.516502380371,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": 31.516502380371,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -89.999984741211
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "89b51864-45d4-47cf-bf59-de17db800689",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676027436956155905"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676027436955451393",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "z": -5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 35.001476287842,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": 35.001476287842,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "eb23c1e2-0497-4c4f-9326-d6569c9e6a4c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676027436963430401"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676027436962398209",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "z": 5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 38.487487792969,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": 38.487487792969,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c0a7286a-1b41-4f6d-9aa3-5b23afa7c3fc",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676027436970639361"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676027436969639937",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "z": 5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 42.101474761963,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": 42.101474761963,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5ee681c5-89ce-4be9-9d67-5b621dcca6d8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8676029884025929729"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676029884025077761",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "z": 5
+            },
+            "mass": 8.7999994754791,
+            "massCenter": {
+              "x": 24.491500854492,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": 24.491500854492,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 90
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true,
+            "volume": 3.9999997615814
+          }
+        ],
+        "id": "8676030724866228225",
+        "isLockedInEditor": true,
+        "name": "Zone04",
+        "position": {
+          "x": 33.296487808228,
+          "y": 20,
+          "z": 50
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b6651de9-0ef5-437f-98bf-afce693c6b18",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676059449375113217"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676058993421844481",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "y": 20
+            },
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 20.5,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "position": {
+              "x": 20.5,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "b8c0ffb4-820b-449a-b09e-40337bb271d4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676062734764408833"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676062734763360257",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 16,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "position": {
+              "x": 16,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f853b9e0-cea5-4300-9815-35d6c182c026",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676063591209385985"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676063591208960001",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 20.5,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "position": {
+              "x": 20.5,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "942f528d-36b4-43dd-9aa2-16ada3f21f4d",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676064029281517569"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676064029280501761",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 16,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "position": {
+              "x": 16,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f04292e9-2c91-4591-b613-cc969cd17f6b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676065505225195521"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676065505224638465",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "y": 20
+            },
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "position": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "5562588f-aa28-4bb4-8756-a02d7cdb1c6e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676065505231175681"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676065505230290945",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "position": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7734d9fb-fd41-43bc-af15-58bb219ba5b7",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676065815994957825"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676065815994531841",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "position": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "18679b0c-5917-4363-b129-0a2f4be411a4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676065815999660033"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676065815998988289",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "position": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "bb9bf703-d9b4-4a6b-984c-8c9038d888b4",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676138559222333441"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676138559221907457",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 20.5,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "position": {
+              "x": 20.5,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8c81bfa3-c39d-489d-870c-6ede2959d253",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676138559225839617"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676138559225413633",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "y": 20
+            },
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "position": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1e0c04e7-26f6-48f9-a97c-14bb4990008a",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676138559229362177"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676138559228936193",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "position": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7e15a723-f092-4071-917b-db3657daee5b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676138559232835585"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676138559232442369",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 16,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "position": {
+              "x": 16,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "224dd594-378c-466c-bd4d-1a2c8285e29d",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139236970872833"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139236970479617",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "y": 20
+            },
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 16,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "position": {
+              "x": 16,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2be5bb78-7e9a-449e-9e2f-80b955eea422",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139236974231553"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139236973838337",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "position": {
+              "x": 11.553001403809,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "01c6ab2b-7d04-43d2-a1f9-c88fcdea157e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139236977573889"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139236977180673",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "position": {
+              "x": 6.8839998245239,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "af39da58-b975-4f92-bcec-f0e457105435",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139236980899841"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139236980523009",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 20.5,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "position": {
+              "x": 20.5,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "20e75308-afba-41fe-bd89-41daa9e7a502",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139875206332417"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139875205922817",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "position": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2bf56f53-036a-4063-90f5-e15c4b002195",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139875209658369"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139875209265153",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "position": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "399b84af-fffe-463a-9fbf-b7ae95679b0c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139875213000705"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139875212607489",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "y": 20
+            },
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "position": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "033661b9-b431-44bd-bf3c-94c891a8337e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676139875216375809"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676139875215966209",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "position": {
+              "x": 2.4369990825653,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "78e245ef-b6bc-4699-8a06-1e78549ee0e0",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676140271115960321"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676140271115468801",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "y": 20
+            },
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "position": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 52.10986328125
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8033864e-d183-46f2-98ba-90a04aeb4fa5",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676140271119712257"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676140271119253505",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "position": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 43.104839324951
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "df252412-b2b7-43a9-86a6-68f6f57ae3e6",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676140271123464193"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676140271122939905",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "position": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 47.565868377686
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c2f59004-6292-438e-9c23-d8b5102af64a",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/02.png"
+                },
+                "id": "8676140271127134209"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676140271126675457",
+            "isLockedInEditor": true,
+            "mass": 3.1086002349854,
+            "massCenter": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "position": {
+              "x": -1.9100012779236,
+              "y": 20,
+              "z": 56.319873809814
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "shape": "3",
+            "size": {
+              "x": 3,
+              "y": 0.20000000298023,
+              "z": 3
+            },
+            "useAnchor": true,
+            "volume": 1.4130001068115
+          }
+        ],
+        "id": "8676142556314894337",
+        "isLockedInEditor": true,
+        "name": "Zone05",
+        "position": {
+          "x": 9.2949993610382,
+          "y": 20,
+          "z": 49.712356567383
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f0f544a8-dd63-44e6-a980-8cc24f6ec0eb",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676245665837711361",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -13.008999824524,
+                  "y": 22.601989746094,
+                  "z": 50
+                },
+                "position": {
+                  "x": -13.008999824524,
+                  "y": 22.601989746094,
+                  "z": 50
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "7ba7f5c1-2d69-42db-a105-5352727f186a",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676245907194920961",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -13.008999824524,
+                  "y": 22.601989746094,
+                  "z": 45.25
+                },
+                "position": {
+                  "x": -13.008999824524,
+                  "y": 22.601989746094,
+                  "z": 45.25
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "2b1e0cf5-e3f7-413c-ad03-ca94fdfda8ff",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676246841670041601",
+                "mass": 5.5,
+                "massCenter": {
+                  "x": -13.008999824524,
+                  "y": 24.847993850708,
+                  "z": 50
+                },
+                "position": {
+                  "x": -13.008999824524,
+                  "y": 24.847993850708,
+                  "z": 50
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "useAnchor": true,
+                "volume": 2.5
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "8a6f0a45-a253-448b-be0b-4bc86da4aeed",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676248120341315585",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -13.008999824524,
+                  "y": 22.537986755371,
+                  "z": 52.476001739502
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "g": 125,
+                    "r": 190
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -13.008999824524,
+                  "y": 22.537986755371,
+                  "z": 52.476001739502
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "df9885a2-3022-4a7b-84e4-db365c22a130",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676251020540723201",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -13.008999824524,
+                  "y": 22.537986755371,
+                  "z": 47.595001220703
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "b": 205,
+                    "r": 119
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -13.008999824524,
+                  "y": 22.537986755371,
+                  "z": 47.595001220703
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "de8130c1-bae5-4c1c-9a18-ad34d233ce77",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676243014583402497",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -13.008999824524,
+                  "y": 22.601989746094,
+                  "z": 54.75
+                },
+                "position": {
+                  "x": -13.008999824524,
+                  "y": 22.601989746094,
+                  "z": 54.75
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              }
+            ],
+            "id": "8676251776029949953",
+            "isLockedInEditor": true,
+            "name": "Gate",
+            "position": {
+              "x": -13,
+              "y": 22.569988250732,
+              "z": 50.0
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f0f544a8-dd63-44e6-a980-8cc24f6ec0eb",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252163652059137",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -20.0,
+                  "y": 22.601989746094,
+                  "z": 50
+                },
+                "position": {
+                  "x": -20.0,
+                  "y": 22.601989746094,
+                  "z": 50
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "7ba7f5c1-2d69-42db-a105-5352727f186a",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252163654434817",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -19.999998092651,
+                  "y": 22.601989746094,
+                  "z": 54.750003814697
+                },
+                "position": {
+                  "x": -19.999998092651,
+                  "y": 22.601989746094,
+                  "z": 54.750003814697
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "2b1e0cf5-e3f7-413c-ad03-ca94fdfda8ff",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252163656712193",
+                "mass": 5.5,
+                "massCenter": {
+                  "x": -20.0,
+                  "y": 24.847993850708,
+                  "z": 50
+                },
+                "position": {
+                  "x": -20.0,
+                  "y": 24.847993850708,
+                  "z": 50
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "useAnchor": true,
+                "volume": 2.5
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "8a6f0a45-a253-448b-be0b-4bc86da4aeed",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252163658989569",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -19.999998092651,
+                  "y": 22.537986755371,
+                  "z": 47.524005889893
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "g": 125,
+                    "r": 190
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -19.999998092651,
+                  "y": 22.537986755371,
+                  "z": 47.524005889893
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "df9885a2-3022-4a7b-84e4-db365c22a130",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252163661283329",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -19.999998092651,
+                  "y": 22.537986755371,
+                  "z": 52.405002593994
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "b": 205,
+                    "r": 119
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -19.999998092651,
+                  "y": 22.537986755371,
+                  "z": 52.405002593994
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "de8130c1-bae5-4c1c-9a18-ad34d233ce77",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252163663577089",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -20.0,
+                  "y": 22.601989746094,
+                  "z": 45.250007629395
+                },
+                "position": {
+                  "x": -20.0,
+                  "y": 22.601989746094,
+                  "z": 45.250007629395
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              }
+            ],
+            "id": "8676252163651403777",
+            "isLockedInEditor": true,
+            "name": "Gate",
+            "position": {
+              "x": -20,
+              "y": 22.569988250732,
+              "z": 50.0
+            },
+            "rotation": {
+              "y": 180
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f0f544a8-dd63-44e6-a980-8cc24f6ec0eb",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252359321927681",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -27.0,
+                  "y": 22.601989746094,
+                  "z": 50
+                },
+                "position": {
+                  "x": -27.0,
+                  "y": 22.601989746094,
+                  "z": 50
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "7ba7f5c1-2d69-42db-a105-5352727f186a",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252359325712385",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -27.0,
+                  "y": 22.601989746094,
+                  "z": 45.25
+                },
+                "position": {
+                  "x": -27.0,
+                  "y": 22.601989746094,
+                  "z": 45.25
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "2b1e0cf5-e3f7-413c-ad03-ca94fdfda8ff",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252359328055297",
+                "mass": 5.5,
+                "massCenter": {
+                  "x": -27.0,
+                  "y": 24.847993850708,
+                  "z": 50
+                },
+                "position": {
+                  "x": -27.0,
+                  "y": 24.847993850708,
+                  "z": 50
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "useAnchor": true,
+                "volume": 2.5
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "8a6f0a45-a253-448b-be0b-4bc86da4aeed",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252359330349057",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -27.0,
+                  "y": 22.537986755371,
+                  "z": 52.476001739502
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "g": 125,
+                    "r": 190
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -27.0,
+                  "y": 22.537986755371,
+                  "z": 52.476001739502
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "df9885a2-3022-4a7b-84e4-db365c22a130",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252359332675585",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -27.0,
+                  "y": 22.537986755371,
+                  "z": 47.595001220703
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "b": 205,
+                    "r": 119
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -27.0,
+                  "y": 22.537986755371,
+                  "z": 47.595001220703
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "de8130c1-bae5-4c1c-9a18-ad34d233ce77",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252359335641089",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -27.0,
+                  "y": 22.601989746094,
+                  "z": 54.75
+                },
+                "position": {
+                  "x": -27.0,
+                  "y": 22.601989746094,
+                  "z": 54.75
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              }
+            ],
+            "id": "8676252359320813569",
+            "isLockedInEditor": true,
+            "name": "Gate",
+            "position": {
+              "x": -27,
+              "y": 22.569988250732,
+              "z": 50.0
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f0f544a8-dd63-44e6-a980-8cc24f6ec0eb",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252450141913089",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -34.00899887085,
+                  "y": 22.601989746094,
+                  "z": 50.000003814697
+                },
+                "position": {
+                  "x": -34.00899887085,
+                  "y": 22.601989746094,
+                  "z": 50.000003814697
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "7ba7f5c1-2d69-42db-a105-5352727f186a",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252450144256001",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -34.00899887085,
+                  "y": 22.601989746094,
+                  "z": 54.75
+                },
+                "position": {
+                  "x": -34.00899887085,
+                  "y": 22.601989746094,
+                  "z": 54.75
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "2b1e0cf5-e3f7-413c-ad03-ca94fdfda8ff",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252450146500609",
+                "mass": 5.5,
+                "massCenter": {
+                  "x": -34.00899887085,
+                  "y": 24.847991943359,
+                  "z": 50.000003814697
+                },
+                "position": {
+                  "x": -34.00899887085,
+                  "y": 24.847991943359,
+                  "z": 50.000003814697
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 10
+                },
+                "useAnchor": true,
+                "volume": 2.5
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "8a6f0a45-a253-448b-be0b-4bc86da4aeed",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252450148810753",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -34.00899887085,
+                  "y": 22.537986755371,
+                  "z": 47.524002075195
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "g": 125,
+                    "r": 190
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -34.00899887085,
+                  "y": 22.537986755371,
+                  "z": 47.524002075195
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "useCollide": false,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "df9885a2-3022-4a7b-84e4-db365c22a130",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252450151137281",
+                "mass": 11.0,
+                "massCenter": {
+                  "x": -34.00899887085,
+                  "y": 22.537986755371,
+                  "z": 52.404998779297
+                },
+                "material": {
+                  "alpha": 0.8,
+                  "color": {
+                    "b": 205,
+                    "r": 119
+                  }
+                },
+                "name": "Door",
+                "position": {
+                  "x": -34.00899887085,
+                  "y": 22.537986755371,
+                  "z": 52.404998779297
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "size": {
+                  "x": 0.2,
+                  "y": 5,
+                  "z": 5
+                },
+                "useAnchor": true,
+                "volume": 5.0
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "de8130c1-bae5-4c1c-9a18-ad34d233ce77",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676252450153463809",
+                "mass": 2.7499997377396,
+                "massCenter": {
+                  "x": -34.00899887085,
+                  "y": 22.601989746094,
+                  "z": 45.250003814697
+                },
+                "position": {
+                  "x": -34.00899887085,
+                  "y": 22.601989746094,
+                  "z": 45.250003814697
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -179.99998474121
+                },
+                "scale": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 0.5,
+                  "y": 5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 1.2499998807907
+              }
+            ],
+            "id": "8676252450141257729",
+            "isLockedInEditor": true,
+            "name": "Gate",
+            "position": {
+              "x": -34,
+              "y": 22.569988250732,
+              "z": 50.0
+            },
+            "rotation": {
+              "y": 180
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "fe9091ab-eda4-4cc3-969a-7a0f76aeda3a",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/penhuo.png"
+                },
+                "id": "8676156576072597505"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676156576072155137",
+            "isLockedInEditor": true,
+            "lineVelocity": {
+              "x": -3
+            },
+            "mass": 162.79991607666,
+            "massCenter": {
+              "x": -24.079992294312,
+              "y": 20,
+              "z": 50
+            },
+            "position": {
+              "x": -24.079992294312,
+              "y": 20,
+              "z": 50
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 37,
+              "y": 0.2,
+              "z": 10
+            },
+            "size": {
+              "x": 37,
+              "y": 0.2,
+              "z": 10
+            },
+            "useAnchor": true,
+            "volume": 73.999961853027
+          }
+        ],
+        "id": "8676254119060307969",
+        "isLockedInEditor": true,
+        "name": "Zone06",
+        "position": {
+          "x": -24.079991102219,
+          "y": 22.500994682312,
+          "z": 50.0
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "y": 200
+            },
+            "btsKey": "7e473b76-4792-45b1-8030-f0fa4a11a7d2",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676259133873340417",
+            "isLockedInEditor": true,
+            "mass": 5.5264001846313,
+            "massCenter": {
+              "x": -52.551525115967,
+              "y": 20,
+              "z": 41.105670928955
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": -52.551525115967,
+              "y": 20,
+              "z": 41.105670928955
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.2,
+              "z": 4
+            },
+            "shape": "3",
+            "size": {
+              "x": 4,
+              "y": 0.20000000298023,
+              "z": 4.0
+            },
+            "useAnchor": true,
+            "volume": 2.5120000839233
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "y": 200
+            },
+            "btsKey": "6d9d9584-d2c1-4535-9366-a54f1788ceb4",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676262451952533505",
+            "isLockedInEditor": true,
+            "mass": 5.5264001846313,
+            "massCenter": {
+              "x": -48.870532989502,
+              "y": 20,
+              "z": 37.245677947998
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": -48.870532989502,
+              "y": 20,
+              "z": 37.245677947998
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.2,
+              "z": 4
+            },
+            "shape": "3",
+            "size": {
+              "x": 4,
+              "y": 0.20000000298023,
+              "z": 4.0
+            },
+            "useAnchor": true,
+            "volume": 2.5120000839233
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "y": 200
+            },
+            "btsKey": "6db24c4e-83ef-4920-81ec-84b994224213",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676263091933904897",
+            "isLockedInEditor": true,
+            "mass": 5.5264001846313,
+            "massCenter": {
+              "x": -48.870532989502,
+              "y": 20,
+              "z": 29.912687301636
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": -48.870532989502,
+              "y": 20,
+              "z": 29.912687301636
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.2,
+              "z": 4
+            },
+            "shape": "3",
+            "size": {
+              "x": 4,
+              "y": 0.20000000298023,
+              "z": 4.0
+            },
+            "useAnchor": true,
+            "volume": 2.5120000839233
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "y": 200
+            },
+            "btsKey": "e613e66e-ba2c-4a62-8f24-0d793d556b1d",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676263091936559105",
+            "isLockedInEditor": true,
+            "mass": 5.5264001846313,
+            "massCenter": {
+              "x": -52.551525115967,
+              "y": 20,
+              "z": 33.515686035156
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": -52.551525115967,
+              "y": 20,
+              "z": 33.515686035156
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.2,
+              "z": 4
+            },
+            "shape": "3",
+            "size": {
+              "x": 4,
+              "y": 0.20000000298023,
+              "z": 4.0
+            },
+            "useAnchor": true,
+            "volume": 2.5120000839233
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "y": 200
+            },
+            "btsKey": "75ae1640-d699-46ef-ba92-143164d4264f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676265530315587585",
+            "isLockedInEditor": true,
+            "mass": 5.5264001846313,
+            "massCenter": {
+              "x": -52.551525115967,
+              "y": 20,
+              "z": 26.224689483643
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": -52.551525115967,
+              "y": 20,
+              "z": 26.224689483643
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.2,
+              "z": 4
+            },
+            "shape": "3",
+            "size": {
+              "x": 4,
+              "y": 0.20000000298023,
+              "z": 4.0
+            },
+            "useAnchor": true,
+            "volume": 2.5120000839233
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "y": 200
+            },
+            "btsKey": "1dd50cef-19cf-4c96-bac0-a952cbfb2109",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676265530318684161",
+            "isLockedInEditor": true,
+            "mass": 5.5264001846313,
+            "massCenter": {
+              "x": -48.870532989502,
+              "y": 20,
+              "z": 22.621688842773
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 170
+              }
+            },
+            "position": {
+              "x": -48.870532989502,
+              "y": 20,
+              "z": 22.621688842773
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.2,
+              "z": 4
+            },
+            "shape": "3",
+            "size": {
+              "x": 4,
+              "y": 0.20000000298023,
+              "z": 4.0
+            },
+            "useAnchor": true,
+            "volume": 2.5120000839233
+          }
+        ],
+        "id": "8676265879288201217",
+        "isLockedInEditor": true,
+        "name": "Zone07",
+        "position": {
+          "x": -50.711029052734,
+          "y": 20.0,
+          "z": 31.863679885864
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676275327828983809",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 8.739893913269
+                },
+                "position": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 8.739893913269
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676276213456338945",
+                "mass": 7.6999228954315,
+                "massCenter": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 8.739893913269
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 8.739893913269
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 13.9999,
+                  "y": 0.499998,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999649524689
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676279919418392577",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 8.739893913269
+                },
+                "position": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 8.739893913269
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676280879503720449",
+            "name": "laser",
+            "position": {
+              "x": -50.0,
+              "y": 20.486003875732,
+              "z": 8.739893913269
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281576406794241",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 4.7928943634033
+                },
+                "position": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 4.7928943634033
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281576409055233",
+                "mass": 7.6999228954315,
+                "massCenter": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 4.7928943634033
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 4.7928943634033
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 13.9999,
+                  "y": 0.499998,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999649524689
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281576411348993",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 4.7928943634033
+                },
+                "position": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 4.7928943634033
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676281576406138881",
+            "name": "laser",
+            "position": {
+              "x": -50.0,
+              "y": 20.486003875732,
+              "z": 4.7928943634033
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281688821841921",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 1.6128942966461
+                },
+                "position": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 1.6128942966461
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281688824135681",
+                "mass": 7.6999228954315,
+                "massCenter": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 1.6128942966461
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 1.6128942966461
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 13.9999,
+                  "y": 0.499998,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999649524689
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281688826396673",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 1.6128942966461
+                },
+                "position": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 1.6128942966461
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676281688821153793",
+            "name": "laser",
+            "position": {
+              "x": -50.0,
+              "y": 20.486003875732,
+              "z": 1.6128942966461
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281807927345153",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -43.783172607422,
+                  "y": 20.486003875732,
+                  "z": -7.6875886917114
+                },
+                "position": {
+                  "x": -43.783172607422,
+                  "y": 20.486003875732,
+                  "z": -7.6875886917114
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": 30.0
+                },
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281807929688065",
+                "mass": 7.6999706268311,
+                "massCenter": {
+                  "x": -50.278358459473,
+                  "y": 20.486003875732,
+                  "z": -3.9376134872437
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50.278358459473,
+                  "y": 20.486003875732,
+                  "z": -3.9376134872437
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": 29.999996185303
+                },
+                "scale": {
+                  "x": 14,
+                  "y": 0.499999,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999866485596
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676281807932162049",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -56.773548126221,
+                  "y": 20.486003875732,
+                  "z": -0.18762874603271
+                },
+                "position": {
+                  "x": -56.773548126221,
+                  "y": 20.486003875732,
+                  "z": -0.18762874603271
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": 30.0
+                },
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676281807926673409",
+            "name": "laser",
+            "position": {
+              "x": -50.280708312988,
+              "y": 20.486003875732,
+              "z": -3.9433097839355
+            },
+            "rotation": {
+              "y": 30
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676282624883064833",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -43.801208496094,
+                  "y": 20.485862731934,
+                  "z": -7.7990465164185
+                },
+                "position": {
+                  "x": -43.801208496094,
+                  "y": 20.485862731934,
+                  "z": -7.7990465164185
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -29.999917984009
+                },
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676282624885358593",
+                "mass": 7.6999858379364,
+                "massCenter": {
+                  "x": -50.287601470947,
+                  "y": 20.485864639282,
+                  "z": -11.551476478577
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50.287601470947,
+                  "y": 20.485864639282,
+                  "z": -11.551476478577
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -29.999910354614
+                },
+                "scale": {
+                  "x": 14,
+                  "y": 0.499999,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999935626984
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676282624887717889",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -56.791534423828,
+                  "y": 20.485862731934,
+                  "z": -15.299061775208
+                },
+                "position": {
+                  "x": -56.791534423828,
+                  "y": 20.485862731934,
+                  "z": -15.299061775208
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "y": -29.999917984009
+                },
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676282624882409473",
+            "name": "laser",
+            "position": {
+              "x": -50.293201446533,
+              "y": 20.486003875732,
+              "z": -11.554808616638
+            },
+            "rotation": {
+              "y": -30
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676283111864238081",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": -16.474105834961
+                },
+                "position": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": -16.474105834961
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676283111866695681",
+                "mass": 7.6999690532684,
+                "massCenter": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": -16.474105834961
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": -16.474105834961
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 14,
+                  "y": 0.499999,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999859333038
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676283111869202433",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": -16.474105834961
+                },
+                "position": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": -16.474105834961
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676283111863435265",
+            "name": "laser",
+            "position": {
+              "x": -50.0,
+              "y": 20.486003875732,
+              "z": -16.474105834961
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "6bfacf2f-ace0-4395-b786-41bbacd4a94e",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676283787475222529",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 13.282894134521
+                },
+                "position": {
+                  "x": -42.5,
+                  "y": 20.486003875732,
+                  "z": 13.282894134521
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "27e32aef-dfc6-4f72-92fc-798c24308da1",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676283787477565441",
+                "mass": 7.6999228954315,
+                "massCenter": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 13.282894134521
+                },
+                "material": {
+                  "color": {
+                    "b": 0,
+                    "g": 0
+                  }
+                },
+                "name": "Kill",
+                "position": {
+                  "x": -50,
+                  "y": 20.486003875732,
+                  "z": 13.282894134521
+                },
+                "restitution": 0.3,
+                "scale": {
+                  "x": 13.9999,
+                  "y": 0.499998,
+                  "z": 0.5
+                },
+                "size": {
+                  "x": 14,
+                  "y": 0.5,
+                  "z": 0.5
+                },
+                "useAnchor": true,
+                "volume": 3.4999649524689
+              },
+              {
+                "__OBJ_TYPE": "Instance_Part",
+                "btsKey": "f22f86fa-035a-4824-9266-20629cf9cb71",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8676283787479924737",
+                "mass": 2.1999994754791,
+                "massCenter": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 13.282894134521
+                },
+                "position": {
+                  "x": -57.5,
+                  "y": 20.486003875732,
+                  "z": 13.282894134521
+                },
+                "restitution": 0.3,
+                "useAnchor": true,
+                "volume": 0.99999976158142
+              }
+            ],
+            "id": "8676283787474567169",
+            "name": "laser",
+            "position": {
+              "x": -50.0,
+              "y": 20.486003875732,
+              "z": 13.282894134521
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a0c1a47e-6155-48ba-a397-37b702c23b75",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/dianliu.png"
+                },
+                "id": "8676266568997912577"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676266568997519361",
+            "mass": 197.99989929199,
+            "massCenter": {
+              "x": -50,
+              "y": 20,
+              "z": -3.0339798927307
+            },
+            "position": {
+              "x": -50,
+              "y": 20,
+              "z": -3.0339798927307
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 45
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 45
+            },
+            "useAnchor": true,
+            "volume": 89.999954223633
+          }
+        ],
+        "id": "8676284476994437121",
+        "name": "Zone08",
+        "position": {
+          "x": -50.0,
+          "y": 20.699998855591,
+          "z": -3.0339794158936
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7e4f98b5-42a3-4f45-9c31-e33dad9f9bde",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676269739720753153",
+            "isLockedInEditor": true,
+            "mass": 1.1513331532478,
+            "massCenter": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -32.723495483398
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -32.723495483398
+            },
+            "restitution": 0.3,
+            "shape": "2",
+            "useAnchor": true,
+            "volume": 0.52333325147629
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "51d7d34b-42e3-433f-b9cc-c1ba79906085",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676271689496018945",
+            "isLockedInEditor": true,
+            "mass": 1.1513331532478,
+            "massCenter": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -35.766494750977
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -35.766494750977
+            },
+            "restitution": 0.3,
+            "shape": "2",
+            "useAnchor": true,
+            "volume": 0.52333325147629
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "3174b41a-b65a-4eea-a116-91950c21a4b1",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676271898735820801",
+            "isLockedInEditor": true,
+            "mass": 1.1513331532478,
+            "massCenter": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -39.00354385376
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -39.00354385376
+            },
+            "restitution": 0.3,
+            "shape": "2",
+            "useAnchor": true,
+            "volume": 0.52333325147629
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a86f20ce-fe6a-4e4d-8da7-307778b98b49",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676272016083058689",
+            "isLockedInEditor": true,
+            "mass": 1.1513331532478,
+            "massCenter": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -42.624523162842
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -42.624523162842
+            },
+            "restitution": 0.3,
+            "shape": "2",
+            "useAnchor": true,
+            "volume": 0.52333325147629
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "508f5d9a-146d-4b19-8c0d-bc6bc5fe7eaf",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676284861368418305",
+            "isLockedInEditor": true,
+            "mass": 1.1513331532478,
+            "massCenter": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -27.703489303589
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -27.703489303589
+            },
+            "restitution": 0.3,
+            "shape": "2",
+            "useAnchor": true,
+            "volume": 0.52333325147629
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "1a99b2a4-cdad-4a9e-a6fd-05c927dcef9f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8676285113727942657",
+            "isLockedInEditor": true,
+            "mass": 1.1513331532478,
+            "massCenter": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -29.845485687256
+            },
+            "material": {
+              "color": {
+                "g": 170,
+                "r": 85
+              }
+            },
+            "position": {
+              "x": -50,
+              "y": 20.599998474121,
+              "z": -29.845485687256
+            },
+            "restitution": 0.3,
+            "shape": "2",
+            "useAnchor": true,
+            "volume": 0.52333325147629
+          }
+        ],
+        "id": "8676285667827105793",
+        "isLockedInEditor": true,
+        "name": "Zone09",
+        "position": {
+          "x": -50.0,
+          "y": 20.599998474121,
+          "z": -35.164006233215
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/9872f044-8e5d-4750-a58b-dfb738e31bd8",
+        "id": "8676287729812389889",
+        "isLockedInEditor": true,
+        "position": {
+          "y": 10
+        },
+        "scale": {
+          "x": 150,
+          "z": 150
+        },
+        "size": {
+          "x": 150,
+          "z": 150
+        }
+      }
+    ],
+    "name": {
+      "value": "map_27a941fa-b79b-42da-a2d4-3332396ea2d5"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5b09e5a62d471d7f23f5ca21ee9e77c"
+    },
+    "VERSION": "0.20"
+  }
+}

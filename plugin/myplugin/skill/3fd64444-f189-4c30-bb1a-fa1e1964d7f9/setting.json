@@ -1,0 +1,51 @@
+{
+  "area": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "area_number": 0,
+  "backSwingTime": 0,
+  "buffCfg": "myplugin/7aa1dac1-6e7b-4111-b2f2-f64fa0329266",
+  "buffTime": 60,
+  "castAction": "",
+  "castActionTime": -1,
+  "cdTime": 0,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 1,
+  "icon": "",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "type": "Buff"
+}

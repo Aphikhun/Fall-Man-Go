@@ -1,0 +1,80 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "722529db-ae72-4be9-8842-dd2a11d7a33d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "12d5ef01-711b-45ec-98c0-0a7375ddcddb"
+              },
+              "pos": {
+                "x": 815,
+                "y": 330
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "722529db-ae72-4be9-8842-dd2a11d7a33d"
+              },
+              "pos": {
+                "x": 1198,
+                "y": 323
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "12d5ef01-711b-45ec-98c0-0a7375ddcddb"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "eaa2f1e3-a645-490d-8d12-94433bf180ba"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "446c8f8d36fec44259b5315f42d522ac"
+    },
+    "VERSION": "0.20"
+  }
+}

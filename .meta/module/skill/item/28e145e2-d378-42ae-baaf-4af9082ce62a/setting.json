@@ -1,0 +1,49 @@
+{
+  "data": {
+    "castAction": "attack",
+    "cdTime": {
+      "value": 60
+    },
+    "consumeItem": [
+      {
+        "itemType": {
+          "item": "myplugin/8d5f515b-ef35-4de3-bc58-49dddcd75ef6"
+        }
+      }
+    ],
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_28e145e2-d378-42ae-baaf-4af9082ce62a"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 270,
+            "missileCfg": "myplugin/a10b4380-f21c-495c-98ad-db409e074831"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_火球_act.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f5cd878053098e19e9c4a335cae0fb31",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}
