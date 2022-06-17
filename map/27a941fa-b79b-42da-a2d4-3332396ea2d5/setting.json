@@ -6123,6 +6123,19 @@
         "scale": "x:150 y:1 z:150",
         "selectable": "true"
       }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "properties": {
+        "id": "8676315478560178177",
+        "name": "Player",
+        "needSync": "true",
+        "position": "x:49.880313873291 y:20.100017547607 z:-53.759239196777",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
     }
   ],
   "skyBox": [

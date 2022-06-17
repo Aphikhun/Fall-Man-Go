@@ -4,13 +4,13 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Texture/Item/445-4453292_minecraft-pocket-skins-minecraft-texture-pack-item-clipart (2) (1).png",
-  "itemname": "item_f57375d8-2b70-4f29-a0f5-4b137859cb13",
+  "icon": "@asset/Texture/Item/445-4453292_minecraft-pocket-skins-minecraft-texture-pack-item-clipart (7) (1).png",
+  "itemname": "item_f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb",
   "needSave": false,
   "skill": [
-    "myplugin/f8fe3f04-548c-472b-bde8-c7ac34f3e312"
+    "myplugin/9da10551-72dd-4985-8676-3a9ac4f88a3b"
   ],
-  "stack_count_max": 10,
+  "stack_count_max": 5,
   "syncGameData": {
     "currentCapacity": true,
     "extCapacity": true

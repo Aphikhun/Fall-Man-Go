@@ -10,13 +10,14 @@
         "z": 1.5
       }
     },
+    "deadRemove": true,
     "name": {
       "value": "buff_76c54988-1df6-4d47-979f-f4666faa49eb"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6430addb9d0f04ffc431228176ececd0"
+      "setting.json": "75e9e93639d62f4f15575e5403e20ad7"
     },
     "VERSION": "0.20"
   }

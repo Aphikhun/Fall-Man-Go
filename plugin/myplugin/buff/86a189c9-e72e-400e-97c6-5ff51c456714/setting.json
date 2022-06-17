@@ -9,7 +9,7 @@
   "dropDamageRatio": 0,
   "dropDamageStart": 0,
   "effect": {
-    "effect": "asset/Effect/Burst_rod_hook_rainbow_set.effect",
+    "effect": "asset/Effect/Continuous_ki_charge2.effect",
     "once": true,
     "pos": {
       "x": 0,
@@ -17,9 +17,9 @@
       "z": 0
     },
     "scale": {
-      "x": 1.5,
-      "y": 1.5,
-      "z": 1.5
+      "x": 1,
+      "y": 1,
+      "z": 1
     },
     "selfOnly": false,
     "yaw": 0
@@ -34,7 +34,7 @@
   "needSave": false,
   "reachDistance": 0,
   "skin": [],
-  "sync": "all",
+  "sync": "self",
   "unassailable": 0,
   "undamageable": 0
 }

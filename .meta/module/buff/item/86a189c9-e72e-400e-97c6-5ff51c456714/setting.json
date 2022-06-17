@@ -1,0 +1,20 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Effect/Continuous_ki_charge2.effect"
+      }
+    },
+    "deadRemove": true,
+    "name": {
+      "value": "buff_86a189c9-e72e-400e-97c6-5ff51c456714"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "65bd8604ced7e21b530d34a2267706b6"
+    },
+    "VERSION": "0.20"
+  }
+}

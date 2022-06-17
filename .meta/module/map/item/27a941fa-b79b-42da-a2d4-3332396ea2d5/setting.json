@@ -5162,6 +5162,17 @@
           "x": 150,
           "z": 150
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/player1",
+        "id": "8676315478560178177",
+        "name": "Player",
+        "position": {
+          "x": 49.880313873291,
+          "y": 20.100017547607,
+          "z": -53.759239196777
+        }
       }
     ],
     "name": {
@@ -5170,7 +5181,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b5b09e5a62d471d7f23f5ca21ee9e77c"
+      "setting.json": "e4a37e36808e7763efaac15516fe6323"
     },
     "VERSION": "0.20"
   }

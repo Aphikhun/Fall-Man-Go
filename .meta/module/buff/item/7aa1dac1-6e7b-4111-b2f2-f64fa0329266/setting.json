@@ -5,6 +5,7 @@
         "asset": "asset/Effect/Continuous_frozen.effect"
       }
     },
+    "deadRemove": true,
     "moveSpeed": -9999,
     "name": {
       "value": "buff_7aa1dac1-6e7b-4111-b2f2-f64fa0329266"
@@ -12,7 +13,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8c21ffdbf5ffefb4287f0fcc4a56f29a"
+      "setting.json": "6d81cd976b0f21dd08da667ae7a76e42"
     },
     "VERSION": "0.20"
   }

@@ -8,6 +8,7 @@
         "y": 1
       }
     },
+    "deadRemove": true,
     "moveSpeed": 10,
     "name": {
       "value": "buff_fa02716a-467d-406a-b59c-0354e429af09"
@@ -16,7 +17,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2837cd54c5e630fd3a669875c4eeaebc"
+      "setting.json": "c7f95a718b15901ee983ad34f7984a1c"
     },
     "VERSION": "0.20"
   }

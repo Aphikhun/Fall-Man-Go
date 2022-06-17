@@ -1,0 +1,10 @@
+SKILL_CAST {
+	$time = NumberCeil(p1 = 5)
+	AddSkill(entity = $obj1, name = "myplugin/6d4da286-aaf6-4502-833f-af132d38f32e")
+	StartTimer2(interval = 20, time = 5, timer = "") {
+		$time = $time - 1
+		If ($time == 0) {
+			RemoveSkill(entity = $obj1, name = "myplugin/6d4da286-aaf6-4502-833f-af132d38f32e")
+		}
+	}
+}

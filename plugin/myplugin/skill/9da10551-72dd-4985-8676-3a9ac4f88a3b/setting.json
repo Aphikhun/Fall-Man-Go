@@ -1,0 +1,59 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "buffCfg": "myplugin/86a189c9-e72e-400e-97c6-5ff51c456714",
+  "buffTime": 100,
+  "castAction": "",
+  "castActionTime": -1,
+  "cdTime": 60,
+  "consumeItem": [
+    {
+      "consumeName": "myplugin/f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb",
+      "count": 1
+    }
+  ],
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_落地.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "target": "self",
+  "type": "Buff",
+  "verticalAlignment": 2
+}

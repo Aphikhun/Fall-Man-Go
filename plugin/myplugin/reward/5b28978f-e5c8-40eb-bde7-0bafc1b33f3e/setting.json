@@ -27,6 +27,15 @@
         "name": "myplugin/f57375d8-2b70-4f29-a0f5-4b137859cb13",
         "type": "Item",
         "weight": 0
+      },
+      {
+        "countRange": {
+          "max": 1,
+          "min": 0
+        },
+        "name": "myplugin/f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb",
+        "type": "Item",
+        "weight": 0
       }
     ],
     "countRange": {

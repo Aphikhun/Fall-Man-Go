@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castAction": "hammer",
+    "name": {
+      "value": "skill_6d4da286-aaf6-4502-833f-af132d38f32e"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "hurtDistance": 1
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e5814202b1771dcbbaf03ef4cc24e0ca",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

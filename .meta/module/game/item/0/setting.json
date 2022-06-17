@@ -76,6 +76,19 @@
               "value": "2634c4b8-3ad9-4103-b90c-9ca7411da956"
             },
             "num": 5
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "d02c39ea-f098-4826-a630-f02aa89958af"
+            },
+            "item": {
+              "item": "f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb"
+            },
+            "name": {
+              "value": "fa271dbb-bba6-4554-bed0-a57796ff6966"
+            },
+            "num": 5
           }
         ],
         "name": {
@@ -87,9 +100,9 @@
     "startPos": {
       "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
-        "x": -51.340217590332,
+        "x": 50,
         "y": 20.140036621094,
-        "z": 18.007976531982
+        "z": -50
       }
     },
     "team": {
@@ -145,8 +158,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9ca2a66cf4997605875fe16344a01883",
-      "shop.csv": "f506c3e68acdbe5999045a95908ecafe",
+      "setting.json": "1a889919e5f336001ba0936d817dc9b8",
+      "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""
     },
