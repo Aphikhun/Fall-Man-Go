@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
+  "defaultMap": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,9 +91,9 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
-    "x": 50,
-    "y": 20.14,
+    "map": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
+    "x": 0,
+    "y": 60.140002288818,
     "z": -50
   },
   "isTimeStopped": true,
@@ -228,9 +228,9 @@
   },
   "startPos": [
     {
-      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
-      "x": 50,
-      "y": 20.140036621094,
+      "map": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
+      "x": 0,
+      "y": 60.14,
       "z": -50
     }
   ],

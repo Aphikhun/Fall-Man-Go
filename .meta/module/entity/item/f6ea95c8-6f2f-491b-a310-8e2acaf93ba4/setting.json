@@ -1,5 +1,11 @@
 {
   "data": {
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "boundingVolume": {
       "params": {
         "x": 10,
@@ -2331,7 +2337,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2ba6910d357b8dc19d4874003ae91d20",
+      "setting.json": "b479e8b24ed3c7fb7ba37405f61018ac",
       "triggers.bts": "332227630d9934c61bbce3af8f4935f9"
     },
     "VERSION": "0.21"

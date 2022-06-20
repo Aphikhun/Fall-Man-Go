@@ -16,7 +16,15 @@
         "id": "8679522389374205953",
         "ID": 1,
         "lightType": "GlobalLight",
-        "name": "EnvironmentLight"
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -228,7 +236,7 @@
             "material": {
               "color": {
                 "b": 195,
-                "r": 100
+                "r": 101
               },
               "discardAlpha": 1
             },
@@ -263,7 +271,7 @@
             "material": {
               "color": {
                 "b": 195,
-                "r": 100
+                "r": 101
               },
               "discardAlpha": 1
             },
@@ -298,7 +306,7 @@
             "material": {
               "color": {
                 "b": 195,
-                "r": 100
+                "r": 101
               },
               "discardAlpha": 1
             },
@@ -333,7 +341,7 @@
             "material": {
               "color": {
                 "b": 195,
-                "r": 100
+                "r": 101
               },
               "discardAlpha": 1
             },
@@ -368,7 +376,7 @@
             "material": {
               "color": {
                 "b": 195,
-                "r": 100
+                "r": 101
               },
               "discardAlpha": 1
             },
@@ -1332,8 +1340,8 @@
             "id": "8673426186462232577",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1367,8 +1375,8 @@
             "id": "8673422384500686849",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1402,8 +1410,8 @@
             "id": "8673424097911226369",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1437,8 +1445,8 @@
             "id": "8673424117650178049",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1472,8 +1480,8 @@
             "id": "8673424131756785665",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1507,8 +1515,8 @@
             "id": "8673424159523946497",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1542,8 +1550,8 @@
             "id": "8673424170084597761",
             "material": {
               "color": {
-                "g": 111,
-                "r": 200
+                "g": 112,
+                "r": 201
               },
               "discardAlpha": 1
             },
@@ -1628,7 +1636,7 @@
             },
             "material": {
               "color": {
-                "r": 171
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -1666,7 +1674,7 @@
             },
             "material": {
               "color": {
-                "r": 171
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -1703,7 +1711,7 @@
             },
             "material": {
               "color": {
-                "r": 171
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -1740,7 +1748,7 @@
             },
             "material": {
               "color": {
-                "r": 171
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -1777,7 +1785,7 @@
             },
             "material": {
               "color": {
-                "r": 171
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -1832,7 +1840,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "b180442e2b8391277f7c950d7be1acab"
+      "setting.json": "ee734b4841929e4a0307103232160b05"
     },
     "VERSION": "0.21"
   }

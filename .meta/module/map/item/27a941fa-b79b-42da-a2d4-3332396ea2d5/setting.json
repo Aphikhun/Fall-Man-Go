@@ -15,7 +15,15 @@
         "id": "8679543067131559937",
         "ID": 2,
         "lightType": "GlobalLight",
-        "name": "EnvironmentLight"
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2802,7 +2810,7 @@
                   "alpha": 0.8,
                   "color": {
                     "g": 125,
-                    "r": 191
+                    "r": 192
                   },
                   "discardAlpha": 1
                 },
@@ -2836,7 +2844,7 @@
                   "alpha": 0.8,
                   "color": {
                     "b": 205,
-                    "r": 120
+                    "r": 121
                   },
                   "discardAlpha": 1
                 },
@@ -2998,7 +3006,7 @@
                   "alpha": 0.8,
                   "color": {
                     "g": 125,
-                    "r": 191
+                    "r": 192
                   },
                   "discardAlpha": 1
                 },
@@ -3035,7 +3043,7 @@
                   "alpha": 0.8,
                   "color": {
                     "b": 205,
-                    "r": 120
+                    "r": 121
                   },
                   "discardAlpha": 1
                 },
@@ -3197,7 +3205,7 @@
                   "alpha": 0.8,
                   "color": {
                     "g": 125,
-                    "r": 191
+                    "r": 192
                   },
                   "discardAlpha": 1
                 },
@@ -3230,7 +3238,7 @@
                   "alpha": 0.8,
                   "color": {
                     "b": 205,
-                    "r": 120
+                    "r": 121
                   },
                   "discardAlpha": 1
                 },
@@ -3393,7 +3401,7 @@
                   "alpha": 0.8,
                   "color": {
                     "g": 125,
-                    "r": 191
+                    "r": 192
                   },
                   "discardAlpha": 1
                 },
@@ -3430,7 +3438,7 @@
                   "alpha": 0.8,
                   "color": {
                     "b": 205,
-                    "r": 120
+                    "r": 121
                   },
                   "discardAlpha": 1
                 },
@@ -3566,8 +3574,8 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
+                "g": 172,
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -3602,8 +3610,8 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
+                "g": 172,
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -3638,8 +3646,8 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
+                "g": 172,
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -3674,8 +3682,8 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
+                "g": 172,
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -3710,8 +3718,8 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
+                "g": 172,
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -3746,8 +3754,8 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
-                "r": 171
+                "g": 172,
+                "r": 172
               },
               "discardAlpha": 1
             },
@@ -4410,7 +4418,7 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4433,7 +4441,7 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4456,7 +4464,7 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4479,7 +4487,7 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4502,7 +4510,7 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4525,7 +4533,7 @@
             "isLockedInEditor": true,
             "material": {
               "color": {
-                "g": 171,
+                "g": 172,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4583,7 +4591,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "1d60bae70e7e27069647d1af7486ea01"
+      "setting.json": "30e2233d6fc6b173cb5f5dbe49afc173"
     },
     "VERSION": "0.21"
   }

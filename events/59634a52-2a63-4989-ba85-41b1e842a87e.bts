@@ -1,0 +1,10 @@
+PART_TOUCH_ENTITY_BEGIN {
+	$time1 = NumberFloor(p1 = 1)
+	StartTimer2(interval = 20, time = 1, timer = "") {
+		$time1 = $time1 - 1
+		Test(Message = $time1)
+		If ($time1 == 0) {
+			DestoryPart(part = $part1)
+		}
+	}
+}

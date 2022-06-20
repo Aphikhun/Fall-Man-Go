@@ -23,7 +23,7 @@
             "b": 117,
             "g": 216
           },
-          "discardAlpha": 1.0
+          "discardAlpha": 1
         },
         "name": "Broken plate",
         "position": {
@@ -56,7 +56,7 @@
           "z": 0.22429415583611
         },
         "material": {
-          "discardAlpha": 1.0
+          "discardAlpha": 1
         },
         "name": "Color plate",
         "position": {
@@ -99,7 +99,7 @@
           "z": 50
         },
         "material": {
-          "discardAlpha": 1.0
+          "discardAlpha": 1
         },
         "name": "Checkpoint",
         "position": {
@@ -119,12 +119,40 @@
           "z": 10
         },
         "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "9661a34c-7969-4bc0-821f-2f4585e8f5d1",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8680142961308712961",
+        "massCenter": {
+          "x": 3.9850001335144,
+          "y": 10,
+          "z": -11.882000923157
+        },
+        "name": "Break part",
+        "position": {
+          "y": 20
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2,
+          "y": 0.2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 0.2,
+          "z": 2
+        },
+        "useAnchor": true
       }
     ]
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9b6f2ec41d8ef428ba7b1b6ba85deb3a"
+      "setting.json": "891a18664a0564560b23928b7b050b97"
     },
     "VERSION": "0.21"
   }
