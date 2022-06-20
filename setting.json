@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
+  "defaultMap": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,10 +91,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
-    "x": 0,
-    "y": 60.140002288818,
-    "z": -50
+    "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
+    "x": 48.57642364502,
+    "y": 20.140028991699,
+    "z": -65.276565551758
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -228,10 +228,10 @@
   },
   "startPos": [
     {
-      "map": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
-      "x": 0,
-      "y": 60.14,
-      "z": -50
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
+      "x": 48,
+      "y": 20,
+      "z": -65
     }
   ],
   "team": [
@@ -365,6 +365,16 @@
         "run_type": "server",
         "save": false,
         "value": 0
+      },
+      {
+        "key": "WinStage",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "GameWin",
+        "run_type": "server",
+        "save": false
       }
     ],
     "global": [],

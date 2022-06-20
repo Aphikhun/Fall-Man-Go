@@ -7,10 +7,11 @@
       }
     },
     "initPos": {
-      "map": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
-        "y": 60.140002288818,
-        "z": -50
+        "x": 48.57642364502,
+        "y": 20.140028991699,
+        "z": -65.276565551758
       }
     },
     "nowTime": {
@@ -97,11 +98,11 @@
     ],
     "showShop": true,
     "startPos": {
-      "map": "5b3b47b8-2434-41bf-822b-ab260f7a13ee",
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
-        "x": 0,
-        "y": 60.14,
-        "z": -50
+        "x": 48,
+        "y": 20,
+        "z": -65
       }
     },
     "team": {
@@ -169,13 +170,27 @@
         },
         {
           "key": "time"
+        },
+        {
+          "key": "WinStage",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
+        },
+        {
+          "key": "GameWin",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b2f68db546b8f1395475e07a22927c85",
+      "setting.json": "2e1d95e84f408a89b8c0a3c7438ebc2c",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""

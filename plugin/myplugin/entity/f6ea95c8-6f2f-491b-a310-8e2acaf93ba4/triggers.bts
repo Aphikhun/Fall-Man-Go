@@ -21,12 +21,76 @@ ENTITY_TOUCH_ALL {
 				If ($npc.time <= 0) {
 					Foreach(array = $npc.listPlayer, key = "py") {
 						ShowTip(entity = $py, keepTime = 100, textKey = "4480f88b-bb32-44a2-91ab-b8ccc85dcf03", tipType = "1")
+						SetEntityPosition(
+							entity = $py,
+							map = "27a941fa-b79b-42da-a2d4-3332396ea2d5",
+							pos = {
+								x = 50.27059173584,
+								y = 20.140019454956,
+								z = -49.948638916016
+							},
+							rp = 0,
+							ry = 0
+						)
 					}
 					$npc.time = $timeCounter
-					StartTimer2(interval = 20, time = $timeCounter, timer = "") {
+					StartTimer2(interval = 20, time = $timeCounter, timer = "InGame") {
 						$npc.time = $npc.time - 1
 						Foreach(array = $npc.listPlayer, key = "playerDisplay") {
 							ShowTip(entity = $playerDisplay, keepTime = 100, textKey = ToString($npc.time), tipType = "1")
+						}
+						Parallel {
+							$maxWin = ArraySize(
+									array = $npc.listPlayer,
+									entity = $npc
+								) - ArraySize(
+										array = $npc.listPlayer,
+										entity = $npc
+									) * 0.5
+							$winNum = NumberFloor(p1 = 0)
+							Foreach(array = $npc.listPlayer, key = "i") {
+								If ($i.WinStage) {
+									$winNum = $winNum + 1
+								}
+							}
+						}
+						If ($npc.time == 0 or $winNum >= $maxWin) {
+							$npc.GameWin = true
+						}
+						If (ArraySize(array = $npc.listPlayer, entity = $npc) <= 0) {
+							$npc.GameWin = true
+						}
+						If ($npc.GameWin) {
+							StopTimer2(timer = "InGame")
+							Foreach(array = $npc.listPlayer, key = "playerwin") {
+																If ($playerwin.WinStage) {
+									ShowTip(entity = $playerwin, keepTime = 80, textKey = "6cafac44-2dd2-47cb-8464-bf1e816ba07c", tipType = "1")
+									SetEntityPosition(
+										entity = $playerwin,
+										map = "06c5de00-572a-4157-8cc8-bdda31d12163",
+										pos = {
+											x = 0.015557459555566,
+											y = 7.1900225067139,
+											z = -0.98864364624023
+										},
+										rp = 0,
+										ry = 0
+									)
+								} ElseIf (true) {
+									SetEntityPosition(
+										entity = $playerwin,
+										map = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+										pos = {
+											x = -4.5582551956177,
+											y = 1.0399008178711,
+											z = -3.3190574645996
+										},
+										rp = 0,
+										ry = 0
+									)
+									ShowTip(entity = $playerwin, keepTime = 80, textKey = "f73c6398-8841-4524-afc9-71996f3ee4e4", tipType = "1")
+								}
+							}
 						}
 					}
 				}

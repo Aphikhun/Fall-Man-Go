@@ -1,0 +1,43 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8680980222964662273"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8680980223024791553",
+        "ID": 3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc",
+        "id": "8680986852948590593",
+        "name": "match",
+        "position": {
+          "x": -2.9275968074799,
+          "y": 0.99989891052246,
+          "z": -0.42006492614746
+        }
+      }
+    ],
+    "name": {
+      "value": "map_ecfea41a-1ce7-487f-86e8-e7dff6aa1932"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "4a97385e70372be705ae383bc3cce43a"
+    },
+    "VERSION": "0.21"
+  }
+}

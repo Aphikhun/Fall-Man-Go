@@ -1,0 +1,15 @@
+{
+  "data": {
+    "canClick": true,
+    "name": {
+      "value": "entity_71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "62aa4d63df63b8743ef404085cc77744",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}
