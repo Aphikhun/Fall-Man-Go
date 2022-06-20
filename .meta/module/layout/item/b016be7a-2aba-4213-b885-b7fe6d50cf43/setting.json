@@ -1,0 +1,83 @@
+{
+  "data": {
+    "md5": "68b612cf8a00d6a3e78018b1257898a6",
+    "path": "asset/test.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "39575863-83af-43ab-8f54-1a5a6ebcb896"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 6.0727534294353
+            },
+            "UDim_Y": {
+              "Offect": 9.0779191293069
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 100.29970812797
+            },
+            "UDim_Y": {
+              "Offect": 83.480852218364
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "7b93478b-dd7d-4d55-b739-9165133d3726"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 228.96362304688
+            },
+            "UDim_Y": {
+              "Offect": 142.59739685059
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "39d25fad-5b4b-4a13-ba35-81485069deaf"
+          },
+          "name": "Button1",
+          "pos": {
+            "UDim_X": {
+              "Offect": 84.109085083008
+            },
+            "UDim_Y": {
+              "Offect": 243.11688232422
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 96.000000000002
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "581f19c7-d984-4f5d-a621-6e1263a3f4b5"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "68b612cf8a00d6a3e78018b1257898a6"
+    },
+    "VERSION": "0.21"
+  }
+}

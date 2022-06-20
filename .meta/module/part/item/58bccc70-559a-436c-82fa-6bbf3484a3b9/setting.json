@@ -37,6 +37,11 @@
               }
             }
           ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "bca8be8e-d5a6-4a98-b4ff-5b23b78f8243"
+            }
+          },
           "root": {
             "components": [
               {
@@ -61,6 +66,6 @@
     "EXPORT": {
       "triggers.bts": "c942e53aefc640d63875310ea535dd4e"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

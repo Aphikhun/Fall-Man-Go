@@ -1,9 +1,11 @@
 {
-  "data": [],
+  "data": {
+    "__OBJ_TYPE": "PartCfg"
+  },
   "meta": {
     "EXPORT": {
       "triggers.bts": ""
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

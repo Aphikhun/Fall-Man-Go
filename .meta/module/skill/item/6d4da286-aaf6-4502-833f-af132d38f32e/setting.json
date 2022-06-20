@@ -9,13 +9,16 @@
         "__OBJ_TYPE": "Skill_MeleeAttack",
         "hurtDistance": 1
       }
+    },
+    "skillReleaseWay": {
+      "isClick": true
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e5814202b1771dcbbaf03ef4cc24e0ca",
+      "setting.json": "2f3740d01c57ff9b786b061d157f3ff2",
       "triggers.bts": ""
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

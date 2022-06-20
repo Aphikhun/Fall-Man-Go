@@ -1,0 +1,500 @@
+{
+  "data": {
+    "name": {
+      "value": "Addplayer"
+    },
+    "params": [
+      {
+        "param_name": "npc",
+        "param_type": "T_Var"
+      },
+      {
+        "param_name": "Player",
+        "param_type": "T_Entity"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "3501f1a9-6196-41b2-a2c8-40396250c2fc"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d26d137d-01ec-4156-94b8-b3f9ff7dd0fb"
+              },
+              "pos": {
+                "x": 659,
+                "y": 361
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "de9e072c-7c4a-49b0-99e8-917ce0a5f033"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "53903170-ef3c-4ed9-9996-7240dda8c3ca"
+                    },
+                    {
+                      "action": "9d7c1a9a-32e6-4e3b-971e-66d192956593"
+                    },
+                    {
+                      "action": "dfa528ad-97b2-4517-9773-c4b42cca02df"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3501f1a9-6196-41b2-a2c8-40396250c2fc"
+              },
+              "pos": {
+                "x": 831,
+                "y": 356
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IsPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c6b26f74-1f7b-48a0-9a47-6a0235f353c1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b9b9c954-b0e9-41cd-b683-5e29bcaaa09f"
+              },
+              "pos": {
+                "x": 1429.8413163911,
+                "y": 133.94931710027
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_BinaryOper",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOper"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "b9b9c954-b0e9-41cd-b683-5e29bcaaa09f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "21c3ffdd-ea02-41d0-90d7-0f179a870aee"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "de9e072c-7c4a-49b0-99e8-917ce0a5f033"
+              },
+              "pos": {
+                "x": 1133.2083253863,
+                "y": 138.88081171618
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_UnaryOper_Not",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "ac98a32f-a4ce-4811-8ef6-1c8ea4e73a4a"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "21c3ffdd-ea02-41d0-90d7-0f179a870aee"
+              },
+              "pos": {
+                "x": 1443.4739685819,
+                "y": 231.96050467488
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ArrayIsHasValue",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "TypeOfVar",
+                        "rawval": "entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ArrayObjectVar",
+                        "rawval": "listPlayer"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a7ef589e-25d6-48b2-b998-632d605ab9c5"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Layout"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Var",
+                        "action": "cf1ef37c-9aea-4bfa-9e50-45af9a61029c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ac98a32f-a4ce-4811-8ef6-1c8ea4e73a4a"
+              },
+              "pos": {
+                "x": 1653.2726415999,
+                "y": 254.12233633172
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "Player"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "cf1ef37c-9aea-4bfa-9e50-45af9a61029c"
+              },
+              "pos": {
+                "x": 2052.1856114231,
+                "y": 342.76966295906
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ArrayAppend",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "TypeOfVar",
+                        "rawval": "entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ArrayObjectVar",
+                        "rawval": "listPlayer"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a27c0226-8371-41ca-9e07-1d3c4d57366b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Layout"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Var",
+                        "action": "c55d4714-b4a9-44d7-9c36-e6a9c9e71a6e"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "53903170-ef3c-4ed9-9996-7240dda8c3ca"
+              },
+              "pos": {
+                "x": 1128.7759590548,
+                "y": 403.34533615442
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "Player"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "c55d4714-b4a9-44d7-9c36-e6a9c9e71a6e"
+              },
+              "pos": {
+                "x": 1527.6889288779,
+                "y": 533.36141520785
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "curNpcPlayer"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7f538314-fa11-4a20-951e-019b39ac3486"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "25a1a8b3-d185-40b0-8380-a5b53c3ac19d"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9d7c1a9a-32e6-4e3b-971e-66d192956593"
+              },
+              "pos": {
+                "x": 1145.0279689365,
+                "y": 650.08039526719
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "452d765d-5ef8-4cf6-a21e-0df21cc81215"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType",
+                        "rawval": "4"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "af1366cd-b6d1-4446-95fc-bab691ca5ab3"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 200
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "dfa528ad-97b2-4517-9773-c4b42cca02df"
+              },
+              "pos": {
+                "x": 1103.6592165105,
+                "y": 985.46278100731
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "npc"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "7f538314-fa11-4a20-951e-019b39ac3486"
+              },
+              "pos": {
+                "x": 1538.0311169844,
+                "y": 698.83642491222
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "Player"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "25a1a8b3-d185-40b0-8380-a5b53c3ac19d"
+              },
+              "pos": {
+                "x": 1527.6889288779,
+                "y": 858.40161284145
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "Player"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "452d765d-5ef8-4cf6-a21e-0df21cc81215"
+              },
+              "pos": {
+                "x": 1610.4264337301,
+                "y": 1071.1551967471
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "npc"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "a27c0226-8371-41ca-9e07-1d3c4d57366b"
+              },
+              "pos": {
+                "x": 1511.4369189962,
+                "y": 384.13841538516
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "Player"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "c6b26f74-1f7b-48a0-9a47-6a0235f353c1"
+              },
+              "pos": {
+                "x": 1781.8112652096,
+                "y": 156.61027704164
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "npc"
+                }
+              ],
+              "function_name": "Addplayer",
+              "id": {
+                "value": "a7ef589e-25d6-48b2-b998-632d605ab9c5"
+              },
+              "pos": {
+                "x": 2154.1300370445,
+                "y": 203.88885124289
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "b6a14098-38ac-4c39-83db-3d434e7dd45e"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "Addplayer",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d26d137d-01ec-4156-94b8-b3f9ff7dd0fb"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "f06be491-b0ad-4dd0-b8fe-2a22f65cdf5b"
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a28c3f2176991fda75f87a05d83d8312",
+      "triggers.bts": "0369c22ea2c8f69aece19ba0d29ebf07"
+    },
+    "VERSION": "0.21"
+  }
+}

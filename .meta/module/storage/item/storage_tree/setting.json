@@ -13,7 +13,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673307749779734529",
-        "mass": 1.760000026226,
         "massCenter": {
           "x": 44.689163208008,
           "y": 40.681007385254,
@@ -23,7 +22,8 @@
           "color": {
             "b": 117,
             "g": 216
-          }
+          },
+          "discardAlpha": 1.0
         },
         "name": "Broken plate",
         "position": {
@@ -42,8 +42,7 @@
           "y": 0.2,
           "z": 2
         },
-        "useAnchor": true,
-        "volume": 0.80000001192093
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part_Storage",
@@ -51,11 +50,13 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8674783414697869313",
-        "mass": 3.5199997901917,
         "massCenter": {
           "x": 7.9737215042114,
           "y": 2.1,
           "z": 0.22429415583611
+        },
+        "material": {
+          "discardAlpha": 1.0
         },
         "name": "Color plate",
         "position": {
@@ -74,8 +75,7 @@
           "y": 0.1,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 1.5999999046326
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part_Storage",
@@ -93,11 +93,13 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8676026891950833665",
-        "mass": 44.0,
         "massCenter": {
           "x": 50,
           "y": 20,
           "z": 50
+        },
+        "material": {
+          "discardAlpha": 1.0
         },
         "name": "Checkpoint",
         "position": {
@@ -116,15 +118,14 @@
           "y": 0.2,
           "z": 10
         },
-        "useAnchor": true,
-        "volume": 20.0
+        "useAnchor": true
       }
     ]
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d4bafeec9edf79b1d15351917c790cd8"
+      "setting.json": "9b6f2ec41d8ef428ba7b1b6ba85deb3a"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

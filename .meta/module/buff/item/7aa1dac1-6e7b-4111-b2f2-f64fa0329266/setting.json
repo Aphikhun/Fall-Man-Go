@@ -6,15 +6,15 @@
       }
     },
     "deadRemove": true,
-    "moveSpeed": -9999,
+    "moveSpeed": -9999.0,
     "name": {
       "value": "buff_7aa1dac1-6e7b-4111-b2f2-f64fa0329266"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6d81cd976b0f21dd08da667ae7a76e42"
+      "setting.json": "76ee5f7d1dda1f52f6be568c6d7c2e82"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

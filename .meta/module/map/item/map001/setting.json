@@ -2,25 +2,7 @@
   "data": {
     "box": {
       "base": {
-        "__OBJ_TYPE": "SkyBoxStatic",
-        "back": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
-        },
-        "bottom": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
-        },
-        "front": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
-        },
-        "left": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
-        },
-        "right": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
-        },
-        "top": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
-        }
+        "__OBJ_TYPE": "SkyBoxStatic"
       }
     },
     "instances": [
@@ -28,6 +10,13 @@
         "__OBJ_TYPE": "Instance_VoxelTerrain",
         "id": "26644713697705985",
         "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8679522389374205953",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -45,11 +34,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673140989826990081",
-        "mass": 44,
-        "massCenter": {
-          "x": 50,
-          "y": 20,
-          "z": -50
+        "material": {
+          "discardAlpha": 1
         },
         "name": "Start",
         "position": {
@@ -68,8 +54,7 @@
           "y": 0.2,
           "z": 10
         },
-        "useAnchor": true,
-        "volume": 20
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -87,11 +72,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673156881497522177",
-        "mass": 4.3999994754791,
-        "massCenter": {
-          "x": 50,
-          "y": 20,
-          "z": -43.09
+        "material": {
+          "discardAlpha": 1
         },
         "position": {
           "x": 50,
@@ -107,8 +89,7 @@
           "x": 10,
           "y": 0.2
         },
-        "useAnchor": true,
-        "volume": 1.9999997615814
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -126,11 +107,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673158628491673601",
-        "mass": 4.3999994754791,
-        "massCenter": {
-          "x": 50,
-          "y": 20,
-          "z": -40
+        "material": {
+          "discardAlpha": 1
         },
         "position": {
           "x": 50,
@@ -146,8 +124,7 @@
           "x": 10,
           "y": 0.2
         },
-        "useAnchor": true,
-        "volume": 1.9999997615814
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -165,11 +142,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673160110424653825",
-        "mass": 4.3999994754791,
-        "massCenter": {
-          "x": 50,
-          "y": 20,
-          "z": -37
+        "material": {
+          "discardAlpha": 1
         },
         "position": {
           "x": 50,
@@ -185,14 +159,12 @@
           "x": 10,
           "y": 0.2
         },
-        "useAnchor": true,
-        "volume": 1.9999997615814
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_RegionPart",
         "cfgName": "myplugin/00c6b034-003d-484e-b24c-1c52255ec7bc",
         "id": "8673175937595441153",
-        "isLockedInEditor": true,
         "position": {
           "y": 10
         },
@@ -221,10 +193,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673254973042245633",
-        "mass": 99,
-        "massCenter": {
-          "x": 50,
-          "y": 40
+        "material": {
+          "discardAlpha": 1
         },
         "position": {
           "x": 50,
@@ -241,8 +211,7 @@
           "y": 0.2,
           "z": 15
         },
-        "useAnchor": true,
-        "volume": 45
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -256,17 +225,12 @@
             "lineVelocity": {
               "y": 30
             },
-            "mass": 3.1085999727249,
-            "massCenter": {
-              "x": 55.631572723389,
-              "y": 26.061647415161,
-              "z": -17.721454620361
-            },
             "material": {
               "color": {
                 "b": 195,
-                "r": 99
-              }
+                "r": 100
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 55.631572723389,
@@ -282,11 +246,10 @@
             "shape": "3",
             "size": {
               "x": 3,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.4129999876022
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -297,17 +260,12 @@
             "lineVelocity": {
               "y": 30
             },
-            "mass": 3.1085999727249,
-            "massCenter": {
-              "x": 51.79700088501,
-              "y": 20,
-              "z": -21.944999694824
-            },
             "material": {
               "color": {
                 "b": 195,
-                "r": 99
-              }
+                "r": 100
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 51.79700088501,
@@ -323,11 +281,10 @@
             "shape": "3",
             "size": {
               "x": 3,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.4129999876022
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -338,17 +295,12 @@
             "lineVelocity": {
               "y": 30
             },
-            "mass": 3.1085999727249,
-            "massCenter": {
-              "x": 44.944408416748,
-              "y": 26.263671875,
-              "z": -17.841100692749
-            },
             "material": {
               "color": {
                 "b": 195,
-                "r": 99
-              }
+                "r": 100
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 44.944408416748,
@@ -364,11 +316,10 @@
             "shape": "3",
             "size": {
               "x": 3,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.4129999876022
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -379,17 +330,12 @@
             "lineVelocity": {
               "y": 30
             },
-            "mass": 3.1085999727249,
-            "massCenter": {
-              "x": 48.191986083984,
-              "y": 20,
-              "z": -21.979154586792
-            },
             "material": {
               "color": {
                 "b": 195,
-                "r": 99
-              }
+                "r": 100
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 48.191986083984,
@@ -405,11 +351,10 @@
             "shape": "3",
             "size": {
               "x": 3,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.4129999876022
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -420,17 +365,12 @@
             "lineVelocity": {
               "y": 30
             },
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 50.357421875,
-              "y": 34.019912719727,
-              "z": -12.374757766724
-            },
             "material": {
               "color": {
                 "b": 195,
-                "r": 99
-              }
+                "r": 100
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 50.357421875,
@@ -446,11 +386,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           }
         ],
         "id": "8673300447614763009",
@@ -483,11 +422,8 @@
             "lineVelocity": {
               "z": 5
             },
-            "mass": 8.7999984264374,
-            "massCenter": {
-              "x": 53,
-              "y": 20,
-              "z": -30
+            "material": {
+              "discardAlpha": 1
             },
             "position": {
               "x": 53,
@@ -508,8 +444,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 3.9999992847443
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -530,11 +465,8 @@
             "lineVelocity": {
               "z": -5
             },
-            "mass": 8.7999984264374,
-            "massCenter": {
-              "x": 50,
-              "y": 20,
-              "z": -30
+            "material": {
+              "discardAlpha": 1
             },
             "position": {
               "x": 50,
@@ -555,8 +487,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 3.9999992847443
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -577,11 +508,8 @@
             "lineVelocity": {
               "z": 5
             },
-            "mass": 8.7999984264374,
-            "massCenter": {
-              "x": 47,
-              "y": 20,
-              "z": -30
+            "material": {
+              "discardAlpha": 1
             },
             "position": {
               "x": 47,
@@ -602,8 +530,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 3.9999992847443
+            "useAnchor": true
           }
         ],
         "id": "8673300857167822849",
@@ -629,17 +556,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391368503312385",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 55.047885894775,
-              "y": 41.79443359375,
-              "z": 16.161497116089
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -658,8 +580,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -673,17 +594,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673307788625149953",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 43.522994995117,
-              "y": 40,
-              "z": 10
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -702,8 +618,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -717,17 +632,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390649378209793",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 47.432250976562,
-              "y": 41.08500289917,
-              "z": 10.181840896606
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -746,8 +656,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -761,17 +670,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390821998116865",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 48.347599029541,
-              "y": 41.841121673584,
-              "z": 18.601425170898
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -790,8 +694,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -805,17 +708,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390832963796993",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 52.952556610107,
-              "y": 41.951107025146,
-              "z": 22.647981643677
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -834,8 +732,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -849,17 +746,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390847803195393",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 48.620391845703,
-              "y": 41.449871063232,
-              "z": 22.143836975098
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -878,8 +770,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -893,17 +784,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390860724125697",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 46.008365631104,
-              "y": 41.396060943604,
-              "z": 13.669034957886
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -922,8 +808,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -937,17 +822,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390891173560321",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 44.449153900146,
-              "y": 41.32495880127,
-              "z": 20.482629776001
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -966,8 +846,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -981,17 +860,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390905392824321",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 41.103157043457,
-              "y": 40.994525909424,
-              "z": 19.9743309021
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1010,8 +884,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1025,17 +898,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390913013415937",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 41.046836853027,
-              "y": 41.660045623779,
-              "z": 16.021532058716
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1054,8 +922,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1069,17 +936,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390921546891265",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 45.419303894043,
-              "y": 41.649909973145,
-              "z": 23.210250854492
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1098,8 +960,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1113,17 +974,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673390927100985345",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 44.452308654785,
-              "y": 41.201923370361,
-              "z": 17.017492294312
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1142,8 +998,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1157,17 +1012,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391068159623169",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 52.034690856934,
-              "y": 40.199996948242,
-              "z": 9.2590808868408
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1186,8 +1036,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1201,17 +1050,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391112906850305",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 55.597820281982,
-              "y": 40.399993896484,
-              "z": 9.4139976501465
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1230,8 +1074,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1245,17 +1088,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391145602793473",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 42.25931930542,
-              "y": 40.757022857666,
-              "z": 12.91814994812
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1274,8 +1112,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1289,17 +1126,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391202625011713",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 50.646949768066,
-              "y": 41.139381408691,
-              "z": 12.597684860229
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1318,8 +1150,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1333,17 +1164,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391220903936001",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 51.065486907959,
-              "y": 41.782276153564,
-              "z": 15.767115592957
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1362,8 +1188,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1377,17 +1202,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391297416658945",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 54.537223815918,
-              "y": 41.164131164551,
-              "z": 12.783379554749
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1406,8 +1226,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1421,17 +1240,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673391340404064257",
-            "mass": 1.760000026226,
-            "massCenter": {
-              "x": 53.309741973877,
-              "y": 41.684803009033,
-              "z": 18.995258331299
-            },
             "material": {
               "color": {
                 "b": 117,
                 "g": 216
-              }
+              },
+              "discardAlpha": 1
             },
             "name": "Broken plate",
             "position": {
@@ -1450,8 +1264,7 @@
               "y": 0.2,
               "z": 2
             },
-            "useAnchor": true,
-            "volume": 0.80000001192093
+            "useAnchor": true
           }
         ],
         "id": "8673420146389139457",
@@ -1481,11 +1294,8 @@
         "lineVelocity": {
           "x": 2
         },
-        "mass": 219.99996643066,
-        "massCenter": {
-          "x": 5.974142074585,
-          "y": 47.330760955811,
-          "z": 30.939113616943
+        "material": {
+          "discardAlpha": 1
         },
         "position": {
           "x": 5.974142074585,
@@ -1506,8 +1316,7 @@
           "y": 0.2,
           "z": 10
         },
-        "useAnchor": true,
-        "volume": 99.999984741211
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -1521,17 +1330,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673426186462232577",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 54.66641998291,
-              "y": 41.160663604736,
-              "z": 30.968475341797
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 54.66641998291,
@@ -1547,11 +1351,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1562,17 +1365,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673422384500686849",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 49.595607757568,
-              "y": 41.270980834961,
-              "z": 27.430545806885
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 49.595607757568,
@@ -1588,11 +1386,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1603,17 +1400,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673424097911226369",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 48.832458496094,
-              "y": 41.471164703369,
-              "z": 33.795013427734
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 48.832458496094,
@@ -1629,11 +1421,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1644,17 +1435,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673424117650178049",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 42.295288085938,
-              "y": 41.671436309814,
-              "z": 27.500926971436
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 42.295288085938,
@@ -1670,11 +1456,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1685,17 +1470,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673424131756785665",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 41.917167663574,
-              "y": 41.871513366699,
-              "z": 33.903549194336
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 41.917167663574,
@@ -1711,11 +1491,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1726,17 +1505,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673424159523946497",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 35.557506561279,
-              "y": 42.080047607422,
-              "z": 27.941757202148
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 35.557506561279,
@@ -1752,11 +1526,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1767,17 +1540,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8673424170084597761",
-            "mass": 8.634999370575,
-            "massCenter": {
-              "x": 35.290084838867,
-              "y": 42.282051086426,
-              "z": 34.041206359863
-            },
             "material": {
               "color": {
-                "g": 110,
-                "r": 199
-              }
+                "g": 111,
+                "r": 200
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": 35.290084838867,
@@ -1793,11 +1561,10 @@
             "shape": "3",
             "size": {
               "x": 5,
-              "y": 0.19999998807907,
+              "y": 0.2,
               "z": 5
             },
-            "useAnchor": true,
-            "volume": 3.9249997138977
+            "useAnchor": true
           }
         ],
         "id": "8673430060604112897",
@@ -1824,11 +1591,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8673446875091730433",
-        "mass": 44,
-        "massCenter": {
-          "x": -42.132297515869,
-          "y": 54.623779296875,
-          "z": 31.15712928772
+        "material": {
+          "discardAlpha": 1
         },
         "name": "Goal",
         "position": {
@@ -1847,8 +1611,7 @@
           "y": 0.2,
           "z": 10
         },
-        "useAnchor": true,
-        "volume": 20
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -1863,16 +1626,11 @@
               "x": -60,
               "y": 20
             },
-            "mass": 3.9600001573563,
-            "massCenter": {
-              "x": -22.04400062561,
-              "y": 54.33801651001,
-              "z": 27
-            },
             "material": {
               "color": {
-                "r": 170
-              }
+                "r": 171
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -22.04400062561,
@@ -1894,8 +1652,7 @@
               "z": 3
             },
             "useAnchor": true,
-            "useGravity": false,
-            "volume": 1.8000000715256
+            "useGravity": false
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1907,16 +1664,11 @@
               "x": -60,
               "y": 20
             },
-            "mass": 3.9600001573563,
-            "massCenter": {
-              "x": -28.817293167114,
-              "y": 54.544734954834,
-              "z": 27
-            },
             "material": {
               "color": {
-                "r": 170
-              }
+                "r": 171
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -28.817293167114,
@@ -1937,8 +1689,7 @@
               "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.8000000715256
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1950,16 +1701,11 @@
               "x": -60,
               "y": 20
             },
-            "mass": 3.9600001573563,
-            "massCenter": {
-              "x": -35.522346496582,
-              "y": 54.670429229736,
-              "z": 27
-            },
             "material": {
               "color": {
-                "r": 170
-              }
+                "r": 171
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -35.522346496582,
@@ -1980,8 +1726,7 @@
               "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.8000000715256
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -1993,16 +1738,11 @@
               "x": -60,
               "y": 20
             },
-            "mass": 3.9600001573563,
-            "massCenter": {
-              "x": -32.023849487305,
-              "y": 54.567485809326,
-              "z": 35
-            },
             "material": {
               "color": {
-                "r": 170
-              }
+                "r": 171
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -32.023849487305,
@@ -2023,8 +1763,7 @@
               "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.8000000715256
+            "useAnchor": true
           },
           {
             "__OBJ_TYPE": "Instance_Part",
@@ -2036,16 +1775,11 @@
               "x": -60,
               "y": 20
             },
-            "mass": 3.9600001573563,
-            "massCenter": {
-              "x": -25.348484039307,
-              "y": 54.391372680664,
-              "z": 35
-            },
             "material": {
               "color": {
-                "r": 170
-              }
+                "r": 171
+              },
+              "discardAlpha": 1
             },
             "position": {
               "x": -25.348484039307,
@@ -2066,8 +1800,7 @@
               "y": 0.2,
               "z": 3
             },
-            "useAnchor": true,
-            "volume": 1.8000000715256
+            "useAnchor": true
           }
         ],
         "id": "8673514820846026753",
@@ -2098,8 +1831,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "14c9aedfdd9844652bd2840de5b45aa2"
+      "DataSet": [],
+      "setting.json": "b180442e2b8391277f7c950d7be1acab"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

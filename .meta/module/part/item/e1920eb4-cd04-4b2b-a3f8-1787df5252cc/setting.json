@@ -137,6 +137,11 @@
               "type": "T_Part"
             }
           ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0bf4fef7-bd5c-4a0b-b70e-33e9adc81b56"
+            }
+          },
           "root": {
             "components": [
               {
@@ -161,6 +166,6 @@
     "EXPORT": {
       "triggers.bts": "585fe29ba92c46023f0b3dfd0638a271"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

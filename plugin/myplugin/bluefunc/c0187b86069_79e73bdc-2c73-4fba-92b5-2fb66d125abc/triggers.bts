@@ -1,0 +1,16 @@
+Addplayer {
+	If (IsPlayer(entity = GetFuncsParamsVar(key = "Player")) and not IsValueInArray(array = GetFuncsParamsVar(key = "npc").listPlayer, entity = GetFuncsParamsVar(key = "npc"), value = GetFuncsParamsVar(key = "Player"))) {
+		ArrayAppend(
+			array = GetFuncsParamsVar(key = "npc").listPlayer,
+			entity = GetFuncsParamsVar(key = "npc"),
+			value = GetFuncsParamsVar(key = "Player")
+		)
+		GetFuncsParamsVar(key = "Player").curNpcPlayer = GetFuncsParamsVar(key = "npc")
+		ShowTip(
+			entity = GetFuncsParamsVar(key = "Player"),
+			keepTime = 200,
+			textKey = "af1366cd-b6d1-4446-95fc-bab691ca5ab3",
+			tipType = "4"
+		)
+	}
+}

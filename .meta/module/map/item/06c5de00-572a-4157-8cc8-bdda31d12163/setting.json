@@ -16,16 +16,13 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8674749261142441985",
-        "mass": 14079.998925781,
-        "massCenter": {
-          "y": 1.5
-        },
         "material": {
           "color": {
             "b": 127,
-            "g": 170,
+            "g": 171,
             "r": 0
-          }
+          },
+          "discardAlpha": 1
         },
         "position": {
           "y": 1.5
@@ -39,8 +36,7 @@
           "x": 80,
           "z": 80
         },
-        "useAnchor": true,
-        "volume": 6399.9995117188
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -48,10 +44,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8674783509954887681",
-        "mass": 3.5199997901917,
-        "massCenter": {
-          "y": 2.1,
-          "z": -3.4919078350067
+        "material": {
+          "discardAlpha": 1
         },
         "name": "Color plate",
         "position": {
@@ -69,8 +63,7 @@
           "y": 0.1,
           "z": 4
         },
-        "useAnchor": true,
-        "volume": 1.5999999046326
+        "useAnchor": true
       }
     ],
     "name": {
@@ -79,8 +72,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d2e99a4635062dd9ac006da30aa754e7"
+      "DataSet": [],
+      "setting.json": "0dcdf0453deb6e0b65c6f2b8bbdb59d1"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

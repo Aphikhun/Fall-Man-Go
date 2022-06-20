@@ -132,7 +132,7 @@
   "needSave": false,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 1666.6666666667,
+  "nowTime": 10666.666666667,
   "oneDayTime": 600.0,
   "personalSettingUI": {
     "controlMode": true,
@@ -263,7 +263,7 @@
       "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 2,
       "ignorePlayerSkin": true,
-      "image": "asset/Texture/Team/flag/flag_7.png",
+      "image": "asset/Texture/Team/flag/flag_1.png",
       "initPos": {
         "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
         "x": 0,
@@ -340,6 +340,28 @@
     "entity": [
       {
         "key": "score",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "listPlayer",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "isTime",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "curNpcPlayer",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "time",
         "run_type": "server",
         "save": false,
         "value": 0
