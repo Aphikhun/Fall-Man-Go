@@ -12183,7 +12183,11 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
+<<<<<<< HEAD
       "setting.json": "7852db01589894422555afe56b6eb771"
+=======
+      "setting.json": "3e3d67cd1cf9dee0f71cd0c5ebc98cd9"
+>>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }

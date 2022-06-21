@@ -1,5 +1,8 @@
 {
   "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Flag  with Letter B/Blue Flag.actor"
+    },
     "AI_attack": {
       "enable": true
     },
@@ -12,6 +15,12 @@
         "z": 10
       }
     },
+    "canJump": false,
+    "canMove": false,
+    "girlactor": {
+      "asset": "asset/Actor/Blue Flag  with Letter B/Blue Flag.actor"
+    },
+    "hideName": true,
     "name": {
       "value": "entity_f6ea95c8-6f2f-491b-a310-8e2acaf93ba4"
     },
@@ -4008,8 +4017,8 @@
                 "value": "aa1eb2cd-3e96-41f4-9dbb-8ce3ce1ef4df"
               },
               "pos": {
-                "x": 3607.9608759464,
-                "y": 3571.1885797468
+                "x": 3639.9608759464,
+                "y": 3577.1885797468
               }
             },
             {
@@ -4313,12 +4322,18 @@
           "type": "Trigger_ENTITY_TOUCH_ALL"
         }
       ]
-    }
+    },
+    "unDamageable": true
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "ffe25bde62be0060aca7e7643492f421",
       "triggers.bts": "85d99ec1f3457bd7ee5e796ddd1bc1d9"
+=======
+      "setting.json": "aea1af20f7930a700af299dc62250420",
+      "triggers.bts": "94c4c959675d68f8cf2818d9d755d433"
+>>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }

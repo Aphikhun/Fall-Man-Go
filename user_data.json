@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"map_pos":{"ecfea41a-1ce7-487f-86e8-e7dff6aa1932":{"x":30,"y":68,"z":30},"604d24da-0c59-4780-8b25-d274668c9e8f":{"x":30,"y":68,"z":30},"06c5de00-572a-4157-8cc8-bdda31d12163":{"x":30,"y":68,"z":30},"27a941fa-b79b-42da-a2d4-3332396ea2d5":{"x":30,"y":68,"z":30},"map001":{"x":30,"y":68,"z":30},"5b3b47b8-2434-41bf-822b-ab260f7a13ee":{"x":30,"y":68,"z":30}},"viewport_height":350,"camera_move_speed":0.3,"viewport_width":625}
+=======
+{"viewport_height":622,"map_pos":{"27a941fa-b79b-42da-a2d4-3332396ea2d5":{"y":68,"z":30,"x":30},"5b3b47b8-2434-41bf-822b-ab260f7a13ee":{"y":68,"z":30,"x":30},"06c5de00-572a-4157-8cc8-bdda31d12163":{"y":68,"z":30,"x":30},"ecfea41a-1ce7-487f-86e8-e7dff6aa1932":{"y":68,"z":30,"x":30},"map001":{"y":68,"z":30,"x":30}},"viewport_width":1107,"camera_move_speed":0.3}
+>>>>>>> origin/develop

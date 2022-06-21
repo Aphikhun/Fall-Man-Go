@@ -7,11 +7,17 @@
       }
     },
     "initPos": {
-      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
+<<<<<<< HEAD
         "x": -4.0359344482422,
         "y": 1.0399008178711,
         "z": 21.757511138916
+=======
+        "x": 49.87967300415,
+        "y": 20.14000038147,
+        "z": -49.450771331787
+>>>>>>> origin/develop
       }
     },
     "nowTime": {
@@ -98,11 +104,17 @@
     ],
     "showShop": true,
     "startPos": {
-      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
+<<<<<<< HEAD
         "x": -2.4012327194214,
         "y": 1.0399008178711,
         "z": 25.987159729004
+=======
+        "x": 50.361633300781,
+        "y": 20.14000038147,
+        "z": -50.405
+>>>>>>> origin/develop
       }
     },
     "team": {
@@ -209,7 +221,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "796f9117add244c16caab4c402e8c065",
+=======
+      "setting.json": "f2986ada25f420cafedfa2fd11cec55b",
+>>>>>>> origin/develop
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""
