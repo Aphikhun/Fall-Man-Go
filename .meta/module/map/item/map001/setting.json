@@ -1840,11 +1840,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-<<<<<<< HEAD
       "setting.json": "d7c5eb9bd55c9ea90c9b099b5cfaca55"
-=======
-      "setting.json": "fb6530f8b1768bc2410e8146e34149d6"
->>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }
