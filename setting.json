@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
+  "defaultMap": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,10 +91,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
-    "x": 48.57642364502,
-    "y": 20.140028991699,
-    "z": -65.276565551758
+    "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+    "x": -0.34842586517334,
+    "y": 1.0399003410339,
+    "z": 1.9132833480835
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -228,10 +228,10 @@
   },
   "startPos": [
     {
-      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
-      "x": 48,
-      "y": 20,
-      "z": -65
+      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+      "x": -0.20662713050842,
+      "y": 1.0399001026154,
+      "z": 2.0534384250641
     }
   ],
   "team": [
@@ -373,6 +373,34 @@
       },
       {
         "key": "GameWin",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "isCounter",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "team",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "platform1",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "platform2",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "GameStart",
         "run_type": "server",
         "save": false
       }

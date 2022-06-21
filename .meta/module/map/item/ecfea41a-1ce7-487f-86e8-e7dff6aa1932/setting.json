@@ -15,7 +15,15 @@
         "id": "8680980223024791553",
         "ID": 3,
         "lightType": "GlobalLight",
-        "name": "EnvironmentLight"
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
@@ -27,6 +35,17 @@
           "y": 0.99989891052246,
           "z": -0.42006492614746
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2",
+        "id": "8681798778172686337",
+        "name": "Level2",
+        "position": {
+          "x": 0.076826572418213,
+          "y": 0.99990046024323,
+          "z": 0.12199878692627
+        }
       }
     ],
     "name": {
@@ -36,7 +55,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "4a97385e70372be705ae383bc3cce43a"
+      "setting.json": "ca748282e706b48a4bfed4fad585ca81"
     },
     "VERSION": "0.21"
   }

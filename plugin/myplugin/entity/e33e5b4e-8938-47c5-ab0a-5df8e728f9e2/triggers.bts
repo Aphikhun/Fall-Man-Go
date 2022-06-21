@@ -1,0 +1,118 @@
+ENTITY_TOUCH_ALL {
+	Parallel {
+		$curPlayer = $obj2
+		$localEntity = $obj1
+		If (not $localEntity.isCounter) {
+			$timeInGame = NumberFloor(p1 = 12)
+			$timeStart = NumberFloor(p1 = 5)
+			$mapIn = CreateDuplication(name = "06c5de00-572a-4157-8cc8-bdda31d12163")
+		}
+		If (IsPlayer(entity = $curPlayer)) {
+			If (not ExecScript(listPlayer = $localEntity.listPlayer, player = $curPlayer, script_name = "ScriptableNode_2")) {
+				ArrayAppend(
+					array = $localEntity.listPlayer,
+					entity = $localEntity,
+					value = $curPlayer
+				)
+				$curPlayer.curNpcPlayer = $localEntity
+				Parallel {
+					Parallel {
+						$num1 = NumberFloor(p1 = 0)
+						$num2 = NumberFloor(p1 = 0)
+					}
+					If (ArraySize(array = $localEntity.listPlayer, entity = $localEntity) ~= 0) {
+						Foreach(array = $localEntity.listPlayer, key = "k") {
+														If ($k.team == 1) {
+								$num1 = $num1 + 1
+							} ElseIf ($k.team == 2) {
+								$num2 = $num2 + 1
+							}
+						}
+					}
+															If ($num1 == $num2) {
+						$curPlayer.team = 1
+						ShowTip(entity = $obj2, keepTime = 200, textKey = "bfcfa606-a362-415b-a9ad-0f69d35f0d4a", tipType = "4")
+					} ElseIf ($num1 > $num2) {
+						$curPlayer.team = 2
+						ShowTip(entity = $obj2, keepTime = 200, textKey = "7028e4b2-afb1-4ccb-b233-1106d99db097", tipType = "4")
+					} ElseIf ($num1 < $num2) {
+						$curPlayer.team = 1
+						ShowTip(entity = $obj2, keepTime = 200, textKey = "caa7b971-d16c-41a9-ad02-a0a689ca37c9", tipType = "4")
+					}
+				}
+				SetHeadText(entity = $curPlayer, headText = Concat(p1 = "Team:", p2 = ToString($curPlayer.team)), x = 0, y = 0)
+			}
+		}
+	}
+	If (not $localEntity.isCounter) {
+		$localEntity.time = $timeStart
+		$localEntity.isCounter = true
+		StartTimer2(interval = 20, time = $timeStart, timer = "gameStart") {
+			Foreach(array = $localEntity.listPlayer, key = "i") {
+				ShowTip(entity = $i, keepTime = 20, textKey = ToString(), tipType = "2")
+				ShowTip(
+					entity = $i,
+					keepTime = 20,
+					textKey = ToString(ArraySize(array = $localEntity.listPlayer, entity = $localEntity)),
+					tipType = "1"
+				)
+			}
+			$localEntity.time = $localEntity.time - 1
+			If ($localEntity.time <= 0) {
+				Foreach(array = $localEntity.listPlayer, key = "k") {
+					EnterDuplication(entity = $k, map = GetPlayerMap(player = $obj2), pos = { x = 60, y = 33, z = 0 }, rp = 0, ry = 0)
+					ShowTip(entity = $k, keepTime = 40, textKey = "af9b135f-0c07-4c14-94a5-69130b777ba1", tipType = "1")
+				}
+				$localEntity.time = $timeInGame
+				$winNum = NumberFloor(p1 = 0)
+				StartTimer2(interval = 20, time = $timeInGame, timer = "InGame") {
+					Foreach(array = $localEntity.listPlayer, key = "i") {
+						ShowTip(entity = $i, keepTime = 20, textKey = ToString($localEntity.time), tipType = "1")
+						ShowTip(
+							entity = $i,
+							keepTime = 20,
+							textKey = ToString(ArraySize(array = $localEntity.listPlayer, entity = $localEntity)),
+							tipType = "2"
+						)
+					}
+					$localEntity.time = $localEntity.time - 1
+					If ($localEntity.time <= 0) {
+						Parallel {
+							$numPlatforn1 = ArraySize(
+								array = $localEntity.platform1,
+								entity = $localEntity
+							)
+							$numPlatforn2 = ArraySize(
+								array = $localEntity.platform2,
+								entity = $localEntity
+							)
+						}
+												If ($numPlatform1 > $numPlatform2) {
+							Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
+								If ($playerTeam.team == 1) {
+									$playerTeam.WinStage = true
+								}
+							}
+						} ElseIf ($numPlatform1 > $numPlatform2) {
+							Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
+								If ($playerTeam.team == 2) {
+									$playerTeam.WinStage = true
+								}
+							}
+						}
+						$localEntity.GameStart = false
+					}
+					If ($localEntity.GameStart) {
+						Foreach(array = $winPlayer.listPlayer, key = "winPlayer") {
+														If ($winPlayer.WinStage) {
+								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "9a38abd5-be10-4b86-8385-ccd0ae952553", tipType = "1")
+							} ElseIf (true) {
+								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "b9d0ba33-6668-421c-873f-0e128a2cffc6", tipType = "1")
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

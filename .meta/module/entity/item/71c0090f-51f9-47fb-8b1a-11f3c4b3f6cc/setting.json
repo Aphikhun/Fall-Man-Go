@@ -1,13 +1,26 @@
 {
   "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brunette Angel Boy/Angel Boy.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "canClick": true,
+    "girlactor": {
+      "asset": "asset/Actor/Brunette Angel Boy/Angel Boy.actor"
+    },
     "name": {
       "value": "entity_71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc"
-    }
+    },
+    "unDamageable": true
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "62aa4d63df63b8743ef404085cc77744",
+      "setting.json": "c4da3a50643e5711a3e9b2403c7161ab",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

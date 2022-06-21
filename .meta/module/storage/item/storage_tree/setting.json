@@ -71,9 +71,9 @@
           "z": 4
         },
         "size": {
-          "x": 4,
+          "x": 3,
           "y": 0.1,
-          "z": 4
+          "z": 3
         },
         "useAnchor": true
       },
@@ -152,7 +152,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ae255e30a47ed1bec8fb83c90f372ecb"
+      "setting.json": "8b0e5645b110b442ec622a298efef443"
     },
     "VERSION": "0.21"
   }

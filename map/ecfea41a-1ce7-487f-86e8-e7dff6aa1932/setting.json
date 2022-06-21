@@ -40,8 +40,8 @@
         "shadowsOffset": "0.02",
         "shadowsPresicion": "1024",
         "shadowsType": "null",
-        "skyColor": "r:0.49803921568627 g:0.51372549019608 b:0.54509803921569 a:1.0",
-        "skyLineColor": "r:0.23921568627451 g:0.22745098039216 b:0.2078431372549 a:1.0"
+        "skyColor": "r:0.49803921568627 g:0.51764705882353 b:0.54901960784314 a:1.0",
+        "skyLineColor": "r:0.24313725490196 g:0.23137254901961 b:0.2078431372549 a:1.0"
       }
     },
     {
@@ -54,6 +54,21 @@
         "name": "match",
         "needSync": "true",
         "position": "x:-2.9275968074799 y:0.99989891052246 z:-0.42006492614746",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8681798778172686337",
+        "name": "Level2",
+        "needSync": "true",
+        "position": "x:0.076826572418213 y:0.99990046024323 z:0.12199878692627",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
         "selectable": "true"
