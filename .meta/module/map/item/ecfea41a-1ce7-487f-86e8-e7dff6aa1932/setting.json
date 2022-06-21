@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 140,
-          "g": 132
+          "b": 141,
+          "g": 133
         },
         "skyLineColor": {
-          "g": 59,
+          "g": 60,
           "r": 62
         }
       },
@@ -37,15 +37,58 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2",
-        "id": "8681798778172686337",
-        "name": "Level2",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "629b59ab-7291-4c14-89da-7d938f80758b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681858094248329217",
+        "massCenter": {
+          "x": -7.1260051727295,
+          "y": 1.4999003410339,
+          "z": -4.7168292999268
+        },
         "position": {
-          "x": 0.076826572418213,
-          "y": 0.99990046024323,
-          "z": 0.12199878692627
-        }
+          "x": -7.1260051727295,
+          "y": 1.4999003410339,
+          "z": -4.7168292999268
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "605959c8-3b6f-432d-a00f-cd796e01fcc0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681858119921647617",
+        "massCenter": {
+          "x": 1.492604970932,
+          "y": 1.4998993873596,
+          "z": -4.1540193557739
+        },
+        "position": {
+          "x": 1.492604970932,
+          "y": 1.4998993873596,
+          "z": -4.1540193557739
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0cf1461c-a889-462f-9f18-6649094600d6",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681858126062632961",
+        "massCenter": {
+          "x": 4.8064842224121,
+          "y": 1.4998998641968,
+          "z": 0.048546314239502
+        },
+        "position": {
+          "x": 4.8064842224121,
+          "y": 1.4998998641968,
+          "z": 0.048546314239502
+        },
+        "restitution": 0.3
       }
     ],
     "name": {
@@ -55,7 +98,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "ca748282e706b48a4bfed4fad585ca81"
+      "setting.json": "94be4cbd8dd88768e8e6faf1fb157cd3"
     },
     "VERSION": "0.21"
   }

@@ -4153,9 +4153,9 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": 0.015557459555566,
-                            "y": 7.1900225067139,
-                            "z": -0.98864364624023
+                            "x": -0.87526059150696,
+                            "y": 7.0400009536743,
+                            "z": 2.2366847991943
                           }
                         }
                       }
@@ -4317,8 +4317,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "19d2a7780a876a80bcebcdea499ac4a9",
-      "triggers.bts": "94c4c959675d68f8cf2818d9d755d433"
+      "setting.json": "ffe25bde62be0060aca7e7643492f421",
+      "triggers.bts": "85d99ec1f3457bd7ee5e796ddd1bc1d9"
     },
     "VERSION": "0.21"
   }

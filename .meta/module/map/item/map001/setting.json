@@ -18,11 +18,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 142,
+          "b": 143,
           "g": 133
         },
         "skyLineColor": {
-          "g": 61,
+          "g": 62,
           "r": 62
         }
       },
@@ -1341,7 +1341,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1376,7 +1376,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1411,7 +1411,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1446,7 +1446,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1481,7 +1481,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1516,7 +1516,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1551,7 +1551,7 @@
             "material": {
               "color": {
                 "g": 113,
-                "r": 203
+                "r": 204
               },
               "discardAlpha": 1
             },
@@ -1840,7 +1840,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "14e825cc97bd35259c07d77c20a00f4f"
+      "setting.json": "d7c5eb9bd55c9ea90c9b099b5cfaca55"
     },
     "VERSION": "0.21"
   }

@@ -9,9 +9,9 @@
     "initPos": {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "x": -0.34842586517334,
-        "y": 1.0399003410339,
-        "z": 1.9132833480835
+        "x": -4.0359344482422,
+        "y": 1.0399008178711,
+        "z": 21.757511138916
       }
     },
     "nowTime": {
@@ -100,9 +100,9 @@
     "startPos": {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "x": -0.20662713050842,
-        "y": 1.0399001026154,
-        "z": 2.0534384250641
+        "x": -2.4012327194214,
+        "y": 1.0399008178711,
+        "z": 25.987159729004
       }
     },
     "team": {
@@ -186,13 +186,6 @@
           }
         },
         {
-          "key": "isCounter",
-          "type": "bool",
-          "value": {
-            "__OBJ_TYPE": "T_Bool"
-          }
-        },
-        {
           "key": "team"
         },
         {
@@ -210,20 +203,13 @@
           "value": {
             "__OBJ_TYPE": "T_VarArray"
           }
-        },
-        {
-          "key": "GameStart",
-          "type": "bool",
-          "value": {
-            "__OBJ_TYPE": "T_Bool"
-          }
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fff9f1e7e89f05c4221c86f602a0fb82",
+      "setting.json": "796f9117add244c16caab4c402e8c065",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""

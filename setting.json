@@ -92,9 +92,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
-    "x": -0.34842586517334,
-    "y": 1.0399003410339,
-    "z": 1.9132833480835
+    "x": -4.0359344482422,
+    "y": 1.0399008178711,
+    "z": 21.757511138916
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -229,9 +229,9 @@
   "startPos": [
     {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
-      "x": -0.20662713050842,
-      "y": 1.0399001026154,
-      "z": 2.0534384250641
+      "x": -2.4012327194214,
+      "y": 1.0399008178711,
+      "z": 25.987159729004
     }
   ],
   "team": [
@@ -377,11 +377,6 @@
         "save": false
       },
       {
-        "key": "isCounter",
-        "run_type": "server",
-        "save": false
-      },
-      {
         "key": "team",
         "run_type": "server",
         "save": false,
@@ -398,11 +393,6 @@
         "run_type": "server",
         "save": false,
         "value": []
-      },
-      {
-        "key": "GameStart",
-        "run_type": "server",
-        "save": false
       }
     ],
     "global": [],

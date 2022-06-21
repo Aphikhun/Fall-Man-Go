@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 141,
+          "b": 142,
           "g": 133
         },
         "skyLineColor": {
-          "g": 60,
+          "g": 61,
           "r": 62
         }
       },
@@ -32,9 +32,6 @@
         "friction": 0.37,
         "id": "8674749261142441985",
         "isLockedInEditor": true,
-        "massCenter": {
-          "y": 1.5
-        },
         "material": {
           "color": {
             "b": 127,
@@ -66,11 +63,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681782259006275585",
-            "massCenter": {
-              "x": -14.5,
-              "y": 2.0999999046326,
-              "z": 14.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -99,11 +91,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681772080213917697",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -132,11 +119,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681772410948370433",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -165,11 +147,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627556388865",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -198,11 +175,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627560108033",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -231,11 +203,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627563384833",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -264,11 +231,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627566923777",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -297,11 +259,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627570135041",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -330,11 +287,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627573657601",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -363,11 +315,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627576852481",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -396,10 +343,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627580030977",
-            "massCenter": {
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -427,11 +370,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627583635457",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -460,11 +398,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627586945025",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -493,11 +426,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627590238209",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -526,11 +454,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627593678849",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -559,11 +482,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627597021185",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -592,11 +510,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627601166337",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -625,11 +538,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627604508673",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -658,11 +566,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627607687169",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -691,11 +594,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627611193345",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -724,11 +622,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627615010817",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -757,11 +650,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627618451457",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -790,11 +678,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627622039553",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -823,11 +706,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775627625299969",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -856,11 +734,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903746916353",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -889,11 +762,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903749750785",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -922,11 +790,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903752306689",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -955,11 +818,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903754780673",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -988,11 +846,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903757254657",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1021,11 +874,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903759777793",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1054,11 +902,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903762235393",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1087,11 +930,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903764692993",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1120,11 +958,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903767216129",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1153,11 +986,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903769722881",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1186,11 +1014,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903772213249",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1219,11 +1042,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903774720001",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1252,11 +1070,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903777193985",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1285,11 +1098,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903779684353",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1318,11 +1126,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903782174721",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1351,11 +1154,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903784632321",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1384,11 +1182,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903787139073",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1417,11 +1210,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903789629441",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1450,11 +1238,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903792103425",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1483,11 +1266,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903794610177",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1516,10 +1294,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681775903797084161",
-            "massCenter": {
-              "y": 2.1,
-              "z": 36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1547,11 +1321,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050620334081",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1580,11 +1349,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050623447041",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1613,11 +1377,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050626461697",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1646,10 +1405,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050629230593",
-            "massCenter": {
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1677,11 +1432,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050632261633",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1710,11 +1460,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050635014145",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1743,11 +1488,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050637979649",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1776,11 +1516,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050640748545",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1809,11 +1544,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050643714049",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1842,11 +1572,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050646466561",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1875,11 +1600,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050649448449",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1908,11 +1628,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050652168193",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1941,11 +1656,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050655100929",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1974,11 +1684,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050659196929",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2007,11 +1712,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050662555649",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2040,11 +1740,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050665766913",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2073,11 +1768,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050668765185",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2106,11 +1796,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050671878145",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2139,11 +1824,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050674745345",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2172,11 +1852,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050677792769",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2205,11 +1880,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776050680610817",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": 32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2238,11 +1908,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154346274817",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2271,11 +1936,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154349584385",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2304,11 +1964,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154352484353",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2337,11 +1992,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154355056641",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2370,11 +2020,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154357923841",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2403,11 +2048,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154360725505",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2436,11 +2076,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154363232257",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2469,11 +2104,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154366066689",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2502,11 +2132,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154368884737",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2535,11 +2160,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154371620865",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2568,11 +2188,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154374160385",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2601,11 +2216,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154376945665",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2634,11 +2244,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154379730945",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2667,11 +2272,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154382565377",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2700,11 +2300,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154385235969",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2733,11 +2328,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154388234241",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2766,11 +2356,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154391134209",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2799,11 +2384,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154393640961",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2832,11 +2412,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154396426241",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2865,11 +2440,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154399227905",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2898,10 +2468,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776154401996801",
-            "massCenter": {
-              "y": 2.1,
-              "z": 28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2929,10 +2495,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312213635073",
-            "massCenter": {
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2960,11 +2522,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312216715265",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2993,11 +2550,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312219271169",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3026,11 +2578,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312222056449",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3059,11 +2606,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312224563201",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3092,11 +2634,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312227381249",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3125,11 +2662,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312229855233",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3158,11 +2690,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312232624129",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3191,11 +2718,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312235360257",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3224,11 +2746,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312237867009",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3257,11 +2774,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312240619521",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3290,11 +2802,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312243093505",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3323,11 +2830,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312245829633",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3356,11 +2858,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312248565761",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3389,11 +2886,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312251056129",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3422,11 +2914,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312253825025",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3455,11 +2942,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312256331777",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3488,11 +2970,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312259117057",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3521,11 +2998,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312261623809",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3554,11 +3026,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312264392705",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3587,11 +3054,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776312267112449",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3620,11 +3082,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608579387393",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3653,11 +3110,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608582664193",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3686,11 +3138,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608585302017",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3719,11 +3166,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608588251137",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3752,11 +3194,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608591167489",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3785,11 +3222,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608593969153",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3818,11 +3250,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608596492289",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3851,10 +3278,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608599293953",
-            "massCenter": {
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3882,11 +3305,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608602226689",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3915,11 +3333,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608605028353",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3948,11 +3361,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608607600641",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3981,11 +3389,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608610385921",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4014,11 +3417,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608613138433",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4047,11 +3445,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608615940097",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4080,11 +3473,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608618496001",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4113,11 +3501,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608621264897",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4146,11 +3529,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608624132097",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4179,11 +3557,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608628113409",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4212,11 +3585,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608633389057",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4245,11 +3613,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608638861313",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4278,11 +3641,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776608644087809",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -20
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4311,11 +3669,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708357570561",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4344,11 +3697,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708369367041",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4377,10 +3725,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708379230209",
-            "massCenter": {
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4408,11 +3752,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708390780929",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4441,11 +3780,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708401184769",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4474,11 +3808,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708412506113",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4507,11 +3836,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708422909953",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4540,11 +3864,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708433985537",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4573,11 +3892,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708444192769",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4606,11 +3920,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708456071169",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4639,11 +3948,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708466999297",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4672,11 +3976,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708482711553",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4705,11 +4004,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708493295617",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4738,11 +4032,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708505042945",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4771,11 +4060,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708515086337",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4804,11 +4088,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708527095809",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4837,11 +4116,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708537696257",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4870,11 +4144,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708550017025",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4903,11 +4172,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708562518017",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4936,11 +4200,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708573528065",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4969,11 +4228,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776708584996865",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5002,11 +4256,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799615041537",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5035,11 +4284,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799618580481",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5068,11 +4312,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799621087233",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5101,11 +4340,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799623888897",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5134,11 +4368,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799626412033",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5167,11 +4396,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799629213697",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5200,11 +4424,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799631982593",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5233,11 +4452,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799634505729",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5266,11 +4480,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799637241857",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5299,11 +4508,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799639715841",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5332,11 +4536,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799642451969",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5365,11 +4564,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799644893185",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5398,11 +4592,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799647858689",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5431,11 +4620,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799650758657",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5464,11 +4648,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799653249025",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5497,11 +4676,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799656001537",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5530,11 +4704,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799658524673",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5563,11 +4732,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799661342721",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5596,11 +4760,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799664799745",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5629,11 +4788,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799668928513",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5662,10 +4816,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776799671975937",
-            "massCenter": {
-              "y": 2.1,
-              "z": -28
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5693,11 +4843,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891218739201",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5726,11 +4871,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891221819393",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5759,11 +4899,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891224408065",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5792,11 +4927,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891227258881",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5825,11 +4955,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891229995009",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5858,11 +4983,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891232698369",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5891,11 +5011,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891235500033",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5924,11 +5039,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891238236161",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5957,11 +5067,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891241070593",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5990,11 +5095,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891243610113",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6023,11 +5123,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891246444545",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6056,11 +5151,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891249360897",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6089,10 +5179,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891252195329",
-            "massCenter": {
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6120,11 +5206,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891254833153",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6153,11 +5234,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891257716737",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6186,11 +5262,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891260502017",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6219,11 +5290,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891263238145",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6252,11 +5318,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891265974273",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6285,11 +5346,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891268743169",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6318,11 +5374,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891271495681",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6351,11 +5402,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776891274051585",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": -32
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6384,11 +5430,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999069548545",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6417,11 +5458,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999072956417",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6450,11 +5486,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999075938305",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6483,11 +5514,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999078871041",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6516,11 +5542,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999081787393",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6549,11 +5570,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999084720129",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6582,11 +5598,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999087652865",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6615,10 +5626,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999090929665",
-            "massCenter": {
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6646,11 +5653,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999095861249",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6679,11 +5681,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999099269121",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6712,11 +5709,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999102349313",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6745,11 +5737,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999105413121",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6778,11 +5765,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999109246977",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6811,11 +5793,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999112327169",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6844,11 +5821,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999115243521",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6877,11 +5849,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999118209025",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6910,11 +5877,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999121158145",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6943,11 +5905,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999124189185",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -6976,11 +5933,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999127121921",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7009,11 +5961,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999130021889",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7042,11 +5989,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681776999132889089",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -36
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7075,11 +6017,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090869739521",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7108,11 +6045,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090872639489",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7141,11 +6073,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090875555841",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7174,10 +6101,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090878373889",
-            "massCenter": {
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7205,11 +6128,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090880913409",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7238,11 +6156,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090883731457",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7271,11 +6184,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090886238209",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7304,11 +6212,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090889056257",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7337,11 +6240,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090891890689",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7370,11 +6268,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090894446593",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7403,11 +6296,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090897264641",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7436,11 +6324,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090899755009",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7469,11 +6352,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090902523905",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7502,11 +6380,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090905047041",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7535,11 +6408,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090908323841",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7568,11 +6436,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090911125505",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7601,11 +6464,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090913697793",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7634,11 +6492,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090916515841",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7667,11 +6520,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090918989825",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7700,11 +6548,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090921857025",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7733,11 +6576,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681777090924380161",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7766,11 +6604,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778096297345025",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7799,11 +6632,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778096301228033",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7832,11 +6660,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778096304095233",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7865,11 +6688,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778096307109889",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7898,11 +6716,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778096309911553",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7931,11 +6744,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778096312958977",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7964,11 +6772,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778333591355393",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -7997,11 +6800,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778333594697729",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8030,11 +6828,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778333597630465",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8063,11 +6856,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778333600186369",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8096,11 +6884,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778333603053569",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8129,11 +6912,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778333605888001",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8162,11 +6940,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778430684921857",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8195,11 +6968,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778430688051201",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8228,11 +6996,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778430691098625",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8261,11 +7024,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778430693851137",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8294,11 +7052,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778430696882177",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8327,11 +7080,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778430699962369",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8360,11 +7108,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778548421951489",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8393,11 +7136,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778548425162753",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8426,11 +7164,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778548427964417",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8459,11 +7192,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778548430766081",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8492,11 +7220,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778548433502209",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8525,11 +7248,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778548436254721",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8558,10 +7276,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778642155716609",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8589,10 +7303,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778642159370241",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8620,10 +7330,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778642162712577",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8651,10 +7357,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778642165940225",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8682,10 +7384,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778642169036801",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8713,10 +7411,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778642172608513",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8744,11 +7438,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778724116086785",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8777,11 +7466,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778724119789569",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8810,11 +7494,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778724123181057",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8843,11 +7522,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778724126998529",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8876,11 +7550,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778724130406401",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8909,11 +7578,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778724134060033",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8942,11 +7606,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778816091340801",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -8975,11 +7634,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778816094617601",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9008,11 +7662,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778816097468417",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9041,11 +7690,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778816100220929",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9074,11 +7718,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778816102989825",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9107,11 +7746,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778816105742337",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9140,11 +7774,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778921947398145",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9173,11 +7802,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778921950838785",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9206,11 +7830,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778921953673217",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9239,11 +7858,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778921956638721",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9272,11 +7886,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778921959358465",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9305,11 +7914,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681778921963405313",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9338,11 +7942,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779051614306305",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9371,11 +7970,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779051617533953",
-            "massCenter": {
-              "x": 40,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9404,11 +7998,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779051620614145",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9437,11 +8026,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779051623383041",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9470,11 +8054,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779051626348545",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9503,11 +8082,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779051629133825",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9536,11 +8110,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779952121987073",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9569,11 +8138,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779952125149185",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9602,11 +8166,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779952129605633",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9635,11 +8194,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779952134635521",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9668,11 +8222,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779952137240577",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9701,11 +8250,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681779952140189697",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9734,11 +8278,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780157269491713",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9767,11 +8306,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780157272670209",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9800,11 +8334,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780157275471873",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9833,11 +8362,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780157278257153",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9866,11 +8390,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780157281009665",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9899,11 +8418,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780157283893249",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9932,11 +8446,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780230893928449",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9965,11 +8474,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780230897221633",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -9998,11 +8502,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780230900023297",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10031,11 +8530,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780230902824961",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10064,11 +8558,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780230905757697",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10097,11 +8586,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780230908657665",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10130,11 +8614,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780323062054913",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10163,11 +8642,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780323065233409",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10196,11 +8670,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780323067904001",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10229,11 +8698,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780323070771201",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10262,11 +8726,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780323073589249",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10295,11 +8754,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780323076325377",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": -4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10328,10 +8782,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780759070507009",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10359,10 +8809,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780759073882113",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10390,10 +8836,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780759076732929",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10421,10 +8863,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780759079256065",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10452,10 +8890,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780759082057729",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10483,10 +8917,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780759084564481",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10514,11 +8944,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780927486115841",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10547,11 +8972,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780927490179073",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10580,11 +9000,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780927493554177",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10613,11 +9028,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780927497109505",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10646,11 +9056,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780927500353537",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10679,11 +9084,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681780927503646721",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 4
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10712,11 +9112,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781018268745729",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10745,11 +9140,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781018271842305",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10778,11 +9168,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781018274660353",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10811,11 +9196,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781018277462017",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10844,11 +9224,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781018280247297",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10877,11 +9252,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781018283016193",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 8
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10910,11 +9280,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781139053330433",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10943,11 +9308,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781139056148481",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -10976,11 +9336,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781139058950145",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11009,11 +9364,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781139061735425",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11042,11 +9392,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781139066011649",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11075,11 +9420,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781139068649473",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 12
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11108,11 +9448,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781247393759233",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11141,11 +9476,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781247397478401",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11174,11 +9504,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781247400951809",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11207,11 +9532,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781247404064769",
-            "massCenter": {
-              "x": -40,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11240,11 +9560,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781247407669249",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11273,11 +9588,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781247410651137",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 16
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11306,11 +9616,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681781700576002049",
-            "massCenter": {
-              "x": -14.5,
-              "y": 2.0999999046326,
-              "z": -14.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11339,11 +9644,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681782099015663617",
-            "massCenter": {
-              "x": 14.5,
-              "y": 2.0999999046326,
-              "z": -14.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11372,11 +9672,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681782180224958465",
-            "massCenter": {
-              "x": 14.5,
-              "y": 2.0999999046326,
-              "z": 14.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11405,11 +9700,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681746313107537921",
-            "massCenter": {
-              "x": 36,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11438,11 +9728,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681746170904805377",
-            "massCenter": {
-              "x": 32,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11471,11 +9756,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681746097231937537",
-            "massCenter": {
-              "x": 28,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11504,11 +9784,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745854993793025",
-            "massCenter": {
-              "x": 24,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11537,11 +9812,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745763271311361",
-            "massCenter": {
-              "x": 20,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11570,11 +9840,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745685947809793",
-            "massCenter": {
-              "x": 16,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11603,11 +9868,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681737422231289857",
-            "massCenter": {
-              "x": -32,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11636,11 +9896,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681738359633870849",
-            "massCenter": {
-              "x": -20,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11669,11 +9924,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681739186108563457",
-            "massCenter": {
-              "x": -16,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11702,11 +9952,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681744912989634561",
-            "massCenter": {
-              "x": -8,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11735,11 +9980,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745022289248257",
-            "massCenter": {
-              "x": -4,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11768,10 +10008,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745132863193089",
-            "massCenter": {
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11799,11 +10035,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745369642024961",
-            "massCenter": {
-              "x": 4,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11832,11 +10063,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745581201915905",
-            "massCenter": {
-              "x": 12,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11865,11 +10091,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681745481799204865",
-            "massCenter": {
-              "x": 8,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11898,11 +10119,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681729753409077249",
-            "massCenter": {
-              "x": 14.5,
-              "y": 7.0999999046326,
-              "z": -9.25
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11931,11 +10147,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681730677267841025",
-            "massCenter": {
-              "x": -9.25,
-              "y": 7.0999999046326,
-              "z": -14.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11964,11 +10175,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681737422216593409",
-            "massCenter": {
-              "x": -28,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -11997,11 +10203,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681737422219837441",
-            "massCenter": {
-              "x": -24,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12030,11 +10231,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681737422222835713",
-            "massCenter": {
-              "x": -12,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12063,11 +10259,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681737422228553729",
-            "massCenter": {
-              "x": -36,
-              "y": 2.1,
-              "z": 24
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12096,11 +10287,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681730236069347329",
-            "massCenter": {
-              "x": 9.25,
-              "y": 7.0999999046326,
-              "z": 14.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12129,11 +10315,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727637527101441",
-            "massCenter": {
-              "x": -14.5,
-              "y": 7.0999999046326,
-              "z": 9.25
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12162,11 +10343,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151463809025",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12195,10 +10371,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961869570049",
-            "massCenter": {
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12226,11 +10398,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961876664321",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12259,11 +10426,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151435448321",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12292,11 +10454,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961872977921",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12325,11 +10482,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961880334337",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12358,11 +10510,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151438987265",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12391,11 +10538,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151445409793",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12424,11 +10566,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151441575937",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12457,10 +10594,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151452028929",
-            "massCenter": {
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12488,11 +10621,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961862197249",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12521,11 +10649,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961865900033",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12554,11 +10677,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681727151458271233",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1,
-              "z": -10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12587,11 +10705,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672604889089",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12620,11 +10733,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805408219137",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12653,11 +10761,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805411856385",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12686,11 +10789,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805415051265",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12719,11 +10817,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805417885697",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12752,11 +10845,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805421080577",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12785,10 +10873,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805423915009",
-            "massCenter": {
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12816,11 +10900,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726805427011585",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1,
-              "z": -7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12849,11 +10928,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726961858347009",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1,
-              "z": 10.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12882,10 +10956,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520324603905",
-            "massCenter": {
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12913,11 +10983,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520327618561",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12946,11 +11011,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520330633217",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -12979,11 +11039,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672587882497",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13012,11 +11067,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672591241217",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13045,11 +11095,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672594141185",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13078,10 +11123,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672596615169",
-            "massCenter": {
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13109,11 +11150,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672599498753",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13142,11 +11178,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726672601956353",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1,
-              "z": 7
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13175,48 +11206,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726199215325185",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1,
-              "z": 3.5
-            },
             "material": {
               "discardAlpha": 1
             },
             "name": "Color plate",
             "position": {
               "x": 7,
-              "y": 7.1,
-              "z": 3.5
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "53237967-f31f-41ea-83a8-669c62408c50",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681726199220600833",
-            "massCenter": {
-              "y": 7.1,
-              "z": 3.5
-            },
-            "material": {
-              "discardAlpha": 1
-            },
-            "name": "Color plate",
-            "position": {
               "y": 7.1,
               "z": 3.5
             },
@@ -13239,11 +11234,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726199223402497",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1,
-              "z": 3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13272,50 +11262,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726199218110465",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1,
-              "z": 3.5
-            },
             "material": {
               "discardAlpha": 1
             },
             "name": "Color plate",
             "position": {
               "x": 3.5,
-              "y": 7.1,
-              "z": 3.5
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "2653407d-7c51-484d-a949-9469b8c20849",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681726199212802049",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1,
-              "z": 3.5
-            },
-            "material": {
-              "discardAlpha": 1
-            },
-            "name": "Color plate",
-            "position": {
-              "x": -3.5,
               "y": 7.1,
               "z": 3.5
             },
@@ -13338,11 +11290,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726199209639937",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1,
-              "z": 3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13371,10 +11318,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681725943168647169",
-            "massCenter": {
-              "x": 10.5,
-              "y": 7.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13402,11 +11345,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726199226122241",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1,
-              "z": 3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13435,11 +11373,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520316149761",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13468,11 +11401,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520312938497",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13501,11 +11429,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520318967809",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13534,11 +11457,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681726520321851393",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1,
-              "z": -3.5
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13567,10 +11485,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681725550229946369",
-            "massCenter": {
-              "x": -10.5,
-              "y": 7.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13598,47 +11512,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681722993523884033",
-            "massCenter": {
-              "x": -7,
-              "y": 7.1
-            },
             "material": {
               "discardAlpha": 1
             },
             "name": "Color plate",
             "position": {
               "x": -7,
-              "y": 7.1
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "f62875b4-0e90-442a-affa-0ddd7250d2b9",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681722812473393153",
-            "massCenter": {
-              "x": -3.5,
-              "y": 7.1
-            },
-            "material": {
-              "discardAlpha": 1
-            },
-            "name": "Color plate",
-            "position": {
-              "x": -3.5,
               "y": 7.1
             },
             "restitution": 0.3,
@@ -13660,10 +11539,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681722552801017857",
-            "massCenter": {
-              "x": 7,
-              "y": 7.1
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -13691,45 +11566,12 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681722293073969153",
-            "massCenter": {
-              "x": 3.5,
-              "y": 7.1
-            },
             "material": {
               "discardAlpha": 1
             },
             "name": "Color plate",
             "position": {
               "x": 3.5,
-              "y": 7.1
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.1,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "7c04b4c4-9454-4c87-8f7d-6dea58ce5825",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681719806446567425",
-            "massCenter": {
-              "y": 7.1
-            },
-            "material": {
-              "discardAlpha": 1
-            },
-            "name": "Color plate",
-            "position": {
               "y": 7.1
             },
             "restitution": 0.3,
@@ -13761,13 +11603,10 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681752630652305409",
-            "massCenter": {
-              "y": 4.5
-            },
             "material": {
               "color": {
-                "b": 138,
-                "g": 189,
+                "b": 139,
+                "g": 190,
                 "r": 0
               }
             },
@@ -13793,15 +11632,9 @@
             "children": [
               {
                 "__OBJ_TYPE": "Instance_Part",
-                "btsKey": "7d3fb1e2-0363-4483-86a5-06bf494f3a6a",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8681765395804045313",
-                "massCenter": {
-                  "x": -0.12163925170898,
-                  "y": 4.5,
-                  "z": 49.272636413574
-                },
+                "id": "8681763332948049921",
                 "material": {
                   "color": {
                     "b": 138,
@@ -13810,9 +11643,9 @@
                   }
                 },
                 "position": {
-                  "x": -0.12163925170898,
+                  "x": -0.121639,
                   "y": 4.5,
-                  "z": 49.272636413574
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "scale": {
@@ -13829,15 +11662,9 @@
               {
                 "__OBJ_TYPE": "Instance_Part",
                 "booleanOperation": 2,
-                "btsKey": "f3207af9-552a-4230-b34a-23bc5000217d",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8681765395807338497",
-                "massCenter": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
-                },
+                "id": "8681763332952064001",
                 "material": {
                   "color": {
                     "b": 0,
@@ -13845,9 +11672,9 @@
                   }
                 },
                 "position": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
+                  "x": -3.82272,
+                  "y": 7.40844,
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "rotation": {
@@ -13868,14 +11695,10 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681765395802996737",
-            "massCenter": {
-              "x": -14.5,
-              "y": 4.4999995231628
-            },
             "material": {
               "color": {
-                "b": 138,
-                "g": 189,
+                "b": 139,
+                "g": 190,
                 "r": 0
               }
             },
@@ -13894,9 +11717,9 @@
               "z": 5
             },
             "size": {
-              "x": 23.999996185303,
-              "y": 4.9999985694885,
-              "z": 4.9999985694885
+              "x": 24,
+              "y": 5,
+              "z": 5
             },
             "useAnchor": true
           },
@@ -13906,15 +11729,9 @@
             "children": [
               {
                 "__OBJ_TYPE": "Instance_Part",
-                "btsKey": "7d3fb1e2-0363-4483-86a5-06bf494f3a6a",
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8681763332948049921",
-                "massCenter": {
-                  "x": -0.12163925170898,
-                  "y": 4.5,
-                  "z": 49.272636413574
-                },
                 "material": {
                   "color": {
                     "b": 138,
@@ -13923,9 +11740,9 @@
                   }
                 },
                 "position": {
-                  "x": -0.12163925170898,
+                  "x": -0.121639,
                   "y": 4.5,
-                  "z": 49.272636413574
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "scale": {
@@ -13942,15 +11759,9 @@
               {
                 "__OBJ_TYPE": "Instance_Part",
                 "booleanOperation": 2,
-                "btsKey": "f3207af9-552a-4230-b34a-23bc5000217d",
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8681763332952064001",
-                "massCenter": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -13958,9 +11769,9 @@
                   }
                 },
                 "position": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
+                  "x": -3.82272,
+                  "y": 7.40844,
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "rotation": {
@@ -13981,14 +11792,10 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681763333035098113",
-            "massCenter": {
-              "y": 4.4999995231628,
-              "z": 14.5
-            },
             "material": {
               "color": {
-                "b": 138,
-                "g": 189,
+                "b": 139,
+                "g": 190,
                 "r": 0
               }
             },
@@ -14004,9 +11811,9 @@
               "z": 5
             },
             "size": {
-              "x": 23.999996185303,
-              "y": 4.9999985694885,
-              "z": 4.9999985694885
+              "x": 24,
+              "y": 5,
+              "z": 5
             },
             "useAnchor": true
           },
@@ -14016,15 +11823,9 @@
             "children": [
               {
                 "__OBJ_TYPE": "Instance_Part",
-                "btsKey": "7d3fb1e2-0363-4483-86a5-06bf494f3a6a",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8681764599487414273",
-                "massCenter": {
-                  "x": -0.12163925170898,
-                  "y": 4.5,
-                  "z": 49.272636413574
-                },
+                "id": "8681763332948049921",
                 "material": {
                   "color": {
                     "b": 138,
@@ -14033,9 +11834,9 @@
                   }
                 },
                 "position": {
-                  "x": -0.12163925170898,
+                  "x": -0.121639,
                   "y": 4.5,
-                  "z": 49.272636413574
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "scale": {
@@ -14052,15 +11853,9 @@
               {
                 "__OBJ_TYPE": "Instance_Part",
                 "booleanOperation": 2,
-                "btsKey": "f3207af9-552a-4230-b34a-23bc5000217d",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8681764599490248705",
-                "massCenter": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
-                },
+                "id": "8681763332952064001",
                 "material": {
                   "color": {
                     "b": 0,
@@ -14068,9 +11863,9 @@
                   }
                 },
                 "position": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
+                  "x": -3.82272,
+                  "y": 7.40844,
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "rotation": {
@@ -14091,14 +11886,10 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681764599486431233",
-            "massCenter": {
-              "y": 4.4999995231628,
-              "z": -14.5
-            },
             "material": {
               "color": {
-                "b": 138,
-                "g": 189,
+                "b": 139,
+                "g": 190,
                 "r": 0
               }
             },
@@ -14117,9 +11908,9 @@
               "z": 5
             },
             "size": {
-              "x": 23.999996185303,
-              "y": 4.9999985694885,
-              "z": 4.9999985694885
+              "x": 24,
+              "y": 5,
+              "z": 5
             },
             "useAnchor": true
           },
@@ -14129,15 +11920,9 @@
             "children": [
               {
                 "__OBJ_TYPE": "Instance_Part",
-                "btsKey": "7d3fb1e2-0363-4483-86a5-06bf494f3a6a",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8681765083833614337",
-                "massCenter": {
-                  "x": -0.12163925170898,
-                  "y": 4.5,
-                  "z": 49.272636413574
-                },
+                "id": "8681763332948049921",
                 "material": {
                   "color": {
                     "b": 138,
@@ -14146,9 +11931,9 @@
                   }
                 },
                 "position": {
-                  "x": -0.12163925170898,
+                  "x": -0.121639,
                   "y": 4.5,
-                  "z": 49.272636413574
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "scale": {
@@ -14165,15 +11950,9 @@
               {
                 "__OBJ_TYPE": "Instance_Part",
                 "booleanOperation": 2,
-                "btsKey": "f3207af9-552a-4230-b34a-23bc5000217d",
                 "density": 2.2,
                 "friction": 0.37,
-                "id": "8681765083837038593",
-                "massCenter": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
-                },
+                "id": "8681763332952064001",
                 "material": {
                   "color": {
                     "b": 0,
@@ -14181,9 +11960,9 @@
                   }
                 },
                 "position": {
-                  "x": -3.8227195739746,
-                  "y": 7.4084424972534,
-                  "z": 49.272636413574
+                  "x": -3.82272,
+                  "y": 7.40844,
+                  "z": 49.2726
                 },
                 "restitution": 0.3,
                 "rotation": {
@@ -14204,14 +11983,10 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681765083832631297",
-            "massCenter": {
-              "x": 14.5,
-              "y": 4.4999995231628
-            },
             "material": {
               "color": {
-                "b": 138,
-                "g": 189,
+                "b": 139,
+                "g": 190,
                 "r": 0
               }
             },
@@ -14230,9 +12005,9 @@
               "z": 5
             },
             "size": {
-              "x": 23.999996185303,
-              "y": 4.9999985694885,
-              "z": 4.9999985694885
+              "x": 24,
+              "y": 5,
+              "z": 5
             },
             "useAnchor": true
           }
@@ -14262,10 +12037,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681785303919050753",
-            "massCenter": {
-              "x": 60,
-              "y": 30
-            },
             "position": {
               "x": 60,
               "y": 30
@@ -14289,10 +12060,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681788028913696769",
-            "massCenter": {
-              "x": 55,
-              "y": 32.5
-            },
             "material": {
               "alpha": 0
             },
@@ -14318,10 +12085,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681789055240126465",
-            "massCenter": {
-              "x": 65,
-              "y": 32.5
-            },
             "material": {
               "alpha": 0
             },
@@ -14347,11 +12110,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681789682157158401",
-            "massCenter": {
-              "x": 60,
-              "y": 32.5,
-              "z": 5.5
-            },
             "material": {
               "alpha": 0
             },
@@ -14378,11 +12136,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8681790783076843521",
-            "massCenter": {
-              "x": 60,
-              "y": 32.5,
-              "z": -5.5
-            },
             "material": {
               "alpha": 0
             },
@@ -14407,8 +12160,19 @@
         "id": "8681791225548275713",
         "name": "Start",
         "position": {
-          "x": 60.0,
+          "x": 60,
           "y": 32.449999809265
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2",
+        "id": "8681891328400375809",
+        "name": "Level2",
+        "position": {
+          "x": -1.6524282693863,
+          "y": 7.000009059906,
+          "z": 1.8286103010178
         }
       }
     ],
@@ -14419,7 +12183,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "74583c6eae8c8b0c37ce981f20d65d81"
+      "setting.json": "7852db01589894422555afe56b6eb771"
     },
     "VERSION": "0.21"
   }

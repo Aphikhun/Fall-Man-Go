@@ -1,0 +1,11 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetEntityRebirthPosition(
+		entity = $obj2,
+		map = GetPlayerMap(player = $obj2),
+		pos = {
+			x = 50.140003204346,
+			y = 20.140009918213,
+			z = -50.060607910156
+		}
+	)
+}
