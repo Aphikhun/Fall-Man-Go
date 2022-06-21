@@ -14407,7 +14407,7 @@
         "id": "8681791225548275713",
         "name": "Start",
         "position": {
-          "x": 60.0,
+          "x": 60,
           "y": 32.449999809265
         }
       }
@@ -14419,7 +14419,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "74583c6eae8c8b0c37ce981f20d65d81"
+      "setting.json": "3e3d67cd1cf9dee0f71cd0c5ebc98cd9"
     },
     "VERSION": "0.21"
   }
