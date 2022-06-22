@@ -140,7 +140,7 @@
         "lineVelocity": "x:0 y:0 z:0",
         "mass": "164.99996643066",
         "materialAlpha": "1.0",
-        "materialColor": "r:0.33333333333333 g:0.67058823529412 b:1.0 a:1.0",
+        "materialColor": "r:0.33333333333333 g:0.67450980392157 b:1.0 a:1.0",
         "materialOffset": "x:1 y:1 z:1.0",
         "materialTexture": "part_suliao.tga",
         "name": "Stage",

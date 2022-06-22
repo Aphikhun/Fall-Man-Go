@@ -79,7 +79,7 @@
         "id": "8682939661999669249",
         "material": {
           "color": {
-            "g": 171,
+            "g": 172,
             "r": 85
           }
         },
@@ -134,7 +134,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "d232de652c37d28dbf1cc764f9c804c2"
+      "setting.json": "4c8f9ef5a0ac51e5527f7d136502abe3"
     },
     "VERSION": "0.21"
   }

@@ -6,7 +6,7 @@ ENTITY_CLICK {
 		$maxPlayer = NumberFloor(p1 = 4)
 		$time_start = NumberFloor(p1 = 10)
 	}
-	ExecFunction(func_name = "Addplayer", npc = $obj1, Player = $obj2)
+	ExecFunction(0, func_name = "Addplayer", npc = $obj1, Player = $obj2)
 	SetEntityPosition(
 		entity = $obj2,
 		map = "604d24da-0c59-4780-8b25-d274668c9e8f",

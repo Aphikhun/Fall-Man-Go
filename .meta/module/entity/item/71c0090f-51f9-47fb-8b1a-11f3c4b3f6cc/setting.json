@@ -471,6 +471,11 @@
                         "__OBJ_TYPE": "T_Entity",
                         "action": "61519134-38a3-47f4-b884-39eec1976c13"
                       }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
                     }
                   ]
                 }
@@ -2403,8 +2408,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3c994b838c56641c2ce775125c4938a4",
-      "triggers.bts": "ee532e5356e2deb7aeab11d39c1c03e9"
+      "setting.json": "1fd1d5463d7c675fffde755408df50f8",
+      "triggers.bts": "99b9f71b50660f58e5e8769c8f52e74b"
     },
     "VERSION": "0.21"
   }
