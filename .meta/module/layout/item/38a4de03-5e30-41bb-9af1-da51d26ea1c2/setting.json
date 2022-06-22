@@ -1,0 +1,79 @@
+{
+  "data": {
+    "md5": "8162ad5b7fb18347425d914db8caa74d",
+    "path": "asset/match.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "ed56d378-ff81-4e22-b913-a38a8ac1f5d8"
+          },
+          "Image": {
+            "asset": "asset/Component/Icon/Icon_ColorIcon_Weapon_Battle_l.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 166.92435860636
+            },
+            "UDim_Y": {
+              "Offect": 146.34149199723
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font_size": 56,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "05b3420d-0038-4c9a-91d6-f6f4841bea35"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 277.20946288109
+            }
+          },
+          "Text": "MATCH",
+          "TextColours": {
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "9baf2e39-808e-4de5-a35e-68f0745de015"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "8162ad5b7fb18347425d914db8caa74d",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

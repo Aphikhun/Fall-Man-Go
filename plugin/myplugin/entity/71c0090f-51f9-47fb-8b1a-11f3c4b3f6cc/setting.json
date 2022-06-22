@@ -6,7 +6,7 @@
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
-  "autoMove": false,
+  "autoMove": true,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
   "avoidCliffHight": 5,

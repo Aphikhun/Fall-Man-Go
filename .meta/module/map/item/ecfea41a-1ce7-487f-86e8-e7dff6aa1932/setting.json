@@ -29,51 +29,109 @@
         "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc",
         "id": "8680986852948590593",
-        "name": "match",
+        "name": "Match",
         "position": {
-          "x": -2.9275968074799,
-          "y": 0.99989891052246,
-          "z": -0.42006492614746
+          "y": 2.5,
+          "z": 15
+        },
+        "rotation": {
+          "y": 180
         }
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "629b59ab-7291-4c14-89da-7d938f80758b",
+        "btsKey": "bc1b95cc-2612-457e-9605-0642a95c3932",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/jinengdian.png"
+            },
+            "id": "8682975287252271105"
+          }
+        ],
         "density": 2.2,
         "friction": 0.37,
-        "id": "8681858094248329217",
-        "position": {
-          "x": -7.1260051727295,
-          "y": 1.4999003410339,
-          "z": -4.7168292999268
+        "id": "8682934025699557377",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "y": 1.25
         },
-        "restitution": 0.3
+        "name": "Floor",
+        "position": {
+          "y": 1.25
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 50,
+          "y": 0.2,
+          "z": 50
+        },
+        "size": {
+          "x": 50,
+          "y": 0.2,
+          "z": 50
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "605959c8-3b6f-432d-a00f-cd796e01fcc0",
+        "btsKey": "489e3292-e641-4562-b009-a2608ddca826",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8681858119921647617",
-        "position": {
-          "x": 1.492604970932,
-          "y": 1.4998993873596,
-          "z": -4.1540193557739
+        "id": "8682939661999669249",
+        "massCenter": {
+          "y": 1.850147485733,
+          "z": 15
         },
-        "restitution": 0.3
+        "material": {
+          "color": {
+            "g": 170,
+            "r": 85
+          }
+        },
+        "name": "Stage",
+        "position": {
+          "y": 1.850147485733,
+          "z": 15
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 15,
+          "z": 5
+        },
+        "size": {
+          "x": 15,
+          "z": 5
+        }
       },
       {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0cf1461c-a889-462f-9f18-6649094600d6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8681858126062632961",
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/78bd0283-6172-46a7-a9a0-ae20a9275e25",
+        "id": "8682993821043245057",
+        "name": "demo01",
         "position": {
-          "x": 4.8064842224121,
-          "y": 1.4998998641968,
-          "z": 0.048546314239502
+          "x": 17,
+          "y": 1.3500137329102,
+          "z": 17
         },
-        "restitution": 0.3
+        "rotation": {
+          "y": 180
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/78bd0283-6172-46a7-a9a0-ae20a9275e25",
+        "id": "8682993884767027201",
+        "name": "demo01",
+        "position": {
+          "x": -17,
+          "y": 1.3500032424927,
+          "z": 17
+        },
+        "rotation": {
+          "y": 180
+        }
       }
     ],
     "name": {
@@ -83,7 +141,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "9d59bf930602c404f9a24866701bb4dc"
+      "setting.json": "1d38160d05cda04526ada1da3f20b5fe"
     },
     "VERSION": "0.21"
   }

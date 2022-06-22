@@ -1,0 +1,107 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Christmas Boy/Cool Boy In Christmas Costume.actor"
+    },
+    "canClick": true,
+    "girlactor": {
+      "asset": "asset/Actor/Christmas Boy/Cool Boy In Christmas Costume.actor"
+    },
+    "name": {
+      "value": "entity_9ffa6e2c-5d77-4338-a441-a0b7c66d5689"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0fd4f579-f520-4bd2-aed3-2ef3716162f7"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/a5c79327-9d7f-4ebf-80e3-6b37d40213ae"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c4b18497-854c-4d2e-853d-093d476708a3"
+              },
+              "pos": {
+                "x": 763,
+                "y": 307
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0fd4f579-f520-4bd2-aed3-2ef3716162f7"
+              },
+              "pos": {
+                "x": 1258,
+                "y": 303
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "94c0e378-380b-45d6-94fb-9d41eac3c71c"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c4b18497-854c-4d2e-853d-093d476708a3"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "23d92668-8313-4583-9af5-6a7e92268a37"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e79b412c931e213f7ac69e3a77979efe",
+      "triggers.bts": "6ef865bb8028ccd82ed9f7c30b0d2965"
+    },
+    "VERSION": "0.21"
+  }
+}

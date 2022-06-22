@@ -1,0 +1,20 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Orange Block Duck/g2040_monster_yellowduck.actor"
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Orange Block Duck/g2040_monster_yellowduck.actor"
+    },
+    "name": {
+      "value": "entity_78bd0283-6172-46a7-a9a0-ae20a9275e25"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a9e6f32cb5cd4e9f38e8043817acb382",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

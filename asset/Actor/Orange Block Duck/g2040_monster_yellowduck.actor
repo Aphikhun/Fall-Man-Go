@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2040_monster_yellowduck.actor" Originalscale="1 1 1" Skeleton="g2040_monster_duck.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1"  ThreadPriority="0">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="1" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2040_monster_duck_yellow.skin" ChangeColor = "0 0 0 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2040_monster_duck_attack.anim" BeginTime = "0" Times = "1" Length = "0.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="hurt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2040_monster_duck_hit.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2040_monster_duck_idle.anim" BeginTime = "0" Times = "-1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2040_monster_duck_walk.anim" BeginTime = "0" Times = "-1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2040_monster_duck_attack.anim"/>
+				<Anim Name="g2040_monster_duck_hit.anim"/>
+				<Anim Name="g2040_monster_duck_idle.anim"/>
+				<Anim Name="g2040_monster_duck_walk.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

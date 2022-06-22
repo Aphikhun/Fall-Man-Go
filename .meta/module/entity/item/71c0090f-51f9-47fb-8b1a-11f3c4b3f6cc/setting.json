@@ -9,6 +9,7 @@
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
+    "autoMove": true,
     "canClick": true,
     "girlactor": {
       "asset": "asset/Actor/Brunette Angel Boy/Angel Boy.actor"
@@ -2271,9 +2272,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": 10.093,
-                            "y": 1.0398989105225,
-                            "z": 9.0789794921875
+                            "y": 1.0398989105225
                           }
                         }
                       }
@@ -2404,8 +2403,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c4da3a50643e5711a3e9b2403c7161ab",
-      "triggers.bts": "ee6d7abfabc87f470a701463d7869610"
+      "setting.json": "1fd1d5463d7c675fffde755408df50f8",
+      "triggers.bts": "ee532e5356e2deb7aeab11d39c1c03e9"
     },
     "VERSION": "0.21"
   }
