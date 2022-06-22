@@ -26,6 +26,184 @@
         }
       },
       {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6fff2974-096b-4573-a335-ac3ddcbdd76c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/01.png"
+                },
+                "id": "8681787422738792449"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681785303919050753",
+            "massCenter": {
+              "x": 55,
+              "y": 1.0500050783157
+            },
+            "position": {
+              "x": 55,
+              "y": 1.0500050783157
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.2,
+              "z": 10
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 10
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "4abedf60-b4ee-4323-a7cc-966d21f99c40",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681788028913696769",
+            "massCenter": {
+              "x": 50,
+              "y": 3.5499997138977
+            },
+            "material": {
+              "alpha": 0
+            },
+            "name": "air wall",
+            "position": {
+              "x": 50,
+              "y": 3.5499997138977
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 5,
+              "z": 10
+            },
+            "size": {
+              "y": 5,
+              "z": 10
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "f0c7b58b-205c-474c-bf2a-586ca6c84d1d",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681789055240126465",
+            "massCenter": {
+              "x": 59.999996185303,
+              "y": 3.5499997138977
+            },
+            "material": {
+              "alpha": 0
+            },
+            "name": "air wall",
+            "position": {
+              "x": 59.999996185303,
+              "y": 3.5499997138977
+            },
+            "restitution": 0.3,
+            "scale": {
+              "y": 5,
+              "z": 10
+            },
+            "size": {
+              "y": 5,
+              "z": 10
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "25ffbe99-1b34-45bd-9fec-1e00ea13bd20",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681789682157158401",
+            "massCenter": {
+              "x": 55,
+              "y": 3.5499997138977,
+              "z": 5.5
+            },
+            "material": {
+              "alpha": 0
+            },
+            "name": "air wall",
+            "position": {
+              "x": 55,
+              "y": 3.5499997138977,
+              "z": 5.5
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 5
+            },
+            "size": {
+              "x": 10,
+              "y": 5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "629d1926-e572-4a0e-8efd-414dbad160eb",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681790783076843521",
+            "massCenter": {
+              "x": 55,
+              "y": 3.5499997138977,
+              "z": -5.5
+            },
+            "material": {
+              "alpha": 0
+            },
+            "name": "air wall",
+            "position": {
+              "x": 55,
+              "y": 3.5499997138977,
+              "z": -5.5
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 5
+            },
+            "size": {
+              "x": 10,
+              "y": 5
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8681791225548275713",
+        "name": "Start",
+        "position": {
+          "x": 55,
+          "y": 3.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2",
+        "id": "8682016031996428289",
+        "name": "Level2",
+        "position": {
+          "x": 55,
+          "y": 1.2
+        }
+      },
+      {
         "__OBJ_TYPE": "Instance_Part",
         "btsKey": "e939f19d-d826-4d60-8e06-d1da16d2f3df",
         "density": 2.2,
@@ -482,184 +660,6 @@
         "name": "Floor2",
         "position": {
           "y": 4.4999998807907
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Model",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "6fff2974-096b-4573-a335-ac3ddcbdd76c",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "decalSurface": "4",
-                "decalTexture": {
-                  "asset": "asset/Texture/Item/01.png"
-                },
-                "id": "8681787422738792449"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681785303919050753",
-            "massCenter": {
-              "x": 55,
-              "y": 52.550003051758
-            },
-            "position": {
-              "x": 55,
-              "y": 52.550003051758
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 10,
-              "y": 0.2,
-              "z": 10
-            },
-            "size": {
-              "x": 10,
-              "y": 0.2,
-              "z": 10
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "4abedf60-b4ee-4323-a7cc-966d21f99c40",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681788028913696769",
-            "massCenter": {
-              "x": 50,
-              "y": 55.049999237061
-            },
-            "material": {
-              "alpha": 0
-            },
-            "name": "air wall",
-            "position": {
-              "x": 50,
-              "y": 55.049999237061
-            },
-            "restitution": 0.3,
-            "scale": {
-              "y": 5,
-              "z": 10
-            },
-            "size": {
-              "y": 5,
-              "z": 10
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "f0c7b58b-205c-474c-bf2a-586ca6c84d1d",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681789055240126465",
-            "massCenter": {
-              "x": 59.999996185303,
-              "y": 55.049999237061
-            },
-            "material": {
-              "alpha": 0
-            },
-            "name": "air wall",
-            "position": {
-              "x": 59.999996185303,
-              "y": 55.049999237061
-            },
-            "restitution": 0.3,
-            "scale": {
-              "y": 5,
-              "z": 10
-            },
-            "size": {
-              "y": 5,
-              "z": 10
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "25ffbe99-1b34-45bd-9fec-1e00ea13bd20",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681789682157158401",
-            "massCenter": {
-              "x": 55,
-              "y": 55.049999237061,
-              "z": 5.5
-            },
-            "material": {
-              "alpha": 0
-            },
-            "name": "air wall",
-            "position": {
-              "x": 55,
-              "y": 55.049999237061,
-              "z": 5.5
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 10,
-              "y": 5
-            },
-            "size": {
-              "x": 10,
-              "y": 5
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "629d1926-e572-4a0e-8efd-414dbad160eb",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681790783076843521",
-            "massCenter": {
-              "x": 55,
-              "y": 55.049999237061,
-              "z": -5.5
-            },
-            "material": {
-              "alpha": 0
-            },
-            "name": "air wall",
-            "position": {
-              "x": 55,
-              "y": 55.049999237061,
-              "z": -5.5
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 10,
-              "y": 5
-            },
-            "size": {
-              "x": 10,
-              "y": 5
-            },
-            "useAnchor": true
-          }
-        ],
-        "id": "8681791225548275713",
-        "name": "Start",
-        "position": {
-          "x": 55,
-          "y": 55
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2",
-        "id": "8682016031996428289",
-        "name": "Level2",
-        "position": {
-          "x": 55,
-          "y": 52.5
         }
       },
       {
@@ -12333,7 +12333,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "f43d1e0e98d49c8d2eac3da67972bb49"
+      "setting.json": "224aa0dde27124c7959e10e3c329080b"
     },
     "VERSION": "0.21"
   }

@@ -9,7 +9,7 @@
     "initPos": {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "y": 1
+        "y": 2
       }
     },
     "nowTime": {
@@ -99,7 +99,7 @@
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
         "x": 0,
-        "y": 1,
+        "y": 2,
         "z": 0
       }
     },
@@ -207,7 +207,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b0b29d7b764b15a587826644cedc6415",
+      "setting.json": "ecd5ec98336962be9cfb87ccc193df41",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""

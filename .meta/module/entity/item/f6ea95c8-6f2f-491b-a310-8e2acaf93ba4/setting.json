@@ -3200,7 +3200,7 @@
                         "rawval": {
                           "pos": {
                             "x": 55,
-                            "y": 60
+                            "y": 2
                           }
                         }
                       }
@@ -4325,7 +4325,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "e9e8bad11e4635ca651d65f0a246c138",
-      "triggers.bts": "ae4e87ea3729f454a792a54fb9303831"
+      "triggers.bts": "287a7c7325d9d45ae3f05090acbcfc30"
     },
     "VERSION": "0.21"
   }

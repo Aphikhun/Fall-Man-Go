@@ -93,7 +93,7 @@
   "initPos": {
     "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
     "x": 0,
-    "y": 1,
+    "y": 2,
     "z": 0
   },
   "isTimeStopped": true,
@@ -230,7 +230,7 @@
     {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "x": 0,
-      "y": 1,
+      "y": 2,
       "z": 0
     }
   ],
