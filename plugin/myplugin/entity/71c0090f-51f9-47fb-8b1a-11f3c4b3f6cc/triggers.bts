@@ -4,15 +4,26 @@ ENTITY_CLICK {
 	}
 	Parallel {
 		$maxPlayer = NumberFloor(p1 = 4)
-		$time_start = NumberFloor(p1 = 10)
+		$time_start = NumberFloor(p1 = 15)
 	}
-	ExecFunction(0, func_name = "Addplayer", npc = $obj1, Player = $obj2)
+	ExecFunction(func_name = "Addplayer", npc = $obj1, Player = $obj2, stage = 0)
+	Foreach(array = $obj1.listPlayer, key = "i") {
+		ShowTip(
+			entity = $i,
+			keepTime = 100,
+			textKey = Concat(
+			p1 = ToString(ArraySize(array = $obj1.listPlayer, entity = $obj1)),
+			p2 = Concat(p1 = "/", p2 = ToString($maxPlayer))
+		),
+			tipType = "1"
+		)
+	}
 	SetEntityPosition(
 		entity = $obj2,
 		map = "604d24da-0c59-4780-8b25-d274668c9e8f",
 		pos = {
 			x = 0,
-			y = 1.0398989105225,
+			y = 2.04,
 			z = 0
 		},
 		rp = 0,
@@ -26,6 +37,17 @@ ENTITY_CLICK {
 			StartTimer2(interval = 20, time = $time_start, timer = "game_start") {
 				Foreach(array = $obj1.listPlayer, key = "i") {
 					ShowTip(entity = $i, keepTime = 40, textKey = Concat(p1 = "Start in ", p2 = ToString($obj1.time)), tipType = "1")
+				}
+				Foreach(array = $obj1.listPlayer, key = "i") {
+					ShowTip(
+						entity = $i,
+						keepTime = 100,
+						textKey = Concat(
+						p1 = ToString(ArraySize(array = $obj1.listPlayer, entity = $obj1)),
+						p2 = Concat(p1 = "/", p2 = ToString($maxPlayer))
+					),
+						tipType = "3"
+					)
 				}
 				$obj1.time = $obj1.time - 1
 				If ($obj1.time <= 0 or ArraySize(array = $obj1.listPlayer, entity = $obj1) >= $maxPlayer) {

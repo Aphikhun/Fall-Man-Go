@@ -39,18 +39,28 @@ ENTITY_TOUCH_ALL {
 							ShowTip(entity = $playerDisplay, keepTime = 100, textKey = ToString($npc.time), tipType = "1")
 						}
 						Parallel {
-							$maxWin = ArraySize(
+							$maxWin = NumberCeil(
+								p1 = ArraySize(
 									array = $npc.listPlayer,
 									entity = $npc
 								) - ArraySize(
 										array = $npc.listPlayer,
 										entity = $npc
 									) * 0.5
+							)
 							$winNum = NumberFloor(p1 = 0)
 							Foreach(array = $npc.listPlayer, key = "i") {
 								If ($i.WinStage) {
 									$winNum = $winNum + 1
 								}
+							}
+							Foreach(array = $npc.listPlayer, key = "i") {
+								ShowTip(
+									entity = $i,
+									keepTime = 100,
+									textKey = Concat(p1 = ToString($winNum), p2 = Concat(p1 = "/", p2 = $maxWin)),
+									tipType = "3"
+								)
 							}
 						}
 						If ($npc.time == 0 or $winNum >= $maxWin) {

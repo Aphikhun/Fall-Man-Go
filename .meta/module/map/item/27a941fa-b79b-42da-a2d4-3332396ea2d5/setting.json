@@ -3726,7 +3726,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 172,
+                "g": 173,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3773,7 +3773,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 172,
+                "g": 173,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3828,7 +3828,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 172,
+                "g": 173,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3875,7 +3875,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 172,
+                "g": 173,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3922,7 +3922,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 172,
+                "g": 173,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3969,7 +3969,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 172,
+                "g": 173,
                 "r": 85
               },
               "discardAlpha": 1
@@ -5100,7 +5100,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "6a39da6c23593def091fb3fd9e3371cd"
+      "setting.json": "72dedfea26644cb58644031dfff874e8"
     },
     "VERSION": "0.21"
   }

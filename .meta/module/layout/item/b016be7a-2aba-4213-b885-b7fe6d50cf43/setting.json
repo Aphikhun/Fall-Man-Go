@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "dc9fa2c4ca3c03d025cf8aad0b391d7d",
+    "md5": "68b612cf8a00d6a3e78018b1257898a6",
     "path": "asset/test.layout",
     "root": {
       "anchor": {
@@ -15,7 +15,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "89441e62-2f88-42bc-94fc-2a0dd43556b5"
+            "value": "f16dab6e-7c62-42d4-8836-754d5e329b0b"
           },
           "pos": {
             "UDim_X": {
@@ -37,7 +37,7 @@
         {
           "__OBJ_TYPE": "Button",
           "id": {
-            "value": "dc239711-7c52-4af9-ac59-1d53af4446cf"
+            "value": "4660b779-b4be-4f8e-b9f5-2b3ba2984b0c"
           },
           "pos": {
             "UDim_X": {
@@ -51,7 +51,7 @@
         {
           "__OBJ_TYPE": "Button",
           "id": {
-            "value": "8e52deb9-1ee1-42d5-b676-94c402e9c7b0"
+            "value": "eef09822-2a89-4c96-8217-d85cfca7db0b"
           },
           "name": "Button1",
           "pos": {
@@ -70,13 +70,13 @@
         }
       ],
       "id": {
-        "value": "68b791e5-ca7a-4286-a804-b4d8cef601f8"
+        "value": "48c9f027-937c-41a0-8109-374c0ce487a6"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "dc9fa2c4ca3c03d025cf8aad0b391d7d"
+      "layout": "68b612cf8a00d6a3e78018b1257898a6"
     },
     "VERSION": "0.21"
   }
