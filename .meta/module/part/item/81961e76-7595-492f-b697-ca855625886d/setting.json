@@ -1258,7 +1258,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_ArrayObjectVar",
-                        "rawval": "platform1"
+                        "rawval": "platform2"
                       }
                     },
                     {
@@ -1803,7 +1803,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "de4bafed068a55e46a38a6897601aa4a"
+      "triggers.bts": "4f7c5344b7f040f4bdee8aa04f71d149"
     },
     "VERSION": "0.21"
   }

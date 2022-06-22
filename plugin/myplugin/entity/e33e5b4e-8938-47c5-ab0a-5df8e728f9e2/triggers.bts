@@ -3,9 +3,9 @@ ENTITY_TOUCH_ALL {
 		$curPlayer = $obj2
 		$localEntity = $obj1
 		If (not $localEntity.isTime) {
-			$timeInGame = NumberFloor(p1 = 300)
-			$timeStart = NumberFloor(p1 = 5)
-			$mapIn = CreateDuplication(name = "06c5de00-572a-4157-8cc8-bdda31d12163")
+			$timeInGame = NumberFloor(p1 = 15)
+			$timeStart = NumberFloor(p1 = 10)
+			$mapIn = CreateDuplication(name = "5b3b47b8-2434-41bf-822b-ab260f7a13ee")
 		}
 		If (IsPlayer(entity = $curPlayer)) {
 			If (not ExecScript(listPlayer = $localEntity.listPlayer, player = $curPlayer, script_name = "ScriptableNode_2")) {
@@ -87,38 +87,73 @@ ENTITY_TOUCH_ALL {
 						ShowTip(entity = $i, keepTime = 20, textKey = ToString($localEntity.time), tipType = "1")
 					}
 					$localEntity.time = $localEntity.time - 1
-					If ($localEntity.time <= 0) {
+					If ($localEntity.time == 0) {
 						Parallel {
-							$numPlatforn1 = ArraySize(
+							$numPlatform1 = ArraySize(
 								array = $localEntity.platform1,
 								entity = $localEntity
 							)
-							$numPlatforn2 = ArraySize(
+							$numPlatform2 = ArraySize(
 								array = $localEntity.platform2,
 								entity = $localEntity
 							)
+							Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
+								ShowTip(
+									entity = $playerTeam,
+									keepTime = 200,
+									textKey = Concat(
+									p1 = Concat(p1 = "Score Team1 :", p2 = ToString($numPlatform1)),
+									p2 = Concat(p1 = " Score Team2 :", p2 = ToString($numPlatform2))
+								),
+									tipType = "3"
+								)
+							}
 						}
 												If ($numPlatform1 > $numPlatform2) {
-							Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
-								If ($playerTeam.team == 1) {
-									$playerTeam.WinStage = true
+							Foreach(array = $localEntity.listPlayer, key = "playerTeam1") {
+								If ($playerTeam1.team == 1) {
+									$playerTeam1.WinStage = true
 								}
+								ShowTip(entity = $playerTeam1, keepTime = 100, textKey = "9034ab43-660b-427d-a97e-6f0dfb15978e", tipType = "1")
 							}
-						} ElseIf ($numPlatform1 < $numPlatform2) {
-							Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
-								If ($playerTeam.team == 2) {
-									$playerTeam.WinStage = true
+						} ElseIf ($numPlatform2 > $numPlatform1) {
+							Foreach(array = $localEntity.listPlayer, key = "playerTeam1") {
+								If ($playerTeam1.team == 2) {
+									$playerTeam1.WinStage = true
 								}
+								ShowTip(entity = $playerTeam1, keepTime = 100, textKey = "63c08e87-4042-4202-a888-5ba8975d2b77", tipType = "4")
 							}
 						}
 						$localEntity.GameWin = true
 					}
 					If ($localEntity.GameWin) {
-						Foreach(array = $winPlayer.listPlayer, key = "winPlayer") {
+						Foreach(array = $localEntity.listPlayer, key = "winPlayer") {
 														If ($winPlayer.WinStage) {
-								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "9a38abd5-be10-4b86-8385-ccd0ae952553", tipType = "4")
+								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "9a38abd5-be10-4b86-8385-ccd0ae952553", tipType = "1")
+								EnterDuplication(
+									entity = $winPlayer,
+									map = $mapIn,
+									pos = {
+										x = 0.0808926820755,
+										y = 60.140002288818,
+										z = -50.213966369629
+									},
+									rp = 0,
+									ry = 0
+								)
 							} ElseIf (true) {
 								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "b9d0ba33-6668-421c-873f-0e128a2cffc6", tipType = "1")
+								EnterMap(
+									entity = $winPlayer,
+									map = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+									pos = {
+										x = -1.1268243789673,
+										y = 1.3900108718872,
+										z = -6.1367263793945
+									},
+									rp = 0,
+									ry = 0
+								)
 							}
 						}
 					}

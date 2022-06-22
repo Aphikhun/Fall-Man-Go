@@ -6,12 +6,37 @@ ENTITY_LEAVE {
 	If (not IsNil(data = $obj1.curNpcPlayer) and IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, entity = $obj1.curNpcPlayer, value = $obj1)) {
 		ArrayRemove(
 			array = $obj1.curNpcPlayer.listPlayer,
-			entity = $obj1.curNpcPlayer,
 			index = ArrayFind(
 			array = $obj1.curNpcPlayer.listPlayer,
 			entity = $obj1.curNpcPlayer,
 			value = $obj1
+		),
+			entity = $obj1.curNpcPlayer
 		)
-		)
+	}
+}
+
+ENTITY_DIE {
+	If ($obj1.stagePlayer == 3) {
+		If (IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, entity = $obj1.curNpcPlayer, value = $obj1)) {
+			ArrayRemove(
+				array = $obj1.curNpcPlayer.listPlayer,
+				index = ArrayFind(
+				array = $obj1.curNpcPlayer.listPlayer,
+				entity = $obj1.curNpcPlayer,
+				value = $obj1
+			),
+				entity = $obj1.curNpcPlayer
+			)
+			SetEntityRebirthPosition(
+				entity = $obj1,
+				map = GetStaticMap(create = true, name = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932"),
+				pos = {
+					x = -0.50702720880508,
+					y = 1.3900022888184,
+					z = -3.7977905273438
+				}
+			)
+		}
 	}
 }

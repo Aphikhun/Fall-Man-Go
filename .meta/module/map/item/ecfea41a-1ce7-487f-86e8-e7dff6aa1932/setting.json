@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 142,
+          "b": 143,
           "g": 133
         },
         "skyLineColor": {
-          "g": 61,
+          "g": 62,
           "r": 62
         }
       },
@@ -55,9 +55,6 @@
         "friction": 0.37,
         "id": "8682934025699557377",
         "isLockedInEditor": true,
-        "massCenter": {
-          "y": 1.25
-        },
         "name": "Floor",
         "position": {
           "y": 1.25
@@ -80,13 +77,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8682939661999669249",
-        "massCenter": {
-          "y": 1.850147485733,
-          "z": 15
-        },
         "material": {
           "color": {
-            "g": 170,
+            "g": 171,
             "r": 85
           }
         },
@@ -141,7 +134,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "1d38160d05cda04526ada1da3f20b5fe"
+      "setting.json": "d232de652c37d28dbf1cc764f9c804c2"
     },
     "VERSION": "0.21"
   }

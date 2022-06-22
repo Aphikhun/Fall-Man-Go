@@ -698,8 +698,8 @@
                 "value": "a310c34c-cc56-4135-8e6b-8b55f1ef3ac3"
               },
               "pos": {
-                "x": 1398,
-                "y": 1288
+                "x": 1401.2577892536,
+                "y": 1288.0
               }
             },
             {
@@ -721,7 +721,7 @@
                 "value": "6d9ef608-8df9-422b-b488-df1a7005bf6a"
               },
               "pos": {
-                "x": 1830.9489979088,
+                "x": 1834.2067871624,
                 "y": 1291.3087913448
               }
             },
@@ -821,7 +821,7 @@
                 "value": "dcfd8326-5d80-4272-a65f-4279a33993b2"
               },
               "pos": {
-                "x": 1795.9725,
+                "x": 1799.2302892536,
                 "y": 1587.6
               }
             },
@@ -859,7 +859,7 @@
                 "value": "f8be32b2-6a13-4287-8014-ba05edc738ac"
               },
               "pos": {
-                "x": 1985.155103282,
+                "x": 1986.7839979088,
                 "y": 1679.970309846
               }
             },
@@ -893,7 +893,7 @@
                 "value": "0a42df19-257a-4e97-a58e-84492de9661b"
               },
               "pos": {
-                "x": 2178.1920247749,
+                "x": 2179.8209194017,
                 "y": 1585.3160020912
               }
             },
@@ -1186,7 +1186,7 @@
                 "value": "f72177b2-8983-4f75-a71e-e516c0a8e5b9"
               },
               "pos": {
-                "x": 2541.8517643309,
+                "x": 2543.4806589577,
                 "y": 1640.9569408059
               },
               "type": "T_Int"
@@ -3117,6 +3117,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Map",
+                        "action": "a8a783a0-bf5e-42d0-992a-68ce4bd2f7cd",
                         "rawval": "27a941fa-b79b-42da-a2d4-3332396ea2d5"
                       }
                     },
@@ -3172,8 +3173,8 @@
                 "value": "597eeeae-ef3d-47d5-b967-a19c99e20e9c"
               },
               "pos": {
-                "x": 1484.574562845,
-                "y": 2632.2122721411
+                "x": 1515.3606712911,
+                "y": 2580.9020913976
               }
             },
             {
@@ -4161,129 +4162,148 @@
                 "value": "a5e9339a-e2a7-457c-9076-b622f3da85d2"
               },
               "pos": {
-                "x": 2216.0888109776,
+                "x": 2219.3466002312,
                 "y": 1431.8630701852
               }
             },
             {
-              "__OBJ_TYPE": "Node_CollapseGraph",
-              "actions": [
+              "__OBJ_TYPE": "Action_GetEntityMap",
+              "components": [
                 {
-                  "__OBJ_TYPE": "Action_Function",
-                  "components": [
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
                     {
-                      "__OBJ_TYPE": "Component_Params",
-                      "params": [
-                        {
-                          "value": {
-                            "__OBJ_TYPE": "T_String",
-                            "rawval": "Addplayer"
-                          }
-                        },
-                        {
-                          "key": "npc",
-                          "value": {
-                            "__OBJ_TYPE": "T_Var",
-                            "action": "4635f1d2-d840-4184-a818-4b1996811b47"
-                          }
-                        },
-                        {
-                          "key": "Player",
-                          "value": {
-                            "__OBJ_TYPE": "T_Entity",
-                            "action": "cb432167-3792-4e90-aa8d-b7d3bb1f3cce"
-                          }
-                        }
-                      ]
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0d253e30-9d13-4c18-958f-bdbcc1ca7b41"
+                      }
                     }
-                  ],
-                  "func_declare_id": "c0187b86069_79e73bdc-2c73-4fba-92b5-2fb66d125abc",
-                  "func_name": "Addplayer",
-                  "id": {
-                    "value": "30431394-42f1-4104-8d1a-401e2c0eb18e"
-                  },
-                  "pos": {
-                    "x": 1064,
-                    "y": 662
-                  },
-                  "type": "T_Void"
-                },
-                {
-                  "__OBJ_TYPE": "Action_GetUserContextVar",
-                  "components": [
-                    {
-                      "__OBJ_TYPE": "Component_Params",
-                      "params": [
-                        {
-                          "value": {
-                            "__OBJ_TYPE": "T_String",
-                            "rawval": "player"
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "id": {
-                    "value": "cb432167-3792-4e90-aa8d-b7d3bb1f3cce"
-                  },
-                  "pos": {
-                    "x": 1410,
-                    "y": 747
-                  }
-                },
-                {
-                  "__OBJ_TYPE": "Action_GetUserContextVar",
-                  "components": [
-                    {
-                      "__OBJ_TYPE": "Component_Params",
-                      "params": [
-                        {
-                          "value": {
-                            "__OBJ_TYPE": "T_String",
-                            "rawval": "npc"
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "id": {
-                    "value": "4635f1d2-d840-4184-a818-4b1996811b47"
-                  },
-                  "pos": {
-                    "x": 1404,
-                    "y": 650
-                  }
+                  ]
                 }
               ],
-              "export_node": {
-                "id": {
-                  "value": "32312464-6fdd-4141-85f7-b2cb99ad60da"
-                },
-                "ports": [
-                  {
-                    "id": "30431394-42f1-4104-8d1a-401e2c0eb18e",
-                    "name": {
-                      "value": "5766ed21-e13e-41e7-abd3-58462ffb934f"
-                    },
-                    "type": "T_Void"
-                  }
-                ]
-              },
               "id": {
-                "value": "aa8f7c8a-c2d5-45de-bb92-71f86d879639"
-              },
-              "import_node": {
-                "id": {
-                  "value": "5e78b1b4-2871-40b1-9b18-b25dd5bbbbf4"
-                }
-              },
-              "name": {
-                "value": "e3f9189c-75fe-4704-a7a0-3d996f68d297"
+                "value": "a8a783a0-bf5e-42d0-992a-68ce4bd2f7cd"
               },
               "pos": {
-                "x": 1414,
-                "y": 697.5
+                "x": 1479.4435447706,
+                "y": 2688.6534709588
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "npc"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0d253e30-9d13-4c18-958f-bdbcc1ca7b41"
+              },
+              "pos": {
+                "x": 1532.4640648722,
+                "y": 2801.5358685945
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "player"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "cb432167-3792-4e90-aa8d-b7d3bb1f3cce"
+              },
+              "pos": {
+                "x": 2920.1539436225,
+                "y": 602.69066518343
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "npc"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4635f1d2-d840-4184-a818-4b1996811b47"
+              },
+              "pos": {
+                "x": 2914.1539436225,
+                "y": 505.69066518343
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Addplayer"
+                      }
+                    },
+                    {
+                      "key": "npc",
+                      "value": {
+                        "__OBJ_TYPE": "T_Var",
+                        "action": "4635f1d2-d840-4184-a818-4b1996811b47"
+                      }
+                    },
+                    {
+                      "key": "Player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "cb432167-3792-4e90-aa8d-b7d3bb1f3cce"
+                      }
+                    },
+                    {
+                      "key": "stage",
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c0187b86069_79e73bdc-2c73-4fba-92b5-2fb66d125abc",
+              "func_name": "Addplayer",
+              "id": {
+                "value": "c3cd29a7-5cfc-4347-9be9-b56516d88c1e"
+              },
+              "pos": {
+                "x": 2515.4559558592,
+                "y": 573.23733926626
+              },
+              "type": "T_Void"
             }
           ],
           "custom_trigger_data": {
@@ -4301,7 +4321,7 @@
                     "action": "463c27cb-2db0-448e-9bd5-de75c1dd920b"
                   },
                   {
-                    "action": "30431394-42f1-4104-8d1a-401e2c0eb18e"
+                    "action": "c3cd29a7-5cfc-4347-9be9-b56516d88c1e"
                   },
                   {
                     "action": "48d376c5-1d63-4ae0-9d86-0fd68a037ac3"
@@ -4325,7 +4345,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "e9e8bad11e4635ca651d65f0a246c138",
-      "triggers.bts": "287a7c7325d9d45ae3f05090acbcfc30"
+      "triggers.bts": "12dc64b0ecdd1c95bb741d3c51c2ceb5"
     },
     "VERSION": "0.21"
   }

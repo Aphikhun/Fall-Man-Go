@@ -34,10 +34,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8683059000680349697",
-            "massCenter": {
-              "x": 8,
-              "y": 42.5
-            },
             "material": {
               "alpha": 0
             },
@@ -62,10 +58,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8683061475949182977",
-            "massCenter": {
-              "x": -8,
-              "y": 42.5
-            },
             "material": {
               "alpha": 0
             },
@@ -90,10 +82,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8683061624514379777",
-            "massCenter": {
-              "y": 42.5,
-              "z": 8
-            },
             "material": {
               "alpha": 0
             },
@@ -118,10 +106,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8683061852990717953",
-            "massCenter": {
-              "y": 42.5,
-              "z": -8
-            },
             "material": {
               "alpha": 0
             },
@@ -156,9 +140,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8680974280741158913",
-            "massCenter": {
-              "y": 40
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -3745,7 +3726,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 170,
+                "g": 171,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3792,7 +3773,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 170,
+                "g": 171,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3847,7 +3828,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 170,
+                "g": 171,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3894,7 +3875,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 170,
+                "g": 171,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3941,7 +3922,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 170,
+                "g": 171,
                 "r": 85
               },
               "discardAlpha": 1
@@ -3988,7 +3969,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 170,
+                "g": 171,
                 "r": 85
               },
               "discardAlpha": 1
@@ -4014,7 +3995,6 @@
           }
         ],
         "id": "8676265879288201217",
-        "isLockedInEditor": true,
         "name": "Zone07",
         "position": {
           "x": -50.711029052734,
@@ -4645,7 +4625,6 @@
         "__OBJ_TYPE": "Instance_RegionPart",
         "cfgName": "myplugin/9872f044-8e5d-4750-a58b-dfb738e31bd8",
         "id": "8676287729812389889",
-        "isLockedInEditor": true,
         "position": {
           "y": 10
         },
@@ -4677,11 +4656,6 @@
             "friction": 0.37,
             "id": "8676269739720753153",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -50,
-              "y": 20.599998474121,
-              "z": -33.336490631104
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4705,11 +4679,6 @@
             "friction": 0.37,
             "id": "8676271689496018945",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -50,
-              "y": 20.599998474121,
-              "z": -36.379489898682
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4733,11 +4702,6 @@
             "friction": 0.37,
             "id": "8676271898735820801",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -50,
-              "y": 20.599998474121,
-              "z": -39.616539001465
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4807,11 +4771,6 @@
             "friction": 0.37,
             "id": "8676285113727942657",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -50,
-              "y": 20.599998474121,
-              "z": -30.458484649658
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4835,11 +4794,6 @@
             "friction": 0.37,
             "id": "8681986898612158465",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -53,
-              "y": 20.599998474121,
-              "z": -33.336490631104
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4863,11 +4817,6 @@
             "friction": 0.37,
             "id": "8681986898615681025",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -53,
-              "y": 20.599998474121,
-              "z": -42.624523162842
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4891,11 +4840,6 @@
             "friction": 0.37,
             "id": "8681986898619219969",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -53,
-              "y": 20.599998474121,
-              "z": -30.458484649658
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4919,11 +4863,6 @@
             "friction": 0.37,
             "id": "8681986898622578689",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -53,
-              "y": 20.599998474121,
-              "z": -27.703489303589
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4947,11 +4886,6 @@
             "friction": 0.37,
             "id": "8681986898627641345",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -53,
-              "y": 20.599998474121,
-              "z": -36.379489898682
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -4975,11 +4909,6 @@
             "friction": 0.37,
             "id": "8681986898632310785",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -53,
-              "y": 20.599998474121,
-              "z": -39.616539001465
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5003,11 +4932,6 @@
             "friction": 0.37,
             "id": "8681987214037663745",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -47,
-              "y": 20.599998474121,
-              "z": -42.624523162842
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5031,11 +4955,6 @@
             "friction": 0.37,
             "id": "8681987214041890817",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -47,
-              "y": 20.599998474121,
-              "z": -39.616539001465
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5059,11 +4978,6 @@
             "friction": 0.37,
             "id": "8681987214045888513",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -47,
-              "y": 20.599998474121,
-              "z": -36.379489898682
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5087,11 +5001,6 @@
             "friction": 0.37,
             "id": "8681987214049017857",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -47,
-              "y": 20.599998474121,
-              "z": -30.458484649658
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5115,11 +5024,6 @@
             "friction": 0.37,
             "id": "8681987214052458497",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -47,
-              "y": 20.599998474121,
-              "z": -33.336490631104
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5143,11 +5047,6 @@
             "friction": 0.37,
             "id": "8681987214055620609",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -47,
-              "y": 20.599998474121,
-              "z": -27.703489303589
-            },
             "material": {
               "color": {
                 "g": 174,
@@ -5166,7 +5065,6 @@
           }
         ],
         "id": "8681990135965958145",
-        "isLockedInEditor": true,
         "name": "Zone09",
         "position": {
           "x": -50,
@@ -5202,7 +5100,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "bee89eaff49a7d4e28405ed3a33597d5"
+      "setting.json": "cb0a67561232c8f96e549bacbdc5be79"
     },
     "VERSION": "0.21"
   }

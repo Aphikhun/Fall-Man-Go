@@ -5,12 +5,12 @@ PART_TOUCH_ENTITY_BEGIN {
 				If (IsValueInArray(array = $obj2.curNpcPlayer.platform2, entity = $obj2.curNpcPlayer, value = $part1)) {
 					ArrayRemove(
 						array = $obj2.curNpcPlayer.platform2,
-						entity = $obj2.curNpcPlayer,
 						index = ArrayFind(
 						array = $obj2.curNpcPlayer.platform2,
 						entity = $obj2.curNpcPlayer,
 						value = $part1
-					)
+					),
+						entity = $obj2.curNpcPlayer
 					)
 				}
 				ArrayAppend(
@@ -25,12 +25,12 @@ PART_TOUCH_ENTITY_BEGIN {
 				If (IsValueInArray(array = $obj2.curNpcPlayer.platform2, entity = $obj2.curNpcPlayer, value = $part1)) {
 					ArrayRemove(
 						array = $obj2.curNpcPlayer.platform2,
-						entity = $obj2.curNpcPlayer,
 						index = ArrayFind(
-						array = $obj2.curNpcPlayer.platform1,
+						array = $obj2.curNpcPlayer.platform2,
 						entity = $obj2.curNpcPlayer,
 						value = $part1
-					)
+					),
+						entity = $obj2.curNpcPlayer
 					)
 				}
 				ArrayAppend(
