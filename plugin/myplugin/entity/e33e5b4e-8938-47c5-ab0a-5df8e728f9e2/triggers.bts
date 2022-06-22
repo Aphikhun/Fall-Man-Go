@@ -3,7 +3,7 @@ ENTITY_TOUCH_ALL {
 		$curPlayer = $obj2
 		$localEntity = $obj1
 		If (not $localEntity.isTime) {
-			$timeInGame = NumberFloor(p1 = 12)
+			$timeInGame = NumberFloor(p1 = 300)
 			$timeStart = NumberFloor(p1 = 5)
 			$mapIn = CreateDuplication(name = "06c5de00-572a-4157-8cc8-bdda31d12163")
 		}
@@ -55,14 +55,26 @@ ENTITY_TOUCH_ALL {
 			$localEntity.time = $localEntity.time - 1
 			If ($localEntity.time <= 0) {
 				Foreach(array = $localEntity.listPlayer, key = "k") {
-					EnterDuplication(
+					SetEntityPosition(
 						entity = $k,
 						map = GetPlayerMap(player = $obj1),
-						pos = {
-							x = -1.9964361190796,
-							y = 7.0400114440918,
-							z = 2.1327319145203
-						},
+						pos = GetRandomPosInArea(
+						region = {
+							map = "",
+							max = {
+								__OBJ_TYPE = "Vector3i",
+								x = 40,
+								y = 10,
+								z = -40
+							},
+							min = {
+								__OBJ_TYPE = "Vector3i",
+								x = -40,
+								y = 10,
+								z = -40
+							}
+						}
+					),
 						rp = 0,
 						ry = 0
 					)

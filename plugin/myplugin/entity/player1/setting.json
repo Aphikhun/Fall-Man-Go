@@ -1,6 +1,8 @@
 {
   "_clientScript": [],
   "_serverScript": [],
+  "actorGirlName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
+  "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -28,19 +30,22 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 1.7,
+    "extent": {
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
+    },
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "radius": 0.43,
     "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "type": "Capsule"
+    "type": "Box"
   },
   "collision": false,
   "damage": 0,
@@ -96,7 +101,7 @@
     10,
     30
   ],
-  "ignorePlayerSkin": false,
+  "ignorePlayerSkin": true,
   "isAIGoHomePos": true,
   "isPlayer": true,
   "jumpHeight": 0.6,
@@ -104,7 +109,7 @@
   "maxHp": 20,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
-  "modelType": "System",
+  "modelType": "Customize",
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,

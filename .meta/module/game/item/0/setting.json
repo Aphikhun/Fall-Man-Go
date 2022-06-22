@@ -7,11 +7,9 @@
       }
     },
     "initPos": {
-      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
-        "x": -4.0359344482422,
-        "y": 1.0399008178711,
-        "z": 21.757511138916
+        "y": 43
       }
     },
     "nowTime": {
@@ -98,11 +96,11 @@
     ],
     "showShop": true,
     "startPos": {
-      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
+      "map": "27a941fa-b79b-42da-a2d4-3332396ea2d5",
       "pos": {
-        "x": -2.4012327194214,
-        "y": 1.0399008178711,
-        "z": 25.987159729004
+        "x": -50,
+        "y": 21,
+        "z": -50
       }
     },
     "team": {
@@ -209,7 +207,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "796f9117add244c16caab4c402e8c065",
+      "setting.json": "fea4fa0e296cded144a5024318b2ecc6",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""

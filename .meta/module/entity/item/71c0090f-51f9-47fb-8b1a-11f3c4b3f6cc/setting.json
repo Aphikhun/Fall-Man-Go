@@ -1231,7 +1231,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_String",
-                        "rawval": "เหลือเวลาอีก :"
+                        "rawval": "Start in "
                       }
                     },
                     {
@@ -1853,9 +1853,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": 48.621109008789,
-                            "y": 22.14,
-                            "z": -64.737632751465
+                            "y": 45
                           }
                         }
                       }
@@ -2273,7 +2271,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": 10.093432426453,
+                            "x": 10.093,
                             "y": 1.0398989105225,
                             "z": 9.0789794921875
                           }
@@ -2407,7 +2405,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "c4da3a50643e5711a3e9b2403c7161ab",
-      "triggers.bts": "2b656f8ef285253ef69615179baf93b2"
+      "triggers.bts": "ee6d7abfabc87f470a701463d7869610"
     },
     "VERSION": "0.21"
   }

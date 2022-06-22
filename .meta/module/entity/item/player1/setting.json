@@ -1,12 +1,10 @@
 {
   "data": {
     "actorModel": {
-      "actorName": {
-        "asset": ""
-      },
       "girlactor": {
-        "asset": ""
-      }
+        "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+      },
+      "modelType": "Customize"
     },
     "AI_attack": {
       "enable": true
@@ -18,9 +16,9 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height": 1.7,
-      "radius": 0.43,
-      "type": "Capsule"
+      "memory": {
+        "Capsule": "1.700000-0.430000"
+      }
     },
     "canRevive": true,
     "deadAction": {
@@ -649,7 +647,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a5a1b2c3ceed190220a0ff0b17d64cfe",
+      "setting.json": "2b7c0d4f031f4065ca98284b540b696e",
       "triggers.bts": "7898f350f05492cb17952e6b0d195ff2"
     },
     "VERSION": "0.21"
