@@ -2572,7 +2572,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": 55,
+                            "x": 50,
                             "y": 2
                           }
                         }
@@ -2645,9 +2645,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": -4.5582551956177,
-                            "y": 1.0399008178711,
-                            "z": -3.3190574645996
+                            "y": 3
                           }
                         }
                       }
@@ -5013,7 +5011,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "e9e8bad11e4635ca651d65f0a246c138",
-      "triggers.bts": "7a3fb1be34fc5269d0ef52d151f26dfa"
+      "triggers.bts": "fc122a97cb7fe53bcf4f3e5170d2e6d2"
     },
     "VERSION": "0.21"
   }

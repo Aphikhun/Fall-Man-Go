@@ -1,7 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Item/445-4453292_minecraft-pocket-skins-minecraft-texture-pack-item-clipart (5) (1).png"
+      "asset": "asset/Texture/Item/R (3) (1).png"
     },
     "item": {
       "base": {
@@ -19,7 +19,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f1d3b47dc70065dde3e47ae9ada5cd58",
+      "setting.json": "988d3b2aa987dd9cb269fb0919d8cbcb",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

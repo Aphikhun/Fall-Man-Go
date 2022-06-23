@@ -32,7 +32,7 @@
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/Texture/Skill/common/icon_火球_act.png"
+        "asset": "asset/Texture/Item/ice-spell-cast.png"
       },
       "iconPos": {
         "area_number": 8
@@ -41,7 +41,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0578f805eeadc387e99873f5758917d8",
+      "setting.json": "87f6484f44772795dd1b6b698f6ce935",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

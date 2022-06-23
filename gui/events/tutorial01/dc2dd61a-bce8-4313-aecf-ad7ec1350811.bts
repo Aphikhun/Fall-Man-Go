@@ -1,0 +1,3 @@
+WIDGET_CLICKED {
+	DestroyWidget(instance = $rootInstance)
+}

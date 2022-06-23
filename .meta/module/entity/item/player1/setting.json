@@ -3,8 +3,7 @@
     "actorModel": {
       "girlactor": {
         "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
-      },
-      "modelType": "Customize"
+      }
     },
     "AI_attack": {
       "enable": true
@@ -1254,8 +1253,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2b7c0d4f031f4065ca98284b540b696e",
-      "triggers.bts": "aa1833041b073614d404a3450b6f2012"
+      "setting.json": "7afac405e48182f396a27dde0d6a62a7",
+      "triggers.bts": "a945e30a36fa2e3fb0d789db437e6f7e"
     },
     "VERSION": "0.21"
   }

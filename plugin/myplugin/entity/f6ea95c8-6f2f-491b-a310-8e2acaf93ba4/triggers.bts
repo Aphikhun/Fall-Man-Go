@@ -78,7 +78,7 @@ ENTITY_TOUCH_ALL {
 										entity = $playerwin,
 										map = "06c5de00-572a-4157-8cc8-bdda31d12163",
 										pos = {
-											x = 55,
+											x = 50,
 											y = 2,
 											z = 0
 										},
@@ -90,9 +90,9 @@ ENTITY_TOUCH_ALL {
 										entity = $playerwin,
 										map = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
 										pos = {
-											x = -4.5582551956177,
-											y = 1.0399008178711,
-											z = -3.3190574645996
+											x = 0,
+											y = 3,
+											z = 0
 										},
 										rp = 0,
 										ry = 0

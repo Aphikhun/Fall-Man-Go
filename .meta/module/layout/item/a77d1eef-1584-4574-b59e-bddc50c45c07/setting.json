@@ -1,0 +1,278 @@
+{
+  "data": {
+    "md5": "78890e74a3fecb264fdbb57101cbdbbb",
+    "path": "asset/tutorial01.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.997,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "696bbdbc-ef95-4609-b194-4874711c74c9"
+              },
+              "name": "Image1"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Component/Btn_Demo/Btn_Rectangle00_n_Orange.png"
+              },
+              "Font_size": 18,
+              "HorzImageFormatting": "CentreAligned",
+              "HoverImage": {
+                "asset": "asset/Component/Btn_Demo/Btn_Rectangle00_n_Orange.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "15cb7328-fac6-4585-9807-b42bd5b697da"
+              },
+              "NormalImage": {
+                "asset": "asset/Component/Btn_Demo/Btn_Rectangle00_n_Orange.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -30
+                },
+                "UDim_Y": {
+                  "Offect": 20
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Component/Btn_Demo/Btn_Rectangle00_n_Orange.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 50
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "Text": "X",
+              "TextBoldWeight": "1",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "4581d1cb-2779-4adb-9f65-be77ab47e68e"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "d60a1cba-9329-4382-bf6b-6776305b62d5"
+                        },
+                        "pos": {
+                          "x": 703,
+                          "y": 310
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "4581d1cb-2779-4adb-9f65-be77ab47e68e"
+                        },
+                        "pos": {
+                          "x": 1074,
+                          "y": 290
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "50b15958-0e12-4031-851c-657ca37c9e40"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "d60a1cba-9329-4382-bf6b-6776305b62d5"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "d2351888-6c10-4a04-8b2a-91d02b5c8293"
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              },
+              "VertImageFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "asset/Component/Icon/Icon_WhiteIcon_Arrow02_Right.png"
+              },
+              "HorzImageFormatting": "CentreAligned",
+              "HoverImage": {
+                "asset": "asset/Component/Icon/Icon_WhiteIcon_Arrow02_Right.png"
+              },
+              "id": {
+                "value": "aefd2ce9-a6d2-48d6-86d9-4e96b5eb2a11"
+              },
+              "name": "Button1",
+              "NormalImage": {
+                "asset": "asset/Component/Icon/Icon_WhiteIcon_Arrow02_Right.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -20
+                },
+                "UDim_Y": {
+                  "Offect": -20
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Component/Icon/Icon_WhiteIcon_Arrow02_Right.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 70
+                },
+                "UDim_Y": {
+                  "Offect": 70
+                }
+              },
+              "Text": "",
+              "triggers": {
+                "list": [
+                  {
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "75799cb9-5dc9-4b9b-8e9e-e101aff108d9"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "072a6152-39cc-452d-9344-19f3b4755de6"
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              },
+              "VertImageFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 18,
+              "id": {
+                "value": "2fa8149d-d9bd-4042-b4f7-2de89d3d3a81"
+              },
+              "Text": "Tips : You must run to goal"
+            }
+          ],
+          "id": {
+            "value": "7982dd3d-e92b-4e95-8776-2c21a62d663e"
+          },
+          "Image": {
+            "asset": "asset/Component/Frame/BasicFrame_Square02_Yellow.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.6
+            }
+          },
+          "StaticImageStretch": {
+            "bottom_left": 5,
+            "bottom_right": 25,
+            "top_left": 5,
+            "top_right": 5
+          }
+        }
+      ],
+      "id": {
+        "value": "2156cb82-4296-4625-bd03-bfdf76ab7a9f"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "78890e74a3fecb264fdbb57101cbdbbb",
+      "triggers.bts": "fb907446ddc24e2161404e9d802a3eab"
+    },
+    "VERSION": "0.21"
+  }
+}

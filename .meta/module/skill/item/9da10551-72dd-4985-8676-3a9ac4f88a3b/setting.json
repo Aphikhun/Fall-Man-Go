@@ -26,7 +26,7 @@
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/Texture/Skill/common/icon_落地.png"
+        "asset": "asset/Texture/Item/enrage.png"
       },
       "iconPos": {
         "area_number": 8
@@ -431,7 +431,8 @@
           "custom_trigger_data": {
             "name": {
               "value": "f17b72c6-1e40-4c22-9ddc-1efdb902d350"
-            }
+            },
+            "type": "Trigger_SkillCast"
           },
           "root": {
             "components": [
@@ -461,7 +462,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0536e21b8e28763f3b5c1f72859e1956",
+      "setting.json": "1afc5d6c2f39fbd63be20f661686e46c",
       "triggers.bts": "3ca10e379ca4b7090fc849b26c0ffda7"
     },
     "VERSION": "0.21"

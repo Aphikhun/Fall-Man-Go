@@ -319,7 +319,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Double",
-                        "rawval": 15
+                        "rawval": 240
                       }
                     }
                   ]
@@ -7404,7 +7404,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "1165cbda11d61cc77465307243498419",
-      "triggers.bts": "cd4874238dc7cbbf8d69329f45916400"
+      "triggers.bts": "d89b51c239fcac62d51f1048128721fd"
     },
     "VERSION": "0.21"
   }

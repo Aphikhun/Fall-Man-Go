@@ -26,7 +26,7 @@
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/Texture/Skill/common/icon_潜行_act.png"
+        "asset": "asset/Texture/Item/speedometer.png"
       },
       "iconPos": {
         "area_number": 8
@@ -35,7 +35,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "795e92019372cc16e7c42d2434636a5a",
+      "setting.json": "6ec934ec06849001b2df6d005ea9f7f9",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

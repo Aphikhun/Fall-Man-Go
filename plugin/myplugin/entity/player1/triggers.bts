@@ -3,13 +3,13 @@ ENTITY_REBIRTH {
 }
 
 ENTITY_LEAVE {
-	If (not IsNil(data = $obj1.curNpcPlayer) and IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, entity = $obj1.curNpcPlayer, value = $obj1)) {
+	If (not IsNil(data = $obj1.curNpcPlayer) and IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, value = $obj1, entity = $obj1.curNpcPlayer)) {
 		ArrayRemove(
 			array = $obj1.curNpcPlayer.listPlayer,
 			index = ArrayFind(
 			array = $obj1.curNpcPlayer.listPlayer,
-			entity = $obj1.curNpcPlayer,
-			value = $obj1
+			value = $obj1,
+			entity = $obj1.curNpcPlayer
 		),
 			entity = $obj1.curNpcPlayer
 		)
@@ -18,13 +18,13 @@ ENTITY_LEAVE {
 
 ENTITY_DIE {
 	If ($obj1.stagePlayer == 3) {
-		If (IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, entity = $obj1.curNpcPlayer, value = $obj1)) {
+		If (IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, value = $obj1, entity = $obj1.curNpcPlayer)) {
 			ArrayRemove(
 				array = $obj1.curNpcPlayer.listPlayer,
 				index = ArrayFind(
 				array = $obj1.curNpcPlayer.listPlayer,
-				entity = $obj1.curNpcPlayer,
-				value = $obj1
+				value = $obj1,
+				entity = $obj1.curNpcPlayer
 			),
 				entity = $obj1.curNpcPlayer
 			)

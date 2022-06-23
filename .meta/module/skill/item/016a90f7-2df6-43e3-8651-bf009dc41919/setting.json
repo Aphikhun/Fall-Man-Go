@@ -32,7 +32,7 @@
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/Texture/Skill/common/icon_蹲下_act.png"
+        "asset": "asset/Texture/Item/grapple.png"
       },
       "iconPos": {
         "area_number": 8
@@ -41,7 +41,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8678df6d0ef8fec9edd66e3950c4b76a",
+      "setting.json": "3c304b108dc8b636cdf6037a43e55a99",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

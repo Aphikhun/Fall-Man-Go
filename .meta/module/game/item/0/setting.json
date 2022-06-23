@@ -17,7 +17,7 @@
       "m": 40
     },
     "player_range": {
-      "max": 20,
+      "max": 30,
       "min": 1
     },
     "shops": [
@@ -94,7 +94,6 @@
         }
       }
     ],
-    "showShop": true,
     "startPos": {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
@@ -210,7 +209,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fdfe52abd7665454c718de6c2c879970",
+      "setting.json": "f938e412b4c186b458e7c13eaf5333cd",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": ""

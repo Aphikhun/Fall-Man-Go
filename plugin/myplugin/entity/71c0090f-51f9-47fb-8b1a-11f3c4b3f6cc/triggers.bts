@@ -3,7 +3,7 @@ ENTITY_CLICK {
 		$obj1.listPlayer = []
 	}
 	Parallel {
-		$maxPlayer = NumberFloor(p1 = 4)
+		$maxPlayer = NumberFloor(p1 = 30)
 		$time_start = NumberFloor(p1 = 15)
 	}
 	ExecFunction(func_name = "Addplayer", npc = $obj1, Player = $obj2, stage = 0)

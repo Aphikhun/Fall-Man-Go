@@ -27,6 +27,13 @@
   ],
   "castAction": "attack",
   "castActionTime": -1,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
   "cdTime": 60,
   "consumeItem": [
     {
@@ -39,11 +46,13 @@
   "draggingEnabled": false,
   "enable_pre": false,
   "enable_rear": false,
+  "enableCdMask": false,
+  "enableCdTip": false,
   "enableMoveBrkBackS": false,
   "enableMoveBrkPreS": false,
   "frontSight": "myplugin/frontsight1",
   "horizontalAlignment": 2,
-  "icon": "@asset/Texture/Skill/common/icon_火球_act.png",
+  "icon": "@asset/Texture/Item/ice-spell-cast.png",
   "ignoreCastSkillBackS": false,
   "ignoreCastSkillPreS": true,
   "ignoreJumpBackS": false,
@@ -51,6 +60,7 @@
   "ignoreMoveBackS": false,
   "ignoreMovePreS": false,
   "isClick": false,
+  "isShowCdPoint": false,
   "isTouch": false,
   "missileCfg": [
     "myplugin/a10b4380-f21c-495c-98ad-db409e074831"

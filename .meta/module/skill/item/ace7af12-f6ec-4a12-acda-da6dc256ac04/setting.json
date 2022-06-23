@@ -11,11 +11,14 @@
       "value": "skill_ace7af12-f6ec-4a12-acda-da6dc256ac04"
     },
     "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
       "type": "Base"
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+        "asset": "asset/Texture/Item/perspective-dice-six-faces-random.png"
       },
       "iconPos": {
         "area_number": 8
@@ -349,7 +352,8 @@
           "custom_trigger_data": {
             "name": {
               "value": "ec738982-8c5a-4165-aaf8-e76e3d11482d"
-            }
+            },
+            "type": "Trigger_SkillCast"
           },
           "root": {
             "components": [
@@ -379,7 +383,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e8d556d9943023e5b68c39b1f0f79ec4",
+      "setting.json": "029fdbedeae9fe20f81bb35c90c22d7d",
       "triggers.bts": "9f23bf2591df03ae37706586995cb206"
     },
     "VERSION": "0.21"

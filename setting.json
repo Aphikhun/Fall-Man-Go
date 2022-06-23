@@ -124,7 +124,7 @@
     },
     "useGroup": "_imagesets_"
   },
-  "maxPlayers": 20,
+  "maxPlayers": 30,
   "minPlayers": 1,
   "moveStateConfig": {
     "isShow": false
@@ -324,13 +324,6 @@
       ]
     ]
   },
-  "uiNavigation": [
-    {
-      "iconPath": "set:main_page.json image:shop_icon.png",
-      "list": 1,
-      "name": "shop"
-    }
-  ],
   "useNewFirstViewer": true,
   "useNewQuadConfig": true,
   "useNewUI": true,
