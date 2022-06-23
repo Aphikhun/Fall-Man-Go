@@ -512,13 +512,13 @@
                         </Property>
                     </Window>
                     <Window type="WindowsLook/StaticText" name="Text">
-                        <Property value="{{0,0.0},{0,0.0},{0,256.0},{0,128.0}}" name="Area">
+                        <Property value="{{0,0},{0,-20},{0,526.04868328583},{0,60.062811613052}}" name="Area">
 
                         </Property>
                         <Property value="{{999,0},{999,0}}" name="MaxSize">
 
                         </Property>
-                        <Property value="Left" name="HorizontalAlignment">
+                        <Property value="Centre" name="HorizontalAlignment">
 
                         </Property>
                         <Property value="Bottom" name="VerticalAlignment">
@@ -542,7 +542,7 @@
                         <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
                         </Property>
-                        <Property value="Tips : You must run to goal" name="Text">
+                        <Property value="Tips : You must run to goal for win this stage and half of total will fail." name="Text">
 
                         </Property>
                         <Property value="8" name="MinAutoTextScale">
@@ -569,7 +569,7 @@
                         <Property value="0" name="AutoScale">
 
                         </Property>
-                        <Property value="TopAligned" name="VertFormatting">
+                        <Property value="CentreAligned" name="VertFormatting">
 
                         </Property>
                         <Property value="false" name="AutoTextScale">
@@ -593,7 +593,7 @@
                         <Property value="false" name="FrameEnabled">
 
                         </Property>
-                        <Property value="1" name="Alpha">
+                        <Property value="0.997" name="Alpha">
 
                         </Property>
                         <Property value="true" name="word_warpped">
@@ -602,7 +602,7 @@
                         <Property value="true" name="Visible">
 
                         </Property>
-                        <Property value="WordWrapLeftAligned" name="HorzFormatting">
+                        <Property value="WordWrapCentreAligned" name="HorzFormatting">
 
                         </Property>
                         <Property value="1" name="WindowTouchThroughAlpha">

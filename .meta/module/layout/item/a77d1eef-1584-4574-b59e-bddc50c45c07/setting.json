@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "78890e74a3fecb264fdbb57101cbdbbb",
+    "md5": "53a592f92ecaa028947714c756599bfd",
     "path": "asset/tutorial01.layout",
     "root": {
       "anchor": {
@@ -219,14 +219,31 @@
             },
             {
               "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
               "anchor": {
+                "HorizontalAlignment": "Centre",
                 "VerticalAlignment": "Bottom"
               },
               "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
               "id": {
                 "value": "2fa8149d-d9bd-4042-b4f7-2de89d3d3a81"
               },
-              "Text": "Tips : You must run to goal"
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -20
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 526.04868328583
+                },
+                "UDim_Y": {
+                  "Offect": 80.062811613052
+                }
+              },
+              "Text": "Tips : You must run to goal for win this stage and half of total will fail.",
+              "VertFormatting": "CentreAligned"
             }
           ],
           "id": {
@@ -270,7 +287,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "78890e74a3fecb264fdbb57101cbdbbb",
+      "layout": "53a592f92ecaa028947714c756599bfd",
       "triggers.bts": "fb907446ddc24e2161404e9d802a3eab"
     },
     "VERSION": "0.21"
