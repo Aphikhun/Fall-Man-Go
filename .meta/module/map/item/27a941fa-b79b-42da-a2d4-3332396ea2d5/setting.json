@@ -337,11 +337,6 @@
             "friction": 0.37,
             "id": "8676007515855536129",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -39.434509277344
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -384,11 +379,6 @@
             "friction": 0.37,
             "id": "8676007515860041729",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -39.434509277344
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -431,11 +421,6 @@
             "friction": 0.37,
             "id": "8676007515865612289",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50,
-              "y": 20,
-              "z": -39.434509277344
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -478,11 +463,6 @@
             "friction": 0.37,
             "id": "8676007708870770689",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -32.452533721924
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -525,11 +505,6 @@
             "friction": 0.37,
             "id": "8676007708874211329",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -36.074523925781
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -572,11 +547,6 @@
             "friction": 0.37,
             "id": "8676007708877668353",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -36.074523925781
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -619,11 +589,6 @@
             "friction": 0.37,
             "id": "8676007708881092609",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -32.452533721924
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -666,11 +631,6 @@
             "friction": 0.37,
             "id": "8676007708884467713",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50,
-              "y": 20,
-              "z": -36.074523925781
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -713,11 +673,6 @@
             "friction": 0.37,
             "id": "8676007708888662017",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50,
-              "y": 20,
-              "z": -32.452533721924
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -760,11 +715,6 @@
             "friction": 0.37,
             "id": "8676007861884633089",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -25.17650604248
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -807,11 +757,6 @@
             "friction": 0.37,
             "id": "8676007861888286721",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50,
-              "y": 20,
-              "z": -25.17650604248
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -854,11 +799,6 @@
             "friction": 0.37,
             "id": "8676007861891940353",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50,
-              "y": 20,
-              "z": -28.798511505127
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -901,11 +841,6 @@
             "friction": 0.37,
             "id": "8676007861896478721",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -25.17650604248
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -948,11 +883,6 @@
             "friction": 0.37,
             "id": "8676007861900034049",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -28.798511505127
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -995,11 +925,6 @@
             "friction": 0.37,
             "id": "8676007861903572993",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -28.798511505127
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1042,11 +967,6 @@
             "friction": 0.37,
             "id": "8676008976509681665",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50.000007629395,
-              "y": 20,
-              "z": -17.961505889893
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1089,11 +1009,6 @@
             "friction": 0.37,
             "id": "8676008976513105921",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -21.583507537842
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1136,11 +1051,6 @@
             "friction": 0.37,
             "id": "8676008976516562945",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -21.583507537842
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1183,11 +1093,6 @@
             "friction": 0.37,
             "id": "8676008976520085505",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 50.000007629395,
-              "y": 20,
-              "z": -21.583507537842
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1230,11 +1135,6 @@
             "friction": 0.37,
             "id": "8676008976523771905",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 54.000007629395,
-              "y": 20,
-              "z": -17.961505889893
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1277,11 +1177,6 @@
             "friction": 0.37,
             "id": "8676008976527343617",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": 46.000003814697,
-              "y": 20,
-              "z": -17.961505889893
-            },
             "material": {
               "color": {
                 "b": 117,
@@ -1614,11 +1509,6 @@
             "lineVelocity": {
               "z": 5
             },
-            "massCenter": {
-              "x": -12.230459213257,
-              "y": 20,
-              "z": 50
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1662,11 +1552,6 @@
             "isLockedInEditor": true,
             "lineVelocity": {
               "z": -5
-            },
-            "massCenter": {
-              "x": -8.7444648742676,
-              "y": 20,
-              "z": 50
             },
             "material": {
               "discardAlpha": 1
@@ -1712,11 +1597,6 @@
             "lineVelocity": {
               "z": -5
             },
-            "massCenter": {
-              "x": -5.2595405578613,
-              "y": 20,
-              "z": 50
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1760,11 +1640,6 @@
             "isLockedInEditor": true,
             "lineVelocity": {
               "z": 5
-            },
-            "massCenter": {
-              "x": -1.7735656499863,
-              "y": 20,
-              "z": 50
             },
             "material": {
               "discardAlpha": 1
@@ -1810,11 +1685,6 @@
             "lineVelocity": {
               "z": 5
             },
-            "massCenter": {
-              "x": 1.840384721756,
-              "y": 20,
-              "z": 50
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1858,11 +1728,6 @@
             "isLockedInEditor": true,
             "lineVelocity": {
               "z": 5
-            },
-            "massCenter": {
-              "x": -15.769414901733,
-              "y": 20,
-              "z": 50
             },
             "material": {
               "discardAlpha": 1
@@ -1920,11 +1785,6 @@
             "lineVelocity": {
               "y": 20
             },
-            "massCenter": {
-              "x": -19.761081695557,
-              "y": 20,
-              "z": 52.10986328125
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -1964,11 +1824,6 @@
             "friction": 0.37,
             "id": "8676062734763360257",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -24.26106262207,
-              "y": 20,
-              "z": 52.10986328125
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2008,11 +1863,6 @@
             "friction": 0.37,
             "id": "8676063591208960001",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -19.761081695557,
-              "y": 20,
-              "z": 47.565868377686
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2052,11 +1902,6 @@
             "friction": 0.37,
             "id": "8676064029280501761",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -24.26106262207,
-              "y": 20,
-              "z": 47.565868377686
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2099,11 +1944,6 @@
             "lineVelocity": {
               "y": 20
             },
-            "massCenter": {
-              "x": -28.708017349243,
-              "y": 20,
-              "z": 47.565868377686
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2143,11 +1983,6 @@
             "friction": 0.37,
             "id": "8676065505230290945",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -28.708017349243,
-              "y": 20,
-              "z": 52.10986328125
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2187,11 +2022,6 @@
             "friction": 0.37,
             "id": "8676065815994531841",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -33.376892089844,
-              "y": 20,
-              "z": 47.565868377686
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2231,11 +2061,6 @@
             "friction": 0.37,
             "id": "8676065815998988289",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -33.376892089844,
-              "y": 20,
-              "z": 52.10986328125
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2275,11 +2100,6 @@
             "friction": 0.37,
             "id": "8676138559221907457",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -19.761081695557,
-              "y": 20,
-              "z": 43.104839324951
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2322,11 +2142,6 @@
             "lineVelocity": {
               "y": 20
             },
-            "massCenter": {
-              "x": -33.376892089844,
-              "y": 20,
-              "z": 43.104839324951
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2366,11 +2181,6 @@
             "friction": 0.37,
             "id": "8676138559228936193",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -28.708017349243,
-              "y": 20,
-              "z": 43.104839324951
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2410,11 +2220,6 @@
             "friction": 0.37,
             "id": "8676138559232442369",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -24.26106262207,
-              "y": 20,
-              "z": 43.104839324951
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2457,11 +2262,6 @@
             "lineVelocity": {
               "y": 20
             },
-            "massCenter": {
-              "x": -24.26106262207,
-              "y": 20,
-              "z": 56.319873809814
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2501,11 +2301,6 @@
             "friction": 0.37,
             "id": "8676139236973838337",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -28.708017349243,
-              "y": 20,
-              "z": 56.319873809814
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2545,11 +2340,6 @@
             "friction": 0.37,
             "id": "8676139236977180673",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -33.376892089844,
-              "y": 20,
-              "z": 56.319873809814
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2589,11 +2379,6 @@
             "friction": 0.37,
             "id": "8676139236980523009",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -19.761081695557,
-              "y": 20,
-              "z": 56.319873809814
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2633,11 +2418,6 @@
             "friction": 0.37,
             "id": "8676139875205922817",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -37.823867797852,
-              "y": 20,
-              "z": 56.319873809814
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2677,11 +2457,6 @@
             "friction": 0.37,
             "id": "8676139875209265153",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -37.823867797852,
-              "y": 20,
-              "z": 43.104839324951
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2724,11 +2499,6 @@
             "lineVelocity": {
               "y": 20
             },
-            "massCenter": {
-              "x": -37.823867797852,
-              "y": 20,
-              "z": 47.565868377686
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2768,11 +2538,6 @@
             "friction": 0.37,
             "id": "8676139875215966209",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -37.823867797852,
-              "y": 20,
-              "z": 52.10986328125
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2815,11 +2580,6 @@
             "lineVelocity": {
               "y": 20
             },
-            "massCenter": {
-              "x": -42.170845031738,
-              "y": 20,
-              "z": 52.10986328125
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2859,11 +2619,6 @@
             "friction": 0.37,
             "id": "8676140271119253505",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -42.170845031738,
-              "y": 20,
-              "z": 43.104839324951
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2903,11 +2658,6 @@
             "friction": 0.37,
             "id": "8676140271122939905",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -42.170845031738,
-              "y": 20,
-              "z": 47.565868377686
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2947,11 +2697,6 @@
             "friction": 0.37,
             "id": "8676140271126675457",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -42.170845031738,
-              "y": 20,
-              "z": 56.319873809814
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -2995,11 +2740,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676245665837711361",
-                "massCenter": {
-                  "x": -49.999996185303,
-                  "y": 22.601989746094,
-                  "z": 4.0219950675964
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3030,11 +2770,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676245907194920961",
-                "massCenter": {
-                  "x": -45.25,
-                  "y": 22.601989746094,
-                  "z": 4.0219912528992
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3065,11 +2800,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676246841670041601",
-                "massCenter": {
-                  "x": -49.999996185303,
-                  "y": 24.847991943359,
-                  "z": 4.0219950675964
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3100,11 +2830,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676248120341315585",
-                "massCenter": {
-                  "x": -52.475997924805,
-                  "y": 22.537986755371,
-                  "z": 4.0219912528992
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3142,11 +2867,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676251020540723201",
-                "massCenter": {
-                  "x": -47.595001220703,
-                  "y": 22.537986755371,
-                  "z": 4.0219912528992
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3183,11 +2903,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676243014583402497",
-                "massCenter": {
-                  "x": -54.749996185303,
-                  "y": 22.601989746094,
-                  "z": 4.0219912528992
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3233,11 +2948,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252163652059137",
-                "massCenter": {
-                  "x": -49.999996185303,
-                  "y": 22.601989746094,
-                  "z": -2.9690098762512
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3268,11 +2978,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252163654434817",
-                "massCenter": {
-                  "x": -54.75,
-                  "y": 22.601989746094,
-                  "z": -2.969006061554
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3303,11 +3008,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252163656712193",
-                "massCenter": {
-                  "x": -49.999996185303,
-                  "y": 24.847991943359,
-                  "z": -2.9690098762512
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3338,11 +3038,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252163658989569",
-                "massCenter": {
-                  "x": -47.524005889893,
-                  "y": 22.537986755371,
-                  "z": -2.969006061554
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3380,11 +3075,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252163661283329",
-                "massCenter": {
-                  "x": -52.404998779297,
-                  "y": 22.537986755371,
-                  "z": -2.9690098762512
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3421,11 +3111,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252163663577089",
-                "massCenter": {
-                  "x": -45.250007629395,
-                  "y": 22.601989746094,
-                  "z": -2.9690098762512
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3471,11 +3156,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252359321927681",
-                "massCenter": {
-                  "x": -50,
-                  "y": 22.601989746094,
-                  "z": -9.9690074920654
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3506,11 +3186,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252359325712385",
-                "massCenter": {
-                  "x": -45.250003814697,
-                  "y": 22.601989746094,
-                  "z": -9.9690074920654
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3541,11 +3216,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252359328055297",
-                "massCenter": {
-                  "x": -50,
-                  "y": 24.847991943359,
-                  "z": -9.9690074920654
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3576,11 +3246,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252359330349057",
-                "massCenter": {
-                  "x": -52.476001739502,
-                  "y": 22.537986755371,
-                  "z": -9.9690113067627
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3617,11 +3282,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252359332675585",
-                "massCenter": {
-                  "x": -47.5950050354,
-                  "y": 22.537986755371,
-                  "z": -9.9690074920654
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3659,11 +3319,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252359335641089",
-                "massCenter": {
-                  "x": -54.75,
-                  "y": 22.601989746094,
-                  "z": -9.9690074920654
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3709,11 +3364,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252450141913089",
-                "massCenter": {
-                  "x": -50,
-                  "y": 22.601989746094,
-                  "z": -16.978006362915
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3744,11 +3394,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252450144256001",
-                "massCenter": {
-                  "x": -54.75,
-                  "y": 22.601989746094,
-                  "z": -16.978010177612
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3779,11 +3424,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252450146500609",
-                "massCenter": {
-                  "x": -50,
-                  "y": 24.847990036011,
-                  "z": -16.978006362915
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3814,11 +3454,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252450148810753",
-                "massCenter": {
-                  "x": -47.524002075195,
-                  "y": 22.537986755371,
-                  "z": -16.978006362915
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3856,11 +3491,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252450151137281",
-                "massCenter": {
-                  "x": -52.404998779297,
-                  "y": 22.537986755371,
-                  "z": -16.978010177612
-                },
                 "material": {
                   "alpha": 0.8,
                   "color": {
@@ -3897,11 +3527,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676252450153463809",
-                "massCenter": {
-                  "x": -45.250007629395,
-                  "y": 22.601989746094,
-                  "z": -16.978006362915
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -3954,11 +3579,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8676156576072155137",
-            "massCenter": {
-              "x": -50,
-              "y": 20,
-              "z": -7.0489964485168
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -4308,11 +3928,6 @@
             "friction": 0.37,
             "id": "8684324742095732737",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -52.551525115967,
-              "y": 20,
-              "z": 18.641683578491
-            },
             "material": {
               "color": {
                 "b": 127,
@@ -4360,11 +3975,6 @@
             "friction": 0.37,
             "id": "8684324742100844545",
             "isLockedInEditor": true,
-            "massCenter": {
-              "x": -48.870532989502,
-              "y": 20,
-              "z": 15.038690567017
-            },
             "material": {
               "color": {
                 "b": 127,
@@ -4413,11 +4023,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676275327828983809",
-                "massCenter": {
-                  "x": 34.322868347168,
-                  "y": 20.486003875732,
-                  "z": 42.499866485596
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4438,11 +4043,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676276213456338945",
-                "massCenter": {
-                  "x": 34.322868347168,
-                  "y": 20.486003875732,
-                  "z": 49.999862670898
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -4478,11 +4078,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676279919418392577",
-                "massCenter": {
-                  "x": 34.322868347168,
-                  "y": 20.486003875732,
-                  "z": 57.499862670898
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4518,11 +4113,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281576406794241",
-                "massCenter": {
-                  "x": 30.375846862793,
-                  "y": 20.486003875732,
-                  "z": 42.499866485596
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4543,11 +4133,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281576409055233",
-                "massCenter": {
-                  "x": 30.375854492188,
-                  "y": 20.486003875732,
-                  "z": 49.999862670898
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -4583,11 +4168,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281576411348993",
-                "massCenter": {
-                  "x": 30.375854492188,
-                  "y": 20.486003875732,
-                  "z": 57.499862670898
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4623,11 +4203,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281688821841921",
-                "massCenter": {
-                  "x": 27.195850372314,
-                  "y": 20.486003875732,
-                  "z": 42.499866485596
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4648,11 +4223,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281688824135681",
-                "massCenter": {
-                  "x": 27.195850372314,
-                  "y": 20.486003875732,
-                  "z": 49.999862670898
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -4688,11 +4258,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281688826396673",
-                "massCenter": {
-                  "x": 27.195850372314,
-                  "y": 20.486003875732,
-                  "z": 57.499862670898
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4728,11 +4293,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281807927345153",
-                "massCenter": {
-                  "x": 17.895338058472,
-                  "y": 20.486074447632,
-                  "z": 43.78311920166
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4753,11 +4313,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281807929688065",
-                "massCenter": {
-                  "x": 21.645280838013,
-                  "y": 20.486074447632,
-                  "z": 50.278301239014
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -4793,11 +4348,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676281807932162049",
-                "massCenter": {
-                  "x": 25.395265579224,
-                  "y": 20.486074447632,
-                  "z": 56.773490905762
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4833,11 +4383,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676282624883064833",
-                "massCenter": {
-                  "x": 17.783864974976,
-                  "y": 20.485862731934,
-                  "z": 43.801055908203
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4858,11 +4403,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676282624885358593",
-                "massCenter": {
-                  "x": 14.031436920166,
-                  "y": 20.485864639282,
-                  "z": 50.287445068359
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -4898,11 +4438,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676282624887717889",
-                "massCenter": {
-                  "x": 10.283848762512,
-                  "y": 20.485862731934,
-                  "z": 56.79137802124
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4938,11 +4473,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676283111864238081",
-                "massCenter": {
-                  "x": 9.108850479126,
-                  "y": 20.486003875732,
-                  "z": 42.499866485596
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -4963,11 +4493,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676283111866695681",
-                "massCenter": {
-                  "x": 9.108850479126,
-                  "y": 20.486003875732,
-                  "z": 49.999862670898
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -5003,11 +4528,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676283111869202433",
-                "massCenter": {
-                  "x": 9.108850479126,
-                  "y": 20.486003875732,
-                  "z": 57.499862670898
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -5043,11 +4563,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676283787475222529",
-                "massCenter": {
-                  "x": 38.865844726562,
-                  "y": 20.486003875732,
-                  "z": 42.499866485596
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -5068,11 +4583,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676283787477565441",
-                "massCenter": {
-                  "x": 38.865844726562,
-                  "y": 20.486003875732,
-                  "z": 49.999862670898
-                },
                 "material": {
                   "color": {
                     "b": 0,
@@ -5108,11 +4618,6 @@
                 "density": 2.2,
                 "friction": 0.37,
                 "id": "8676283787479924737",
-                "massCenter": {
-                  "x": 38.865844726562,
-                  "y": 20.486003875732,
-                  "z": 57.499862670898
-                },
                 "material": {
                   "discardAlpha": 1
                 },
@@ -5155,11 +4660,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8676266568997519361",
-            "massCenter": {
-              "x": 23.720977783203,
-              "y": 20,
-              "z": 50.000003814697
-            },
             "material": {
               "discardAlpha": 1
             },
@@ -5675,7 +5175,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "c48edfe50dc02d62208788e5bc0f030f"
+      "setting.json": "629425e2652761ff50b3f8ed60e05c1b"
     },
     "VERSION": "0.21"
   }

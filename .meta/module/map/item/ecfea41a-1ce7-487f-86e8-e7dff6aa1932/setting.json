@@ -107,11 +107,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684432985573277697",
-        "massCenter": {
-          "x": -17,
-          "y": 5.2,
-          "z": 17
-        },
         "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
@@ -124,11 +119,6 @@
           "z": 17
         },
         "restitution": 0.3,
-        "size": {
-          "x": 1.4718102216721,
-          "y": 7.5953240394592,
-          "z": 1.4718137979507
-        },
         "staticBatchNo": "1",
         "useAnchor": true
       },
@@ -138,10 +128,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684433553807081473",
-        "massCenter": {
-          "y": 5.85,
-          "z": 15
-        },
         "mesh": "asset/Mesh/White Gold Arch/g2038_race_gate.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Gold Arch/g2038_race_gate.mesh",
@@ -153,11 +139,6 @@
           "z": 15
         },
         "restitution": 0.3,
-        "size": {
-          "x": 9.6734285354614,
-          "y": 9.0266523361206,
-          "z": 2.5452225208282
-        },
         "staticBatchNo": "1",
         "useAnchor": true,
         "useCollide": false
@@ -168,11 +149,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684438100958838785",
-        "massCenter": {
-          "x": 17,
-          "y": 5.2,
-          "z": 17
-        },
         "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
@@ -185,11 +161,6 @@
           "z": 17
         },
         "restitution": 0.3,
-        "size": {
-          "x": 1.4718102216721,
-          "y": 7.5953240394592,
-          "z": 1.4718137979507
-        },
         "staticBatchNo": "1",
         "useAnchor": true
       },
@@ -199,11 +170,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684438551058284545",
-        "massCenter": {
-          "x": -17,
-          "y": 5.2,
-          "z": -17
-        },
         "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
@@ -216,11 +182,6 @@
           "z": -17
         },
         "restitution": 0.3,
-        "size": {
-          "x": 1.4718102216721,
-          "y": 7.5953240394592,
-          "z": 1.4718137979507
-        },
         "staticBatchNo": "1",
         "useAnchor": true
       },
@@ -230,11 +191,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684438551062380545",
-        "massCenter": {
-          "x": 17,
-          "y": 5.2,
-          "z": -17
-        },
         "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
@@ -247,11 +203,6 @@
           "z": -17
         },
         "restitution": 0.3,
-        "size": {
-          "x": 1.4718102216721,
-          "y": 7.5953240394592,
-          "z": 1.4718137979507
-        },
         "staticBatchNo": "1",
         "useAnchor": true
       },
@@ -261,11 +212,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684443127288725505",
-        "massCenter": {
-          "x": 11.076804161072,
-          "y": 6.474835395813,
-          "z": 25.717805862427
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -284,9 +230,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.852017402649,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84024,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -295,11 +241,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684443880935489537",
-        "massCenter": {
-          "x": -11.051494598389,
-          "y": 6.7468376159668,
-          "z": 30.042604446411
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -318,9 +259,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.851992607117,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84023,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -329,11 +270,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684444339684081665",
-        "massCenter": {
-          "x": -24.131721496582,
-          "y": 5.7314324378967,
-          "z": 34.785865783691
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -352,9 +288,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -363,11 +299,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684444823145119745",
-        "massCenter": {
-          "x": 5.5242805480957,
-          "y": 5.7314324378967,
-          "z": 34.785865783691
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -386,9 +317,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -397,11 +328,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684445078012674049",
-        "massCenter": {
-          "x": -33.164710998535,
-          "y": 5.7314324378967,
-          "z": 22.251865386963
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -423,9 +349,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -434,11 +360,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684445078016393217",
-        "massCenter": {
-          "x": -32.899700164795,
-          "y": 5.7314324378967,
-          "z": 6.3628606796265
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -460,9 +381,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -471,11 +392,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684445078020440065",
-        "massCenter": {
-          "x": -30.873477935791,
-          "y": 6.7468376159668,
-          "z": -16.934394836426
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -497,9 +413,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.851992607117,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84023,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -508,11 +424,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684445078023176193",
-        "massCenter": {
-          "x": -27.347177505493,
-          "y": 6.474835395813,
-          "z": -2.7052013874054
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -534,9 +445,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.852017402649,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84024,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -545,11 +456,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446292415168513",
-        "massCenter": {
-          "x": 31.762269973755,
-          "y": 5.7314324378967,
-          "z": 4.955883026123
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -571,9 +477,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -582,11 +488,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446292418969601",
-        "massCenter": {
-          "x": 31.895498275757,
-          "y": 6.7468376159668,
-          "z": -20.064380645752
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -608,9 +509,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.851992607117,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84023,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -619,11 +520,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446292421836801",
-        "massCenter": {
-          "x": 35.421802520752,
-          "y": 6.474835395813,
-          "z": -9.0091991424561
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -645,9 +541,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.852017402649,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84024,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -656,11 +552,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446292430536705",
-        "massCenter": {
-          "x": 29.604261398315,
-          "y": 5.7314324378967,
-          "z": 19.121891021729
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -682,9 +573,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -693,11 +584,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446706558238721",
-        "massCenter": {
-          "x": -17.443717956543,
-          "y": 5.7314324378967,
-          "z": -26.214139938354
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -716,9 +602,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -727,11 +613,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446706584911873",
-        "massCenter": {
-          "x": 12.212280273438,
-          "y": 5.7314324378967,
-          "z": -26.214139938354
-        },
         "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
@@ -750,9 +631,9 @@
           "z": 4.50976
         },
         "size": {
-          "x": 12.75962638855,
-          "y": 9.5856485366821,
-          "z": 10.000004768372
+          "x": 4.50976,
+          "y": 4.50976,
+          "z": 4.50976
         }
       },
       {
@@ -761,11 +642,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446706597920769",
-        "massCenter": {
-          "x": -4.3634958267212,
-          "y": 6.7468376159668,
-          "z": -30.957399368286
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -784,9 +660,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.851992607117,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84023,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -795,11 +671,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684446706600902657",
-        "massCenter": {
-          "x": 25.031803131104,
-          "y": 6.474835395813,
-          "z": -30.540193557739
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -818,9 +689,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.852017402649,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84024,
+          "y": 4.84023,
+          "z": 4.84023
         }
       },
       {
@@ -829,11 +700,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8684447305798746113",
-        "massCenter": {
-          "x": 24.951219558716,
-          "y": 6.474835395813,
-          "z": 29.163394927979
-        },
         "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
@@ -855,9 +721,9 @@
           "z": 4.84023
         },
         "size": {
-          "x": 11.852017402649,
-          "y": 11.350034713745,
-          "z": 9.9999914169312
+          "x": 4.84024,
+          "y": 4.84023,
+          "z": 4.84023
         }
       }
     ],
@@ -868,7 +734,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "5de431d0e09ee70a9ad78acef0727815"
+      "setting.json": "36c9cd2166b772a941f97c70aef4a43a"
     },
     "VERSION": "0.21"
   }

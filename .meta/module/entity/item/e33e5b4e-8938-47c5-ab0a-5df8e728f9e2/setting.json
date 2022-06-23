@@ -319,7 +319,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Double",
-                        "rawval": 240
+                        "rawval": 10
                       }
                     }
                   ]
@@ -6901,6 +6901,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_ScenePos",
+                        "action": "39895c76-335b-4c37-853e-7f4b77fc9972",
                         "rawval": {
                           "pos": {
                             "x": 0.0808926820755,
@@ -7363,6 +7364,42 @@
                 "x": 604,
                 "y": 892
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetRandomPosInArea",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SceneRegion",
+                        "rawval": {
+                          "region": {
+                            "max": {
+                              "x": 12,
+                              "y": 62,
+                              "z": -39
+                            },
+                            "min": {
+                              "x": -11,
+                              "y": 61,
+                              "z": -61
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "39895c76-335b-4c37-853e-7f4b77fc9972"
+              },
+              "pos": {
+                "x": 3260.2873670769,
+                "y": 6707.2539992438
+              }
             }
           ],
           "custom_trigger_data": {
@@ -7404,7 +7441,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "1165cbda11d61cc77465307243498419",
-      "triggers.bts": "d89b51c239fcac62d51f1048128721fd"
+      "triggers.bts": "b043800ebd37c7beb6c1dc21f689268d"
     },
     "VERSION": "0.21"
   }

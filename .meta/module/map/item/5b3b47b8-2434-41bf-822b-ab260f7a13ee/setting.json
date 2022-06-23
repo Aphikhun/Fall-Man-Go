@@ -40308,25 +40308,6 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_RegionPart",
-        "cfgName": "myplugin/252dfd74-372b-4a26-ad21-c3cf4fc7df62",
-        "id": "8680307618000240641",
-        "position": {
-          "y": 62.5,
-          "z": -50
-        },
-        "scale": {
-          "x": 10,
-          "y": 5,
-          "z": 10
-        },
-        "size": {
-          "x": 10,
-          "y": 5,
-          "z": 10
-        }
-      },
-      {
         "__OBJ_TYPE": "Instance_Model",
         "children": [
           {
@@ -40352,14 +40333,14 @@
             },
             "restitution": 0.3,
             "scale": {
-              "x": 10,
+              "x": 25,
               "y": 0.2,
-              "z": 10
+              "z": 25
             },
             "size": {
-              "x": 10,
+              "x": 25,
               "y": 0.2,
-              "z": 10
+              "z": 25
             },
             "useAnchor": true
           },
@@ -40369,21 +40350,25 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8680338659792519169",
+            "massCenter": {
+              "y": 62.5,
+              "z": -37.022006988525
+            },
             "material": {
               "alpha": 0
             },
             "name": "air wall",
             "position": {
               "y": 62.5,
-              "z": -45
+              "z": -37.022006988525
             },
             "restitution": 0.3,
             "scale": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "size": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "useAnchor": true
@@ -40394,12 +40379,17 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8680340369953079297",
+            "massCenter": {
+              "x": 12.965997695923,
+              "y": 62.5,
+              "z": -50
+            },
             "material": {
               "alpha": 0
             },
             "name": "air wall",
             "position": {
-              "x": 5,
+              "x": 12.965997695923,
               "y": 62.5,
               "z": -50
             },
@@ -40408,11 +40398,11 @@
               "y": 90
             },
             "scale": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "size": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "useAnchor": true
@@ -40423,21 +40413,25 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8680341003316166657",
+            "massCenter": {
+              "y": 62.5,
+              "z": -62.86400604248
+            },
             "material": {
               "alpha": 0
             },
             "name": "air wall",
             "position": {
               "y": 62.5,
-              "z": -55
+              "z": -62.86400604248
             },
             "restitution": 0.3,
             "scale": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "size": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "useAnchor": true
@@ -40448,12 +40442,17 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8680341258869391361",
+            "massCenter": {
+              "x": -13.00399684906,
+              "y": 62.5,
+              "z": -50
+            },
             "material": {
               "alpha": 0
             },
             "name": "air wall",
             "position": {
-              "x": -5,
+              "x": -13.00399684906,
               "y": 62.5,
               "z": -50
             },
@@ -40462,11 +40461,11 @@
               "y": 90
             },
             "scale": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "size": {
-              "x": 10,
+              "x": 25,
               "y": 5
             },
             "useAnchor": true
@@ -40498,7 +40497,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "9055cd148a62402c881daa2daa89417c"
+      "setting.json": "d44cee121d58c41160be34f068f8d46b"
     },
     "VERSION": "0.21"
   }

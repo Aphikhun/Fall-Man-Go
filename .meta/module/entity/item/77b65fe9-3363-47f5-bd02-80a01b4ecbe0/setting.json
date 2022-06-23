@@ -11,8 +11,8 @@
     },
     "boundingVolume": {
       "params": {
-        "x": 10,
-        "z": 10
+        "x": 25,
+        "z": 25
       }
     },
     "girlactor": {
@@ -4101,7 +4101,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9d7aa7d5f783028a48265c726261dfc1",
+      "setting.json": "734d470bad0910283cc043cfc2cad9ea",
       "triggers.bts": "311926737caa8b2254a84740f664fa1a"
     },
     "VERSION": "0.21"

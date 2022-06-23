@@ -11,9 +11,6 @@
       "value": "skill_ace7af12-f6ec-4a12-acda-da6dc256ac04"
     },
     "skill": {
-      "base": {
-        "__OBJ_TYPE": "Skill_MeleeAttack"
-      },
       "type": "Base"
     },
     "skillReleaseWay": {
@@ -383,7 +380,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "029fdbedeae9fe20f81bb35c90c22d7d",
+      "setting.json": "81e8e83e13da7ebd957fc0f5cbbb1408",
       "triggers.bts": "9f23bf2591df03ae37706586995cb206"
     },
     "VERSION": "0.21"

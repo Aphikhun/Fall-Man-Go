@@ -12,7 +12,7 @@ ENTITY_TOUCH_ALL {
 		$curPlayer = $obj2
 		$localEntity = $obj1
 		If (not $localEntity.isTime) {
-			$timeInGame = NumberFloor(p1 = 240)
+			$timeInGame = NumberFloor(p1 = 10)
 			$timeStart = NumberFloor(p1 = 10)
 			$mapIn = CreateDuplication(name = "5b3b47b8-2434-41bf-822b-ab260f7a13ee")
 		}
@@ -142,11 +142,23 @@ ENTITY_TOUCH_ALL {
 								EnterDuplication(
 									entity = $winPlayer,
 									map = $mapIn,
-									pos = {
-										x = 0.0808926820755,
-										y = 60.140002288818,
-										z = -50.213966369629
-									},
+									pos = GetRandomPosInArea(
+									region = {
+										map = "",
+										max = {
+											__OBJ_TYPE = "Vector3i",
+											x = 12,
+											y = 62,
+											z = -39
+										},
+										min = {
+											__OBJ_TYPE = "Vector3i",
+											x = -11,
+											y = 61,
+											z = -61
+										}
+									}
+								),
 									rp = 0,
 									ry = 0
 								)

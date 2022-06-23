@@ -1,15 +1,18 @@
 {
   "data": {
     "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
       "girlactor": {
-        "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+        "asset": ""
       }
     },
     "AI_attack": {
       "enable": true
     },
     "AI_home": {
-      "homeSize": 5
+      "homeSize": 5.0
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
@@ -1253,7 +1256,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7afac405e48182f396a27dde0d6a62a7",
+      "setting.json": "ed0e24b6cb96d0ba64876204365259b6",
       "triggers.bts": "a945e30a36fa2e3fb0d789db437e6f7e"
     },
     "VERSION": "0.21"
