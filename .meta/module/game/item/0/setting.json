@@ -7,10 +7,9 @@
       }
     },
     "initPos": {
-      "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
+      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "x": 50,
-        "y": 1.2
+        "y": 3
       }
     },
     "nowTime": {
@@ -18,7 +17,7 @@
       "m": 40
     },
     "player_range": {
-      "max": 30,
+      "max": 60,
       "min": 1
     },
     "shops": [
@@ -96,10 +95,10 @@
       }
     ],
     "startPos": {
-      "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
+      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "x": 50,
-        "y": 1.2,
+        "x": 0,
+        "y": 3,
         "z": 0
       }
     },
@@ -280,7 +279,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "35c97b4326cf72b6f0d5e48c66ba9c14",
+      "setting.json": "8979cdb15037a3fa3b9df76a6813c1f5",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": "95d2736a533f348c225b381f54d31d4f"

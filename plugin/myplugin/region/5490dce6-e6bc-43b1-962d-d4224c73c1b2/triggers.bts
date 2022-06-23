@@ -1,3 +1,12 @@
 REGION_ENTER {
 	$obj1.WinStage = true
+	LoopTimes(key = "", times = 50) {
+		Parallel {
+			ConsumeItem2(entity = $obj1, item = "myplugin/8d5f515b-ef35-4de3-bc58-49dddcd75ef6", num = 1, reason = "")
+			ConsumeItem2(entity = $obj1, item = "myplugin/a5c79327-9d7f-4ebf-80e3-6b37d40213ae", num = 1, reason = "")
+			ConsumeItem2(entity = $obj1, item = "myplugin/bc9d2d41-e8b9-463c-b9c3-0b5f9299fd70", num = 1, reason = "")
+			ConsumeItem2(entity = $obj1, item = "myplugin/f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb", num = 1, reason = "")
+			ConsumeItem2(entity = $obj1, item = "myplugin/f57375d8-2b70-4f29-a0f5-4b137859cb13", num = 1, reason = "")
+		}
+	}
 }

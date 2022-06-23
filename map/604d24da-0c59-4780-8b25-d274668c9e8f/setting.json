@@ -1560,7 +1560,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1605,7 +1605,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1650,7 +1650,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1695,7 +1695,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1740,7 +1740,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1785,7 +1785,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1830,7 +1830,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1875,7 +1875,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1920,7 +1920,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -1965,7 +1965,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2010,7 +2010,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2055,7 +2055,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2100,7 +2100,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2145,7 +2145,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2190,7 +2190,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2235,7 +2235,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2280,7 +2280,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2325,7 +2325,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2370,7 +2370,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2415,7 +2415,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2460,7 +2460,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2505,7 +2505,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2550,7 +2550,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"
@@ -2595,7 +2595,7 @@
         "selectable": "true",
         "staticBatchNo": "",
         "staticObject": "false",
-        "useAnchor": "false",
+        "useAnchor": "true",
         "useCollide": "true",
         "useGravity": "true",
         "useTextureAlpha": "false"

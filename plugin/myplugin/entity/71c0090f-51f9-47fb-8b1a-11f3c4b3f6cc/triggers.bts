@@ -4,7 +4,7 @@ ENTITY_CLICK {
 	}
 	Parallel {
 		$maxPlayer = NumberFloor(p1 = 30)
-		$time_start = NumberFloor(p1 = 15)
+		$time_start = NumberFloor(p1 = 60)
 	}
 	ExecFunction(func_name = "Addplayer", npc = $obj1, Player = $obj2, stage = 0)
 	Foreach(array = $obj1.listPlayer, key = "i") {
@@ -52,7 +52,7 @@ ENTITY_CLICK {
 				$obj1.time = $obj1.time - 1
 				If ($obj1.time <= 0 or ArraySize(array = $obj1.listPlayer, entity = $obj1) >= $maxPlayer) {
 					Foreach(array = $obj1.listPlayer, key = "i") {
-						SetEntityPosition(entity = $i, map = $map, pos = { x = 0, y = 45, z = 0 }, rp = 0, ry = 0)
+						SetEntityPosition(entity = $i, map = $map, pos = { x = 0, y = 3, z = 0 }, rp = 0, ry = 0)
 					}
 					$obj1.isTime = false
 					$obj1.listPlayer = []

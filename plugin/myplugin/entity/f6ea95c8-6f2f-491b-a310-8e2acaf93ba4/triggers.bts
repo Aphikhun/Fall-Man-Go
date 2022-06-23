@@ -12,7 +12,7 @@ ENTITY_TOUCH_ALL {
 		$npc = $obj1
 		$player = $obj2
 		If (not $npc.isTime) {
-			$timeReady = NumberFloor(p1 = 20)
+			$timeReady = NumberFloor(p1 = 15)
 			$timeCounter = NumberFloor(p1 = 360)
 			$map_next = CreateDuplication(name = "06c5de00-572a-4157-8cc8-bdda31d12163")
 		}

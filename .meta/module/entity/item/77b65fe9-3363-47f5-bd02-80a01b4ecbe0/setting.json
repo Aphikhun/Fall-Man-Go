@@ -11,8 +11,8 @@
     },
     "boundingVolume": {
       "params": {
-        "x": 25,
-        "z": 25
+        "x": 10,
+        "z": 20
       }
     },
     "girlactor": {
@@ -367,7 +367,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Double",
-                        "rawval": 10
+                        "rawval": 15
                       }
                     }
                   ]
@@ -2597,9 +2597,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": -0.63838547468185,
-                            "y": 1.390004196167,
-                            "z": -2.785
+                            "y": 1.390004196167
                           }
                         }
                       }
@@ -2942,9 +2940,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": -0.63798123598099,
-                            "y": 1.390004196167,
-                            "z": -3.641206741333
+                            "y": 1.390004196167
                           }
                         }
                       }
@@ -4101,8 +4097,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "734d470bad0910283cc043cfc2cad9ea",
-      "triggers.bts": "311926737caa8b2254a84740f664fa1a"
+      "setting.json": "2aa8626b020650348ec61e9478b49ffb",
+      "triggers.bts": "967a1f8704f0af8eb8d766fb8cfc812e"
     },
     "VERSION": "0.21"
   }

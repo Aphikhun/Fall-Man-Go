@@ -23,9 +23,9 @@
   "clickDistance": 4,
   "collider": {
     "extent": {
-      "x": 25,
+      "x": 10,
       "y": 1.8,
-      "z": 25
+      "z": 20
     },
     "offset": {
       "x": 0,

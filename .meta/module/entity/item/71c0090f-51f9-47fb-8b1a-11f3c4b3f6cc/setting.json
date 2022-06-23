@@ -357,7 +357,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Double",
-                        "rawval": 15
+                        "rawval": 60
                       }
                     }
                   ]
@@ -1863,7 +1863,7 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "y": 45
+                            "y": 3
                           }
                         }
                       }
@@ -3123,7 +3123,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "1fd1d5463d7c675fffde755408df50f8",
-      "triggers.bts": "5a28e2a740578ed26de1fb7d5ca9c0db"
+      "triggers.bts": "319e445e715de0e39f07663d49eda868"
     },
     "VERSION": "0.21"
   }

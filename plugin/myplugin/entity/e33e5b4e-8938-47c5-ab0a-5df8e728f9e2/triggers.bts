@@ -12,8 +12,8 @@ ENTITY_TOUCH_ALL {
 		$curPlayer = $obj2
 		$localEntity = $obj1
 		If (not $localEntity.isTime) {
-			$timeInGame = NumberFloor(p1 = 10)
-			$timeStart = NumberFloor(p1 = 10)
+			$timeInGame = NumberFloor(p1 = 240)
+			$timeStart = NumberFloor(p1 = 15)
 			$mapIn = CreateDuplication(name = "5b3b47b8-2434-41bf-822b-ab260f7a13ee")
 		}
 		If (IsPlayer(entity = $curPlayer)) {
@@ -106,17 +106,6 @@ ENTITY_TOUCH_ALL {
 								array = $localEntity.platform2,
 								entity = $localEntity
 							)
-							Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
-								ShowTip(
-									entity = $playerTeam,
-									keepTime = 200,
-									textKey = Concat(
-									p1 = Concat(p1 = "Score Team1 :", p2 = ToString($numPlatform1)),
-									p2 = Concat(p1 = " Score Team2 :", p2 = ToString($numPlatform2))
-								),
-									tipType = "3"
-								)
-							}
 						}
 												If ($numPlatform1 > $numPlatform2) {
 							Foreach(array = $localEntity.listPlayer, key = "playerTeam1") {
@@ -139,44 +128,35 @@ ENTITY_TOUCH_ALL {
 						Foreach(array = $localEntity.listPlayer, key = "winPlayer") {
 														If ($winPlayer.WinStage) {
 								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "9a38abd5-be10-4b86-8385-ccd0ae952553", tipType = "1")
-								EnterDuplication(
-									entity = $winPlayer,
-									map = $mapIn,
-									pos = GetRandomPosInArea(
-									region = {
-										map = "",
-										max = {
-											__OBJ_TYPE = "Vector3i",
-											x = 12,
-											y = 62,
-											z = -39
-										},
-										min = {
-											__OBJ_TYPE = "Vector3i",
-											x = -11,
-											y = 61,
-											z = -61
-										}
-									}
-								),
-									rp = 0,
-									ry = 0
-								)
+								EnterDuplication(entity = $winPlayer, map = $mapIn, pos = { x = 0, y = 3, z = -50 }, rp = 0, ry = 0)
+								SetHeadText(entity = $winPlayer, headText = GetEntityName(entity = $winPlayer), x = 0, y = 0)
 							} ElseIf (true) {
 								ShowTip(entity = $winPlayer, keepTime = 200, textKey = "b9d0ba33-6668-421c-873f-0e128a2cffc6", tipType = "1")
 								EnterMap(
 									entity = $winPlayer,
 									map = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
 									pos = {
-										x = -1.1268243789673,
+										x = 0,
 										y = 1.3900108718872,
-										z = -6.1367263793945
+										z = 0
 									},
 									rp = 0,
 									ry = 0
 								)
+								SetHeadText(entity = $winPlayer, headText = GetEntityName(entity = $winPlayer), x = 0, y = 0)
 							}
 						}
+					}
+					Foreach(array = $localEntity.listPlayer, key = "playerTeam") {
+						ShowTip(
+							entity = $playerTeam,
+							keepTime = 200,
+							textKey = Concat(
+							p1 = Concat(p1 = "Red: ", p2 = ToString(ArraySize(array = $localEntity.platform1, entity = $localEntity))),
+							p2 = Concat(p1 = " - Blue: ", p2 = ToString(ArraySize(array = $localEntity.platform2, entity = $localEntity)))
+						),
+							tipType = "3"
+						)
 					}
 				}
 			}

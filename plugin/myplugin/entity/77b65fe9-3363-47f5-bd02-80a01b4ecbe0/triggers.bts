@@ -12,7 +12,7 @@ ENTITY_TOUCH_ALL {
 		$npc = $obj1
 		$player = $obj2
 		If (not $npc.isTime) {
-			$timeReady = NumberFloor(p1 = 10)
+			$timeReady = NumberFloor(p1 = 15)
 			$timeCounter = NumberFloor(p1 = 360)
 			$map_next = CreateDuplication(name = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932")
 		}
@@ -78,9 +78,9 @@ ENTITY_TOUCH_ALL {
 										entity = $playerwin,
 										map = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
 										pos = {
-											x = -0.63838547468185,
+											x = 0,
 											y = 1.390004196167,
-											z = -2.785
+											z = 0
 										},
 										rp = 0,
 										ry = 0
@@ -90,9 +90,9 @@ ENTITY_TOUCH_ALL {
 										entity = $playerwin,
 										map = "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
 										pos = {
-											x = -0.63798123598099,
+											x = 0,
 											y = 1.390004196167,
-											z = -3.641206741333
+											z = 0
 										},
 										rp = 0,
 										ry = 0

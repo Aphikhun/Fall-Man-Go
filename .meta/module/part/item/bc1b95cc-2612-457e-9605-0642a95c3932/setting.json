@@ -1,8 +1,392 @@
 {
-  "data": [],
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_LoopTimes",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "2ae26191-2552-4ef5-8e0b-5057683e4128"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d4dd30ed-6184-41fd-b662-3be29a5d3d1a"
+              },
+              "pos": {
+                "x": 770.7167385295,
+                "y": 270.20597643926
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0f84e13c-1d41-4012-928f-53db5647ed11"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/bc9d2d41-e8b9-463c-b9c3-0b5f9299fd70"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "20351541-d859-469a-b6e4-48cdcf2ac4b3"
+              },
+              "pos": {
+                "x": 1406.4182266432,
+                "y": 609.13371282481
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "6493baec-b3bb-463b-aba5-bddb403d7611"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/a5c79327-9d7f-4ebf-80e3-6b37d40213ae"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "42e0b297-d0fd-4868-b1f9-f710c380e212"
+              },
+              "pos": {
+                "x": 1392.3472224166,
+                "y": 445.91006379668
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c037357b-dcf8-45e4-bdba-d3df8fbf94b3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/f57375d8-2b70-4f29-a0f5-4b137859cb13"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "afebfb0d-5106-4109-bc8b-7fc79f108ac4"
+              },
+              "pos": {
+                "x": 1414.8608291791,
+                "y": 956.6875172209
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a69ebab8-84c7-4161-afa5-e8de20df9f3b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3041a3cf-99e6-445e-bc15-5cd652eccf38"
+              },
+              "pos": {
+                "x": 1413.4537287565,
+                "y": 780.79996438887
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Parallel",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "627d460d-7913-415d-9ed6-cf1f48d748bf"
+                    },
+                    {
+                      "action": "42e0b297-d0fd-4868-b1f9-f710c380e212"
+                    },
+                    {
+                      "action": "20351541-d859-469a-b6e4-48cdcf2ac4b3"
+                    },
+                    {
+                      "action": "3041a3cf-99e6-445e-bc15-5cd652eccf38"
+                    },
+                    {
+                      "action": "afebfb0d-5106-4109-bc8b-7fc79f108ac4"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2ae26191-2552-4ef5-8e0b-5057683e4128"
+              },
+              "pos": {
+                "x": 1096.168536967,
+                "y": 304.66557862676
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0efd0c4e-b621-4f1d-b901-e6822bb38669"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/8d5f515b-ef35-4de3-bc58-49dddcd75ef6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "627d460d-7913-415d-9ed6-cf1f48d748bf"
+              },
+              "pos": {
+                "x": 1376.1655675561,
+                "y": 273.54026202129
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0efd0c4e-b621-4f1d-b901-e6822bb38669"
+              },
+              "pos": {
+                "x": 1805,
+                "y": 270
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "6493baec-b3bb-463b-aba5-bddb403d7611"
+              },
+              "pos": {
+                "x": 1820,
+                "y": 468
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0f84e13c-1d41-4012-928f-53db5647ed11"
+              },
+              "pos": {
+                "x": 1851,
+                "y": 643
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "a69ebab8-84c7-4161-afa5-e8de20df9f3b"
+              },
+              "pos": {
+                "x": 1858,
+                "y": 804
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "c037357b-dcf8-45e4-bdba-d3df8fbf94b3"
+              },
+              "pos": {
+                "x": 1877,
+                "y": 987
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "fbe4ab99-58f2-427b-b6d9-9500de9a43d1"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d4dd30ed-6184-41fd-b662-3be29a5d3d1a"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "17120886-9234-4cde-ac06-bd5950c96834"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
   "meta": {
     "EXPORT": {
-      "triggers.bts": ""
+      "triggers.bts": "6298e127cd90d8f17cca2364fe81ec96"
     },
     "VERSION": "0.21"
   }
