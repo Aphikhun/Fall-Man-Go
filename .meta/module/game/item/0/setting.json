@@ -137,6 +137,67 @@
         }
       ]
     },
+    "triggers_client": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/tutorial01.layout",
+                          "selector": "editor/FallManGo/asset/tutorial01.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2e3f6031-05a8-405c-a521-a97d676e22f2"
+              },
+              "pos": {
+                "x": 799,
+                "y": 340
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "85e0b51b-dc52-4df0-8ce4-9f8f7fdcb55c"
+            },
+            "type": "Trigger_ClientInitFinished"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2e3f6031-05a8-405c-a521-a97d676e22f2"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "27563876-0e94-478e-b8e0-7bb8271b8339"
+            }
+          },
+          "type": "Trigger_ClientInitFinished"
+        }
+      ]
+    },
     "unlimitedPlayTime": true,
     "vars": {
       "entity": [
@@ -204,15 +265,24 @@
         {
           "key": "stagePlayer"
         }
+      ],
+      "ui": [
+        {
+          "key": "pageT",
+          "run_type": "client",
+          "value": {
+            "rawval": 1
+          }
+        }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f938e412b4c186b458e7c13eaf5333cd",
+      "setting.json": "7b6cef434a8ab9070589194b9ba94dc5",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
-      "triggers_client.bts": ""
+      "triggers_client.bts": "95d2736a533f348c225b381f54d31d4f"
     },
     "VERSION": "0.21"
   }

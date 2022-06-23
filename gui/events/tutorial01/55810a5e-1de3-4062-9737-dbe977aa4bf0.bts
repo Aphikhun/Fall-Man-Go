@@ -1,2 +1,24 @@
 WIDGET_CLICKED {
+		If (GetUIVar(instance = $rootInstance, key = "pageT") == 1) {
+		SetShowImage(
+			image = "asset/Component/Icon/Icon_ColorIcon_Bell.Png",
+			instance = GetWidgetByHierarchy(hierarchy = "Image/Image1", instance = $rootInstance)
+		)
+		SetTextContext(
+			instance = GetWidgetByHierarchy(hierarchy = "Image/Text", instance = $rootInstance),
+			text = "580a8b94-1aae-45f8-8294-858cf7818178"
+		)
+		SetUIVar(instance = $rootInstance, key = "pageT", value = GetUIVar(instance = $rootInstance, key = "pageT") + 1)
+	} ElseIf (GetUIVar(instance = $rootInstance, key = "pageT") == 2) {
+		SetShowImage(
+			image = "gameres|asset/Component/Icon/Icon_ColorIcon_Trophy01.png",
+			instance = GetWidgetByHierarchy(hierarchy = "Image/Image1", instance = $rootInstance)
+		)
+		SetTextContext(
+			instance = GetWidgetByHierarchy(hierarchy = "Image/Text", instance = $rootInstance),
+			text = "a33a46dc-c52c-4412-803a-ffff0216bb50"
+		)
+		SetUIVar(instance = $rootInstance, key = "pageT", value = GetUIVar(instance = $rootInstance, key = "pageT") + 1)
+		DestroyWidget(instance = GetWidgetByHierarchy(hierarchy = "Image/Button1", instance = $rootInstance))
+	}
 }

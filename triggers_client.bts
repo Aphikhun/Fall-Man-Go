@@ -1,0 +1,3 @@
+Client_Init_Finished {
+	CreateWindow(name = "", res = "tutorial01")
+}

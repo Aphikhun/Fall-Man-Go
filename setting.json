@@ -395,7 +395,14 @@
       }
     ],
     "global": [],
-    "ui": []
+    "ui": [
+      {
+        "key": "pageT",
+        "run_type": "client",
+        "save": false,
+        "value": 1
+      }
+    ]
   },
   "waitAtInitPos": true,
   "waitGoTime": 0,

@@ -218,7 +218,7 @@
                         <Property value="2" name="ImageSrcBlend">
 
                         </Property>
-                        <Property value="gameres|asset/Texture/Gui/def_image.png" name="Image">
+                        <Property value="gameres|asset/Component/Icon/Icon_ColorIcon_Trophy02_l.png" name="Image">
 
                         </Property>
                         <Property value="Left_Horizontal" name="FillPosition">
