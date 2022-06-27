@@ -7,10 +7,11 @@
       }
     },
     "initPos": {
-      "map": "45f20b7f-eab8-45ae-bfc3-4e23eeba0151",
+      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "y": 22,
-        "z": -50
+        "x": 0.0013869404792786,
+        "y": 1.3900385284424,
+        "z": -0.050804138183594
       }
     },
     "nowTime": {
@@ -96,11 +97,11 @@
       }
     ],
     "startPos": {
-      "map": "45f20b7f-eab8-45ae-bfc3-4e23eeba0151",
+      "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
       "pos": {
-        "x": 0,
-        "y": 22,
-        "z": -50
+        "x": 1.2799550294876,
+        "y": 1.3900442504883,
+        "z": 1.4583950042725
       }
     },
     "team": {
@@ -280,7 +281,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2707602868c839b13bc91e55f0cd1f7c",
+      "setting.json": "3951bf701e624f684a41947f60a78a69",
       "shop.csv": "3fedcd08b2f085f5aec1753a7d6916db",
       "triggers.bts": "",
       "triggers_client.bts": "95d2736a533f348c225b381f54d31d4f"

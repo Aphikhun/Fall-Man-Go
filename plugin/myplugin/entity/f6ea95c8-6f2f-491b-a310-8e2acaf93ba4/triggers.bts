@@ -13,7 +13,7 @@ ENTITY_TOUCH_ALL {
 		$player = $obj2
 		If (not $npc.isTime) {
 			$timeReady = NumberFloor(p1 = 15)
-			$timeCounter = NumberFloor(p1 = 360)
+			$timeCounter = NumberFloor(p1 = 120)
 			$map_next = CreateDuplication(name = "06c5de00-572a-4157-8cc8-bdda31d12163")
 		}
 	}
@@ -30,7 +30,17 @@ ENTITY_TOUCH_ALL {
 				If ($npc.time <= 0) {
 					Foreach(array = $npc.listPlayer, key = "py") {
 						ShowTip(entity = $py, keepTime = 100, textKey = "4480f88b-bb32-44a2-91ab-b8ccc85dcf03", tipType = "1")
-						SetEntityPosition(entity = $py, map = GetEntityMap(entity = $npc), pos = { x = 50, y = 22, z = -50 }, rp = 0, ry = 0)
+						SetEntityPosition(
+							entity = $py,
+							map = GetEntityMap(entity = $npc),
+							pos = {
+								x = 0.40115737915039,
+								y = 20.140086212158,
+								z = -49.943778991699
+							},
+							rp = 0,
+							ry = 0
+						)
 					}
 					$npc.time = $timeCounter
 					StartTimer2(interval = 20, time = $timeCounter, timer = "InGame") {

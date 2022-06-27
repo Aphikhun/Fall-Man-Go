@@ -368,7 +368,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Double",
-                        "rawval": 360
+                        "rawval": 120
                       }
                     }
                   ]
@@ -2501,9 +2501,9 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "x": 50,
-                            "y": 22,
-                            "z": -50
+                            "x": 0.40115737915039,
+                            "y": 20.140086212158,
+                            "z": -49.943778991699
                           }
                         }
                       }
@@ -5266,7 +5266,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "e9e8bad11e4635ca651d65f0a246c138",
-      "triggers.bts": "b245a7e9d64ce5baf17ad25effb05a80"
+      "triggers.bts": "b57ceff9f1c63856c8c71d15dc574bff"
     },
     "VERSION": "0.21"
   }

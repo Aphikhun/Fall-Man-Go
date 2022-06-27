@@ -12,7 +12,7 @@ ENTITY_TOUCH_ALL {
 		$curPlayer = $obj2
 		$localEntity = $obj1
 		If (not $localEntity.isTime) {
-			$timeInGame = NumberFloor(p1 = 240)
+			$timeInGame = NumberFloor(p1 = 100)
 			$timeStart = NumberFloor(p1 = 15)
 			$mapIn = CreateDuplication(name = "5b3b47b8-2434-41bf-822b-ab260f7a13ee")
 		}

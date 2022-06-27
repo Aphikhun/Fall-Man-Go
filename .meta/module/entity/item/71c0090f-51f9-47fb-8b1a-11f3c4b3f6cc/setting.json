@@ -1004,7 +1004,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_MapStr",
-                        "rawval": "27a941fa-b79b-42da-a2d4-3332396ea2d5"
+                        "rawval": "45f20b7f-eab8-45ae-bfc3-4e23eeba0151"
                       }
                     }
                   ]
@@ -1863,7 +1863,9 @@
                         "__OBJ_TYPE": "T_ScenePos",
                         "rawval": {
                           "pos": {
-                            "y": 3
+                            "x": 40.17830657959,
+                            "y": 30.140004196167,
+                            "z": -0.055
                           }
                         }
                       }
@@ -3123,7 +3125,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "1fd1d5463d7c675fffde755408df50f8",
-      "triggers.bts": "319e445e715de0e39f07663d49eda868"
+      "triggers.bts": "cfc3efece709ee6dce7a14a3358c5f9e"
     },
     "VERSION": "0.21"
   }

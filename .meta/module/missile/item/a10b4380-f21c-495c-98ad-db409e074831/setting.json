@@ -1,5 +1,12 @@
 {
   "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
     "hitCount": {
       "hitEntityCount": 1,
       "isValid": true
@@ -17,7 +24,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "75969a7b2c4d549e09832b6e06c519df",
+      "setting.json": "0b4b2c13f7ef8b960f2f4099b50fe216",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

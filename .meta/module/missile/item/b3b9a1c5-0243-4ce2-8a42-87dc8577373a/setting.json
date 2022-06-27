@@ -1,5 +1,12 @@
 {
   "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
     "hitCount": {
       "hitEntityCount": 1,
       "isValid": true
@@ -212,7 +219,8 @@
           "custom_trigger_data": {
             "name": {
               "value": "71e78054-366c-483d-80dd-af44e1c81106"
-            }
+            },
+            "type": "Trigger_MissileHitEntity"
           },
           "root": {
             "components": [
@@ -237,7 +245,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8eec8f4f8f56299ad80d5227e1f66f83",
+      "setting.json": "93e6543b34cc0f03a70c6c04e465576d",
       "triggers.bts": "ea82996fa85dd0a11cce333cf6f379c4"
     },
     "VERSION": "0.21"
