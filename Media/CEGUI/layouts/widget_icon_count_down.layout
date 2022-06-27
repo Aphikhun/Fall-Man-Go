@@ -1,0 +1,214 @@
+<GUILayout version="4">
+  <Window type="DefaultWindow" name="Root">
+    <Property value="{{0,0},{0,0},{0,100},{0,50}}" name="Area">
+
+    </Property>
+    <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+    </Property>
+    <Property value="false" name="Disabled">
+
+    </Property>
+    <Property value="true" name="MousePassThroughEnabled">
+
+    </Property>
+    <Property value="Left" name="HorizontalAlignment">
+
+    </Property>
+    <Property value="Top" name="VerticalAlignment">
+
+    </Property>
+    <Property value="1" name="Alpha">
+
+    </Property>
+    <Property value="true" name="ClippedByParent">
+
+    </Property>
+    <Property value="true" name="Visible">
+
+    </Property>
+    <Window type="WindowsLook/StaticImage" name="IconCountDown_bg">
+      <Property value="{{0,0},{0,0},{0,50},{0,50}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="Stretched" name="vertFormatting">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="0 0 0 0" name="StaticImageStretch">
+
+      </Property>
+      <Property value="ffffffff" name="BackgroundColours">
+
+      </Property>
+      <Property value="ffffffff" name="ImageColours">
+
+      </Property>
+      <Property value="ffffffff" name="FrameColours">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+      <Property value="false" name="FrameEnabled">
+
+      </Property>
+      <Property value="" name="Image">
+
+      </Property>
+      <Property value="Right" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="Stretched" name="horzFormatting">
+
+      </Property>
+      <Property value="false" name="BackgroundEnabled">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+      <Property value="true" name="Visible">
+
+      </Property>
+      <Window type="WindowsLook/StaticImage" name="IconCountDown_icon">
+        <Property value="{{0,0},{0,0},{0,42},{0,42}}" name="Area">
+
+        </Property>
+        <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+        </Property>
+        <Property value="Stretched" name="vertFormatting">
+
+        </Property>
+        <Property value="false" name="Disabled">
+
+        </Property>
+        <Property value="0 0 0 0" name="StaticImageStretch">
+
+        </Property>
+        <Property value="ffffffff" name="BackgroundColours">
+
+        </Property>
+        <Property value="ffffffff" name="ImageColours">
+
+        </Property>
+        <Property value="ffffffff" name="FrameColours">
+
+        </Property>
+        <Property value="false" name="MousePassThroughEnabled">
+
+        </Property>
+        <Property value="false" name="FrameEnabled">
+
+        </Property>
+        <Property value="" name="Image">
+
+        </Property>
+        <Property value="Centre" name="HorizontalAlignment">
+
+        </Property>
+        <Property value="Stretched" name="horzFormatting">
+
+        </Property>
+        <Property value="false" name="BackgroundEnabled">
+
+        </Property>
+        <Property value="Centre" name="VerticalAlignment">
+
+        </Property>
+        <Property value="1" name="Alpha">
+
+        </Property>
+        <Property value="false" name="ClippedByParent">
+
+        </Property>
+        <Property value="true" name="Visible">
+
+        </Property>
+      </Window>
+    </Window>
+    <Window type="WindowsLook/StaticText" name="IconCountDown_text">
+      <Property value="{{0,0},{0,0},{0,50},{0,50}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="CentreAligned" name="VertFormatting">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="false" name="word_warpped">
+
+      </Property>
+      <Property value="false" name="BorderEnable">
+
+      </Property>
+      <Property value="0" name="BorderWidth">
+
+      </Property>
+      <Property value="CentreAligned" name="HorzFormatting">
+
+      </Property>
+      <Property value="ffffffff" name="FrameColours">
+
+      </Property>
+      <Property value="false" name="FrameEnabled">
+
+      </Property>
+      <Property value="ffffffff" name="BackgroundColours">
+
+      </Property>
+      <Property value="ff000000" name="TextColours">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+      <Property value="14" name="Font_size">
+
+      </Property>
+      <Property value="DroidSans-14" name="Font">
+
+      </Property>
+      <Property value="Left" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="" name="Text">
+
+      </Property>
+      <Property value="false" name="BackgroundEnabled">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="true" name="ClippedByParent">
+
+      </Property>
+      <Property value="ffffffff" name="BorderColor">
+
+      </Property>
+      <Property value="true" name="Visible">
+
+      </Property>
+    </Window>
+  </Window>
+</GUILayout>

@@ -1,0 +1,35 @@
+#version 100
+
+uniform sampler2D ScnSamp;
+
+uniform mediump vec2 SampStep;
+
+varying mediump vec2 texCoord;
+
+#define SAMP_NUM 5
+
+void main(void)
+{
+    mediump vec4 color = vec4(0.0, 0.0, 0.0, 0.0);
+	mediump float e, n = 0.0;
+	
+	mediump float weights[6];
+	weights[0] = 1.0;
+	weights[1] = 0.923116;
+	weights[2] = 0.726149;
+	weights[3] = 0.486752;
+	weights[4] = 0.278037;
+	weights[5] = 0.135335;
+	
+	mediump vec4 sum = vec4(0.0, 0.0, 0.0, 0.0);
+    for(int i = -SAMP_NUM; i <= SAMP_NUM; i++){
+        mediump vec2 stex = texCoord + vec2(SampStep.x * float(i), 0.0);
+		e = weights[(i<0?-i:i)];
+        mediump vec4 org_color = texture2D( ScnSamp, stex );
+        sum += org_color * e;
+        n += e;
+    }
+    
+    color = sum / n;
+    gl_FragColor = vec4( color.rgb, 1.0 );
+}

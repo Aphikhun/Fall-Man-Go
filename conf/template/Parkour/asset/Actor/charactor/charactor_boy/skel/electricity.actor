@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate SoundName1="" MinDistance="1" SoundName4="" Skeleton="8_weapon.skel" MaxDistance="16" IntervalTime="2" WoundBone="" SoundFileNum="0" SelectedRingSize="1" Volume="0.8" WoundAngle="25" Originalscale="1 1 1" IsShowShadow="true" Alpha="1" AttackScale="1" TextHeight="0" SoundName3="" SoundName5="" name="111.actor" SoundName2="">
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" DefaultUse="true" MasterName="body" SlaveName="group0" ColorParams="1 1 1 1">
+				<Effect>
+					<SocketName value="Bone002"/>
+					<TimeScale value="1"/>
+					<type_name value="g2021_25_B"/>
+					<FileName value="asset/g2021_25_B.effect"/>
+					<Alpha value="1"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<yaw value="90"/>
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

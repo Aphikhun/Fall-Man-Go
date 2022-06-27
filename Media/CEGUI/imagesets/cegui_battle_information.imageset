@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" imagefile="cegui_battle_information.png" name="cegui_battle_information" nativeHorzRes="512" nativeVertRes="512" version="2">
+	<Image height="16" name="icon_leave" width="16" xPos="21" yPos="0"/>
+	<Image height="48" name="icon_title_bg_icon" width="218" xPos="223" yPos="53"/>
+	<Image height="24" name="icon_open_icon" width="36" xPos="83" yPos="0"/>
+	<Image height="48" name="icon_open_2_icon" width="57" xPos="186" yPos="0"/>
+	<Image height="178" name="battle_bg" width="400" xPos="0" yPos="106"/>
+	<Image height="48" name="battle_icon" width="57" xPos="124" yPos="0"/>
+	<Image height="43" name="countdown" width="124" xPos="248" yPos="0"/>
+	<Image height="16" name="icon_death_icon" width="16" xPos="0" yPos="0"/>
+	<Image height="38" name="battle_list_title" width="400" xPos="0" yPos="289"/>
+	<Image height="48" name="battle_title" width="218" xPos="0" yPos="53"/>
+	<Image height="24" name="battle_list_fold" width="36" xPos="42" yPos="0"/>
+</Imageset>

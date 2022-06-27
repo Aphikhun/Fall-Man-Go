@@ -1,0 +1,5 @@
+SKILL_CAST {
+	StartTimer2(interval = 23, time = 1, timer = "") {
+		AddEntityBuff(buffTime = 100, cfg = "myplugin/intensify", entity = $obj1)
+	}
+}

@@ -1,0 +1,52 @@
+#version 100
+
+uniform sampler2D texSampler;
+uniform sampler2D aoSampler;
+
+varying mediump vec2 texCoord;
+varying mediump vec2 texCoord1;
+varying mediump vec4 color;
+varying mediump float vDiscardAlpha;
+varying mediump float useOverlayColorReplaceMode;
+
+#ifndef NEW_FOG
+varying mediump vec4 oFogColor;
+#else
+uniform mediump vec4 fogParam[3];
+
+mediump float LinearizeDepth(mediump float depth, mediump float near, mediump float far) 
+{
+    mediump float z = depth * 2.0 - 1.0; // back to NDC 
+    return (2.0 * near * far) / (far + near - z * (far - near));    
+}
+
+mediump float ComputeFog(mediump float z, mediump float w, mediump float density, mediump float near, mediump float far, mediump float min, mediump vec4 notUse)
+{
+	const mediump float LOG2 = 1.442695;
+	mediump float fogFactor = exp2(-density * density * (z / w) * (z / w) * LOG2);
+	fogFactor = clamp(fogFactor, 0.0, 1.0) + 1.0 - LinearizeDepth(z, near, far) / far;
+	return clamp(fogFactor, min, 1.0);
+}
+#endif
+
+void main(void)
+{
+  mediump vec4 textureColor = texture2D(texSampler, texCoord);
+  mediump vec4 aoColor = texture2D(aoSampler, texCoord1);
+  if(textureColor.a < vDiscardAlpha)
+  {
+    discard;
+  }
+  mediump float temp = step(0.3, textureColor.a);
+  textureColor.a = temp * textureColor.a + (1.0 - temp) * 1.0;
+
+  mediump vec4 finalColor;
+  finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+  finalColor.rgb *= aoColor.rgb;
+
+#ifdef NEW_FOG
+	mediump vec4 oFogColor =  vec4(fogParam[1].rgb, ComputeFog(gl_FragCoord.z, gl_FragCoord.w, fogParam[0].z, fogParam[0].x, fogParam[0].y, fogParam[0].w, fogParam[2]));
+#endif
+
+  gl_FragColor = vec4(mix(oFogColor.rgb, finalColor.rgb, oFogColor.a), finalColor.a);
+}

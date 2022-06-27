@@ -1,0 +1,92 @@
+<GUILayout version="4">
+  <Window type="DefaultWindow" name="Root">
+    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+    </Property>
+    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+    </Property>
+    <Property name="Alpha" value="1">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Top">
+
+    </Property>
+    <Property name="HorizontalAlignment" value="Left">
+
+    </Property>
+    <Property name="ClippedByParent" value="true">
+
+    </Property>
+    <Property name="Visible" value="true">
+
+    </Property>
+    <Window name="ScrollablePane" type="WindowsLook/ScrollableView">
+      <Window type="GridLayoutContainer" name="GameSetting_grid">
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="GridSize" value="w:2 h:8">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="ClippedByParent" value="true">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+      </Window>
+      <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="" name="BackGroundImage">
+
+      </Property>
+      <Property value="true" name="moveAble">
+
+      </Property>
+      <Property value="true" name="Visible">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="false" name="ForceHorzScrollbar">
+
+      </Property>
+      <Property value="false" name="ForceVertScrollbar">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+      <Property value="Left" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+    </Window>
+  </Window>
+</GUILayout>

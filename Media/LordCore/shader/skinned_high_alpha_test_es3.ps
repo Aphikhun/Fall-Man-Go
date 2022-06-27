@@ -1,0 +1,33 @@
+﻿#version 300 es
+
+precision mediump float;
+
+#include "headers/basic.glsl"
+#include "headers/lighting.glsl"
+#include "headers/fog.glsl"
+
+uniform float discardAlpha;
+
+out vec4 fragColor;
+
+vec4 getLightMap() 
+{
+	return vec4(0.0);
+}
+
+void main(void)
+{
+	vec4 textureColor = texture(texSampler, texCoord);
+	if (textureColor.a < discardAlpha)
+	{
+		discard;
+	}
+
+	vec3 pixelColor = CalcPixelLight(vec3(worldNormal), vec3(worldPos), textureColor);
+
+	vec4 finalColor = vec4(pixelColor, 1.0);
+
+	mediump vec4 oFogColor = CalcFogColor();
+
+	fragColor = vec4(mix(oFogColor.rgb, finalColor.rgb, oFogColor.a), finalColor.a);
+}

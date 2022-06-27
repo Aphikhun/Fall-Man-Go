@@ -1,0 +1,35 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/charactor/charactor_boy/skel/electricity.actor",
+        "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/skel/electricity.actor"
+      },
+      "girlactor": {
+        "asset": ""
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/charactor/charactor_boy/skel/electricity.actor",
+      "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/skel/electricity.actor"
+    },
+    "checkPartTouchEvent": false,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_electricity"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dc634e9c20b7bee4c65d1e1c8ff72e3f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

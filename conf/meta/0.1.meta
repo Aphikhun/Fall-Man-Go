@@ -1,0 +1,4731 @@
+﻿#################################################################
+############################## BASE #############################
+#################################################################
+
+# 多语言串
+struct Text {
+	[UUID: "true", COPY_LANG: "true"]
+	string value;
+};
+
+struct Time {
+	number value;
+};
+
+struct Uuid {
+	[UUID: "true"]
+	string value;
+};
+
+struct Tags {
+	string module;
+	string tags[];
+};
+
+#百分比类型，数值在0-1之间
+struct Percentage{
+	number value;
+};
+
+#################################################################
+# color
+
+struct Color {
+	number value;
+};
+
+struct ColorRGBA {
+	[Min: "0", Max: "1"]
+	number r = 1;
+	[Min: "0", Max: "1"]
+	number g = 1;
+	[Min: "0", Max: "1"]
+	number b = 1;
+	[Min: "0", Max: "1"]
+	number a = 1;
+};
+
+#################################################################
+# math
+struct Vector2 {
+	number x;
+	number y;
+};
+
+#取值范围
+struct ValueRange {
+	[Integer: "true",Min: "0"]
+	number min;
+	[Integer: "true"]
+	number max;
+};
+
+struct Vector3 {
+	number x;
+	number y;
+	number z;
+};
+
+struct Vector3i {
+	[Integer: "true"]
+	number x;
+
+	[Integer: "true"]
+	number y;
+
+	[Integer: "true"]
+	number z;
+};
+
+struct Box {
+	Vector3 min = Vector3(x = 0, y = 0, z = 0);
+	Vector3 max = Vector3(x = 1, y = 1, z = 1);
+};
+
+#################################################################
+struct BlockPos : Vector3i {
+	
+};
+
+struct ScenePos {
+	MapEntry map;
+	Vector3i pos;
+};
+
+struct Region {
+	Vector3i min;
+	Vector3i max;
+};
+
+struct SceneRegion {
+	MapEntry map;
+	Region region;
+};
+#################################################################
+## resource
+enum Resource_BlockTexture_Selector {
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("texture/block", "png")
+	end);
+};
+
+struct Resource_BlockTexture {
+	Resource_BlockTexture_Selector selector;
+	string asset;
+	string name;
+
+	monitor("selector", function(self, path, oval)
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector, "/")
+		self.name = strs[#strs]
+	end);
+};
+
+enum Resource_EntityTexture_Selector {
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("texture/entity", "png")
+	end);
+};
+
+struct Resource_EntityTexture {
+	Resource_EntityTexture_Selector selector;
+	string asset;
+	string name;
+
+	monitor("selector", function(self, path, oval)
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector, "/")
+		self.name = strs[#strs]
+	end);
+};
+
+enum Resource_SkillTexture_Selector{
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("texture/skill", "png")
+	end);
+};
+
+struct Resource_SkillTexture {
+	Resource_SkillTexture_Selector selector;
+	string asset;
+	string name;
+
+	monitor("selector", function(self, path, oval)
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector,"/")
+		self.name = strs[#strs]
+	end);
+};
+
+enum Resource_ItemTexture_Selector{
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("texture/item", "png")
+	end);
+};
+
+struct Resource_ItemTexture {
+	Resource_ItemTexture_Selector selector;
+	string asset;
+	string name;
+
+	monitor("selector", function(self, path, oval)
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector,"/")
+		self.name = strs[#strs]
+	end);
+};
+
+
+enum Resource_ShopTexture_Selector{
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("texture/shop", "png")
+	end);
+};
+
+struct Resource_ShopTexture {
+	Resource_ShopTexture_Selector selector;
+	string asset;
+	string name;
+
+	monitor("selector", function(self, path, oval)
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		--local strs = Lib.splitString(self.selector,"/")
+		--self.name = strs[#strs]
+	end);
+};
+
+enum Resource_Sound_Selector {
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("audio/sound", "mp3")
+	end);
+};
+
+struct Resource_Sound {
+	Resource_Sound_Selector selector;
+	string asset;
+	string name;
+
+	monitor("selector", function(self, path, oval)
+		if self.selector == "" then
+			self.asset = ""
+			self.name = ""
+			return
+		end
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector, "/")
+		self.name = strs[#strs]
+	end);
+};
+
+enum Resource_Actor_Selector {
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("actor", "actor")
+	end);
+};
+
+struct Resource_Actor {
+	Resource_Actor_Selector selector;
+	string asset;
+	string name;
+	string type = "actor";
+
+	monitor("selector", function(self, path, oval)
+		if self.selector == "" then
+			self.asset = ""
+			self.name = ""
+			return
+		end
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector, "/")
+		self.name = strs[#strs]
+	end);
+};
+
+enum Resource_Effect_Selector {
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("effect", "effect")
+	end);
+};
+
+struct Resource_Effect {
+	Resource_Effect_Selector selector;
+	string asset;
+	string name;
+	string type = "effect";
+
+	monitor("selector", function(self, path, oval)
+		if self.selector == "" then
+			self.asset = ""
+			self.name = ""
+			return
+		end
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector, "/")
+		self.name = strs[#strs]
+	end);
+};
+
+enum Resource_Mesh_Selector {
+	list(function()
+		local Res = require "editor.gamedata.res"
+		return Res.list("mesh", "mesh")
+	end);
+};
+
+struct Resource_Mesh {
+	Resource_Mesh_Selector selector;
+	string asset;
+	string name;
+	string type = "mesh";
+
+	monitor("selector", function(self, path, oval)
+		if self.selector == "" then
+			self.asset = ""
+			self.name = ""
+			return
+		end
+		local Res = require "editor.gamedata.res"
+		self.asset = Res.import(self.selector)
+		local strs = Lib.splitString(self.selector, "/")
+		self.name = strs[#strs]
+	end);
+};
+
+#################################################################
+## resource_effector
+
+struct CastSound {
+	bool selfOnly;
+	bool loop;
+	Percentage volume;
+	Resource_Sound sound;
+};
+
+struct DeadSound : CastSound {
+	Time delayTime;
+};
+
+
+struct EntityEffect{
+	Resource_Effect effect;
+	bool selfOnly;
+	bool once = true;
+	Vector3 pos;
+	number yaw;
+};
+
+#################################################################
+########################### BLOCK ###############################
+#################################################################
+
+
+# 包围盒纹理
+struct Block_CubeTexture {
+	Resource_BlockTexture up;
+	Resource_BlockTexture down;
+	Resource_BlockTexture front;
+	Resource_BlockTexture back;
+	Resource_BlockTexture left;
+	Resource_BlockTexture right;
+};
+
+struct Block_DropSelf {
+	bool canDropSelf = true;
+	[Min: "1"]
+	number dropCount = 1;
+};
+
+struct Block_DropItem {
+	ItemEntry item;
+	[Integer: "true",Min: "1"]
+	number count = 1;
+};
+
+struct Block_Quad {
+	Vector3 pos[4];
+	Resource_BlockTexture texture;
+};
+
+struct BlockCfg {
+#################################################################
+## 基础属性 BASE
+
+	# 名字
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE"]
+	Text name;
+
+	# 分类标签
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE"]
+	Tags tags = Tags(module = "block");
+
+	# 碰撞体积
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE", RELOAD: "true"]
+	Box collisionBoxes[] = {
+		Box()
+	};
+
+	# 贴图
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE", RELOAD: "true"]
+	Block_CubeTexture textures;
+
+	# 弹性
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE", Min: "0"]
+	number spring;
+
+	# 自动下落
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE"]
+	bool fall = false;
+
+	# 踩上方块
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE"]
+	BuffEntry onBuff;
+
+	# 进入方块
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.BASE"]
+	BuffEntry inBuff;
+
+
+#################################################################
+# 交互相关
+
+	# 可被点击
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.INTERACTION"]
+	bool canClick = false;
+
+	# 可被破坏
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.INTERACTION"]
+	bool canBreak = true;
+
+	# 硬度
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.INTERACTION"]
+	Time breakTime = Time(value = 20);
+	
+	# 破坏后重生
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.INTERACTION"]
+	bool recycle = false;
+	
+	# 破坏后重生时间
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.INTERACTION"]
+	Time recycleTime = Time(value = 20);
+
+
+#################################################################
+# 攀爬相关 CLIMB
+
+	# 攀爬速度
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.CLIMB", Min: "0"]
+	number climbSpeed = 0;
+
+	# 自动下降速度
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.CLIMB", Min: "0"]
+	number maxFallSpeed = 1.5;
+
+#################################################################
+# 音效相关 SOUND
+
+	# 步行时音效
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.SOUND"]
+	CastSound runSound;
+
+	# 潜行时音效
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.SOUND"]
+	CastSound sneakSound;
+
+	# 放置音效
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.SOUND"]
+	CastSound placeBlockSound;
+
+	# 敲碎音效
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.SOUND"]
+	CastSound breakBlockSound;
+
+	# 跑动音效
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.SOUND"]
+	CastSound sprintSound;
+
+	# 跳起音效
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.SOUND"]
+	CastSound jumpSound;
+
+#################################################################
+## 掉落 DROPITEM
+
+	# 基础掉落
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.DROPITEM"]
+	Block_DropSelf dropSelf;
+
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.DROPITEM"]
+	Block_DropItem dropItems[];
+
+#################################################################
+## 其它 OTHER
+
+	# 可游泳
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.OTHER"]
+	bool canSwim = false;
+
+	# 最大移动速度
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.OTHER", Min: "0"]
+	number maxSpeed;
+
+	[TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER", TRIGGER: "BlockTriggers"]
+	TriggerSet triggers;
+	
+		
+#################################################################
+## 隐藏 HIDE
+
+	[TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	bool blockObjectOnCollision = false;
+	
+	[TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	ColorRGBA color;
+
+	#光不透明度
+	[Integer: "true", TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	number lightOpacity = 15;
+
+	[Integer: "true", TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	number renderPass = 0;
+	
+	[Integer: "true", TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	number lightEmitted = 0;
+	
+	[TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	bool isOpaqueFullCube = true;
+	
+	[TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	bool emitLightInMaxLightMode = false;
+	
+	[TAB: "TAB.HIDE", GROUP: "BLOCK.GROUP.OTHER"]
+	bool renderable = true;
+	
+	[TAB: "TAB.PROP", GROUP: "BLOCK.GROUP.OTHER"]
+	hide Block_Quad quads[];
+	
+};
+
+enum BlockEntry {
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("block")
+		
+		for key , item in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key,
+				attrs = {name = item:val().name.value}
+			})
+		end
+
+		collectgarbage("collect")
+		return ret
+	end);
+};
+
+struct BlockArray {
+	BlockEntry blockArray[];
+};
+
+#################################################################
+########################### Entity ##############################
+#################################################################
+
+enum BdVolumeType{
+	"Box"
+};
+
+struct BoundingVolume{
+	hide BdVolumeType type = "Box";
+	Vector3 params;
+};
+
+[integer: "true"]
+enum EquipSlot{
+	"1",
+	"2",
+	"3",
+	"4",
+	"5",
+	"6",
+	"7",
+	"8",
+	"9"
+};
+
+struct IdleTime{
+	Time max;
+	Time min;
+};
+
+struct SkillList {
+	number attackDis;
+	number prioity;
+	SkillEntry fullName;
+};
+
+[Preview: "actorName"]
+struct EntityCfg {
+#################################################################
+## 基础属性 BASE
+
+	#名字
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	Text name;
+
+	#头像
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	Resource_EntityTexture headPic;
+
+	# 分类标签
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	Tags tags = Tags(module = "entity");
+	
+	#模型
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE",RELOAD: "true"]
+	Resource_Actor actorName;
+
+	#最大生命值
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE", Min: "0"]
+	number maxHp = 20;
+
+	#点选距离
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE", Min: "1"]
+	number clickDistance = 4;
+
+	#可被点击
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	bool canClick;
+
+	#不可被攻击
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	bool unAssailable;
+	
+	#免疫攻击时间
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	Time hurtResistantTime = Time(value = 20);
+
+	#不可被伤害
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	bool unDamageable;
+
+	#抬脚高度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE", Min: "0"]
+	number stepHeight = 0.6;
+	
+	#死亡销毁延迟
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	Time destroyTime;
+	
+	#是否复活
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	bool canRevive;
+	
+	#复活时间
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.BASE"]
+	Time reviveTime;
+
+#################################################################
+# 音效相关 SOUND
+	
+	#死亡音效
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.SOUND"]
+	DeadSound deadSound;
+
+#################################################################
+# 攻击 ATTACK
+
+	#攻击力
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.ATTACK"]
+	number damage = 0;
+
+#################################################################
+# 移动 MOVE
+	
+	#可移动
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.MOVE"]
+	bool canMove = true;
+
+	#加速度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.MOVE"]
+	number moveAcc = 0.2;
+
+	#移动速度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.MOVE"]
+	number moveSpeed = 0.2;
+
+	#移动速度倍率
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.MOVE"]
+	number moveFactor = 1;
+
+#################################################################
+# 跳跃 JUMP
+
+	#可跳跃
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.JUMP"]
+	bool canJump = true;
+
+	#离地速度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.JUMP", Min: "0"]
+	number jumpSpeed = 0.5;
+
+	#重力
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.JUMP", Min: "0"]
+	number gravity = 0.08;
+
+	#跳起高度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.JUMP", Min: "0"]
+	number jumpHeight = 0.6;
+
+#################################################################
+# 血条 LIFEBAR
+
+	#隐藏血条
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.LIFEBAR",RELOAD: "true"]
+	bool hideHp = true;
+
+	#血条颜色
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.LIFEBAR",RELOAD: "true"]
+	Color hpBarColor = Color(value = 4278190335);
+
+	#血条高度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.LIFEBAR", Min: "0",RELOAD: "true"]
+	number hpBarHeight = 0.2;
+
+	#血条宽度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.LIFEBAR", Min: "0",RELOAD: "true"]
+	number hpBarWidth = 1;
+
+#################################################################
+# 扣血 SUBHP
+
+	#扣血量
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.SUBHP"]
+	#掉落阈值 掉落速度大于该值会有掉落伤害
+	number dropDamageStart = 50;
+
+#################################################################
+# 技能 SKILL
+
+	#技能
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.SKILL"]
+	SkillEntry skill[];
+
+	#眼睛高度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.SKILL", Min: "0.1"]
+	number eyeHeight = 1.62;
+
+#################################################################
+# 漂浮 FLOAT
+
+	#可漂浮
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.FLOAT"]
+	bool canBoat;
+
+	#吃水线
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.FLOAT"]
+	number waterLine;
+	
+	#游泳速度
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.FLOAT"]
+	number swimSpeed = 0.2;
+
+#################################################################
+# 碰撞 COLLISION
+
+	#有碰撞体积
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.COLLISION"]
+	bool collision;
+
+	#碰撞体积
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.COLLISION"]
+	BoundingVolume boundingVolume = BoundingVolume(
+		params = Vector3(x = 0.6, y = 1.8,z = 0.6)
+	);
+
+#################################################################
+# 装备 EQUIP
+
+	#装备槽
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.EQUIP"]
+	EquipSlot equip[];
+
+#################################################################
+# AI
+
+	#开启AI
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI"]
+	bool enableAI;
+
+	#自动攻击
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI"]
+	bool autoAttack;
+
+	#攻击NPC
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI"]
+	bool attackNpc;
+
+	#巡逻半径
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI", Min: "0"]
+	number patrolDistance;
+
+	#寻敌半径
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI", Min: "0"]
+	number chaseDistance;
+
+	#领地范围 
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI", Min: "0"]
+	number homeSize;
+
+	#发呆时间
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI"]
+	IdleTime idleTime;
+
+	#发呆概率
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI"]
+	Percentage idleProb;
+
+	#AI技能
+	[TAB: "TAB.PROP", GROUP: "ENTITY.GROUP.AI"]
+	SkillList skillList[];
+
+#################################################################
+# 其他 OTHER
+	[TAB: "TAB.HIDE", GROUP: "ENTITY.GROUP.OTHER", TRIGGER: "EntityTriggers"]
+	TriggerSet triggers;
+};
+
+enum EntityEntry {
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("entity")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key
+			})
+		end
+
+		return ret
+	end);
+};
+
+
+#################################################################
+########################### MISSILE #############################
+#################################################################
+
+#子弹碰撞方块
+enum MissileCollideBlock {
+	"0",	#无碰撞
+	"1",	#碰撞消失
+	"2",	#碰撞反弹
+	"3",	#碰撞阻挡
+	"4",	#命中方块
+};
+
+#子弹碰撞单位
+enum MissileCollideEntity {
+	"0",	#无碰撞
+	"1",	#任何单位
+	"2",	#仅目标单位
+};
+
+enum MissileModelType {
+	"empty",
+	"mesh",
+	"block",
+};
+
+struct MissileModel {
+	MissileModelType type = "empty";
+	Resource_Mesh modelMesh;
+	BlockEntry modelBlock;
+};
+
+struct MissileEffect {
+	Resource_Effect effect;
+	bool once;
+	bool timeLimit;
+	Time time;
+	Vector3 pos;
+	number yaw;
+};
+
+struct MissileHitCount {
+	#开启碰撞
+	bool isValid;
+
+	#最大碰撞次数
+	[Min: "0", Integer : "true"]
+	number hitCount;
+	
+	#最大碰撞单位次数
+	[Min: "0", Integer : "true"]
+	number hitEntityCount;
+	
+	#最大碰撞方块次数
+	[Min: "0", Integer : "true"]
+	number hitBlockCount;
+};
+
+struct MissileCfg {
+#################################################################
+## 名称&模型 NAME&MODEL
+
+	#名字
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.NAME&MODEL"]
+	Text name;
+	
+	#子弹外形
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.NAME&MODEL"]
+	MissileModel missileModel;
+	
+	#包围盒
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.NAME&MODEL"]
+	BoundingVolume boundingVolume;
+	
+#################################################################
+## 飞行状态 FLY
+	
+	#移动速度/最大速度
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FLY"]
+	number moveSpeed = 2;
+	
+	#加速度
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FLY"]
+	number moveAcc;
+		
+	#重力
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FLY"]
+	number gravity;
+	
+	#旋转速度
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FLY"]
+	number rotateSpeed;
+	
+	#计算俯仰角
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FLY"]
+	bool isPitch;
+	
+#################################################################
+## 追踪目标 FOLLOW
+	
+	#追踪目标
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FOLLOW"]
+	bool followTarget;
+	
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.FOLLOW"]
+	Vector3 followTargetPositionOffset;
+	
+#################################################################
+## 生命周期 LIFECYCLE
+	
+	#存在时间
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.LIFECYCLE"]
+	Time lifeTime = Time(value = 100);
+	
+	#消亡时间
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.LIFECYCLE"]
+	Time vanishTime;
+	
+	#消亡显示
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.LIFECYCLE"]
+	bool vanishShow;
+	
+#################################################################
+## 碰撞类型 COLLISION
+		
+	#子弹碰到方块
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.COLLISION"]
+	MissileCollideBlock collideBlock = "1";
+	
+	#子弹碰到单位
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.COLLISION"]
+	MissileCollideEntity collideEntity = "1";
+	
+#################################################################
+## 发射 SHOOT
+	
+	#发射时技能
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.SHOOT"]
+	SkillEntry startSkill;
+		
+	#发射时音效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.SHOOT"]
+	CastSound startSound;
+	
+	#发射时特效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.SHOOT"]
+	MissileEffect startEffect;
+	
+#################################################################
+## 命中 HIT
+	
+	#命中单位间隔
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	Time hitInterval = Time(value = 10);
+	
+	#碰撞次数
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	MissileHitCount hitCount;
+	
+	#命中技能
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	SkillEntry hitSkill;
+	
+	#命中单位后技能
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	SkillEntry hitEntitySkill;
+	
+	#命中方块后技能
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	SkillEntry hitBlockSkill;
+	
+	#命中后特效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	MissileEffect hitEffect;
+	
+	#命中后音效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	CastSound hitSound;
+	
+	#命中单位音效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	CastSound hitEntitySound;
+	
+	#命中方块音效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	CastSound hitBlockSound;
+	
+	#反弹音效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.HIT"]
+	hide CastSound reboundBlockSound;
+
+	
+#################################################################
+## 消失 VANISH
+
+	#消失时技能
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.VANISH"]
+	SkillEntry vanishSkill;
+	
+	#消失时特效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.VANISH"]
+	MissileEffect vanishEffect;
+	
+	#反弹音效
+	[TAB: "TAB.PROP", GROUP: "MISSILE.GROUP.VANISH"]
+	CastSound vanishSound;
+
+#################################################################
+## 其他 OTHER
+	
+	[TRIGGER: "MissileTriggers"]
+	hide TriggerSet triggers;
+
+};
+
+#################################################################
+########################### Map #################################
+#################################################################
+
+struct EntityObj{
+	[UUID: "true"]
+	string id;
+	EntityEntry cfg;
+	Vector3i pos;
+	number ry;
+};
+
+struct RegionObj{
+	[UUID: "true"]
+	string id;
+	string name;
+	RegionEntry cfg;
+	Vector3i min;
+	Vector3i max;
+};
+
+struct MapViewerPos {};
+
+#地图迷雾
+struct MapFog{
+	bool hideFog;
+	number start = 10;
+	hide number end = 200;
+	Percentage density = Percentage(value = 0.45);
+	ColorRGBA color = ColorRGBA(r = 0.26, g = 0.81, b = 0.93);
+};
+
+struct MapCfg {
+
+	#名字
+	[TAB: "TAB.PROP", GROUP: "MAP.GROUP.PROP"]
+	Text name;
+
+	[TAB: "TAB.PROP", GROUP: "MAP.GROUP.PROP"]
+	bool canAttack = true;
+
+	[TAB: "TAB.PROP", GROUP: "MAP.GROUP.PROP"]
+	bool canBreak = true;
+	
+	#地图迷雾
+	[TAB: "TAB.PROP", GROUP: "MAP.GROUP.PROP"]
+	MapFog fog;
+
+	[TAB: "TAB.PROP", GROUP: "MAP.GROUP.PROP"]
+	MapViewerPos initPos;
+
+	[TAB: "TAB.HIDE", GROUP: "MAP.GROUP.PROP"]
+	EntityObj entitys[];
+	[TAB: "TAB.HIDE", GROUP: "MAP.GROUP.PROP"]
+	RegionObj regions[];
+};
+
+enum MapEntry {
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("map")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = key
+			})
+		end
+
+		return ret
+	end);
+};
+
+#################################################################
+########################### Item ################################
+#################################################################
+
+# equip_skin - key 装备位置
+enum ItemPosition{
+	"armor_chest",
+	"armor_foot",
+	"armor_head",
+	"armor_thigh"
+};
+
+# equip_skin - value 装备外观
+enum ItemGuise{
+	"chain",
+	"diamond",
+	"gold",
+	"iron",
+	"leather"
+};
+
+# 道具类型
+enum ItemType{
+	"Equip",
+	"InHand",
+	"Use"
+};
+
+# 弹夹类型
+enum ClipType {
+	"Item"
+};
+
+struct ItemBase{
+
+};
+
+# 装备道具
+struct ItemEquip : ItemBase{
+	EquipSlot tray;
+	ItemPosition itemPosition;
+	ItemGuise itemGuise;
+	SkillEntry equip_skill[];
+	BuffEntry equip_buff;
+};
+
+# 手持道具
+struct ItemInHand : ItemBase{
+	SkillEntry skill[];
+};
+
+# 消耗道具
+struct ItemUse : ItemBase{
+	BuffEntry useBuff;
+	Time time;
+};
+
+struct Item{
+	ItemType type = "Equip";
+	ItemBase base = ItemEquip();
+
+	monitor("type",function(self,path,oval)
+		if self.type == "Equip" then
+			self.base = ctor("ItemEquip")
+		elseif self.type == "InHand" then
+			self.base = ctor("ItemInHand")
+		elseif self.type == "Use" then
+			self.base = ctor("ItemUse")
+		end
+	end);
+};
+
+#道具消耗类型
+enum ConsumeType {
+	"Block",
+	"Item"
+};
+
+# 消耗道具种类
+struct ConsumeItemType{
+	ConsumeType type = "Item";
+	BlockEntry block;
+	ItemEntry item;
+};
+
+# 消耗道具
+struct ConsumeItem{
+	ConsumeItemType itemType;
+	[Integer : "true", Min : "0"]
+	number count = 1;
+};
+
+# 弹夹Item
+struct ItemContainer {
+	bool isValid = false;
+	[Min: "0", Integer : "true"]
+	number initCapacity;
+	[Min: "0", Integer : "true"]
+	number maxCapacity;
+	ConsumeItemType itemType;
+};
+
+struct ItemCfg{
+#################################################################
+## 基础属性 BASE
+
+	# 名字
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	Text name;
+
+	# 简介
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	Text itemintroduction;
+
+	# 图标
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	Resource_ItemTexture icon;
+
+	# 模型
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	Resource_Mesh mesh;
+
+	# 背包每个格子可放数量
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE", Min: "0", Integer : "true"]
+	number stack_count_max = 1;
+
+	#可被摧毁
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	bool candestroy;
+
+	#可掉落
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	bool candrop;
+
+	#可被使用
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	bool canUse;
+
+	#可被保存
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.BASE"]
+	bool needSave;
+
+#################################################################
+## 道具类型 TYPE
+
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.TYPE"]
+	Item item;
+
+#################################################################
+## 其他 OTHER
+	#陷阱
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.OTHER"]
+	bool trap;
+
+	#弹夹配置
+	[TAB: "TAB.PROP", GROUP: "ITEM.GROUP.OTHER"]
+	ItemContainer itemContainer;
+
+	[TAB: "TAB.HIDE", GROUP: "ITEM.GROUP.OTHER", TRIGGER: "ItemTriggers"]
+	TriggerSet triggers;
+
+};
+
+enum ItemEntry{
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("item")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key
+			})
+		end
+
+		return ret
+	end);
+};
+
+
+#################################################################
+########################### Skill ###############################
+#################################################################
+
+# 技能动作
+enum ActionType{
+	"attack2",
+	"attack",
+	"aim2",
+	"aim3",
+	"jump3",
+	"fly",
+	"hammer"
+};
+
+# 技能类型
+enum SkillType {
+	"Base",
+	"MeleeAttack",
+	"Charge",
+	"Missile",
+	"Reload",
+	"Buff",
+	"Ray",
+	"UseItem"
+};
+
+#技能释放位置
+enum StartFrom {
+	"foot"
+};
+
+# 弹夹设置
+struct SkillContainer{
+	bool isValid;
+	SkillEntry autoReloadSkill;
+	[Min: "0"]
+	number takeNum = 1;
+};
+
+struct Skill_Base{
+};
+
+# 近战攻击
+struct Skill_MeleeAttack : Skill_Base{
+	[Min: "0"]
+	number range = 4;
+
+	#击退距离
+	[Min: "0"]
+	number hurtDistance = 0.1;
+	
+	[Min: "0"]
+	number damage;
+
+	[Min: "0"]
+	hide number dmgFactor = 1;
+};
+
+#装弹技能
+struct Skill_Reload : Skill_Base{
+	#装弹时间
+	Time reloadTime = Time(value = 20);
+	#子弹
+	ConsumeItemType consumeItem;
+};
+
+#buff目标
+enum BuffTarget {
+	"self",
+	"skill_target"
+};
+
+#Buff技能
+struct Skill_Buff : Skill_Base{
+	BuffEntry buffCfg;
+	Time buffTime;
+	BuffTarget target = "skill_target";
+};
+
+#后坐力相关
+#struct AutoRecoverRecoil {
+#	bool recover;
+#	number value;
+#	Time time;
+#};
+
+struct Skill_Ray : Skill_Base{
+
+	# 随机命中点
+	bool isHitPointRandom;
+
+	# 射线长度
+	[Min: "0"]
+	number rayLenth;
+
+	# 命中特效
+	Resource_Effect hitEffect;
+
+	# 轨道特效
+	Resource_Effect trajectoryEffect;
+	
+	# 后坐力
+	[Min: "0"]
+	number recoil;
+
+	# 命中触发
+	SkillEntry hitEntitySkill;
+
+	# 爆头触发
+	SkillEntry hitEntityHeadSkill;
+	
+	# 命中方块触发
+	SkillEntry hitBlockSkill;
+};
+
+struct MissileData {
+	MissileEntry missileCfg;
+	Vector3 startPos;
+	number startYaw;
+	number startPitch;
+	Time startWait;
+};
+
+#子弹目标类型
+enum MissileTargetType {
+	"CameraYaw",
+	"Camera",
+	"BodyYaw",
+	"Entity",
+	"Self",
+	"Block",
+	"FrontEntity",
+	"Any",
+	"None"
+};
+
+struct MissileTargetParam{
+};
+
+struct MissileTargetParam_FrontEntity : MissileTargetParam{
+	number frontDistance = 1;
+	number frontRange = 1;
+	number frontHeight = 1;
+};
+
+struct MissileTargetStruct{
+	MissileTargetType type = "Any";
+	MissileTargetParam param;
+	monitor("type", function(self, path, oval)
+		if self.type == "FrontEntity" then
+			self.param = ctor("MissileTargetParam_FrontEntity")
+		else
+			self.param = ctor("MissileTargetParam")
+		end
+	end);
+};
+
+struct Skill_Missile : Skill_Base {
+	StartFrom startFrom;
+	MissileTargetStruct target;
+	MissileData missile[];
+};
+
+struct Skill_Charge : Skill_Base{
+	#限制手上的道具
+	ItemEntry handItem;
+
+	Time minSustainTime;
+	Time maxSustainTime;
+	#蓄力后释放的技能
+	SkillEntry skillName;
+	#自动释放
+	bool autoRelease;
+};
+
+
+struct Skill_UseItem : Skill_Base {
+};
+
+struct Skill {
+	SkillType type = "MeleeAttack";
+	Skill_Base base = Skill_MeleeAttack();
+
+	monitor("type", function(self, path, oval)
+		if self.type == "MeleeAttack" then
+			self.base = ctor("Skill_MeleeAttack")
+		elseif  self.type == "Reload" then
+			self.base = ctor("Skill_Reload")
+		elseif self.type == "Buff" then
+			self.base = ctor("Skill_Buff")
+		elseif self.type == "Ray" then
+			self.base = ctor("Skill_Ray")
+		elseif self.type == "Charge" then
+			self.base = ctor("Skill_Charge")
+		elseif self.type == "UseItem" then
+			self.base = ctor("Skill_UseItem")
+		elseif self.type == "Missile" then
+			self.base = ctor("Skill_Missile")
+		elseif self.type == "Base" or self.type == "" then
+			self.base = ctor("Skill_Base")
+		else
+			assert(false, self.type)
+		end
+	end);
+};
+
+struct SkillIcon{
+	
+};
+
+#技能图标位置
+struct SkillIconPos{
+	string pos;
+	number jack;
+};
+
+#长按连发
+struct EmitContinuously{
+	bool isValid;
+	Time castInterval;
+};
+
+#技能释放方式
+struct SkillReleaseWay{
+
+	#点击图标释放
+	bool isClickIcon = true;
+	#图标
+	Resource_SkillTexture icon;
+	#技能图标
+	SkillIconPos iconPos;
+	#长按连发
+	EmitContinuously emitContinuously;
+	
+	#点击释放
+	bool isClick;
+	
+	#长按释放
+	bool isTouch;
+	# 长按时间
+	Time touchTime;
+	
+	#跳跃触发 
+	bool isJump;
+};
+
+struct SkillCfg {
+#################################################################
+## 基础属性 BASE
+
+	#名字
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.BASE"]
+	Text name;
+	
+	#技能释放方式
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.BASE"]
+	SkillReleaseWay skillReleaseWay;
+
+	#冷却时间
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.BASE"]
+	Time cdTime;
+
+	#技能消耗
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.BASE"]
+	ConsumeItem consumeItem[];
+
+	# 饥饿度
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.BASE", Min: "0"]	
+	number consumeVp = 0;
+
+	#弹夹
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.BASE"]	
+	SkillContainer container;
+
+#################################################################
+## 技能表现 SHOW
+	
+	# 准星
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	FrontSightEntry frontSight;
+	
+	# 狙击镜 
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	bool snipe;
+
+	# 释放动作
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	ActionType castAction;
+	
+	# 释放动作时间
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	Time castActionTime;
+
+	# 音效
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	CastSound castSound;
+
+	# 特效
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	EntityEffect castEffect;
+
+	# 起手动作
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	ActionType startAction;
+	
+	# 起手特效
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	EntityEffect startEffect;
+
+	# 蓄力动作
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	ActionType sustainAction;
+	
+	# 蓄力特效
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	EntityEffect sustainEffect;
+	
+	# 结束特效
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.SHOW"]
+	EntityEffect stopEffect;
+	
+#################################################################
+## 技能类型 TYPE
+	[TAB: "TAB.PROP", GROUP: "SKILL.GROUP.TYPE"]
+	Skill skill;
+
+#################################################################
+## 其他 OTHER
+	[TAB: "TAB.HIDE", GROUP: "SKILL.GROUP.OTHER", TRIGGER: "SkillTriggers"]
+	TriggerSet triggers;
+};
+
+enum SkillEntry{
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("skill")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key
+			})
+		end
+
+		return ret
+	end);
+};
+
+#################################################################
+########################### Missile #############################
+#################################################################
+
+enum MissileEntry{
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("missile")
+		
+		for key , item in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key,
+				attrs = {name = item:val().name.value}
+			})
+		end
+
+		collectgarbage("collect")
+		return ret
+	end);
+};
+
+#################################################################
+########################### FrontSight #############################
+#################################################################
+
+struct FrontSightCfg {
+#################################################################
+## 基础属性 BASE
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	number minDiffuse = 30;
+
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	number maxDiffuse = 70;
+
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	number moveDiffuse = 50;
+
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	number showLevel = 0;
+
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	number shrinkVal = 5;
+
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	Resource_SkillTexture horizontal = Resource_SkillTexture(asset = "left.png");
+
+	#
+	[TAB: "TAB.PROP", GROUP: "FRONTSIGHT.GROUP.SHOW"]
+	Resource_SkillTexture vertical = Resource_SkillTexture(asset = "up.png");
+};
+
+enum FrontSightEntry{
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("frontsight")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key
+			})
+		end
+
+		return ret
+	end);
+};
+
+#################################################################
+########################### Buff ################################
+#################################################################
+
+enum BuffSync {
+	"all",
+	"self",
+	"other"
+};
+
+struct BuffCfg{
+#################################################################
+## 基础属性 BASE
+
+	#名字
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.BASE"]
+	Text name;
+
+	#音效
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.BASE"]
+	CastSound sound;
+
+	#特效
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.BASE"]
+	EntityEffect castEffect;
+
+	#可保存
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.BASE"]
+	bool needSave;
+
+#################################################################
+## Buff效果 PECULIARITY
+
+	# 最大血量
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number maxHp;
+
+	# 攻击力
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number damage;
+
+	# 持续伤害
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number continueDamage;
+
+	# 走动速率
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number moveSpeed;
+
+	# 移动速率
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number moveFactor;
+
+	# 跳跃速度
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number jumpSpeed;
+
+	# 攻击距离
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number reachDistance;
+
+	# 加速度
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number moveAcc;
+
+	# 重力
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number gravity;
+
+	# 不可被伤害
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	bool undamageable;
+
+	# 不可被攻击
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	bool unassailable;
+
+	# 落地扣血速度阈值
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number dropDamageStart;
+
+	# 落地扣血速率
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	number dropDamageRatio;
+
+	# 是否透明
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	bool hide;
+	
+	# 透明度
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY", Min: "0", Max: "1"]
+	number hideDeep = 0.4;
+
+	#同步
+	[TAB: "TAB.PROP", GROUP: "BUFF.GROUP.PECULIARITY"]
+	BuffSync sync = "all";
+
+};
+
+
+enum BuffEntry{
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("buff")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key
+			})
+		end
+
+		return ret
+	end);
+};
+
+#################################################################
+########################### Region ##############################
+#################################################################
+
+struct RegionCfg {
+	#名字
+	[TAB: "TAB.PROP", GROUP: "REGION.GROUP.BASE"]
+	Text name;
+
+#################################################################
+# 其他 OTHER
+	[TAB: "TAB.TRIGGER", GROUP: "REGION.GROUP.OTHER", TRIGGER: "RegionTriggers"]
+	TriggerSet triggers;
+};
+
+enum RegionEntry {
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("region")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = key
+			})
+		end
+
+		return ret
+	end);
+};
+
+#################################################################
+########################### Game ################################
+#################################################################
+[Nonempty : "true"]
+enum VarType {
+	"int",
+	"double",
+	"bool",
+	"entity",
+	"scene_pos",
+	"string"
+};
+
+struct VarItem {
+	string key;
+	VarType type = "int";
+	T_Int value;
+	bool save = false;
+
+	monitor("type", function(self, path, oval)
+		if self.type == "int" then
+			self.value = ctor("T_Int")
+		elseif self.type == "double" then
+			self.value = ctor("T_Double")
+		elseif self.type == "bool" then
+			self.value = ctor("T_Bool")
+		elseif self.type == "entity" then
+			self.value = ctor("T_Entity")
+		elseif self.type == "scene_pos" then
+			self.value = ctor("T_ScenePos")
+		elseif self.type == "string" then
+			self.value = ctor("T_String")
+		end
+	end);
+};
+
+struct VarTable {
+	VarItem global[];
+	VarItem entity[];
+	VarItem item[];
+	VarItem team[];
+	VarItem map[];
+	VarItem region[];
+};
+
+struct Team {
+	[Integer : "true", Min: "0"]
+	number id;
+	ScenePos startPos;
+};
+
+struct TeamCfg {
+	bool automatch;
+	bool teammateHurt;
+	Team team[];
+};
+
+struct CommodityItem{
+	Text name;
+	Text tip;
+	ConsumeItemType item;
+	[Integer : "true", Min: "0"]
+	number count = 1;
+	[Integer : "true", Min: "0"]
+	number price = 1;
+};
+
+struct CommodityPageIndex{
+	number val;
+};
+
+struct CommodityPage{
+	CommodityPageIndex index;
+	Resource_ShopTexture icon;
+	Text name;
+	CommodityItem items[];
+};
+
+struct GameCfg {
+#################################################################
+## 基础属性 BASE	
+
+	[TAB: "TAB.HIDE", GROUP: "GAME.GROUP.BASE"]
+	EntityEntry playerCfg = "player1";
+
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	ScenePos initPos;
+
+	#隐藏云彩
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	bool hideCloud;
+
+	#可重玩
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	bool replay;
+
+	#等待玩家进入时长
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time waitPlayerTime;
+
+	#等待游戏开始时长
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time waitStartTime;
+
+	#游戏正式开始
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time waitGoTime;
+
+	#游戏时长
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time playTime = Time(value = 1200);
+
+	#显示结算面板时长
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time reportTime;
+
+	#最大玩家数量
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE", Min: "0"]
+	number maxPlayers = 3;
+
+	#最小玩家数量
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE",Min: "0"]
+	number minPlayers = 1;
+
+	#游戏时间不流逝
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	bool isTimeStopped;
+
+	#进入游戏的时间
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time nowTime;
+
+	#一日时长
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	Time oneDayTime = Time(value = 12000);
+
+	#背包容量
+	[Integer: "true",TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE", Min: "0", Max: "54"]
+	number bagCap = 9;
+
+	#显示任务图标
+	#[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	#bool needTask;
+
+	#可中途加入
+	[TAB: "TAB.PROP", GROUP: "GAME.GROUP.BASE"]
+	bool canJoinMidway;
+
+#################################################################
+## 队伍 TEAM
+	
+	#队伍
+	[TAB: "TAB.TEAM", GROUP: "GAME.GROUP.TEAM"]
+	TeamCfg team;
+
+#################################################################
+# 其他 OTHER
+	[TAB: "TAB.TRIGGER", GROUP: "GAME.GROUP.OTHER", TRIGGER: "GameTriggers"]
+	TriggerSet triggers;
+	
+#################################################################
+# 隐藏 HIDE
+	#变量
+	[TAB: "TAB.HIDE", GROUP: "GAME.GROUP.OTHER"]
+	VarTable vars;
+	
+	#商店
+	[TAB: "TAB.HIDE", GROUP: "GAME.GROUP.OTHER"]
+	CommodityPage commoditys[];
+
+};
+
+#################################################################
+############################## Tag ##########################
+#################################################################
+
+struct TagCfg {
+
+	#模块
+	string module;
+	
+	#标签
+	string tags[];
+};
+
+#################################################################
+############################## Reward ##########################
+#################################################################
+
+#奖励类型
+[Nonempty : "true"]
+enum RewardType {
+	"Block",
+	"Item",
+	"Exp",
+	"Coin",
+	"List"	#随机奖励
+};
+
+struct RewardBase {	
+};
+
+struct RewardBlock : RewardBase {
+	#block模板
+	BlockEntry name;
+	#数量
+	[Integer : "true", Min : "0"]
+	number count;
+};
+
+struct RewardItem : RewardBase {
+	#item模板
+	ItemEntry name;
+	#取值范围
+	ValueRange countRange;
+};
+
+struct RewardExp : RewardBase {
+	#经验值
+	[Integer : "true", Min : "0"]
+	number count;
+};
+
+struct RewardCoin : RewardBase {
+	#货币类型
+	CoinName name = "green_currency";
+	#数量
+	[Integer : "true", Min : "0"]
+	number count;
+};
+
+#随机奖励
+struct RewardList : RewardBase {
+	Resource_SkillTexture icon;
+	#取值范围
+	ValueRange countRange;
+	#描述
+	Text desc;
+	#奖励表
+	RewardListItem array[];
+};
+
+#随机奖励项
+struct RewardListItem {
+	Reward reward;
+	number weight;
+};
+
+struct Reward {
+	RewardType type = "Block";
+	RewardBase base = RewardBlock();
+
+	monitor("type",function(self,path,oval)
+		if self.type == "Block" then
+			self.base = ctor("RewardBlock")
+		elseif self.type == "Item" then
+			self.base = ctor("RewardItem")
+		elseif self.type == "Exp" then
+			self.base = ctor("RewardExp")
+		elseif self.type == "Coin" then
+			self.base = ctor("RewardCoin")
+		elseif self.type == "List" then
+			self.base = ctor("RewardList")
+		end
+	end);
+};
+
+#奖励配置
+struct RewardCfg {
+	[GROUP: "BLOCK.GROUP.BASE"]
+	Text name;
+
+	#奖励列表
+	[GROUP: "BLOCK.GROUP.BASE"]
+	Reward rewardArray[];
+};
+
+enum RewardEntry{
+	list(function()
+		local ret = {}
+		local module = require "editor.gamedata.module.module"
+		local m = module:module("reward")
+		
+		for key , _ in pairs(m:list()) do
+			table.insert(ret, {
+				value = "myplugin/" .. key
+			})
+		end
+
+		return ret
+	end);
+};
+
+#################################################################
+############################## Trigger ##########################
+#################################################################
+
+#################################################################
+## Enum_Type
+struct T_Base {
+	string action;
+};
+
+struct T_Any {
+};
+
+struct T_Array : T_Base {
+};
+
+[Compatible: "T_Int,T_Bool,T_String,T_Double,T_Entity,T_ScenePos"]
+struct T_Var : T_Base {
+
+};
+
+struct T_Void : T_Base {
+};
+
+struct Context {
+	string key;
+};
+
+#TODO 上下文key
+[Compatible: "T_String"]
+struct T_Context : T_Base {
+	Context rawval;
+};
+
+[Compatible: "T_Var"]
+struct T_Int : T_Base {
+	[Integer: "true"]
+	number rawval;
+};
+
+[Compatible: "T_Int,T_Var"]
+struct T_Double : T_Base {
+	number rawval;
+};
+
+[Compatible: "T_Int"]
+struct T_MinInt : T_Base {
+	[Min: "0"]
+	number rawval;
+};
+
+[Compatible: "T_Var"]
+struct T_String : T_Base {
+	string rawval;
+};
+
+[Compatible: "T_Var,T_Entity,T_Object,T_Item,T_MapObj,T_Buff"]
+struct T_Bool : T_Base {
+	bool rawval;
+};
+
+[Compatible: "T_String"]
+struct T_Text : T_Base {
+	Text rawval;
+};
+
+[Compatible: "T_ScenePos"]
+struct T_Vector3 : T_Base {
+	Vector3i rawval;
+};
+
+[Compatible: "T_Int,T_Double,T_Var"]
+struct T_Time : T_Base {
+	Time rawval;
+};
+
+struct T_Region : T_Base {
+	RegionEntry rawval;
+};
+
+struct T_Block : T_Base {
+	BlockEntry rawval;
+};
+
+struct T_BlockArray : T_Base {
+	BlockArray rawval;
+};
+
+#商店页面id
+struct CommodityPageIndexArray{
+	number array[];
+};
+
+struct T_CommodityPageIndexArray : T_Base{
+	CommodityPageIndexArray rawval;
+};
+
+struct T_EntityEntry : T_Base {
+	EntityEntry rawval;
+};
+
+struct T_BuffEntry : T_Base {
+	BuffEntry rawval;
+};
+
+struct T_SkillEntry : T_Base {
+	SkillEntry rawval;
+};
+
+struct T_ItemEntry : T_Base {
+	ItemEntry rawval;
+};
+
+struct T_RewardEntry : T_Base {
+	RewardEntry rawval;
+};
+
+struct T_Box : T_Base {
+	Box rawval;
+};
+
+#entity对象
+[Compatible: "T_Var,T_Object"]
+struct T_Entity : T_Base {
+};
+
+struct T_RankInfo : T_Base {
+};
+
+struct T_Buff : T_Base {
+};
+
+[Compatible: "T_Entity"]
+struct T_Object : T_Base {
+};
+
+struct T_ObjectID : T_Base {
+	number rawval;
+};
+
+struct T_Item : T_Base {
+};
+
+struct T_Missile : T_Base {
+};
+
+struct T_BlockPos : T_Base {
+	BlockPos rawval;
+};
+
+[integer: "true"]
+enum TipType{
+	"1",
+	"2",
+	"3",
+	"4",
+	"5"
+};
+
+struct TipTypeCvr {
+	TipType type;
+};
+
+struct T_TipType : T_Base {
+	TipTypeCvr rawval;
+};
+
+[integer: "true"]
+enum CoinName {
+	"green_currency"
+};
+
+struct T_CoinName : T_Base{
+	CoinName rawval;
+};
+
+struct T_MapObj : T_Base {
+};
+
+struct T_MapEntry : T_Base {
+	MapEntry rawval;
+};
+
+[Compatible: "T_MapObj, T_MapEntry"]
+struct T_Map : T_Base {
+	MapEntry rawval;
+};
+
+struct T_IfBranch : T_Base {
+};
+
+[Compatible: "T_Var,T_Vector3"]
+struct T_ScenePos : T_Base {
+	ScenePos rawval; 
+};
+
+struct T_SceneRegion : T_Base {
+	SceneRegion rawval;
+};
+
+struct T_Resource_Actor : T_Base {
+	Resource_Actor rawval;
+};
+
+struct T_AIData : T_Base {
+};
+
+struct Talk {
+	EntityEntry npc;
+	Text msg;
+};
+
+struct TalkList {
+	Talk talk[];
+};
+
+struct T_TalkList : T_Base {
+	TalkList rawval;
+};
+
+struct TriggerName{
+	string value;
+};
+
+struct Option {
+	Text showText;
+	TriggerName triggerName;
+};
+
+struct OptionList {
+	Option option[];
+};
+
+struct T_OptionList : T_Base {
+	OptionList rawval;
+};
+
+[integer: "true"]
+enum Compute {
+	"add",
+	"sub"
+};
+
+struct T_Compute : T_Base {
+	Compute rawval;
+};
+
+enum BinaryOperCompute {
+	"+",
+	"-",
+	"*",
+	"/",
+	"%"
+};
+
+struct T_BinaryOperCompute : T_Base {
+	BinaryOperCompute rawval;
+};
+
+enum BinaryOperBool {
+	">",
+	"<",
+	"==",
+	"~=",
+	">=",
+	"<="
+};
+
+struct T_BinaryOperBool : T_Base {
+	BinaryOperBool rawval;
+};
+
+enum BinaryOper {
+	"and",
+	"or"
+};
+
+struct T_BinaryOper : T_Base {
+	BinaryOper rawval;
+};
+
+#struct VarKey {
+#	ActionVarType type;
+#	string key;
+#};
+
+#struct T_VarKey : T_Base {
+#	VarKey rawval;
+#};
+
+[MULTILINGUAL : "NotMultiLingual"]
+enum ObjectVar_Selector {
+	list(function()
+		local ret = {}
+		local var = require "editor.gamedata.var"
+		local vars = var:get_vars("entity")
+		
+		for key , v in pairs(vars) do
+			table.insert(ret, {
+				value = v
+			})
+		end
+
+		return ret
+	end);
+};
+
+[MULTILINGUAL : "NotMultiLingual"]
+enum GlobalVar_Selector {
+	list(function()
+		local ret = {}
+		local var = require "editor.gamedata.var"
+		local vars = var:get_vars("global")
+		
+		for key , v in pairs(vars) do
+			table.insert(ret, {
+				value = v
+			})
+		end
+		
+		return ret
+	end);
+};
+
+struct T_ObjectVar : T_Base {
+	ObjectVar_Selector rawval;
+};
+
+struct T_GlobalVar : T_Base {
+	GlobalVar_Selector rawval;
+};
+
+enum Condition {
+	"score"
+};
+
+struct T_Condition : T_Base {
+	Condition rawval;
+};
+
+#################################################################
+########################### Action ##############################
+#################################################################
+enum Enum_Action {
+	list(function()
+		local Action = require "editor.gamedata.action"
+		return Action:list()
+	end);
+};
+
+enum Enum_Type {
+	
+};
+
+enum ActionVarType {
+	"global",
+	"entity",
+	"item",
+	"team",
+	"map",
+	"region"
+};
+
+struct ActionParam {
+	string key;
+	T_Base value;
+};
+
+struct Component_Base {
+};
+
+struct Component_Var : Component_Base {
+	ActionVarType type;
+	string key;
+};
+
+struct Component_Params : Component_Base {
+	ActionParam params[];
+};
+
+struct Component_Context : Component_Base {
+	string key;
+};
+
+struct Component_Sequence : Component_Base {
+	T_Base children[];
+};
+
+struct Component_Condition : Component_Base {
+	T_IfBranch children[];
+};
+
+############################### Sys #############################
+struct Action_Base {
+	Uuid id;
+	string name;
+	Enum_Type type;			# 返回类型
+	Vector2 pos;
+};
+
+## Filter 特性用于筛选 action 列表
+
+############################### Action_Entity #############################
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_SetHp : Action_Base {
+	base(name = "SetHp", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "hp", value = T_Int()),
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_Damage : Action_Base {
+	base(name = "Damage", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "damage", value = T_Int()),
+			ActionParam(key = "from", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_AddEntityHp : Action_Base {
+	base(name = "AddEntityHp", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "step", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_RecoverFullHp : Action_Base {
+	base(name = "RecoverFullHp", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_KillEntity : Action_Base {
+	base(name = "KillEntity", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "from", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_ReviveEntity : Action_Base {
+	base(name = "ReviveEntity", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_SetEntityPosition : Action_Base {
+	base(name = "SetEntityPosition", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "map", value = T_Map()),
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "ry", value = T_Int()),
+			ActionParam(key = "rp", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_SetEntityRebirthPosition : Action_Base {
+	base(name = "SetEntityRebirthPosition", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_SetEntityHeight : Action_Base {
+	base(name = "SetEntityHeight", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "height", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_MoveAllPlayers : Action_Base {
+	base(name = "MoveAllPlayers", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "region", value = T_SceneRegion()),
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_AddEntityBuff : Action_Base {
+	base(name = "AddEntityBuff", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "cfg", value = T_BuffEntry()),
+			ActionParam(key = "buffTime", value = T_Time())
+		})
+	};
+};
+
+#[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+#struct Action_RemoveEntityBuff : Action_Base {
+#	base(name = "RemoveEntityBuff", type = "T_Void");
+#
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "entity", value = T_Entity()),
+#			ActionParam(key = "buff", value = T_Buff())
+#		})
+#	};
+#};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_RemoveBuffByFullName : Action_Base {
+	base(name = "RemoveBuffByFullName", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "toTeam", value = T_Bool()),
+			ActionParam(key = "buff", value = T_BuffEntry())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_AddTeamBuff : Action_Base {
+	base(name = "AddTeamBuff", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "teamId", value = T_Int()),
+			ActionParam(key = "cfg", value = T_BuffEntry()),
+			ActionParam(key = "buffTime", value = T_Time())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_RemoveTeamBuff : Action_Base {
+	base(name = "RemoveTeamBuff", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "teamId", value = T_Int()),
+			ActionParam(key = "buff", value = T_Buff())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity"]
+struct Action_SetEntityScore : Action_Base {
+	base(name = "SetEntityScore", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "val", value = T_MinInt())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity"]
+struct Action_AddEntityScore : Action_Base {
+	base(name = "AddEntityScore", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "add", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Item", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_EntityDieDrop : Action_Base {
+	base(name = "EntityDieDrop", type = "T_Item");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_AddEntityVp : Action_Base {
+	base(name = "AddEntityVp", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "step", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_AddCurrency : Action_Base {
+	base(name = "AddCurrency", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "coinName", value = T_CoinName()),
+			ActionParam(key = "count", value = T_Int()),
+			ActionParam(key = "reason", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Entity"]
+struct Action_PayCurrency : Action_Base {
+	base(name = "PayCurrency", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "coinName", value = T_CoinName()),
+			ActionParam(key = "count", value = T_Int()),
+			ActionParam(key = "clear", value = T_Bool()),
+			ActionParam(key = "reason", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_AddEntityExp : Action_Base {
+	base(name = "AddEntityExp", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "exp", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Entity"]
+struct Action_RewardMechanism : Action_Base {
+	base(name = "RewardMechanism", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "tipType", value = T_TipType()),
+			ActionParam(key = "path", value = T_RewardEntry()),
+			ActionParam(key = "check", value = T_Bool())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_SetPlayerGameId : Action_Base {
+	base(name = "SetPlayerGameId", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_ChangeEntityActor : Action_Base {
+	base(name = "ChangeEntityActor", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "name", value = T_Resource_Actor())
+		})
+	};
+};
+
+[Filter : "T_Entity", Catalog: "ActionCatalog_Entity"]
+struct Action_CreateNpc : Action_Base {
+	base(name = "CreateNpc", type = "T_Entity");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "cfgName", value = T_EntityEntry()),
+			ActionParam(key = "name", value = T_String()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "enableAI", value = T_Bool()),
+			ActionParam(key = "aiData", value = T_AIData()),
+			ActionParam(key = "owner", value = T_Entity()),
+			ActionParam(key = "level", value = T_Int()),
+			ActionParam(key = "camp", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_CreateNpcInArea : Action_Base {
+	base(name = "CreateNpcInArea", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "region", value = T_SceneRegion()),
+			ActionParam(key = "minNumber", value = T_Int()),
+			ActionParam(key = "maxNumber", value = T_Int()),
+			ActionParam(key = "cfgName", value = T_EntityEntry()),
+			ActionParam(key = "name", value = T_String()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "enableAI", value = T_Bool()),
+			ActionParam(key = "aiData", value = T_AIData()),
+			ActionParam(key = "owner", value = T_Entity()),
+			ActionParam(key = "level", value = T_Int()),
+			ActionParam(key = "camp", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_setPlayCameraYawToAttacker : Action_Base {
+	base(name = "setPlayCameraYawToAttacker", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "target", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_ShowPersonalInformations : Action_Base {
+	base(name = "ShowPersonalInformations", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "target", value = T_Entity()),
+			ActionParam(key = "player", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityCurHp : Action_Base {
+	base(name = "GetEntityCurHp", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityScore : Action_Base {
+	base(name = "GetEntityScore", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetObjectDistance : Action_Base {
+	base(name = "GetObjectDistance", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "obj1", value = T_Object()),
+			ActionParam(key = "obj2", value = T_Object())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetAllPlayersCount : Action_Base {
+	base(name = "GetAllPlayersCount", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			
+		})
+	};
+};
+
+[Filter : "T_Array", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetAllPlayers : Action_Base {
+	base(name = "GetAllPlayers", type = "T_Array");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetSurvivePlayersCount : Action_Base {
+	base(name = "GetSurvivePlayersCount", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetPlayerKillCount : Action_Base {
+	base(name = "GetPlayerKillCount", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityMovingStyle : Action_Base {
+	base(name = "GetEntityMovingStyle", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityYaw : Action_Base {
+	base(name = "GetEntityYaw", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityCurVp : Action_Base {
+	base(name = "GetEntityCurVp", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityLevel : Action_Base {
+	base(name = "GetEntityLevel", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetWalletBalance : Action_Base {
+	base(name = "GetWalletBalance", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "coinName", value = T_CoinName())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityHeight : Action_Base {
+	base(name = "GetEntityHeight", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetObjectID : Action_Base {
+	base(name = "GetObjectID", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "object", value = T_Object())
+		})
+	};
+};
+
+[Filter : "T_ScenePos", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityPosition : Action_Base {
+	base(name = "GetEntityPosition", type = "T_ScenePos");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_ScenePos", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetRebirthPos : Action_Base {
+	base(name = "GetRebirthPos", type = "T_ScenePos");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_ScenePos", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityStartPos : Action_Base {
+	base(name = "GetEntityStartPos", type = "T_ScenePos");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Object", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetObject : Action_Base {
+	base(name = "GetObject", type = "T_Object");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "objID", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_IsPlayer : Action_Base {
+	base(name = "IsPlayer", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_IfEntityInArea : Action_Base {
+	base(name = "IfEntityInArea", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "region", value = T_Region())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_IsEntityAlive : Action_Base {
+	base(name = "IsEntityAlive", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+#[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+#struct Action_AcceptTask : Action_Base {
+#	base(name = "AcceptTask", type = "T_Void");
+#
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "player", value = T_Entity()),
+#			ActionParam(key = "name", value = T_SkillEntry()),
+#			ActionParam(key = "show", value = T_Bool())
+#		})
+#	};
+#};
+
+[Filter : "T_String", Catalog: "ActionCatalog_Entity", RValue: "true"]
+struct Action_GetEntityName : Action_Base {
+	base(name = "GetEntityName", type = "T_String");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+#[Filter : "T_Entity", Catalog: "ActionCatalog_Entity", RValue: "true"]
+#struct Action_GetOwner : Action_Base {
+#	base(name = "GetOwner", type = "T_Entity");
+
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "entity", value = T_Entity())
+#		})
+#	};
+#};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Entity"]
+struct Action_SetEntityYaw : Action_Base {
+	base(name = "SetEntityYaw", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "rotationYaw", value = T_Double())
+		})
+	};
+};
+
+############################### Action_Block #############################
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_CreateBlock : Action_Base {
+	base(name = "CreateBlock", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "block", value = T_Block())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_RemoveBlock : Action_Base {
+	base(name = "RemoveBlock", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "block", value = T_ScenePos())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_CreateRandomBlocksInRegion : Action_Base {
+	base(name = "CreateRandomBlocksInRegion", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "block", value = T_Block()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "region", value = T_SceneRegion()),
+			ActionParam(key = "creatnum", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_FillBlocksInRegion : Action_Base {
+	base(name = "FillBlocksInRegion", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "block", value = T_Block()),
+			ActionParam(key = "regionKey", value = T_Region()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "region", value = T_SceneRegion())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_RemoveBlocksInRegion : Action_Base {
+	base(name = "RemoveBlocksInRegion", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "blockArray", value = T_BlockArray()),
+			ActionParam(key = "regionKey", value = T_Region()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "region", value = T_SceneRegion())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_ClearBlocksInRegion : Action_Base {
+	base(name = "ClearBlocksInRegion", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "blockArray", value = T_BlockArray()),
+			ActionParam(key = "regionKey", value = T_Region()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "region", value = T_SceneRegion())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_DoDamgeToBlock : Action_Base {
+	base(name = "DoDamgeToBlock", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "damage", value = T_Int()),
+			ActionParam(key = "owner", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_String", Catalog: "ActionCatalog_Block", RValue: "true"]
+struct Action_GetBlockFullName : Action_Base {
+	base(name = "GetBlockFullName", type = "T_String");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Block"]
+struct Action_AddBlockItem : Action_Base {
+	base(name = "AddBlockItem", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "block", value = T_Block()),
+			ActionParam(key = "count", value = T_MinInt()),
+			ActionParam(key = "reason", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_ScenePos", Catalog: "ActionCatalog_Block", RValue: "true"]
+struct Action_FindFrontBlock : Action_Base {
+	base(name = "FindFrontBlock", type = "T_ScenePos");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "block", value = T_Block()),
+			ActionParam(key = "distance", value = T_Int()),
+			ActionParam(key = "deep", value = T_Int())
+		})
+	};
+};
+
+############################### Action_Item #############################
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Item"]
+struct Action_AddItem : Action_Base {
+	base(name = "AddItem", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "cfg", value = T_ItemEntry()),
+			ActionParam(key = "count", value = T_Int()),
+			ActionParam(key = "reason", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Item"]
+struct Action_ConsumeItem2 : Action_Base {
+	base(name = "ConsumeItem2", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "item", value = T_ItemEntry()),
+			ActionParam(key = "num", value = T_Int()),
+			ActionParam(key = "reason", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Item"]
+struct Action_SpawnItemToWorld : Action_Base {
+	base(name = "SpawnItemToWorld", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "fullName", value = T_ItemEntry()),
+			ActionParam(key = "count", value = T_Int()),
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "time", value = T_Time()),
+			ActionParam(key = "pitch", value = T_Int()),
+			ActionParam(key = "yaw", value = T_Int())
+		})
+	};
+};
+
+############################### Action_Skill #############################
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Skill"]
+struct Action_AddSkill : Action_Base {
+	base(name = "AddSkill", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "name", value = T_SkillEntry())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Skill"]
+struct Action_RemoveSkill : Action_Base {
+	base(name = "RemoveSkill", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "name", value = T_SkillEntry())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Skill"]
+struct Action_LearnSkill : Action_Base {
+	base(name = "LearnSkill", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "name", value = T_SkillEntry())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Skill"]
+struct Action_ForgetSkill : Action_Base {
+	base(name = "ForgetSkill", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "name", value = T_SkillEntry())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Skill"]
+struct Action_AddSkillToAllPlayers : Action_Base {
+	base(name = "AddSkillToAllPlayers", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "name", value = T_SkillEntry())
+		})
+	};
+};
+
+############################### Action_AI #############################
+[Filter : "T_Void", Catalog: "ActionCatalog_AI"]
+struct Action_StopAI : Action_Base {
+	base(name = "StopAI", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+#[Filter : "T_Void", Catalog: "ActionCatalog_AI"]
+#struct Action_EnableAITargetPos : Action_Base {
+#	base(name = "EnableAITargetPos", type = "T_Void");
+#
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "entity", value = T_Entity()),
+#			ActionParam(key = "enable", value = T_Bool())
+#		})
+#	};
+#};
+
+############################### Action_UI #############################
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_SetHeadText : Action_Base {
+	base(name = "SetHeadText", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "x", value = T_Int()),
+			ActionParam(key = "y", value = T_Int()),
+			ActionParam(key = "headText", value = T_Text())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_SetDamageText : Action_Base {
+	base(name = "SetDamageText", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "text", value = T_Text())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_ShowCountDown : Action_Base {
+	base(name = "ShowCountDown", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "time", value = T_Time())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_ShowTip : Action_Base {
+	base(name = "ShowTip", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "tipType", value = T_TipType()),
+			ActionParam(key = "textKey", value = T_Text()),
+			ActionParam(key = "keepTime", value = T_Time()),
+			ActionParam(key = "textP1", value = T_Text()),
+			ActionParam(key = "textP2", value = T_Text()),
+			ActionParam(key = "textP3", value = T_Text())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_ShowMerchantShop : Action_Base{
+	base(name = "ShowMerchantShop", type = "T_Void");
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "showTitle", value = T_Text()),
+			ActionParam(key = "showType", value = T_CommodityPageIndexArray())
+		})
+	};
+	
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_SendGameSettlement : Action_Base {
+	base(name = "SendGameSettlement", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "condition", value = T_Condition()),
+			ActionParam(key = "isNextServer", value = T_Bool())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+struct Action_ShowSystemChat : Action_Base {
+	base(name = "ShowSystemChat", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "key", value = T_Text())
+		})
+	};
+};
+
+#[Filter : "T_Void", Catalog: "ActionCatalog_UI"]
+#struct Action_OpenConversation : Action_Base {
+#	base(name = "OpenConversation", type = "T_Void");
+#
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "entity", value = T_Entity()),
+#			ActionParam(key = "talkList", value = T_TalkList()),
+#			ActionParam(key = "optionList", value = T_OptionList()),
+#			ActionParam(key = "optionNpc", value = T_EntityEntry())
+#		})
+#	};
+#};
+
+############################### Action_Map #############################
+[Filter : "T_MapObj", Catalog: "ActionCatalog_Map"]
+struct Action_CreateMap : Action_Base {
+	base(name = "CreateMap", type = "T_MapObj");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "name", value = T_MapEntry())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Map"]
+struct Action_CloseMap : Action_Base {
+	base(name = "CloseMap", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "map", value = T_MapObj())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Map"]
+struct Action_EnterMap : Action_Base {
+	base(name = "EnterMap", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "map", value = T_Map()),
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "ry", value = T_Int()),
+			ActionParam(key = "rp", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_MapObj", Catalog: "ActionCatalog_Map", RValue: "true"]
+struct Action_GetEntityMap : Action_Base {
+	base(name = "GetEntityMap", type = "T_MapObj");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_MapObj", Catalog: "ActionCatalog_Map", RValue: "true"]
+struct Action_GetPlayerMap : Action_Base {
+	base(name = "GetPlayerMap", type = "T_MapObj");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "player", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_ScenePos", Catalog: "ActionCatalog_Map", RValue: "true"]
+struct Action_GetRandomPosInArea : Action_Base {
+	base(name = "GetRandomPosInArea", type = "T_ScenePos");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "region", value = T_SceneRegion())
+		})
+	};
+};
+
+# 进入副本
+[Filter : "T_Void", Catalog: "ActionCatalog_Map"]
+struct Action_EnterDuplication : Action_Base {
+	base(name = "EnterDuplication", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "map", value = T_Map()),
+			ActionParam(key = "pos", value = T_ScenePos()),
+			ActionParam(key = "ry", value = T_Int()),
+			ActionParam(key = "rp", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Map"]
+struct Action_LeaveDuplication : Action_Base {
+	base(name = "LeaveDuplication", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Map"]
+struct Action_MoveMapPlayerTo : Action_Base {
+	base(name = "MoveMapPlayerTo", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "newmap", value = T_Map()),
+			ActionParam(key = "pos", value = T_ScenePos())
+		})
+	};
+};
+
+############################### Action_Game #############################
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Game"]
+struct Action_GameOver : Action_Base {
+	base(name = "GameOver", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			
+		})
+	};
+};
+
+#[Filter : "T_Void", Catalog: "ActionCatalog_Game"]
+#struct Action_GameOverToPlayer : Action_Base {
+#	base(name = "GameOverToPlayer", type = "T_Void");
+#
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "entity", value = T_Entity())
+#		})
+#	};
+#};
+
+[Filter : "T_Time", Catalog: "ActionCatalog_Game", RValue: "true"]
+struct Action_GetGameTime : Action_Base {
+	base(name = "GetGameTime", type = "T_Time");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			
+		})
+	};
+};
+
+[Filter : "T_Time", Catalog: "ActionCatalog_Game", RValue: "true"]
+struct Action_GetTime : Action_Base {
+	base(name = "GetTime", type = "T_Time");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			
+		})
+	};
+};
+
+[Filter : "T_Time", Catalog: "ActionCatalog_Game", RValue: "true"]
+struct Action_GetMonth : Action_Base {
+	base(name = "GetMonth", type = "T_Time");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "time", value = T_Time())
+		})
+	};
+};
+
+[Filter : "T_Time", Catalog: "ActionCatalog_Game", RValue: "true"]
+struct Action_GetYear : Action_Base {
+	base(name = "GetYear", type = "T_Time");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "time", value = T_Time())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Game"]
+struct Action_StartTimer2 : Action_Base {
+	base(name = "StartTimer2", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "interval", value = T_Time()),
+			ActionParam(key = "time", value = T_Int()),
+			ActionParam(key = "timer", value = T_String()),
+			ActionParam(key = "object", value = T_Entity())
+		}),
+		Component_Sequence()
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Game"]
+struct Action_StopTimer2 : Action_Base {
+	base(name = "StopTimer2", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "timer", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Game"]
+struct Action_ShowNumberEffect : Action_Base {
+	base(name = "ShowNumberEffect", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "player", value = T_Entity()),
+			ActionParam(key = "pos", value = T_Vector3()),
+			ActionParam(key = "number", value = T_Int())
+		})
+	};
+};
+
+############################### Logic #############################
+[Filter : "T_Int", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_ComputeInt : Action_Base {
+	base(name = "BinaryOper", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "left", value = T_Int()),
+			ActionParam(key = "op", value = T_BinaryOperCompute()),
+			ActionParam(key = "right", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Double", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_ComputeDouble : Action_Base {
+	base(name = "BinaryOper", type = "T_Double");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "left", value = T_Double()),
+			ActionParam(key = "op", value = T_BinaryOperCompute()),
+			ActionParam(key = "right", value = T_Double())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_ComputeBool : Action_Base {
+	base(name = "BinaryOper", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "left", value = T_Double()),
+			ActionParam(key = "op", value = T_BinaryOperBool()),
+			ActionParam(key = "right", value = T_Double())
+		})
+	};
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Logic"]
+struct Action_BinaryOper : Action_Base {
+	base(name = "BinaryOper", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "op", value = T_BinaryOper()),
+		}),
+		Component_Sequence()
+	};
+};
+
+[Filter : "T_Base", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_GetContextVar : Action_Base {
+	base(name = "GetContextVar", type = "T_Base");
+
+	Component_Base components[] = {
+		Component_Context()
+	};
+};
+
+[Filter : "T_Any", Catalog: "ActionCatalog_Var", RValue: "true"]
+struct Action_GetUserContextVar : Action_Base {
+	base(name = "GetContextVar", type = "T_Any");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "key", value = T_String())
+		})
+	};
+};
+
+[Filter: "T_Void", Catalog: "ActionCatalog_Logic"]
+struct Action_Parallel : Action_Base {
+	base(name = "Parallel", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Sequence()
+	};
+};
+
+[Filter: "T_Void", Catalog: "ActionCatalog_Logic"]
+struct Action_If : Action_Base {
+	base(name = "If", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Condition()
+	};
+};
+
+[Filter: "T_IfBranch", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_IfBranch : Action_Base {
+	base(name = "IfBranch", type = "T_IfBranch");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "condition", value = T_Bool())
+		}),
+		Component_Sequence()
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Logic"]
+struct Action_LoopTimes : Action_Base {
+	base(name = "LoopTimes", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(value = T_Time()),
+			ActionParam(value = T_String())
+		}),
+		Component_Sequence()
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Logic"]
+struct Action_ForLoop : Action_Base {
+	base(name = "ForLoop", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "from", value = T_Int()),
+			ActionParam(key = "to", value = T_Int()),
+			ActionParam(key = "step", value = T_Int()),
+			ActionParam(key = "key", value = T_String())
+		}),
+		Component_Sequence()
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Logic"]
+struct Action_Foreach : Action_Base {
+	base(name = "Foreach", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "key", value = T_String()),
+			ActionParam(key = "array", value = T_Array())
+		}),
+		Component_Sequence()
+	};
+};
+
+[Filter : "T_Vector3", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_ComputeV3 : Action_Base {
+	base(name = "ComputeV3", type = "T_Vector3");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "p1", value = T_Vector3()),
+			ActionParam(key = "op", value = T_Compute()),
+			ActionParam(key = "p2", value = T_Vector3())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_Random : Action_Base {
+	base(name = "Random", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "min", value = T_Int()),
+			ActionParam(key = "max", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_NumberFloor : Action_Base {
+	base(name = "NumberFloor", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "p1", value = T_Double())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_NumberCeil : Action_Base {
+	base(name = "NumberCeil", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "p1", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_String", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_Concat : Action_Base {
+	base(name = "Concat", type = "T_String");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "p1", value = T_String()),
+			ActionParam(key = "p2", value = T_String())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_ArraySize : Action_Base {
+	base(name = "ArraySize", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "array", value = T_Array())
+		})
+	};
+};
+
+[Filter : "T_Any", Catalog: "ActionCatalog_Logic", RValue: "true"]
+struct Action_ArrayGet : Action_Base {
+	base(name = "ArrayGet", type = "T_Any");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "array", value = T_Array()),
+			ActionParam(key = "index", value = T_Int())
+		})
+	};
+};
+
+############################### Var #############################
+#[Filter : "T_Any", Catalog: "ActionCatalog_Var", RValue: "true"]
+#struct Action_GetVar : Action_Base {
+#	base(name = "GetVar", type = "T_Any");
+	
+#	Component_Base components[] = {
+#		Component_Var(),
+#		Component_Params()
+#	};
+
+#	monitor("components",function(self,path,oval)
+#		local COMPONENTVAR = 1
+#		local params = self.components[2].params
+#		local var = require "editor.gamedata.var"
+#		if path[2] == COMPONENTVAR then
+#			local var_type = self.components[1].type
+#			local var_key = self.components[1].key
+#			if path[3] == "type" and var_type ~= "" then
+#				if var_type == "global" then
+#					self.name = "GetGlobalVar"
+#				elseif var_type == "entity" then
+					
+#				elseif var_type == "item" then
+					
+#				elseif var_type == "team" then
+					
+#				elseif var_type == "map" then
+					
+#				elseif var_type == "region" then
+					
+#				end
+#			end
+#			if path[3] == "key" and var_type ~= "" then
+#				local var_key_type = var:var_type(var_type,var_key)
+#				if var_key_type then
+#					local type = "T_"..var_key_type:gsub("^%l", string.upper)
+#					self.type = type
+#				end
+#			end
+#		end
+#	end);
+#};
+
+[Filter : "T_Var", Catalog: "ActionCatalog_Var", RValue: "true"]
+struct Action_GetObjectVar : Action_Base {
+	base(name = "GetObjectVar", type = "T_Var");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "key", value = T_ObjectVar()),
+			ActionParam(key = "obj", value = T_Entity())
+		})
+	};
+
+	monitor("components", function(self,path,oval)
+		local KEYINDEX = 1
+		if path[2] == KEYINDEX and path[6] == "rawval" then
+			local var = require "editor.gamedata.var"
+			local key = self.components[1].params[1].value.rawval
+			local var_key_type = var:var_type("entity",key)
+			if var_key_type then
+				local type = "T_"..var_key_type:gsub("^%l", string.upper)
+				if var_key_type == "scene_pos" then
+					self.type = "T_ScenePos"
+				else
+					self.type = type
+				end
+			end
+		end
+	end);
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Var"]
+struct Action_SetObjectVar : Action_Base {
+	base(name = "SetObjectVar", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "key", value = T_ObjectVar()),
+			ActionParam(key = "value", value = T_Var()),
+			ActionParam(key = "obj", value = T_Entity())
+		})
+	};
+
+	monitor("components", function(self,path,oval)
+		local KEYINDEX = 1
+		if path[2] == KEYINDEX and path[6] == "rawval" then
+			local var = require "editor.gamedata.var"
+			local key = self.components[1].params[1].value.rawval
+			local value = self.components[1].params[2].value
+			local var_key_type = var:var_type("entity",key)
+			if var_key_type then
+				local type = "T_"..var_key_type:gsub("^%l", string.upper)
+				if var_key_type == "scene_pos" then
+					value = ctor("T_ScenePos")
+				else
+					value = ctor(type)
+				end
+			end
+		end
+	end);
+};
+
+[Filter : "T_Var", Catalog: "ActionCatalog_Var", RValue: "true"]
+struct Action_GetGlobalVar : Action_Base {
+	base(name = "GetGlobalVar", type = "T_Var");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "key", value = T_GlobalVar())
+		})
+	};
+
+	monitor("components", function(self,path,oval)
+		local KEYINDEX = 1
+		if path[2] == KEYINDEX and path[6] == "rawval" then
+			local var = require "editor.gamedata.var"
+			local key = self.components[1].params[1].value.rawval
+			local var_key_type = var:var_type("global",key)
+			if var_key_type then
+				local type = "T_"..var_key_type:gsub("^%l", string.upper)
+				if var_key_type == "scene_pos" then
+					self.type = "T_ScenePos"
+				else
+					self.type = type
+				end
+			end
+		end
+	end);
+};
+
+[Filter : "T_Bool", Catalog: "ActionCatalog_Var"]
+struct Action_SetGlobalVar : Action_Base {
+	base(name = "SetGlobalVar", type = "T_Bool");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "key", value = T_GlobalVar()),
+			ActionParam(key = "value", value = T_Var())
+		})
+	};
+
+	monitor("components", function(self,path,oval)
+		local KEYINDEX = 1
+		if path[2] == KEYINDEX and path[4] == 1 then
+			local var = require "editor.gamedata.var"
+			local key = self.components[1].params[1].value.rawval
+			local var_key_type = var:var_type("global",key)
+			if var_key_type then
+				local type = "T_"..var_key_type:gsub("^%l", string.upper)
+				if var_key_type == "scene_pos" then
+					--self.components[1].params[2].value = ctor("T_ScenePos")
+				else
+					--self.components[1].params[2].value = ctor(type)	
+				end
+			end
+		end
+	end);
+};
+
+############################### Action_Lib #############################
+
+
+############################### Action_Object #############################
+
+############################### Action_Pet #############################
+[Filter : "T_Int", Catalog: "ActionCatalog_Pet"]
+struct Action_CreatePet : Action_Base {
+	base(name = "CreatePet", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "cfg", value = T_EntityEntry()),
+			ActionParam(key = "show", value = T_Bool()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos())
+		})
+	};
+};
+
+[Filter : "T_Entity", Catalog: "ActionCatalog_Pet", RValue: "true"]
+struct Action_GetPet : Action_Base {
+	base(name = "GetPet", type = "T_Entity");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "index", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Pet"]
+struct Action_ShowPet : Action_Base {
+	base(name = "ShowPet", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "index", value = T_Int()),
+			ActionParam(key = "map", value = T_MapObj()),
+			ActionParam(key = "pos", value = T_ScenePos())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Pet"]
+struct Action_HidePet : Action_Base {
+	base(name = "HidePet", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "index", value = T_Int())
+		})
+	};
+};
+
+[Filter : "T_Entity", Catalog: "ActionCatalog_Pet"]
+struct Action_ChangePet : Action_Base {
+	base(name = "ChangePet", type = "T_Entity");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "index", value = T_Int()),
+			ActionParam(key = "cfgName", value = T_EntityEntry())
+		})
+	};
+};
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Pet"]
+struct Action_AddPet : Action_Base {
+	base(name = "AddPet", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "player", value = T_Entity()),
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Entity", Catalog: "ActionCatalog_Pet"]
+struct Action_RelievedPet : Action_Base {
+	base(name = "RelievedPet", type = "T_Entity");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "index", value = T_Int())
+		})
+	};
+};
+
+############################### Action_Player #############################
+
+############################### Action_Rank #############################
+
+############################### Action_Team #############################
+
+[Filter : "T_Int", Catalog: "ActionCatalog_Team", RValue: "true"]
+struct Action_GetEntityTeam : Action_Base {
+	base(name = "GetEntityTeam", type = "T_Int");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity())
+		})
+	};
+};
+
+[Filter : "T_Void", Catalog: "ActionCatalog_Team"]
+struct Action_SetEntityTeam : Action_Base {
+	base(name = "SetEntityTeam", type = "T_Void");
+
+	Component_Base components[] = {
+		Component_Params(params = {
+			ActionParam(key = "entity", value = T_Entity()),
+			ActionParam(key = "teamId", value = T_Int())
+		})
+	};
+};
+
+#[Filter : "T_Array", Catalog: "ActionCatalog_Team", RValue: "true"]
+#struct Action_GetTeamEntityList : Action_Base {
+#	base(name = "GetTeamEntityList", type = "T_Array");
+#
+#	Component_Base components[] = {
+#		Component_Params(params = {
+#			ActionParam(key = "teamId", value = T_Int())
+#		})
+#	};
+#};
+
+############################### Action_Var #############################
+
+#################################################################
+############################# Trigger ###########################
+#################################################################
+
+struct TriggerArg {
+	string key;
+	Enum_Type type;
+};
+
+enum Enum_Trigger {
+	list(function()
+		local Trigger = require "editor.gamedata.trigger"
+		return Trigger:list()
+	end);
+};
+
+struct Trigger {
+	bool custom = false;
+	string type;
+	Action_Base actions[];
+	Action_Parallel root;
+};
+
+struct TriggerSet {
+	Trigger list[];
+};
+
+struct Trigger_Base {
+	const string name;
+	TriggerArg contexts[];
+};
+
+## Block
+enum BlockTriggers {
+	"Trigger_BlockDead",
+	"Trigger_BlockHitted",
+	"Trigger_BlockIn",
+	"Trigger_BlockOut",
+	"Trigger_BlockClick",
+	"Trigger_BlockOn",
+	"Trigger_BlockLeave",
+	"Trigger_BlockTouch",
+	"Trigger_BlockBreak"
+};
+
+struct Trigger_BlockDead : Trigger_Base {
+	base(name = "BLOCK_DEAD", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos")
+	});
+};
+
+struct Trigger_BlockHitted : Trigger_Base {
+	base(name = "BLOCK_HITTED", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "missile", type = "T_Missile")
+	});
+};
+
+struct Trigger_BlockIn : Trigger_Base {
+	base(name = "BLOCK_IN", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_BlockOut : Trigger_Base {
+	base(name = "BLOCK_OUT", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_BlockClick : Trigger_Base {
+	base(name = "BLOCK_CLICK", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_BlockOn : Trigger_Base {
+	base(name = "BLOCK_ON", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_BlockLeave : Trigger_Base {
+	base(name = "BLOCK_LEAVE", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_BlockTouch : Trigger_Base {
+	base(name = "BLOCK_TOUCH", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_BlockBreak : Trigger_Base {
+	base(name = "BLOCK_BREAK", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+##Entity
+
+enum EntityTriggers {
+	"Trigger_EntityEnter",
+	"Trigger_EntityLeave",
+	"Trigger_EntityDie",
+	"Trigger_EntityRebirth",
+	"Trigger_EntityDamage",
+	"Trigger_EntityHitted",
+	"Trigger_HitEntity",
+	"Trigger_HitBlock",
+	"Trigger_EntityClick",
+	"Trigger_EntityLevelUP",
+	"Trigger_ENTITY_TOUCH_ALL",
+	"Trigger_GameReady_Entity",
+	"Trigger_GameStart_Entity",
+	"Trigger_GameGo_Entity",
+	"Trigger_GameOver_Entity",
+	"Trigger_GameExit_Entity"
+};
+
+struct Trigger_EntityEnter : Trigger_Base {
+	base(name = "ENTITY_ENTER", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_EntityLeave : Trigger_Base {
+	base(name = "ENTITY_LEAVE", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_EntityDie : Trigger_Base {
+	base(name = "ENTITY_DIE", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_EntityRebirth : Trigger_Base {
+	base(name = "ENTITY_REBIRTH", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_EntityDamage : Trigger_Base {
+	base(name = "ENTITY_DAMAGE", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_EntityHitted : Trigger_Base {
+	base(name = "ENTITY_HITTED", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "missile", type = "T_Missile")
+	});
+};
+
+struct Trigger_HitEntity : Trigger_Base {
+	base(name = "HIT_ENTITY", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "missile", type = "T_Missile")
+	});
+};
+
+struct Trigger_HitBlock : Trigger_Base {
+	base(name = "HIT_BLOCK", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_BlockPos"),
+		TriggerArg(key = "missile", type = "T_Missile")
+	});
+};
+
+struct Trigger_EntityClick : Trigger_Base {
+	base(name = "ENTITY_CLICK", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "map", type = "T_MapObj")
+	});
+};
+
+struct Trigger_EntityLevelUP : Trigger_Base {
+	base(name = "ENTITY_LEVELUP", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+struct Trigger_ENTITY_TOUCH_ALL : Trigger_Base {
+	base(name = "ENTITY_TOUCH_ALL", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity")
+	});
+};
+
+struct Trigger_GameReady_Entity : Trigger_Base {
+	base(name = "GAME_READY", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+struct Trigger_GameStart_Entity : Trigger_Base {
+	base(name = "GAME_START", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+struct Trigger_GameGo_Entity : Trigger_Base {
+	base(name = "GAME_GO", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+struct Trigger_GameOver_Entity : Trigger_Base {
+	base(name = "ENTITY_GAMEOVER", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+struct Trigger_GameExit_Entity : Trigger_Base {
+	base(name = "GAME_EXIT", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+##Item
+
+enum ItemTriggers {
+	"Trigger_ItemTrap",
+	"Trigger_DropItemPicked",
+	"Trigger_UseItem"
+};
+
+struct Trigger_ItemTrap : Trigger_Base {
+	base(name = "ITEM_TRAP", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "item", type = "T_Item")
+	});
+};
+
+struct Trigger_DropItemPicked : Trigger_Base {
+	base(name = "DROPITEM_PICKED", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "item", type = "T_Item")
+	});
+};
+
+struct Trigger_UseItem : Trigger_Base {
+	base(name = "USE_ITEM", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "item", type = "T_Item"),
+		TriggerArg(key = "itemName", type = "T_ItemEntry")
+	});
+};
+
+##Skill
+
+enum SkillTriggers{
+	"Trigger_SkillCast"
+};
+
+struct Trigger_SkillCast : Trigger_Base {
+	base(name = "SKILL_CAST", contexts = {
+		TriggerArg(key = "owner", type = "T_Entity"),
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_Vector3"),
+		TriggerArg(key = "fullName", type = "T_SkillEntry")
+	});
+};
+
+##GameSetting
+
+enum GameTriggers{
+	"Trigger_GameInit",
+	"Trigger_GameReady",
+	"Trigger_GameStart",
+	"Trigger_GameGo",
+	"Trigger_GameOver",
+	"Trigger_GameExit"
+};
+
+struct Trigger_GameInit : Trigger_Base {
+	base(name = "GAME_INIT", contexts = {
+	});
+};
+
+struct Trigger_GameReady : Trigger_Base {
+	base(name = "GAME_READY", contexts = {
+
+	});
+};
+
+struct Trigger_GameStart : Trigger_Base {
+	base(name = "GAME_START", contexts = {
+		
+	});
+};
+
+struct Trigger_GameGo : Trigger_Base {
+	base(name = "GAME_GO", contexts = {
+		
+	});
+};
+
+struct Trigger_GameOver : Trigger_Base {
+	base(name = "GAME_OVER", contexts = {
+		
+	});
+};
+
+struct Trigger_GameExit : Trigger_Base {
+	base(name = "GAME_EXIT", contexts = {
+		
+	});
+};
+
+##Region
+
+enum RegionTriggers{
+	"Trigger_RegionEnter",
+	"Trigger_RegionLeave"
+};
+
+struct Trigger_RegionEnter : Trigger_Base {
+	base(name = "REGION_ENTER", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+struct Trigger_RegionLeave : Trigger_Base {
+	base(name = "REGION_LEAVE", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity")
+	});
+};
+
+##Missile
+enum MissileTriggers{
+	"Trigger_MissileHitEntity",
+	"Trigger_MissileHitBlock"
+};
+
+struct Trigger_MissileHitEntity : Trigger_Base {
+	base(name = "HIT_ENTITY", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "obj2", type = "T_Entity"),
+		TriggerArg(key = "missile", type = "T_Missile")
+	});
+};
+
+struct Trigger_MissileHitBlock : Trigger_Base {
+	base(name = "HIT_BLOCK", contexts = {
+		TriggerArg(key = "obj1", type = "T_Entity"),
+		TriggerArg(key = "pos", type = "T_ScenePos"),
+		TriggerArg(key = "missile", type = "T_Missile")
+	});
+};
+
+#################################################################
+############################# BlockList #########################
+#################################################################
+
+struct BlockListCfg{
+	[UUID: "true"]
+	Text name;
+	hide number model[];
+	hide Vector3i dis;
+};

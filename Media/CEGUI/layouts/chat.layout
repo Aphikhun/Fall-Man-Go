@@ -1,0 +1,569 @@
+<GUILayout version="4">
+    <Window name="Root" type="DefaultWindow">
+        <Property name="Area" value="{{0,18},{0,70},{0,558},{0,420}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="Disabled" value="false">
+
+        </Property>
+        <Property name="MousePassThroughEnabled" value="true">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="ClippedByParent" value="false">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+        <Window name="Chat_Content" type="DefaultWindow">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{0,270}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Window name="Chat_Content_Bg" type="WindowsLook/StaticImage">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="ImageColours" value="ffffffff">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+                <Property name="BackgroundColours" value="ff000000">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Image" value="">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="Alpha" value="0.5">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="StaticImageStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="true">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+            </Window>
+            <Window name="Chat_Content_ScrollableView" type="WindowsLook/ScrollableView">
+                <Property name="Area" value="{{0,20},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="BgImageStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="ForceVertScrollbar" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="ForceHorzScrollbar" value="false">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="moveAble" value="true">
+
+                </Property>
+                <Property name="BackGroundImage" value="">
+
+                </Property>
+                <Window name="Chat_Content_MsgList" type="VerticalLayoutContainer">
+                    <Property name="Area" value="{{0,0},{0,0},{0,100},{0,100}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="space" value="1">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                </Window>
+            </Window>
+            <Window name="Chat_Content_Mask" type="WindowsLook/StaticImage">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="ImageColours" value="ffffffff">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Image" value="">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="StaticImageStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+            </Window>
+        </Window>
+        <Window name="Chat_SendLayout" type="DefaultWindow">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{0,70}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="true">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Bottom">
+
+            </Property>
+            <Window name="Chat_SendLayout_Bg" type="WindowsLook/StaticImage">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="ImageColours" value="ffffffff">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+                <Property name="BackgroundColours" value="ff000000">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Image" value="">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="Alpha" value="0.5">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="StaticImageStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="true">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="true">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+            </Window>
+            <Window name="Chat_SendLayout_Input" type="DefaultWindow">
+                <Property name="Area" value="{{0,20},{0,0},{0.85,20},{0,50}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="true">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Centre">
+
+                </Property>
+                <Window name="Chat_SendLayout_Input_Bg" type="WindowsLook/StaticImage">
+                    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="ImageColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="horzFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffa3a2a1">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="Image" value="">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="Alpha" value="0.35">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="StaticImageStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="true">
+
+                    </Property>
+                    <Property name="vertFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                </Window>
+                <Window name="Chat_SendLayout_Input_Btn" type="WindowsLook/Editbox">
+                    <Property name="Area" value="{{0,0.0},{0,0.0},{1,0.0},{1,0.0}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="BackGroundImage" value="">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="BackGroundStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="MaxTextLength" value="10">
+
+                    </Property>
+                    <Property name="Font_size" value="16">
+
+                    </Property>
+                    <Property name="ActiveSelectionColour" value="ff607fff">
+
+                    </Property>
+                    <Property name="SelectedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="ReadOnly" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MaskText" value="false">
+
+                    </Property>
+                    <Property name="ReadOnlyBGColour" value="ffdfdfdf">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-16">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                </Window>
+            </Window>
+            <Window type="WindowsLook/Button" name="Chat_SendLayout_SendMsg">
+                <Property name="Area" value="{{0,-15},{0,0.0},{0,25},{0,40.0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="BorderColor" value="ffffffff">
+
+                </Property>
+                <Property name="HoverTextColour" value="ff000000">
+
+                </Property>
+                <Property name="NormalImage" value="cegui_new_gameUI/icon_sendMsg_nor">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="Font" value="DroidSans-12">
+
+                </Property>
+                <Property name="HorzImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="HoverImage" value="cegui_new_gameUI/icon_sendMsg_nor">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Right">
+
+                </Property>
+                <Property name="NormalTextColour" value="ff000000">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="BorderWidth" value="0">
+
+                </Property>
+                <Property name="VertImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="DisabledStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="Font_size" value="12">
+
+                </Property>
+                <Property name="PushedTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="HoverStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="PushedImage" value="cegui_new_gameUI/icon_sendMsg_act">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Centre">
+
+                </Property>
+                <Property name="DisabledImage" value="">
+
+                </Property>
+                <Property name="PushedStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="NormalStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="BorderEnable" value="false">
+
+                </Property>
+                <Property name="DisabledTextColour" value="ff888888">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

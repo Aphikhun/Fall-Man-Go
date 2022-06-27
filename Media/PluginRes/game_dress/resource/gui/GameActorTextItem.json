@@ -1,0 +1,50 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "StaticText",
+            "Name": "GameActorTextItem",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{0,30}}"
+                },
+                {
+                    "Name": "Text",
+                    "Value": "  Text"
+                },
+                {
+                    "Name": "MinFont",
+                    "Value": "HT16"
+                },
+                {
+                    "Name": "AutoShrinkFont",
+                    "Value": "false"
+                },
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 0 1"
+                },
+                {
+                    "Name": "SoundName",
+                    "Value": "0"
+                },
+                {
+                    "Name": "WndOpenSound",
+                    "Value": "0"
+                },
+                {
+                    "Name": "WndCloseSound",
+                    "Value": "0"
+                },
+                {
+                    "Name": "MirroredWrappingType",
+                    "Value": "None"
+                },
+                {
+                    "Name": "TextLineExtraSpace",
+                    "Value": "0"
+                }
+            ]
+        }
+    }
+}

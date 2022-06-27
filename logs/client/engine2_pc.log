@@ -1,0 +1,3 @@
+[06-27-2022 14:00:08] ./logs/client/engine2_pc.log opened
+[06-27-2022 14:00:08] lpCmdLine:--editor editor --root ./editor --game "Fall-Man-Go" --lang en
+[06-27-2022 14:00:08] [INFO] startParam.platformId=2, configFromFile=0

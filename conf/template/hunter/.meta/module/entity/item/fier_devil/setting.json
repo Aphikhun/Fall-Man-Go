@@ -1,0 +1,132 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/fire_devil/g2043_pet_10301.actor",
+        "selector": "editor/hunter/asset/Actor/fire_devil/g2043_pet_10301.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/fire_devil/g2043_pet_10301.actor",
+        "selector": "editor/hunter/asset/Actor/fire_devil/g2043_pet_10301.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/fire_devil/g2043_pet_10301.actor",
+      "selector": "editor/hunter/asset/Actor/fire_devil/g2043_pet_10301.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/attack",
+          "priority": 1
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 20
+    },
+    "AI_patrol": {
+      "patrolDistance": 10,
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 1.5,
+        "y": 2,
+        "z": 1
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/fire_devil/g2043_pet_10301.actor",
+      "selector": "editor/hunter/asset/Actor/fire_devil/g2043_pet_10301.actor"
+    },
+    "hideHp": false,
+    "hideName": true,
+    "name": {
+      "value": "entity_fier_devil"
+    },
+    "textHeight": 2.5,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RewardMechanism",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fe485478-b311-49e3-a2be-3957851894cc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_RewardEntry",
+                        "rawval": "myplugin/reward"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "130400c1-7293-4d37-81a6-fb34a2cb1f8d"
+              },
+              "pos": {
+                "x": 677,
+                "y": 325
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "fe485478-b311-49e3-a2be-3957851894cc"
+              },
+              "pos": {
+                "x": 1126,
+                "y": 338
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "130400c1-7293-4d37-81a6-fb34a2cb1f8d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "807a9fd7-6df3-476c-a4e9-0ee799a20981"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8ee82040625697f458c640735cb9828e",
+      "triggers.bts": "9975cdd83b1f94e968e74ac18f50e8de"
+    },
+    "VERSION": "0.18"
+  }
+}

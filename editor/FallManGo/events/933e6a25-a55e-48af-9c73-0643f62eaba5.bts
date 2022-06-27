@@ -1,0 +1,20 @@
+PART_TOUCH_ENTITY_BEGIN {
+	$time1 = NumberFloor(p1 = 1)
+	$time2 = NumberFloor(p1 = 1)
+	$place = GetPartPosition(part = $part1)
+	StartTimer2(interval = 20, time = 1, timer = "") {
+		$time1 = $time1 - 1
+		Test(Message = $time1)
+		If ($time1 == 0) {
+			DestoryPart(part = $part1)
+			StartTimer2(interval = 20, time = 1, timer = "") {
+				$time2 = $time2 - 1
+				Test(Message = $time2)
+				If ($time2 == 0) {
+					Test(Message = $place)
+					CreatePartByPartStorage(id = "8673307749779734529", map = GetEntityMap(entity = $obj2), pos = $place)
+				}
+			}
+		}
+	}
+}

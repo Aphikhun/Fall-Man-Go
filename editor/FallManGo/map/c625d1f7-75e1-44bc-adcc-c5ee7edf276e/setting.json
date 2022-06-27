@@ -1,0 +1,77 @@
+{
+  "blinn": 0,
+  "canBreak": true,
+  "hdr": 0,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "RegionPart",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "cfgName": "myplugin/825d4148-0211-4974-ac63-9b53a650b381",
+        "id": "8672053116542943233",
+        "name": "Region",
+        "needSync": "true",
+        "position": "x:44.016002655029 y:56.130489349365 z:23.043001174927",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1.94599 y:4.26098 z:7.94189",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/101",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8673305797150539777",
+        "name": "NPC101",
+        "needSync": "true",
+        "position": "x:18.665914535522 y:53.550395965576 z:44.639331817627",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/6b525b63-6464-4a33-8ee8-4791a59cb1a5",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8673370729505505281",
+        "name": "NPC_Start",
+        "needSync": "true",
+        "position": "x:20.028427124023 y:53.000003814697 z:26.358066558838",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxMode": "static_display",
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

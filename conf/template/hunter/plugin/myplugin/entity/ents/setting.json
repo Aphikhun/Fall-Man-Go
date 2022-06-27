@@ -1,0 +1,107 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "asset/Actor/ents/Venom Wizard.actor",
+  "actorName": "asset/Actor/ents/Venom Wizard.actor",
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "canClick": false,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 20,
+  "chaseInterval": 10,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 1,
+      "y": 2.5,
+      "z": 1
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "collision": true,
+  "damage": 3,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": true,
+  "homeSize": 20,
+  "hpBarColor": 4294967551.0,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 40,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.2,
+  "name": "entity_ents",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "patrolDistance": 20,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 7.5,
+  "setFollowWhenCreate": true,
+  "skillList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 4,
+      "fullName": "myplugin/attack",
+      "priority": 1
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 6,
+      "fullName": "myplugin/cure",
+      "priority": 2
+    }
+  ],
+  "skills": [],
+  "stepHeight": 1,
+  "textHeight": 3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0
+}

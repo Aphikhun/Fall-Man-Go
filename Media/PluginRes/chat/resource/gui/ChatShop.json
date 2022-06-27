@@ -1,0 +1,1016 @@
+{
+    "Dialog": {
+        "Window": {
+            "Name": "ChatShop",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                    "Name": "AlwaysOnTop",
+                    "Value": "true"
+                },
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 0 0.470588"
+                }
+            ],
+            "Type": "DefaultWindow",
+            "Window": [
+                {
+                    "Name": "ChatShop-Bg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,-1},{0,873},{0,511}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:chat_main.json image:bg_buy"
+                        },
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        }
+                    ],
+                    "Type": "StaticImage",
+                    "Window": [
+                        {
+                            "Name": "ChatShop-Title",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,538},{0,89}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:chat_main.json image:bg_title"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "StaticImage",
+                            "Window": [
+                                {
+                                    "Name": "ChatShop-Title-Text",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,-6},{0,72},{0,29}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM24"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Type": "StaticText"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "ChatShop-Item-1",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,55},{0,116},{0,563},{0,217}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "130 20 0 0"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:chat_main.json image:icon_10_speaker"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "StaticImage",
+                            "Window": [
+                                {
+                                    "Name": "ChatShop-Item-Info-1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,127},{0,41},{0,177},{0,68}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM20"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextShadow",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextShadowColor",
+                                            "Value": "0.109804 0.117647 0.388235 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Type": "StaticText"
+                                },
+                                {
+                                    "Name": "ChatShop-Item-Buy-1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,297},{0,0},{0,495},{0,76}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 0"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        }
+                                    ],
+                                    "Type": "Button",
+                                    "Window": [
+                                        {
+                                            "Name": "ChatShop-Item-Cost-Type-1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,52},{0,0},{0,90.25},{0,38.25}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:diamond.json image:Diamond-icon2.png"
+                                                },
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                }
+                                            ],
+                                            "Type": "StaticImage"
+                                        },
+                                        {
+                                            "Name": "ChatShop-Item-Cost-1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,111},{0,0},{0,161},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM22"
+                                                },
+                                                {
+                                                    "Name": "TextAutoOmission",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextShadow",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0.0392157 0.431373 0.14902 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Type": "StaticText"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "ChatShop-Item-2",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,55},{0,232},{0,563},{0,333}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "130 20 0 0"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:chat_main.json image:icon_100_speaker"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "StaticImage",
+                            "Window": [
+                                {
+                                    "Name": "ChatShop-Item-Info-2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,127},{0,41},{0,177},{0,68}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM20"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextShadow",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextShadowColor",
+                                            "Value": "0.109804 0.117647 0.388235 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Type": "StaticText"
+                                },
+                                {
+                                    "Name": "ChatShop-Item-Buy-2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,297},{0,0},{0,495},{0,76}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 0"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        }
+                                    ],
+                                    "Type": "Button",
+                                    "Window": [
+                                        {
+                                            "Name": "ChatShop-Item-Cost-Type-2",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,52},{0,0},{0,93},{0,41}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:diamond.json image:Diamond-icon2.png"
+                                                },
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                }
+                                            ],
+                                            "Type": "StaticImage"
+                                        },
+                                        {
+                                            "Name": "ChatShop-Item-Cost-2",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,111},{0,0},{0,161},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM22"
+                                                },
+                                                {
+                                                    "Name": "TextAutoOmission",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextShadow",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0.0392157 0.431373 0.14902 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Type": "StaticText"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "ChatShop-Item-3",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,55},{0,348},{0,563},{0,449}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "130 20 0 0"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:chat_main.json image:icon_200_speaker"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "StaticImage",
+                            "Window": [
+                                {
+                                    "Name": "ChatShop-Item-Info-3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,127},{0,41},{0,177},{0,68}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM20"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextShadow",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextShadowColor",
+                                            "Value": "0.109804 0.117647 0.388235 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Type": "StaticText"
+                                },
+                                {
+                                    "Name": "ChatShop-Item-Buy-3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,297},{0,0},{0,495},{0,76}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 0"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        }
+                                    ],
+                                    "Type": "Button",
+                                    "Window": [
+                                        {
+                                            "Name": "ChatShop-Item-Cost-Type-3",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,52},{0,0},{0,93},{0,41}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:diamond.json image:Diamond-icon2.png"
+                                                },
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                }
+                                            ],
+                                            "Type": "StaticImage"
+                                        },
+                                        {
+                                            "Name": "ChatShop-Item-Cost-3",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,111},{0,0},{0,161},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM22"
+                                                },
+                                                {
+                                                    "Name": "TextAutoOmission",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextShadow",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0.0392157 0.431373 0.14902 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Type": "StaticText"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "ChatShop-Moon",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-29},{0,116},{0,233},{0,449}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "0 0 230 20"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:chat_main.json image:icon_moon_card"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:chat_main.json image:icon_moon_card"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM16"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "Button",
+                            "Window": [
+                                {
+                                    "Name": "ChatShop-Moon-Click",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,-12},{0,229},{0,76}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:chat_main.json image:btn_buy"
+                                        },
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        }
+                                    ],
+                                    "Type": "StaticImage",
+                                    "Window": [
+                                        {
+                                            "Name": "ChatShop-Moon-Cost-Type",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,52},{0,0},{0,93},{0,41}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:diamond.json image:Diamond-icon2.png"
+                                                },
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                }
+                                            ],
+                                            "Type": "StaticImage"
+                                        },
+                                        {
+                                            "Name": "ChatShop-Moon-Cost",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,111},{0,0},{0,161},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM22"
+                                                },
+                                                {
+                                                    "Name": "Level",
+                                                    "Value": "29"
+                                                },
+                                                {
+                                                    "Name": "TextAutoOmission",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextShadow",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0.0392157 0.431373 0.14902 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Type": "StaticText"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "ChatShop-Moon-Text",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,-125},{0,101},{0,-78}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextShadow",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextShadowColor",
+                                            "Value": "0.109804 0.117647 0.388235 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        }
+                                    ],
+                                    "Type": "StaticText"
+                                },
+                                {
+                                    "Name": "ChatShop-Moon-Time-Bg",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,107},{0,42}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 10"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:chat_main.json image:bg_moon_card"
+                                        },
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        }
+                                    ],
+                                    "Type": "StaticImage",
+                                    "Window": [
+                                        {
+                                            "Name": "ChatShop-Moon-Icon",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,5},{0,0},{0,33},{0,28}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:chat_main.json image:icon_moon_time"
+                                                },
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                }
+                                            ],
+                                            "Type": "StaticImage"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Name": "ChatShop-Moon-LastTime",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,42},{0,-2},{0,143},{0,45}}"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0 0.964706 0.964706 1"
+                                        },
+                                        {
+                                            "Name": "TextShadowColor",
+                                            "Value": "0.109804 0.117647 0.388235 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        }
+                                    ],
+                                    "Type": "StaticText"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "ChatShop-Voice-Cnt-Bg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,55},{0,80},{0,169},{0,111}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "10 10 10 10"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:chat_main.json image:bg_mic"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "StaticImage",
+                            "Window": [
+                                {
+                                    "Name": "ChatShop-Voice-Icon",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,10},{0,0},{0,26},{0,22}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:chat_main.json image:icon_mic_num"
+                                        },
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        }
+                                    ],
+                                    "Type": "StaticImage"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "ChatShop-Moon-VoiceCnt",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-320},{0,-393},{0,-219},{0,-346}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Bottom"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM14"
+                                },
+                                {
+                                    "Name": "TextAutoOmission",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0 0 0 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "TextShadow",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextShadowColor",
+                                    "Value": "1 1 1 1"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Type": "StaticText"
+                        },
+                        {
+                            "Name": "ChatShop-Close",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,7},{0,9},{0,99},{0,88}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "SoundName",
+                                    "Value": "6"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:chat_main.json image:btn_close_buy"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:chat_main.json image:btn_close_buy"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM16"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                }
+                            ],
+                            "Type": "Button"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

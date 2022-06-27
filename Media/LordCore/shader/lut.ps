@@ -1,0 +1,32 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D ScnSamp;
+uniform sampler2D Lookup;
+
+varying vec2 texCoord;
+
+vec3 ApplyLut2dOneInput(sampler2D texNow, vec3 inColor)
+{
+	vec3 scaleOffset = vec3(1.0 / 1024.0, 1.0 / 32.0, 32.0 - 1.0);
+	
+	vec3 uvw = inColor;
+	
+	uvw.z *= scaleOffset.z;
+	float shift = floor(uvw.z);
+	uvw.xy = uvw.xy * scaleOffset.z * scaleOffset.xy + scaleOffset.xy * 0.5;
+	uvw.x += shift * scaleOffset.y;
+	
+	uvw.y = 1.0 - uvw.y;
+	vec3 texANowRGB = texture2D(texNow, uvw.xy).rgb;
+	vec3 texBNowRGB = texture2D(texNow, uvw.xy + vec2(scaleOffset.y, 0.0)).rgb;
+	uvw.xyz = mix(texANowRGB, texBNowRGB, uvw.z - shift);
+	return uvw;
+}
+
+void main(void)
+{
+    vec4 color = texture2D(ScnSamp, texCoord);
+    gl_FragColor = vec4(ApplyLut2dOneInput(Lookup, color.rgb), color.a);
+}

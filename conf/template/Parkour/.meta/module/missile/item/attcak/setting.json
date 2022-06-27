@@ -1,0 +1,41 @@
+{
+  "data": {
+    "boundingVolume": {
+      "radius": 0.3,
+      "type": "Sphere"
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/hurt",
+    "lifeTime": {
+      "value": 60
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/file/Snowball/Sphere005.mesh",
+        "selector": "editor/Parkour/asset/file/Snowball/Sphere005.mesh"
+      },
+      "type": "mesh"
+    },
+    "moveSpeed": 10,
+    "name": {
+      "value": "missile_attcak"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/file/binghuoyan.effect",
+        "selector": "editor/Parkour/asset/file/binghuoyan.effect"
+      },
+      "yaw": 90
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dc32f21771ff862078b066465aa0ff61",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/stone/ice.actor",
+        "selector": "editor/hunter/asset/stone/ice.actor"
+      },
+      "girlactor": {
+        "asset": "asset/stone/ice.actor",
+        "selector": "editor/hunter/asset/stone/ice.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/ice.actor",
+      "selector": "editor/hunter/asset/Actor/ice.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": "asset/Actor/ice.actor",
+      "selector": "editor/hunter/asset/Actor/ice.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_ice"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7ea6a35b8c41c936095781c6eeb4ebfc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

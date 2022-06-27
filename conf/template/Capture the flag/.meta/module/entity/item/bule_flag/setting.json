@@ -1,0 +1,27 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/blue.actor",
+      "selector": "editor/Capture the flag/asset/Actor/blue.actor"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/Actor/blue.actor",
+      "selector": "editor/Capture the flag/asset/Actor/blue.actor"
+    },
+    "name": {
+      "value": "entity_bule_flag"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6469a4dab65e1f4a1a97fb3056ac8089",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.19"
+  }
+}

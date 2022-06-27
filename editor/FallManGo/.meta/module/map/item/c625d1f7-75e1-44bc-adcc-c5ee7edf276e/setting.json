@@ -1,0 +1,66 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "cfgName": "myplugin/825d4148-0211-4974-ac63-9b53a650b381",
+        "id": "8672053116542943233",
+        "position": {
+          "x": 44.016002655029,
+          "y": 56.130489349365,
+          "z": 23.043001174927
+        },
+        "scale": {
+          "x": 1.94599,
+          "y": 4.26098,
+          "z": 7.94189
+        },
+        "size": {
+          "x": 1.9459884166718,
+          "y": 4.2609758377075,
+          "z": 7.9418916702271
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/101",
+        "id": "8673305797150539777",
+        "name": "NPC101",
+        "position": {
+          "x": 18.665914535522,
+          "y": 53.550395965576,
+          "z": 44.639331817627
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/6b525b63-6464-4a33-8ee8-4791a59cb1a5",
+        "id": "8673370729505505281",
+        "name": "NPC_Start",
+        "position": {
+          "x": 20.028427124023,
+          "y": 53.000003814697,
+          "z": 26.358066558838
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_c625d1f7-75e1-44bc-adcc-c5ee7edf276e"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "0fa34a7a70aae9c4b6de2eb414371a2a"
+    },
+    "VERSION": "0.21"
+  }
+}

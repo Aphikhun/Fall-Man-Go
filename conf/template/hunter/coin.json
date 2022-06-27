@@ -1,0 +1,10 @@
+[
+  {
+    "coinName": "copper_coin",
+    "item": {
+      "name": "myplugin/copper_coin",
+      "type": "Item"
+    },
+    "showUi": false
+  }
+]

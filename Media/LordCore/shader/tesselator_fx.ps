@@ -1,0 +1,18 @@
+#version 100
+
+uniform sampler2D texSampler_texture;
+
+varying mediump vec2 texCoord_texture;
+varying mediump vec3 lightColor;
+
+void main(void)
+{
+	mediump vec4 albedo = texture2D(texSampler_texture, texCoord_texture);   
+
+	if (albedo.a < 0.1)
+	{
+		discard;
+	}
+
+	gl_FragColor = vec4(albedo.xyz * lightColor, albedo.a);
+}

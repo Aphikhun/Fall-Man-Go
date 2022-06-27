@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate SoundFileNum="0" AttackScale="1" MinDistance="1" SoundName4="" SelectedRingSize="1" Skeleton="bone001.skel" IntervalTime="2" WoundBone="" SoundName2="" SoundName5="" Volume="0.8" Alpha="1" MaxDistance="16" Originalscale="1 1 1" SoundName3="" IsShowShadow="true" TextHeight="0" SoundName1="" name="111.actor" WoundAngle="25">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group0" DefaultUse="true">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="Origin197011"/>
+					<roll value="0"/>
+					<type_name value="xue"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<yaw value="0"/>
+					<FileName value="asset/stone/xue.effect"/>
+					<Position_Z value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

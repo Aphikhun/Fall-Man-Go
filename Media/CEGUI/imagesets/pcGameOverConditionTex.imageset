@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="pcGameOverConditionTex" imagefile="pcGameOverConditionTex.png" nativeHorzRes="2048" nativeVertRes="2048">
+	<Image name="bg_person" width="32" height="32" xPos="0" yPos="0"/>
+	<Image name="bg_ranking_big" width="150" height="578" xPos="919" yPos="110"/>
+	<Image name="bg_ranking_big_title" width="699" height="110" xPos="220" yPos="110"/>
+	<Image name="bg_ranking_me" width="990" height="50" xPos="940" yPos="0"/>
+	<Image name="bg_team" width="220" height="261" xPos="0" yPos="110"/>
+	<Image name="bg_touxiang" width="50" height="50" xPos="32" yPos="0"/>
+	<Image name="icon_blue_act" width="42" height="68" xPos="124" yPos="0"/>
+	<Image name="icon_bule_nor" width="42" height="68" xPos="82" yPos="0"/>
+	<Image name="icon_red_act" width="42" height="68" xPos="166" yPos="0"/>
+	<Image name="icon_red_nor" width="42" height="68" xPos="208" yPos="0"/>
+	<Image name="icon_team1st" width="130" height="110" xPos="550" yPos="0"/>
+	<Image name="icon_team2nd" width="130" height="110" xPos="810" yPos="0"/>
+	<Image name="icon_team3rd" width="130" height="110" xPos="680" yPos="0"/>
+	<Image name="img_1st" width="100" height="50" xPos="450" yPos="0"/>
+	<Image name="img_2nd" width="100" height="50" xPos="350" yPos="0"/>
+	<Image name="img_3rd" width="100" height="50" xPos="250" yPos="0"/>
+	<Image name="tanchuang_gameover" width="750" height="580" xPos="0" yPos="690"/>
+	<Image name="tanchuang_lose" width="750" height="580" xPos="1069" yPos="110"/>
+	<Image name="tanchuang_victory" width="750" height="580" xPos="750" yPos="690"/>
+</Imageset>

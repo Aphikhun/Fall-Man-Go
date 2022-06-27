@@ -1,0 +1,37 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D Mask;
+uniform sampler2D ScnSamp;
+
+uniform float Strength;
+uniform int Rotate;
+
+varying vec2 texCoord;
+
+
+void main(void)
+{
+    vec4 color = texture2D(ScnSamp, texCoord);
+	
+	vec2 maskCoord = texCoord;
+	if (Rotate == 1)
+	{
+		maskCoord.y = 1.0 - texCoord.y;
+	}
+	else if (Rotate == 2)
+	{
+		maskCoord.x = 1.0 - texCoord.x;
+		maskCoord.y = 1.0 - texCoord.y;
+	}
+	else if (Rotate == 3)
+	{
+		maskCoord.x = 1.0 - texCoord.x;
+	}
+	
+	vec4 mask = texture2D(Mask, maskCoord);
+ 
+	color.rgb *= (1.0 - Strength * mask.a);
+    gl_FragColor = color;
+}

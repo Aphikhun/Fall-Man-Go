@@ -1,0 +1,28 @@
+REGION_ENTER {
+	$max = NumberFloor(p1 = 2)
+	$map = CreateDuplication(name = "c625d1f7-75e1-44bc-adcc-c5ee7edf276e")
+	If (not IsValueInArray(array = @PlayerInLobby, value = $obj1)) {
+		ArrayAppend(
+			array = @PlayerInLobby,
+			value = $obj1
+		)
+	}
+	Foreach(array = @PlayerInLobby, key = "i") {
+		ShowTip(
+			entity = $i,
+			keepTime = 200,
+			textKey = Concat(p1 = ToString(ArraySize(array = @PlayerInLobby)), p2 = Concat(p1 = "/", p2 = $max)),
+			tipType = "1"
+		)
+	}
+	If (ArraySize(array = @PlayerInLobby) >= $max) {
+		Foreach(array = @PlayerInLobby, key = "i") {
+			SetEntityPosition(entity = $i, map = $map, pos = { x = 20, y = 53, z = 29 }, rp = 0, ry = 0)
+		}
+		ArrayAppend(
+			array = @ListRoom,
+			value = @PlayerInLobby
+		)
+		@PlayerInLobby = []
+	}
+}

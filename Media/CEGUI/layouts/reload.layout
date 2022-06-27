@@ -1,0 +1,87 @@
+<GUILayout version="4">
+  <Window type="DefaultWindow" name="Root">
+    <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
+
+    </Property>
+    <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+    </Property>
+    <Property value="true" name="Visible">
+
+    </Property>
+    <Property value="false" name="Disabled">
+
+    </Property>
+    <Property value="Left" name="HorizontalAlignment">
+
+    </Property>
+    <Property value="Top" name="VerticalAlignment">
+
+    </Property>
+    <Property value="1" name="Alpha">
+
+    </Property>
+    <Property value="true" name="MousePassThroughEnabled">
+
+    </Property>
+    <Property value="false" name="ClippedByParent">
+
+    </Property>
+    <Window type="WindowsLook/StaticImage" name="Reload_Image">
+      <Property value="{{0,0},{0,0},{0,60},{0,60}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="Stretched" name="vertFormatting">
+
+      </Property>
+      <Property value="ffffffff" name="FrameColours">
+
+      </Property>
+      <Property value="false" name="FrameEnabled">
+
+      </Property>
+      <Property value="false" name="Visible">
+
+      </Property>
+      <Property value="Stretched" name="horzFormatting">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="Centre" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="" name="Image">
+
+      </Property>
+      <Property value="Centre" name="VerticalAlignment">
+
+      </Property>
+      <Property value="false" name="BackgroundEnabled">
+
+      </Property>
+      <Property value="ffffffff" name="ImageColours">
+
+      </Property>
+      <Property value="0 0 0 0" name="StaticImageStretch">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+      <Property value="ffffffff" name="BackgroundColours">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+    </Window>
+  </Window>
+</GUILayout>

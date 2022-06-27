@@ -1,0 +1,41 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/file/flag/flag.actor",
+        "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+      },
+      "girlactor": {
+        "asset": "asset/file/flag/flag.actor",
+        "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/file/flag/flag.actor",
+      "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/file/flag/flag.actor",
+      "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_flag"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a8653df04a8a4e8c64ca75ac972f853e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

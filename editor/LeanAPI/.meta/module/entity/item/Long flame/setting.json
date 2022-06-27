@@ -1,0 +1,86 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/charactor/charactor_boy/skel/Long flame.actor",
+      "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/skel/Long flame.actor"
+    },
+    "girlactor": {
+      "asset": "asset/Actor/charactor/charactor_boy/skel/Long flame.actor",
+      "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/skel/Long flame.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_Long flame"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e4af75c0-98bf-4563-99f3-cf372d97f8a7"
+              },
+              "pos": {
+                "x": 682,
+                "y": 340
+              }
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e4af75c0-98bf-4563-99f3-cf372d97f8a7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "bdc6b098-96b1-4331-b734-15d13c5e5e99"
+            }
+          },
+          "type": "Trigger_GameGo_Entity"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bebf1c3440943536e4ed9ba7efff52a8",
+      "triggers.bts": "21dd4dd0a711a834c87875d68d61adaa"
+    },
+    "VERSION": "0.17"
+  }
+}

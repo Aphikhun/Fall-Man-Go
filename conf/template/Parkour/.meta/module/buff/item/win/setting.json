@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/shengjitexiao.effect"
+      },
+      "once": false
+    },
+    "name": {
+      "value": "buff_win"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "58d6bd00b3c157f1338b3845ee99c636"
+    },
+    "VERSION": "0.18"
+  }
+}

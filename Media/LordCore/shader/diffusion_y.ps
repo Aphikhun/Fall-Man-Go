@@ -1,0 +1,50 @@
+#version 100
+
+uniform sampler2D ScnSamp;
+uniform sampler2D ScnSamp2;
+
+uniform mediump vec2 SampStep;
+uniform mediump float Strength;
+
+varying mediump vec2 texCoord;
+
+
+#define SAMP_NUM 5
+
+void main(void)
+{
+    mediump vec4 color = vec4(0.0, 0.0, 0.0, 0.0);
+	mediump vec4 colorSrc = vec4(0.0, 0.0, 0.0, 0.0);
+	mediump vec4 colorOrg = vec4(0.0, 0.0, 0.0, 0.0);
+	mediump float e, n = 0.0;
+	
+	mediump float weights[6];
+	weights[0] = 1.0;
+	weights[1] = 0.923116;
+	weights[2] = 0.726149;
+	weights[3] = 0.486752;
+	weights[4] = 0.278037;
+	weights[5] = 0.135335;
+	
+	mediump vec4 sum = vec4(0.0, 0.0, 0.0, 0.0);
+    for(int i = -SAMP_NUM; i <= SAMP_NUM; i++){
+        mediump vec2 stex = texCoord + vec2(0.0, SampStep.y * float(i));
+        e = weights[(i<0?-i:i)];
+        mediump vec4 org_color = texture2D( ScnSamp, stex );
+        sum += org_color * e;
+        n += e;
+    }
+    
+    color = sum / n;
+
+	colorOrg = texture2D( ScnSamp2, texCoord );
+    colorSrc = vec4(pow(colorOrg.rgb, vec3(2.0)), vec3(colorOrg.a));
+    
+    color.rgb = color.rgb + colorSrc.rgb - color.rgb * colorSrc.rgb;
+	
+	color = max(color,colorSrc);
+    
+    color = mix(colorOrg, color, Strength * colorOrg.a);
+
+    gl_FragColor = vec4( color.rgb, 1.0 );
+}

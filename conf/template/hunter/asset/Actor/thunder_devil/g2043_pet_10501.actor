@@ -1,0 +1,37 @@
+<ActorTemplates>
+	<ActorTemplate SoundFileNum="0" IntervalTime="2" Alpha="1" SoundName4="" Skeleton="g2043_pet_10301.skel" WoundAngle="25" IsShowShadow="true" name="111.actor" MaxDistance="16" SelectedRingSize="1" Originalscale="1.5 1.5 1.5" AttackScale="1" WoundBone="" SoundName2="" SoundName5="" TextHeight="0" MinDistance="1" Volume="0.8" SoundName1="" SoundName3="">
+		<BodyParts>
+			<BodyPart MasterName="1" EdgeColor="1 1 1 1" DefaultUse="true" SlaveName="1" ColorParams="1 1 1 1">
+				<Skin UseTransparentNearestSlice="false" SpecularCoef="0.15" UseOriginalcolor="false" MeshName="asset/Actor/thunder_devil/g2043_pet_10501.skin" UseOverlayColorReplaceMode="false" OverlayColor="1 1 1 1" SpecularStrength="1" LocalBrightnessScale="1" UseReflect="false" DiscardAlpha="0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed="0 0" LocalAlpha="1" EdgeColor="1.0 0 0 1.0" UseBloom="false" UseEdge="false" type_name="g2043_pet_10501" SpecularColor="1.0 1.0 1.0 1.0"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/thunder_devil/g2043_pet_10301_show.anim"/>
+			<Anim Name="asset/Actor/thunder_devil/g2043_pet_10301_hurt.anim"/>
+			<Anim Name="asset/Actor/thunder_devil/g2043_pet_10301_run.anim"/>
+			<Anim Name="asset/Actor/thunder_devil/g2043_pet_10301_idle.anim"/>
+			<Anim Name="asset/Actor/thunder_devil/g2043_pet_10301_attack2.anim"/>
+			<Anim Name="asset/Actor/thunder_devil/g2043_pet_10301_attack1.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="hit">
+				<Animation Channel="" TimeScale="2" FadeTime="0.25" Times="1" BeginTime="0" Length="1.366" Name="asset/Actor/thunder_devil/g2043_pet_10301_attack1.anim"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="attack2">
+				<Animation Channel="" TimeScale="1" FadeTime="0.25" Times="1" BeginTime="0" Length="1.433" Name="asset/Actor/thunder_devil/g2043_pet_10301_attack2.anim"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="hurt">
+				<Animation Channel="" TimeScale="1" FadeTime="0.25" Times="1" BeginTime="0" Length="0.633" Name="asset/Actor/thunder_devil/g2043_pet_10301_hurt.anim"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="idle">
+				<Animation Channel="" TimeScale="1" FadeTime="0.25" Times="-1" BeginTime="0" Length="1.3" Name="asset/Actor/thunder_devil/g2043_pet_10301_idle.anim"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="run">
+				<Animation Channel="" TimeScale="1" FadeTime="0.25" Times="-1" BeginTime="0" Length="0.766" Name="asset/Actor/thunder_devil/g2043_pet_10301_run.anim"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="show">
+				<Animation Channel="" TimeScale="1" FadeTime="0.25" Times="-1" BeginTime="0" Length="2.733" Name="asset/Actor/thunder_devil/g2043_pet_10301_show.anim"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

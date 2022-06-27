@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="flag_textures" imagefile="flag_textures.png" nativeHorzRes="1024" nativeVertRes="64">
+	<Image name="flag_1" width="48" height="48" xPos="0" yPos="0"/>
+	<Image name="flag_2" width="48" height="48" xPos="48" yPos="0"/>
+	<Image name="flag_3" width="48" height="48" xPos="96" yPos="0"/>
+	<Image name="flag_4" width="48" height="48" xPos="144" yPos="0"/>
+	<Image name="flag_5" width="48" height="48" xPos="192" yPos="0"/>
+	<Image name="flag_6" width="48" height="48" xPos="240" yPos="0"/>
+	<Image name="flag_7" width="48" height="48" xPos="288" yPos="0"/>
+	<Image name="flag_8" width="48" height="48" xPos="336" yPos="0"/>
+	<Image name="flag_9" width="48" height="48" xPos="384" yPos="0"/>
+	<Image name="flag_10" width="48" height="48" xPos="432" yPos="0"/>
+	<Image name="flag_die" width="20" height="20" xPos="480" yPos="0"/>
+	<Image name="flag_frame" width="54" height="54" xPos="500" yPos="0"/>
+</Imageset>

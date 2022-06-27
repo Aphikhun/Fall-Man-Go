@@ -1,0 +1,87 @@
+<GUILayout version="4">
+  <Window type="DefaultWindow" name="Root">
+    <Property name="Area" value="{{0,0},{0,0},{0,70},{0,70}}">
+
+    </Property>
+    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+    </Property>
+    <Property name="Alpha" value="1">
+
+    </Property>
+    <Property name="ClippedByParent" value="false">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Top">
+
+    </Property>
+    <Property name="MousePassThroughEnabled" value="true">
+
+    </Property>
+    <Property name="Disabled" value="false">
+
+    </Property>
+    <Property name="HorizontalAlignment" value="Centre">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Centre">
+
+    </Property>
+    <Property name="Visible" value="true">
+
+    </Property>
+    <Window type="WindowsLook/StaticImage" name="Crosshair_Hit_Feedback">
+      <Property name="Area" value="{{0,0},{0,0},{0,70},{0,70}}">
+
+      </Property>
+      <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+      </Property>
+      <Property name="FrameColours" value="ffffffff">
+
+      </Property>
+      <Property name="BackgroundColours" value="ffffffff">
+
+      </Property>
+      <Property name="vertFormatting" value="Stretched">
+
+      </Property>
+      <Property name="MousePassThroughEnabled" value="true">
+
+      </Property>
+      <Property name="BackgroundEnabled" value="false">
+
+      </Property>
+      <Property name="VerticalAlignment" value="Centre">
+
+      </Property>
+      <Property name="Alpha" value="1">
+
+      </Property>
+      <Property name="horzFormatting" value="Stretched">
+
+      </Property>
+      <Property name="HorizontalAlignment" value="Centre">
+
+      </Property>
+      <Property name="FrameEnabled" value="false">
+
+      </Property>
+      <Property name="ImageColours" value="ffffffff">
+
+      </Property>
+      <Property name="Image" value="attack_effect/hit_head">
+
+      </Property>
+      <Property name="ClippedByParent" value="false">
+
+      </Property>
+      <Property name="Disabled" value="false">
+
+      </Property>
+      <Property name="Visible" value="true">
+
+      </Property>
+    </Window>
+  </Window>
+</GUILayout>

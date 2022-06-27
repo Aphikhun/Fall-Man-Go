@@ -1,0 +1,22 @@
+REGION_ENTER {
+	$max = NumberFloor(
+		p1 = ArraySize(
+			array = $obj1.NPC_Start.listPlayer,
+			entity = $obj1.NPC_Start
+		) - ArraySize(
+				array = $obj1.NPC_Start.listPlayer,
+				entity = $obj1.NPC_Start
+			) * 0.5
+	)
+	If (not $obj1.EnterGoal) {
+		$obj1.EnterGoal = true
+		$obj1.NPC_Start.Num = $obj1.NPC_Start.Num + 1
+	}
+	ShowTip(
+		entity = $obj1,
+		keepTime = 200,
+		textKey = Concat(p1 = ToString($obj1.NPC_Start.Num), p2 = Concat(p1 = "/", p2 = $max)),
+		tipType = "1"
+	)
+	$i = NumberFloor(p1 = 10)
+}

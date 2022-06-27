@@ -1,0 +1,204 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "ChatGameFloatInvite",
+            "Property": [
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 0 0.698039"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,70},{0,368},{0,292}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "ChatGameFloatInvite-Head",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "1 1 1 0"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,20},{0,20},{0,120},{0,120}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ChatGameFloatInvite-HeadFrame",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,106},{0,106}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "11 11 10 10"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2043_chat.json image:img_9_headframe_players"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "ChatGameFloatInvite-PlayerName",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,134},{0,20},{0,363},{0,52}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "Player_name"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "ChatGameFloatInvite-InviteTxt",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,134},{0,52},{0,363},{0,119.938}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "邀请了一个起床战争的派对"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT12"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0.466667 1 0.682353 1"
+                        },
+                        {
+                            "Name": "TextWordWrap",
+                            "Value": "true"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ChatGameFloatInvite-RonfuseBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-88},{0,-18},{0,67},{0,36}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2043_chat.json image:btn_0_refuse"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ChatGameFloatInvite-AgreeBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,88},{0,-18},{0,243},{0,36}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2043_chat.json image:btn_0_agree"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "ChatGameFloatInvite-countDown",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,88},{0,-75},{0,188},{0,-45}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "10s"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<ActorTemplates>
+	<ActorTemplate MaxDistance="16" SoundName1="" SoundName3="" TextHeight="0" SoundFileNum="0" MinDistance="1" Skeleton="g2043_pet_10302.skel" Originalscale="3 3 3" SoundName2="" WoundAngle="25" IntervalTime="2" IsShowShadow="true" name="111.actor" WoundBone="" Volume="0.8" SoundName5="" SoundName4="" SelectedRingSize="1" AttackScale="1" Alpha="1">
+		<BodyParts>
+			<BodyPart SlaveName="1" DefaultUse="true" MasterName="1" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<Skin EdgeColor="1.0 0 0 1.0" LocalBrightnessScale="1" type_name="g2043_pet_10402" MeshName="asset/Actor/ice_blame/g2043_pet_10402.skin" UseOriginalcolor="false" UseEdge="false" SpecularStrength="1" UseBloom="false" LocalAlpha="1" UseOverlayColorReplaceMode="false" OverlayColor="1 1 1 1" UVSpeed="0 0" UseReflect="false" DiscardAlpha="0" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" UseTransparentNearestSlice="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/ice_blame/g2043_pet_10302_hurt.anim"/>
+			<Anim Name="asset/Actor/ice_blame/g2043_pet_10302_show.anim"/>
+			<Anim Name="asset/Actor/ice_blame/g2043_pet_10302_run.anim"/>
+			<Anim Name="asset/Actor/ice_blame/g2043_pet_10302_attack2.anim"/>
+			<Anim Name="asset/Actor/ice_blame/g2043_pet_10302_idle.anim"/>
+			<Anim Name="asset/Actor/ice_blame/g2043_pet_10302_attack1.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="hit" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/ice_blame/g2043_pet_10302_attack1.anim" FadeTime="0.25" TimeScale="2" BeginTime="0" Channel="" Length="1.366" Times="1"/>
+			</Skill>
+			<Skill Name="skills" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/ice_blame/g2043_pet_10302_attack2.anim" FadeTime="0.25" TimeScale="2" BeginTime="0" Channel="" Length="1.466" Times="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/ice_blame/g2043_pet_10302_hurt.anim" FadeTime="0.25" TimeScale="1" BeginTime="0" Channel="" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/ice_blame/g2043_pet_10302_idle.anim" FadeTime="0.25" TimeScale="1" BeginTime="0" Channel="" Length="1.3" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/ice_blame/g2043_pet_10302_run.anim" FadeTime="0.25" TimeScale="1" BeginTime="0" Channel="" Length="0.766" Times="-1"/>
+			</Skill>
+			<Skill Name="show" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/ice_blame/g2043_pet_10302_show.anim" FadeTime="0.25" TimeScale="1" BeginTime="0" Channel="" Length="2.766" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

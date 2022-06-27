@@ -1,0 +1,86 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "isPlayer": true,
+    "moveSpeed": 8,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    [],
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9bc4926c-91c4-4a4f-9a36-e688f2930826"
+              },
+              "pos": {
+                "x": 734,
+                "y": 347
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "57cc639c-4a51-4808-ba1d-bee2003b5803"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9bc4926c-91c4-4a4f-9a36-e688f2930826"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "ef050f53-30ea-4cf1-b78e-a7171c8cba5d"
+            }
+          },
+          "type": "Trigger_EntityLeave"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e16a86813bcd91aded99ebebf5dd880d",
+      "triggers.bts": "9e893a6ed13f08386eb33b15471c4a3c"
+    },
+    "VERSION": "0.21"
+  }
+}

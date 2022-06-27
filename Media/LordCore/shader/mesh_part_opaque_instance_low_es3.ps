@@ -1,0 +1,99 @@
+#version 300 es
+
+uniform mediump sampler2D uDiffuseMap;
+uniform mediump sampler2D uDepthMap;
+uniform mediump float uShadowBias;
+uniform mediump vec3 uViewPosition;
+
+in mediump vec3 ourLightFactor;
+in mediump vec2 ourTexcoord;
+in mediump vec4 ourFogColor;
+in mediump vec4 ourNaturalColor;
+in mediump vec4 ourCustomColor;
+in mediump vec4 ourSubMeshColor;
+in mediump vec4 ourMultiCalColor;
+in mediump vec4 ourParame0;               // .xyz:inUvParam           .w:inDiscardAlpha 
+in mediump vec4 ourParame1;               // .xyz:inSubMeshUVParam    .w:inAlpha
+in mediump vec4 ourParame2;               // .x:inIsSubMesh .y:inCustomThreshold .z:inUseTextureAlpha .w:inSubMeshAlpha
+in mediump vec4 ourParame3;               // .xyz: subMeshOffsetParam
+
+mediump float CalcLuminance(mediump vec3 color) {
+    return dot(color, vec3(0.299, 0.587, 0.114));
+}
+
+out mediump vec4 outFragColor;
+const mediump vec3 kAmbientStrength = vec3(0.6, 0.6, 0.6);
+void main() {
+    mediump vec3 ourUvParam = ourParame0.xyz;
+    mediump float ourDiscardAlpha = ourParame0.w;
+    mediump vec3 ourSubMeshUVParam = ourParame1.xyz;
+    mediump float ourAlpha = ourParame1.w;
+    mediump float ourIsSubMesh = ourParame2.x;
+    mediump float ourCustomThreshold = ourParame2.y;
+    mediump float ourUseTextureAlpha = ourParame2.z;
+    mediump float ourSubMeshAlpha = ourParame2.w;
+    mediump vec3  ourSubMeshOffsetParam = ourParame3.xyz;
+
+	mediump float fSubMesh = step(0.0, ourIsSubMesh);
+	// mediump vec2 coord = (1.0 - fSubMesh) * (texCoord * uvParam.xy) + fSubMesh * ((texCoord + subMeshOffsetParam.xy) * subMeshUVParam.xy);
+    mediump vec2 coord = mix(ourTexcoord*ourUvParam.xy, (ourTexcoord + ourSubMeshOffsetParam.xy) * ourSubMeshUVParam.xy, fSubMesh);
+	mediump vec4 color = vec4(ourMultiCalColor.rgb, 1.0);
+	mediump float useOverlayColorReplaceMode = ourMultiCalColor.a;
+	mediump vec4 textureColor = texture(uDiffuseMap, coord);
+	mediump vec4 finalColor = textureColor;
+	mediump float fNature = 0.0;
+
+	if (ourUseTextureAlpha > 0.0)
+	{
+		mediump float textureAlpha = textureColor.a;
+		if (textureColor.a < ourDiscardAlpha)
+		{
+			discard;
+		}
+
+		mediump float fAlpha = step(textureColor.a, 0.3);
+		// textureColor.rgb = (1.0 - fAlpha) * textureColor.rgb + fAlpha * (textureColor.rgb * (1.0 - customColor.a) + customColor.rgb * customColor.a);
+        textureColor.rgb = mix(textureColor.rgb, textureColor.rgb * mix(textureColor.rgb, ourCustomColor.rgb, ourCustomColor.a), fAlpha);
+		textureColor.a = (1.0 - fAlpha) * textureColor.a + fAlpha;
+
+		// finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+        finalColor = mix(textureColor*color, color, useOverlayColorReplaceMode);
+
+		fNature = dot(max(sign(vec3(1.0) - ourNaturalColor.rgb), vec3(0.0)), vec3(1.0));
+		fNature = sign(fNature);
+		// textureColor.a = (1.0 - fNature) * textureColor.a + fNature * (finalColor.r * 0.299 + finalColor.g * 0.587 + finalColor.b * 0.114);
+        textureColor.a = mix(textureColor.a, CalcLuminance(finalColor.xyz), fNature);
+		finalColor = (1.0 - fNature) * finalColor + (fNature * textureColor.a) * ourNaturalColor;
+
+		// finalColor.a *= (1.0 - fSubMesh) * alpha + fSubMesh * subMeshAlpha;
+        finalColor.a *= mix(ourAlpha, ourSubMeshAlpha, fSubMesh);
+
+		mediump vec4 c0 = vec4(textureColor.rgb * ourCustomColor.rgb, finalColor.a);
+		mediump vec4 c1 = vec4(textureColor.rgb, finalColor.a);
+		mediump vec4 c2 = vec4(textureColor.rgb * ourSubMeshColor.rgb, finalColor.a);
+		mediump float fCustom = step(textureAlpha, ourCustomThreshold);
+		// finalColor = fCustom * c0 + (1.0 - fCustom) * c1;
+        finalColor = mix(c0, c1, fCustom);
+		// finalColor = (1.0 - fSubMesh) * finalColor + fSubMesh * c2;
+        finalColor = mix(finalColor, c2, fSubMesh);
+	}
+	else
+	{
+		textureColor.a = 1.0;
+		// finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+        finalColor = mix(textureColor * color, color, useOverlayColorReplaceMode);
+		fNature = dot(max(sign(vec3(1.0) - ourNaturalColor.rgb), vec3(0.0)), vec3(1.0));
+		fNature = sign(fNature);
+		// textureColor.a = (1.0 - fNature) * textureColor.a + fNature * (finalColor.r * 0.299 + finalColor.g * 0.587 + finalColor.b * 0.114);
+        textureColor.a = mix(textureColor.a, CalcLuminance(finalColor.xyz), fNature);
+		mediump float finalAlpha = (1.0 - fNature) * finalColor.a;
+		finalAlpha += fNature * textureColor.a * ourNaturalColor.a;
+		// finalAlpha *= (1.0 - fSubMesh) * alpha + fSubMesh * subMeshAlpha; 
+        finalAlpha *= mix(ourAlpha, ourSubMeshAlpha, fSubMesh);
+		finalColor.rgb = textureColor.rgb;
+		finalColor.a = finalAlpha;
+	}
+
+    mediump vec3 result = finalColor.rgb * ourLightFactor;
+	outFragColor = vec4(mix(ourFogColor.rgb, result, ourFogColor.a), finalColor.a);
+}

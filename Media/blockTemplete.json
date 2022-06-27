@@ -1,0 +1,14 @@
+﻿{
+    "texture": {
+        "type": "blockMaps",
+        "label": "方块贴图"
+    },
+    "collisionBoxes": {
+        "type": "collision",
+        "label": "碰撞体"
+    },
+    "breakTime": {
+        "type": "int",
+        "label": "击碎方块时间"
+    }
+}

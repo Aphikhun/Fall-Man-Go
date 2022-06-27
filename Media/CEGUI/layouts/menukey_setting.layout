@@ -1,0 +1,142 @@
+<GUILayout version="4">
+  <Window name="Root" type="DefaultWindow">
+    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+    </Property>
+    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+    </Property>
+    <Property name="Alpha" value="1">
+
+    </Property>
+    <Property name="ClippedByParent" value="true">
+
+    </Property>
+    <Property name="HorizontalAlignment" value="Left">
+
+    </Property>
+    <Property name="Visible" value="true">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Top">
+
+    </Property>
+    <Window name="MenuPlayer_PlayerList" type="WindowsLook/ScrollableView">
+      <Window name="MenuKeySetting_List" type="VerticalLayoutContainer">
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="ClippedByParent" value="true">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+      </Window>
+      <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+      </Property>
+      <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+      </Property>
+      <Property value="" name="BackGroundImage">
+
+      </Property>
+      <Property value="true" name="moveAble">
+
+      </Property>
+      <Property value="true" name="Visible">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="false" name="ForceHorzScrollbar">
+
+      </Property>
+      <Property value="false" name="ForceVertScrollbar">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+      <Property value="Left" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+    </Window>
+    <Window name="MenuKeySetting_Tip_Message" type="WindowsLook/StaticText">
+      <Property name="Area" value="{{0,0},{0,-30},{1,0},{0,10}}">
+
+      </Property>
+      <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+      </Property>
+      <Property name="Font" value="DroidSans-22">
+
+      </Property>
+      <Property name="FrameEnabled" value="false">
+
+      </Property>
+      <Property name="HorizontalAlignment" value="Centre">
+
+      </Property>
+      <Property name="FrameColours" value="ffffffff">
+
+      </Property>
+      <Property name="VerticalAlignment" value="Centre">
+
+      </Property>
+      <Property name="VertFormatting" value="CentreAligned">
+
+      </Property>
+      <Property name="BackgroundEnabled" value="false">
+
+      </Property>
+      <Property name="TextColours" value="ffff0000">
+
+      </Property>
+      <Property name="HorzFormatting" value="CentreAligned">
+
+      </Property>
+      <Property name="word_warpped" value="false">
+
+      </Property>
+      <Property name="BackgroundColours" value="ffffffff">
+
+      </Property>
+      <Property name="Text" value="该按键已被设置，请重新选择按键">
+
+      </Property>
+      <Property name="Alpha" value="1">
+
+      </Property>
+      <Property name="Visible" value="true">
+
+      </Property>
+      <Property name="ClippedByParent" value="true">
+
+      </Property>
+    </Window>
+  </Window>
+</GUILayout>

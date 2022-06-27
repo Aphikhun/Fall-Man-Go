@@ -1,0 +1,131 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "e16e1b0d-39b0-4469-8984-85f7ce4f766e"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a72818e2-eda1-4ce7-83b1-5ed28c5e0712"
+              },
+              "pos": {
+                "x": 680,
+                "y": 448
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetPartLineVelocity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "36e9cdbf-0ce5-4923-8931-c76abad6daab"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "rawval": {
+                          "x": -5
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e16e1b0d-39b0-4469-8984-85f7ce4f766e"
+              },
+              "pos": {
+                "x": 1199,
+                "y": 520
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "36e9cdbf-0ce5-4923-8931-c76abad6daab"
+              },
+              "pos": {
+                "x": 1647,
+                "y": 562
+              },
+              "type": "T_Part"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a72818e2-eda1-4ce7-83b1-5ed28c5e0712"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1c45792c-5654-4d51-b08d-d57e80a5f338"
+            }
+          },
+          "type": "Trigger_PartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "5196c0e446562d6a31bd64ec6e64a565"
+    },
+    "VERSION": "0.17"
+  }
+}

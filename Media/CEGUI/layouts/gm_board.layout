@@ -1,0 +1,1469 @@
+<GUILayout version="4">
+    <Window name="Root" type="DefaultWindow">
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="MousePassThroughEnabled" value="false">
+
+        </Property>
+        <Property name="Disabled" value="false">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Centre">
+
+        </Property>
+        <Property name="ClippedByParent" value="false">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Centre">
+
+        </Property>
+        <Window name="BackGround" type="WindowsLook/StaticImage">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="BackgroundEnabled" value="false">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="ImageColours" value="ff1c1c26">
+
+            </Property>
+            <Property name="FrameColours" value="ffffffff">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="StaticImageStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="BackgroundColours" value="ffffffff">
+
+            </Property>
+            <Property name="Image" value="cegui_main_page/top_toorbar_bg">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="vertFormatting" value="Stretched">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="horzFormatting" value="Stretched">
+
+            </Property>
+            <Property name="FrameEnabled" value="false">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+        </Window>
+        <Window name="ContentBase" type="DefaultWindow">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Window name="SearchBase" type="DefaultWindow">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0,50}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Window name="Key" type="WindowsLook/Editbox">
+                    <Property name="Area" value="{{0,0},{0,0},{0,300},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Font_size" value="12">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="ActiveSelectionColour" value="ff60ff7f">
+
+                    </Property>
+                    <Property name="BackGroundStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="BackGroundImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="ReadOnly" value="false">
+
+                    </Property>
+                    <Property name="MaxTextLength" value="10">
+
+                    </Property>
+                    <Property name="MaskText" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="SelectedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Text" value="">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="ReadOnlyBGColour" value="ffdfdfdf">
+
+                    </Property>
+                </Window>
+                <Window name="Find" type="WindowsLook/Button">
+                    <Property name="Area" value="{{0,-180},{0,0},{0,-130},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="NormalStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="PushedStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="HorzImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="PushedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="HoverTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="VertImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="DisabledTextColour" value="ff888888">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font_size" value="12">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="DisabledStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Text" value="Find">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="HoverStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                </Window>
+                <Window name="Clear" type="WindowsLook/Button">
+                    <Property name="Area" value="{{0,180},{0,0},{0,230},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="NormalStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="PushedStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="HorzImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="PushedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="HoverTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="VertImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="DisabledTextColour" value="ff888888">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font_size" value="12">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="DisabledStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Text" value="Clear">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="HoverStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                </Window>
+            </Window>
+            <Window name="ItemBase" type="DefaultWindow">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,-100}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Centre">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Centre">
+
+                </Property>
+                <Window name="MenuItemListPanel" type="WindowsLook/ScrollableView">
+                    <Property name="Area" value="{{0,10},{0,10},{0,110},{1,-10}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="BgImageStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="moveAble" value="true">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="ForceHorzScrollbar" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="ForceVertScrollbar" value="false">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="BackGroundImage" value="">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Window name="GridView" type="GridView">
+                        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                        </Property>
+                        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                        </Property>
+                        <Property name="hInterval" value="0">
+
+                        </Property>
+                        <Property name="Disabled" value="false">
+
+                        </Property>
+                        <Property name="rowSize" value="0">
+
+                        </Property>
+                        <Property name="HorizontalAlignment" value="Left">
+
+                        </Property>
+                        <Property name="vInterval" value="0">
+
+                        </Property>
+                        <Property name="MousePassThroughEnabled" value="false">
+
+                        </Property>
+                        <Property name="VerticalAlignment" value="Top">
+
+                        </Property>
+                        <Property name="ClippedByParent" value="false">
+
+                        </Property>
+                        <Property name="Alpha" value="1">
+
+                        </Property>
+                        <Property name="Visible" value="true">
+
+                        </Property>
+                    </Window>
+                </Window>
+                <Window name="ItemContentBase" type="DefaultWindow">
+                    <Property name="Area" value="{{0,120},{0,10},{1,-10},{1,-10}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Window name="SecondMenuItemListPanel" type="WindowsLook/ScrollableView">
+                        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                        </Property>
+                        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                        </Property>
+                        <Property name="Disabled" value="false">
+
+                        </Property>
+                        <Property name="BgImageStretch" value="0 0 0 0">
+
+                        </Property>
+                        <Property name="moveAble" value="true">
+
+                        </Property>
+                        <Property name="HorizontalAlignment" value="Left">
+
+                        </Property>
+                        <Property name="ForceHorzScrollbar" value="false">
+
+                        </Property>
+                        <Property name="MousePassThroughEnabled" value="false">
+
+                        </Property>
+                        <Property name="ForceVertScrollbar" value="false">
+
+                        </Property>
+                        <Property name="VerticalAlignment" value="Top">
+
+                        </Property>
+                        <Property name="BackGroundImage" value="">
+
+                        </Property>
+                        <Property name="ClippedByParent" value="false">
+
+                        </Property>
+                        <Property name="Alpha" value="1">
+
+                        </Property>
+                        <Property name="Visible" value="true">
+
+                        </Property>
+                        <Window name="GridView" type="GridView">
+                            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                            </Property>
+                            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                            </Property>
+                            <Property name="hInterval" value="0">
+
+                            </Property>
+                            <Property name="Disabled" value="false">
+
+                            </Property>
+                            <Property name="rowSize" value="0">
+
+                            </Property>
+                            <Property name="HorizontalAlignment" value="Left">
+
+                            </Property>
+                            <Property name="vInterval" value="0">
+
+                            </Property>
+                            <Property name="MousePassThroughEnabled" value="false">
+
+                            </Property>
+                            <Property name="VerticalAlignment" value="Top">
+
+                            </Property>
+                            <Property name="ClippedByParent" value="false">
+
+                            </Property>
+                            <Property name="Alpha" value="1">
+
+                            </Property>
+                            <Property name="Visible" value="true">
+
+                            </Property>
+                        </Window>
+                    </Window>
+                    <Window name="PluginItemListPanel" type="WindowsLook/ScrollableView">
+                        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                        </Property>
+                        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                        </Property>
+                        <Property name="Disabled" value="false">
+
+                        </Property>
+                        <Property name="BgImageStretch" value="0 0 0 0">
+
+                        </Property>
+                        <Property name="moveAble" value="true">
+
+                        </Property>
+                        <Property name="HorizontalAlignment" value="Left">
+
+                        </Property>
+                        <Property name="ForceHorzScrollbar" value="false">
+
+                        </Property>
+                        <Property name="MousePassThroughEnabled" value="false">
+
+                        </Property>
+                        <Property name="ForceVertScrollbar" value="false">
+
+                        </Property>
+                        <Property name="VerticalAlignment" value="Top">
+
+                        </Property>
+                        <Property name="BackGroundImage" value="">
+
+                        </Property>
+                        <Property name="ClippedByParent" value="false">
+
+                        </Property>
+                        <Property name="Alpha" value="1">
+
+                        </Property>
+                        <Property name="Visible" value="true">
+
+                        </Property>
+                        <Window name="GridView" type="GridView">
+                            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                            </Property>
+                            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                            </Property>
+                            <Property name="hInterval" value="0">
+
+                            </Property>
+                            <Property name="Disabled" value="false">
+
+                            </Property>
+                            <Property name="rowSize" value="0">
+
+                            </Property>
+                            <Property name="HorizontalAlignment" value="Left">
+
+                            </Property>
+                            <Property name="vInterval" value="0">
+
+                            </Property>
+                            <Property name="MousePassThroughEnabled" value="false">
+
+                            </Property>
+                            <Property name="VerticalAlignment" value="Top">
+
+                            </Property>
+                            <Property name="ClippedByParent" value="false">
+
+                            </Property>
+                            <Property name="Alpha" value="1">
+
+                            </Property>
+                            <Property name="Visible" value="true">
+
+                            </Property>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window name="PageBase" type="DefaultWindow">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0,50}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Bottom">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Window name="Last" type="WindowsLook/Button">
+                    <Property name="Area" value="{{0,-180},{0,0},{0,-130},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="NormalStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="PushedStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="HorzImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="PushedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="HoverTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="VertImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="DisabledTextColour" value="ff888888">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font_size" value="20">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="DisabledStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Text" value="<">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="HoverStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-20">
+
+                    </Property>
+                </Window>
+                <Window name="Next" type="WindowsLook/Button">
+                    <Property name="Area" value="{{0,180},{0,0},{0,230},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="NormalStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="PushedStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="HorzImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="PushedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="HoverTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="VertImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="DisabledTextColour" value="ff888888">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font_size" value="20">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="DisabledStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Text" value=">">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="HoverStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-20">
+
+                    </Property>
+                </Window>
+                <Window name="Page" type="WindowsLook/StaticText">
+                    <Property name="Area" value="{{0,-50},{0,0},{0,100},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Font_size" value="12">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="BorderWidth" value="0">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="BorderEnable" value="false">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="word_warpped" value="false">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="BorderColor" value="ffffffff">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Text" value="1/1">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="TextColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                </Window>
+                <Window name="GotoPage" type="WindowsLook/Editbox">
+                    <Property name="Area" value="{{0,50},{0,0},{0,100},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Font_size" value="12">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="ActiveSelectionColour" value="ff607fff">
+
+                    </Property>
+                    <Property name="BackGroundStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="BackGroundImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="ReadOnly" value="false">
+
+                    </Property>
+                    <Property name="MaxTextLength" value="10">
+
+                    </Property>
+                    <Property name="MaskText" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="SelectedTextColour" value="ffffff00">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Text" value="1">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="ReadOnlyBGColour" value="ffdfdfdf">
+
+                    </Property>
+                </Window>
+                <Window name="Goto" type="WindowsLook/Button">
+                    <Property name="Area" value="{{0,110},{0,0},{0,160},{0,50}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="NormalStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="PushedStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="HorzImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="PushedTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="HoverTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="VertImageFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="NormalTextColour" value="ffffffff">
+
+                    </Property>
+                    <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                    </Property>
+                    <Property name="DisabledTextColour" value="ff888888">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Font_size" value="12">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Centre">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="DisabledStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Text" value="Goto">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="HoverStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                </Window>
+            </Window>
+        </Window>
+        <Window name="InputBase" type="DefaultWindow">
+            <Property name="Area" value="{{0,0},{0,0},{0,400},{0,300}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Centre">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Centre">
+
+            </Property>
+            <Window name="Image" type="WindowsLook/StaticImage">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="ImageColours" value="ff29ff3e">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="StaticImageStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="Image" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+            </Window>
+            <Window name="InputBox" type="WindowsLook/Editbox">
+                <Property name="Area" value="{{0,0},{0,-30},{0,256},{0,20}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="Font_size" value="12">
+
+                </Property>
+                <Property name="NormalTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="ActiveSelectionColour" value="ff60ff7f">
+
+                </Property>
+                <Property name="BackGroundStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="BackGroundImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Centre">
+
+                </Property>
+                <Property name="ReadOnly" value="false">
+
+                </Property>
+                <Property name="MaxTextLength" value="10">
+
+                </Property>
+                <Property name="MaskText" value="false">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="SelectedTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Font" value="DroidSans-12">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Centre">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="ReadOnlyBGColour" value="ffdfdfdf">
+
+                </Property>
+            </Window>
+            <Window name="Sure" type="WindowsLook/Button">
+                <Property name="Area" value="{{0,0},{0,30},{0,96},{0,62}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="NormalStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="PushedStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="HorzImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="PushedTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="HoverTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="VertImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="NormalTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Centre">
+
+                </Property>
+                <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="DisabledTextColour" value="ff888888">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Font_size" value="12">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Centre">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="DisabledStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Text" value="√">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="HoverStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Font" value="DroidSans-12">
+
+                </Property>
+            </Window>
+            <Window name="Cancel" type="WindowsLook/Button">
+                <Property name="Area" value="{{0,-5},{0,5},{0,45},{0,55}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="NormalStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="PushedStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="HorzImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="PushedTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="HoverTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="VertImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="NormalTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Right">
+
+                </Property>
+                <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+                </Property>
+                <Property name="DisabledTextColour" value="ff888888">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Font_size" value="12">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="DisabledStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Text" value="×">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="HoverStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Font" value="DroidSans-12">
+
+                </Property>
+            </Window>
+        </Window>
+        <Window name="CloseButton" type="WindowsLook/Button">
+            <Property name="Area" value="{{0,0},{0,0},{0,50},{0,50}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="DisabledImage" value="cegui_main_page/top_toorbar_bg">
+
+            </Property>
+            <Property name="NormalStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="PushedStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="HorzImageFormatting" value="Stretched">
+
+            </Property>
+            <Property name="PushedTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="PushedImage" value="cegui_main_page/top_toorbar_bg">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="HoverTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="VertImageFormatting" value="Stretched">
+
+            </Property>
+            <Property name="NormalTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="HoverImage" value="cegui_main_page/top_toorbar_bg">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Right">
+
+            </Property>
+            <Property name="NormalImage" value="cegui_main_page/top_toorbar_bg">
+
+            </Property>
+            <Property name="DisabledTextColour" value="ff888888">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Font_size" value="12">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="DisabledStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="Text" value="×">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="HoverStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="Font" value="DroidSans-12">
+
+            </Property>
+        </Window>
+    </Window>
+</GUILayout>

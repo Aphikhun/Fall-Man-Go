@@ -1,0 +1,1020 @@
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="Root">
+        <Property name="Area" value="{{0,-40},{0,60},{0,360},{0,240}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+        <Property name="ClippedByParent" value="false">
+
+        </Property>
+        <Property name="MousePassThroughEnabled" value="true">
+
+        </Property>
+        <Property name="Disabled" value="false">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Right">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Window type="DefaultWindow" name="Team_Rank_List_Detail">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Visible" value="false">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="true">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+
+            <Window type="WindowsLook/Button" name="Team_Rank_List_Fold">
+                <Property name="Area" value="{{0,0},{0,20},{0,36},{0,44}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="HorzImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="Font_size" value="16">
+
+                </Property>
+                <Property name="DisabledImage" value="">
+
+                </Property>
+                <Property name="VertImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="NormalStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="DisabledTextColour" value="ff888888">
+
+                </Property>
+                <Property name="PushedTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="NormalImage" value="cegui_battle_information/icon_open_icon">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="PushedStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="PushedImage" value="cegui_battle_information/icon_open_icon">
+
+                </Property>
+                <Property name="DisabledStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="HoverStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="HoverTextColour" value="ff000000">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+                <Property name="NormalTextColour" value="ff000000">
+
+                </Property>
+                <Property name="HoverImage" value="cegui_battle_information/icon_open_icon">
+
+                </Property>
+                <Property name="Font" value="DroidSans-16">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+            </Window>
+
+            <Window type="WindowsLook/StaticImage" name="Team_Rank_List_Container_Bg_1">
+                <Property name="Area" value="{{0,0},{0,45},{1,0},{0,235}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="StaticImageStretch" value="0 0 0 0">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="true">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="ImageColours" value="ffffffff">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="Image" value="cegui_battle_information/battle_bg">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+            </Window>
+
+            <Window name="scrollableView" type="WindowsLook/ScrollableView">
+                <Window type="VerticalLayoutContainer" name="Team_Rank_List_Container">
+                    <Property name="Area" value="{{0,0},{0,0},{1,0},{0,0}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="true">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="space" value="0">
+
+                    </Property>
+                </Window>
+                <Property name="Area" value="{{0,0},{0,88},{1,0},{0,238}}">
+          
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+          
+                </Property>
+                <Property value="" name="BackGroundImage">
+          
+                </Property>
+                <Property value="true" name="moveAble">
+          
+                </Property>
+                <Property value="true" name="Visible">
+          
+                </Property>
+                <Property value="false" name="Disabled">
+          
+                </Property>
+                <Property value="false" name="ForceHorzScrollbar">
+          
+                </Property>
+                <Property value="false" name="ForceVertScrollbar">
+          
+                </Property>
+                <Property value="1" name="Alpha">
+          
+                </Property>
+                <Property value="false" name="ClippedByParent">
+          
+                </Property>
+                <Property value="Left" name="HorizontalAlignment">
+          
+                </Property>
+                <Property value="Top" name="VerticalAlignment">
+          
+                </Property>
+                <Property value="false" name="MousePassThroughEnabled">
+          
+                </Property>
+            </Window>
+
+            <Window type="DefaultWindow" name="Team_Rank_List_Title">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{0,40}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="true">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Window type="WindowsLook/StaticImage" name="Team_Rank_List_Title_Bg_0">
+                    <Property name="Area" value="{{0,0},{0,45},{1,0},{1,45}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="vertFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="StaticImageStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="ImageColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Image" value="cegui_battle_information/battle_list_title">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="horzFormatting" value="Stretched">
+
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticImage" name="Team_Rank_List_Title_Bg">
+                    <Property name="Area" value="{{0,0},{0,0},{0,245},{0,54}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="vertFormatting" value="Stretched">
+
+                    </Property>
+                    <Property name="StaticImageStretch" value="0 0 0 0">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="false">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Right">
+
+                    </Property>
+                    <Property name="ImageColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Image" value="cegui_battle_information/icon_title_bg_icon">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="horzFormatting" value="Stretched">
+
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticText" name="Team_Rank_List_Title_Rank">
+                    <Property name="Area" value="{{0,0},{0,48},{0.25,0},{0.8,48}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="BorderColor" value="ffffffff">
+
+                    </Property>
+                    <Property name="BorderEnable" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="word_warpped" value="false">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="TextColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Font_size" value="16">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-16">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Text" value="Rank">
+
+                    </Property>
+                    <Property name="BorderWidth" value="0">
+
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticText" name="Team_Rank_List_Title_TeamIcon">
+                    <Property name="Area" value="{{0.25,0},{0,48},{0.5,0},{0.8,48}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="BorderColor" value="ffffffff">
+
+                    </Property>
+                    <Property name="BorderEnable" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="word_warpped" value="false">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="TextColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Font_size" value="16">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-16">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Text" value="TeamIcon">
+
+                    </Property>
+                    <Property name="BorderWidth" value="0">
+
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticText" name="Team_Rank_List_Title_KillCount">
+                    <Property name="Area" value="{{0.5,0},{0,48},{0.75,0},{0.8,48}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="BorderColor" value="ffffffff">
+
+                    </Property>
+                    <Property name="BorderEnable" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="word_warpped" value="false">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="TextColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Font_size" value="16">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-16">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Text" value="KillCount">
+
+                    </Property>
+                    <Property name="BorderWidth" value="0">
+
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticText" name="Team_Rank_List_Title_Score">
+                    <Property name="Area" value="{{0.75,0},{0,48},{1.0,0},{0.8,48}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="BorderColor" value="ffffffff">
+
+                    </Property>
+                    <Property name="BorderEnable" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="word_warpped" value="false">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="TextColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Font_size" value="16">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-16">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Text" value="Score">
+
+                    </Property>
+                    <Property name="BorderWidth" value="0">
+
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticText" name="Team_Rank_List_Title_Text">
+                    <Property name="Area" value="{{0,-40},{0,15},{0,160},{0,43}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="BorderColor" value="ffffffff">
+
+                    </Property>
+                    <Property name="BorderEnable" value="false">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="false">
+
+                    </Property>
+                    <Property name="MousePassThroughEnabled" value="true">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Disabled" value="false">
+
+                    </Property>
+                    <Property name="word_warpped" value="false">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Right">
+
+                    </Property>
+                    <Property name="TextColours" value="ff804000">
+
+                    </Property>
+                    <Property name="Font_size" value="18">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-18">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="Text" value="title">
+
+                    </Property>
+                    <Property name="BorderWidth" value="0">
+
+                    </Property>
+                </Window>
+            </Window>
+        </Window>
+        <Window type="WindowsLook/Button" name="Team_Rank_List_Open">
+            <Property name="Area" value="{{0,10},{0,10},{0,80},{0,68}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="HorzImageFormatting" value="Stretched">
+
+            </Property>
+            <Property name="Font_size" value="16">
+
+            </Property>
+            <Property name="DisabledImage" value="">
+
+            </Property>
+            <Property name="VertImageFormatting" value="Stretched">
+
+            </Property>
+            <Property name="NormalStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="DisabledTextColour" value="ff888888">
+
+            </Property>
+            <Property name="PushedTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="NormalImage" value="cegui_battle_information/icon_open_2_icon">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="PushedStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="PushedImage" value="cegui_battle_information/icon_open_2_icon">
+
+            </Property>
+            <Property name="DisabledStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="HoverStretch" value="0 0 0 0">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="HoverTextColour" value="ff000000">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="Text" value="">
+
+            </Property>
+            <Property name="NormalTextColour" value="ff000000">
+
+            </Property>
+            <Property name="HoverImage" value="cegui_battle_information/icon_open_2_icon">
+
+            </Property>
+            <Property name="Font" value="DroidSans-16">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Right">
+
+            </Property>
+        </Window>
+        <Window type="DefaultWindow" name="Rank_List_GameTime">
+            <Property name="Area" value="{{0,40},{0,10},{0,400},{0,60}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="true">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Window type="WindowsLook/StaticText" name="Rank_List_GameTime_Title">
+                <Property name="Area" value="{{0,0},{0,0},{0,200},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="VertFormatting" value="CentreAligned">
+
+                </Property>
+                <Property name="BorderColor" value="ffF9CA02">
+
+                </Property>
+                <Property name="BorderEnable" value="true">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="true">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="HorzFormatting" value="RightAligned">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="word_warpped" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="TextColours" value="ffF9CA02">
+
+                </Property>
+                <Property name="Font_size" value="16">
+
+                </Property>
+                <Property name="Font" value="DroidSans-16">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+                <Property name="BorderWidth" value="0.5">
+
+                </Property>
+            </Window>
+            <Window type="WindowsLook/StaticText" name="Rank_List_GameTime_Time">
+                <Property name="Area" value="{{0,50},{0,0},{0,250},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="VertFormatting" value="CentreAligned">
+
+                </Property>
+                <Property name="BorderColor" value="ff404D51">
+
+                </Property>
+                <Property name="BorderEnable" value="true">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="true">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="HorzFormatting" value="LeftAligned">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="word_warpped" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Right">
+
+                </Property>
+                <Property name="TextColours" value="ffffffff">
+
+                </Property>
+                <Property name="Font_size" value="16">
+
+                </Property>
+                <Property name="Font" value="DroidSans-16">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+                <Property name="BorderWidth" value="0.5">
+
+                </Property>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

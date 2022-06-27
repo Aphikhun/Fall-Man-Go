@@ -1,0 +1,4 @@
+HIT_ENTITY {
+	Damage(damage = 3, entity = $obj1, from = $obj2)
+	AddEntityBuff(buffTime = 60, cfg = "myplugin/ice", entity = $obj1)
+}

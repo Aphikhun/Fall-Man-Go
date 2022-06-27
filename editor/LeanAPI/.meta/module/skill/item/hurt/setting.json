@@ -1,0 +1,25 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_hurt"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 1
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "871736d67d937bd3f317b78164b0a35d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

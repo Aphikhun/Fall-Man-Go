@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" AttackScale="1" MaxDistance="16" IsShowShadow="true" SoundName1="" Skeleton="8_weapon.skel" Volume="0.8" SelectedRingSize="1" SoundName5="" SoundName3="" Alpha="1" IntervalTime="2" SoundName2="" TextHeight="0" MinDistance="1" WoundAngle="25" WoundBone="" SoundFileNum="0" Originalscale="1 1 1" name="111.actor">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="group0" MasterName="mutex_name_0" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="lanseqizi">
+					<UseTransparentNearestSlice value="false"/>
+					<Position_Z value="0"/>
+					<SocketName value="Origin197011"/>
+					<UseOriginalcolor value="false"/>
+					<yaw value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<FileName value="asset/file/flag/lanseqizi.mesh"/>
+					<Position_Y value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseEdge value="false"/>
+					<SpecularStrength value="1.0"/>
+					<roll value="0"/>
+					<SpecularCoef value="0.15"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,40 @@
+<GUILayout version="4">
+  <Window name="Root" type="DefaultWindow">
+    <Property name="Area" value="{{0,0},{0,0},{0,400},{0,300}}">
+
+    </Property>
+    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+    </Property>
+    <Property name="PivotX" value="0.5">
+
+    </Property>
+    <Property name="Alpha" value="1">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Top">
+
+    </Property>
+    <Property name="HorizontalAlignment" value="Left">
+
+    </Property>
+    <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+    </Property>
+    <Property name="MousePassThroughEnabled" value="false">
+
+    </Property>
+    <Property name="Disabled" value="false">
+
+    </Property>
+    <Property name="ClippedByParent" value="false">
+
+    </Property>
+    <Property name="Visible" value="true">
+
+    </Property>
+    <Property name="PivotY" value="0.5">
+
+    </Property>
+  </Window>
+</GUILayout>

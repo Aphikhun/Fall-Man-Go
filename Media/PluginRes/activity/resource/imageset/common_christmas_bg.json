@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "img_0_board": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 1199,
+                "h": 692
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 1199,
+                "h": 692
+            },
+            "sourceSize": {
+                "w": 1199,
+                "h": 692
+            }
+        }
+    },
+    "meta": {
+        "image": "common_christmas_bg.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1201,
+            "h": 694
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

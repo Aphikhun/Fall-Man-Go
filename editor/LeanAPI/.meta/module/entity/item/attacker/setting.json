@@ -1,0 +1,58 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/file/Snow monster/xueguai_xueguai.actor",
+        "selector": "editor/Parkour/asset/file/Snow monster/xueguai_xueguai.actor"
+      },
+      "girlactor": {
+        "asset": "asset/file/Snow monster/xueguai_xueguai.actor",
+        "selector": "editor/Parkour/asset/file/Snow monster/xueguai_xueguai.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/file/Snow monster/xueguai_xueguai.actor",
+      "selector": "editor/Parkour/asset/file/Snow monster/xueguai_xueguai.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 20,
+      "enable": true,
+      "maxVisualAngle": 250,
+      "skillList": [
+        {
+          "attackDis": 15,
+          "fullName": "myplugin/throw",
+          "priority": 2
+        }
+      ]
+    },
+    "collision": true,
+    "damage": 1,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/file/Snow monster/xueguai_xueguai.actor",
+      "selector": "editor/Parkour/asset/file/Snow monster/xueguai_xueguai.actor"
+    },
+    "hideName": true,
+    "moveSpeed": 0,
+    "name": {
+      "value": "entity_attacker"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5a60d9f7fecd5322364754ef224b8ad0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

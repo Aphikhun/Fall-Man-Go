@@ -1,0 +1,77 @@
+ENTITY_CLICK {
+	$maxPlayer = NumberFloor(p1 = 4)
+	$time_start = NumberFloor(p1 = 20)
+	If (not $obj1.isCounter and ArraySize(array = $obj1.List_Player, entity = $obj1) == 0) {
+		$obj1.List_Player = []
+	}
+	If (not ExecScript(listplayer = $obj1.List_Player, player = $obj2, script_name = "ScriptableNode")) {
+		ArrayAppend(
+			array = $obj1.List_Player,
+			entity = $obj1,
+			value = $obj2
+		)
+		EnterMap(
+			entity = $obj2,
+			map = "37809e5c-e855-4df7-9a17-7e3fd0cdb507",
+			pos = {
+				x = 0.68704688549042,
+				y = 2.0399027252197,
+				z = 11.982004165649
+			},
+			rp = 0,
+			ry = 0
+		)
+		$obj2.curEntity = $obj1
+	}
+	If (ArraySize(array = $obj1.List_Player, entity = $obj1) > 1) {
+		If (not $obj1.isCounter) {
+			$obj1.time = $time_start
+			$obj1.isCounter = true
+			$map_in = CreateDuplication(name = "636ca76b-6d40-4a8f-97aa-e621cb3f3f9a")
+			StartTimer2(interval = 20, time = $time_start, timer = "game_start") {
+				Foreach(array = $obj1.List_Player, key = "i") {
+					ShowTip(
+						entity = $i,
+						keepTime = 20,
+						textKey = Concat(p1 = "เหลือเวลาอีก :", p2 = ToString($obj1.time)),
+						tipType = "1"
+					)
+				}
+				$obj1.time = $obj1.time - 1
+				If ($obj1.time <= 0 or ArraySize(array = $obj1.List_Player, entity = $obj1) >= $maxPlayer) {
+					Foreach(array = $obj1.List_Player, key = "k") {
+						EnterDuplication(
+							entity = $k,
+							map = $map_in,
+							pos = {
+								x = -9.6337928771973,
+								y = 2.0398931884766,
+								z = 0.5841953754425
+							},
+							rp = 0,
+							ry = 0
+						)
+					}
+					$obj1.isCounter = false
+					$obj1.List_Player = []
+					StopTimer2(timer = "game_start")
+				}
+				If (ArraySize(array = $obj1.List_Player, entity = $obj1) <= 1) {
+					StopTimer2(timer = "game_start")
+					$obj1.isCounter = false
+				}
+			}
+		}
+	}
+	Foreach(array = $obj1.List_Player, key = "i") {
+		ShowTip(
+			entity = $i,
+			keepTime = 20,
+			textKey = Concat(
+			p1 = "รอผู้เล่น",
+			p2 = Concat(p1 = ToString(ArraySize(array = $obj1.List_Player, entity = $obj1)), p2 = Concat(p1 = "/", p2 = $maxPlayer))
+		),
+			tipType = "1"
+		)
+	}
+}

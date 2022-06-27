@@ -1,0 +1,83 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "15402f6e-cca6-47f3-85ae-40d97b53a5e6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d7f5fe00-af32-41f1-b9fa-dd19f5ab3176"
+              },
+              "pos": {
+                "x": 639,
+                "y": 279
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "15402f6e-cca6-47f3-85ae-40d97b53a5e6"
+              },
+              "pos": {
+                "x": 1113,
+                "y": 271
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d7f5fe00-af32-41f1-b9fa-dd19f5ab3176"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "fe4f02ba-0bf5-42a4-9f1b-6cd0e5a4e3d8"
+            },
+            "pos": {
+              "x": 221,
+              "y": 251
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "2a66487b7194814eef54159c357806a2"
+    },
+    "VERSION": "0.17"
+  }
+}

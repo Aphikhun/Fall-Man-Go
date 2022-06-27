@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="new_diamond" imagefile="new_diamond.png" nativeHorzRes="256" nativeVertRes="64">
+	<Image name="Diamond-icon1" width="34" height="34" xPos="1" yPos="1"/>
+	<Image name="Diamond-icon2" width="34" height="34" xPos="36" yPos="1"/>
+	<Image name="Diamond-icon3" width="34" height="34" xPos="71" yPos="1"/>
+	<Image name="green_currency" width="36" height="36" xPos="106" yPos="1"/>
+</Imageset>

@@ -1,0 +1,74 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_DestoryPart",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "43df4f3d-5c78-442d-af13-6a8c6b9669f4"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "08a7b82d-8193-470e-82e8-d77368d9c2e6"
+              },
+              "pos": {
+                "x": 670,
+                "y": 366
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "43df4f3d-5c78-442d-af13-6a8c6b9669f4"
+              },
+              "pos": {
+                "x": 1017,
+                "y": 389
+              },
+              "type": "T_Part"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "08a7b82d-8193-470e-82e8-d77368d9c2e6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "879c210d-4849-4537-adee-fa6fb290bb33"
+            }
+          },
+          "type": "Trigger_PartTouchEntityEnd"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "62b22cd9bed1b207b98eb3f99fe8061e"
+    },
+    "VERSION": "0.17"
+  }
+}

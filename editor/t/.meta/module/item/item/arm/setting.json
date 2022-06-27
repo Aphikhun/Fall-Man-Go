@@ -1,0 +1,31 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/arm/arm.png",
+      "selector": "editor/Capture the flag/asset/arm/arm.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/attack"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/arm/1g2021_weapon_08.mesh",
+      "selector": "editor/Capture the flag/asset/arm/1g2021_weapon_08.mesh"
+    },
+    "name": {
+      "value": "item_arm"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1bab16bb371a53c5fe9d45d1c7faf930",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

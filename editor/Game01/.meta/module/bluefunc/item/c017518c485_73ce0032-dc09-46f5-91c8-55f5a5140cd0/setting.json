@@ -1,0 +1,70 @@
+{
+  "data": {
+    "name": {
+      "value": "function_2"
+    },
+    "ret_type": "T_String",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ReturnFuncs",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "key": "value",
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "function_name": "function_2",
+              "id": {
+                "value": "35e09f6c-8de2-4f3f-838d-b7577675e885"
+              },
+              "pos": {
+                "x": 656,
+                "y": 354
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "517409ac-b85f-47fc-b3cb-abb7bc5f32bd"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "function_2",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "35e09f6c-8de2-4f3f-838d-b7577675e885"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "4d283294-cc06-4c2e-8594-fe1deb8013d4"
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "801f8bae0a62c1181e3aeb3d08a9e8f6",
+      "triggers.bts": "99de5f0cf7ae756d7317988d4aff9810"
+    },
+    "VERSION": "0.21"
+  }
+}

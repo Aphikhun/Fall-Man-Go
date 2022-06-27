@@ -1,0 +1,338 @@
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="Root">
+        <Window type="WindowsLook/StaticImage" name="Base">
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="FrameEnabled" value="false">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Top">
+
+            </Property>
+            <Property name="FrameColours" value="ffffffff">
+
+            </Property>
+            <Property name="BackgroundColours" value="ffffffff">
+
+            </Property>
+            <Property name="ImageColours" value="ff3b3b3b">
+
+            </Property>
+            <Property name="BackgroundEnabled" value="false">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="vertFormatting" value="Stretched">
+
+            </Property>
+            <Property name="Image" value="cegui_main_page/top_toorbar_bg">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="horzFormatting" value="Stretched">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+        </Window>
+        <Window type="WindowsLook/StaticText" name="Text">
+            <Property name="Area" value="{{0,0},{0,0},{0.5,0},{1,0}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="FrameEnabled" value="false">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="Text" value="Here is text">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Centre">
+
+            </Property>
+            <Property name="BorderWidth" value="0.5">
+
+            </Property>
+            <Property name="FrameColours" value="ffffffff">
+
+            </Property>
+            <Property name="VertFormatting" value="CentreAligned">
+
+            </Property>
+            <Property name="TextColours" value="ffffffff">
+
+            </Property>
+            <Property name="HorzFormatting" value="LeftAligned">
+
+            </Property>
+            <Property name="Font" value="DroidSans-12">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="word_warpped" value="false">
+
+            </Property>
+            <Property name="BackgroundEnabled" value="false">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="Font_size" value="12">
+
+            </Property>
+            <Property name="BorderEnable" value="false">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="BackgroundColours" value="ffffffff">
+
+            </Property>
+            <Property name="BorderColor" value="ffffffff">
+
+            </Property>
+        </Window>
+        <Window type="WindowsLook/StaticImage" name="ItemImage">
+            <Property name="Area" value="{{0.5,0},{0,0},{0.5,50},{0,50}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="FrameEnabled" value="false">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Centre">
+
+            </Property>
+            <Property name="FrameColours" value="ffffffff">
+
+            </Property>
+            <Property name="BackgroundColours" value="ffffffff">
+
+            </Property>
+            <Property name="ImageColours" value="ffffffff">
+
+            </Property>
+            <Property name="BackgroundEnabled" value="false">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="vertFormatting" value="Stretched">
+
+            </Property>
+            <Property name="Image" value="">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="horzFormatting" value="Stretched">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+        </Window>
+        <Window type="WindowsLook/Editbox" name="Input">
+            <Property name="Area" value="{{0,-200},{0,0},{0,-100},{0,50}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="Text" value="10">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Centre">
+
+            </Property>
+            <Property name="ActiveSelectionColour" value="ff607fff">
+
+            </Property>
+            <Property name="BackGroundImage" value="">
+
+            </Property>
+            <Property name="ReadOnlyBGColour" value="ffdfdfdf">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="Font" value="DroidSans-12">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="MaskText" value="false">
+
+            </Property>
+            <Property name="SelectedTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Right">
+
+            </Property>
+            <Property name="Font_size" value="12">
+
+            </Property>
+            <Property name="ReadOnly" value="false">
+
+            </Property>
+            <Property name="NormalTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="MaxTextLength" value="10">
+
+            </Property>
+        </Window>
+        <Window type="WindowsLook/Button" name="Sure">
+            <Property name="Area" value="{{0,0},{0,0},{0,50},{0,50}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Text" value="√">
+
+            </Property>
+            <Property name="VertImageFormatting" value="Stretched">
+
+            </Property>
+            <Property name="HoverImage" value="">
+
+            </Property>
+            <Property name="Font" value="DroidSans-12">
+
+            </Property>
+            <Property name="PushedTextColour" value="ffffffff">
+
+            </Property>
+            <Property name="NormalTextColour" value="ff000000">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Property name="MousePassThroughEnabled" value="false">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Centre">
+
+            </Property>
+            <Property name="HorzImageFormatting" value="Stretched">
+
+            </Property>
+            <Property name="ClippedByParent" value="false">
+
+            </Property>
+            <Property name="PushedImage" value="">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="DisabledTextColour" value="ff888888">
+
+            </Property>
+            <Property name="Disabled" value="false">
+
+            </Property>
+            <Property name="DisabledImage" value="">
+
+            </Property>
+            <Property name="HoverTextColour" value="ff000000">
+
+            </Property>
+            <Property name="Font_size" value="12">
+
+            </Property>
+            <Property name="NormalImage" value="">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Right">
+
+            </Property>
+        </Window>
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{0,50}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="ClippedByParent" value="false">
+
+        </Property>
+        <Property name="MousePassThroughEnabled" value="false">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+        <Property name="Disabled" value="false">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+
+        </Property>
+    </Window>
+</GUILayout>

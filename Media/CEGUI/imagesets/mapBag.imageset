@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" imagefile="mapBag.png" name="mapBag" nativeHorzRes="1024" nativeVertRes="512" resourceGroup="_imagesets_" version="2">
+	<Image height="508" name="bag_bg" width="470" xPos="2" yPos="2"/>
+	<Image height="20" name="illustration" width="171" xPos="474" yPos="2"/>
+	<Image height="25" name="illustration1" width="103" xPos="647" yPos="2"/>
+</Imageset>

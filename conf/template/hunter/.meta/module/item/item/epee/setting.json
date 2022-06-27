@@ -1,0 +1,36 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/warrior/dao.png",
+      "selector": "editor/hunter/asset/warrior/dao.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Blasting_gas",
+          "myplugin/blow",
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "5cba3d8c-1190-4311-8810-9310398a8555"
+    },
+    "mesh": {
+      "asset": "asset/warrior/hunter_dao.mesh",
+      "selector": "editor/hunter/asset/warrior/hunter_dao.mesh"
+    },
+    "name": {
+      "value": "item_epee"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c4110f9884f1e960f907c016f234b2de",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

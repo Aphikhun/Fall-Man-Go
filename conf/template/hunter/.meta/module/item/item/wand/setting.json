@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/master/mofazhang.png",
+      "selector": "editor/hunter/asset/master/mofazhang.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handBuff": "myplugin/strength",
+        "skill": [
+          "myplugin/ray",
+          "myplugin/fireball",
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "c2bec2bc-e673-4c7a-bb1c-d3a2cae3b43a"
+    },
+    "mesh": {
+      "asset": "asset/master/hunter_fazhang.mesh",
+      "selector": "editor/hunter/asset/master/hunter_fazhang.mesh"
+    },
+    "name": {
+      "value": "item_wand"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ac86d29d36b720c13e7ae51d2a2208ee",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "data": {
+    "castAction": "hurt",
+    "name": {
+      "value": "skill_hurt"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
+      "type": "Base"
+    },
+    "skillReleaseWay": {
+      "isClickIcon": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "001b2925843fc951c488dd5646ce66eb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

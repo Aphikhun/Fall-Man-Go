@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="new_skill_mask" imagefile="new_skill_mask.png" nativeHorzRes="128" nativeVertRes="64" resourceGroup="_imagesets_">
+	<Image name="new_skill_mask_block" width="64" height="64" xPos="0" yPos="0"/>
+	<Image name="new_skill_mask_circular_left" width="32" height="64" xPos="64" yPos="0"/>
+	<Image name="new_skill_mask_circular_right" width="32" height="64" xPos="96" yPos="0"/>
+</Imageset>

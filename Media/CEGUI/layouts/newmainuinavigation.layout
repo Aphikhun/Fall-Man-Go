@@ -1,0 +1,96 @@
+    <GUILayout version="4">
+      <Window name="Root" type="DefaultWindow">
+                      <Window name="shopButton" type="WindowsLook/Button">
+                              <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="DisabledImage" value="">
+
+                </Property>
+                <Property name="PushedTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="VertImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="HorzImageFormatting" value="Stretched">
+
+                </Property>
+                <Property name="ClippedByParent" value="true">
+
+                </Property>
+                <Property name="PushedImage" value="">
+
+                </Property>
+                <Property name="NormalImage" value="">
+
+                </Property>
+                <Property name="HoverTextColour" value="ff000000">
+
+                </Property>
+                <Property name="HoverImage" value="">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Right">
+
+                </Property>
+                <Property name="NormalTextColour" value="ff000000">
+
+                </Property>
+                <Property name="Font" value="DroidSans-12">
+
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="DisabledTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+            </Window>
+                        <Property name="Area" value="{{0,-40},{0,6},{0,8},{0,51}}">
+
+              </Property>
+              <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+              </Property>
+              <Property name="VerticalAlignment" value="Top">
+
+              </Property>
+              <Property name="MousePassThroughEnabled" value="true">
+
+              </Property>
+              <Property name="Visible" value="true">
+
+              </Property>
+              <Property name="Disabled" value="false">
+
+              </Property>
+              <Property name="Alpha" value="1">
+
+              </Property>
+              <Property name="ClippedByParent" value="true">
+
+              </Property>
+              <Property name="HorizontalAlignment" value="Right">
+
+              </Property>
+      </Window>
+    </GUILayout>

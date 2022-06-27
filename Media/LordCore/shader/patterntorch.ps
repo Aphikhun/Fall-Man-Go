@@ -1,0 +1,20 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D Mask;
+uniform sampler2D ScnSamp;
+
+uniform float Strength;
+
+varying vec2 texCoord;
+
+
+void main(void)
+{
+    vec4 color = texture2D(ScnSamp, texCoord);
+	vec4 mask = texture2D(Mask, texCoord);
+ 
+	color.rgb *= (1.0 - Strength * mask.a);
+    gl_FragColor = color;
+}

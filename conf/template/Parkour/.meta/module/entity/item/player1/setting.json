@@ -1,0 +1,133 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/character_boy.actor"
+      },
+      "girlactor": {
+        "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_girl/character_girl.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_boy/character_boy.actor"
+    },
+    "boundingVolume": {
+      "memory": {
+        "Capsule": "1.800000-0.250000"
+      },
+      "params": {
+        "x": 0.4,
+        "z": 0.4
+      }
+    },
+    "canRevive": true,
+    "collision": true,
+    "damage": 5,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1",
+      "2"
+    ],
+    "girlactor": {
+      "selector": "editor/Fun_Jump/asset/Actor/charactor/charactor_girl/character_girl.actor"
+    },
+    "hideHp": false,
+    "maxHp": 5,
+    "moveSpeed": 6,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "skill": [
+      ""
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "mind"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "af3d30df-f48d-4187-9f9c-adf0df45db48"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "eeeb242d-eab1-46b6-a330-af1942eb98b2"
+              },
+              "pos": {
+                "x": 790,
+                "y": 262
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "af3d30df-f48d-4187-9f9c-adf0df45db48"
+              },
+              "pos": {
+                "x": 1361,
+                "y": 423
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "eeeb242d-eab1-46b6-a330-af1942eb98b2"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "64e946e5-bdff-4081-ab0a-03c90ec9e0dd"
+            }
+          },
+          "type": "Trigger_EntityEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "30563e199bf0bfe1175a54e218e57588",
+      "triggers.bts": "c6aa4cc27f8372513af2258cb5ed7979"
+    },
+    "VERSION": "0.18"
+  }
+}

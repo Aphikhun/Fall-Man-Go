@@ -1,0 +1,123 @@
+{
+    "ResConfig": {
+        "Font": [
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT6",
+                "Size": 6,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT8",
+                "Size": 8,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT10",
+                "Size": 10,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT12",
+                "Size": 12,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT14",
+                "Size": 14,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT16",
+                "Size": 16,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT18",
+                "Size": 18,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT20",
+                "Size": 20,
+                "Type": "FreeType" },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT22",
+                "Size": 22,
+                "Type": "FreeType"  },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT24",
+                "Size": 24,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT30",
+                "Size": 30,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT35",
+                "Size": 35,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT40",
+                "Size": 40,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT45",
+                "Size": 45,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT50",
+                "Size": 50,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT60",
+                "Size": 60,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT70",
+                "Size": 70,
+                "Type": "FreeType"
+            },
+            { 
+                "Filename": "DroidSans.ttf",
+                "Language": "zh_CN,en_US,zh_TW,tr_TR,vi_VN,it_IT,in_ID,fr_FR,es_ES,de_DE,pt_BR,ru_RU,th_TH,ko_KR",
+                "Name": "HT80",
+                "Size": 80,
+                "Type": "FreeType"
+            }
+        ]
+    }
+}

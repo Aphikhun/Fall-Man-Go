@@ -1,0 +1,90 @@
+{
+  "data": {
+    "defaultView": "Back",
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 46.322944641113,
+        "y": 21.121144332886,
+        "z": -60.609161376953
+      }
+    },
+    "needSave": true,
+    "player_range": {
+      "max": 10,
+      "min": 1
+    },
+    "playTime": {
+      "value": 120
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 46.276611328125,
+        "y": 21.121140518188,
+        "z": -60.975860595703
+      }
+    },
+    "team": {
+      "showTeamStatusBar": false,
+      "team": [
+        {
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 46.322944641113,
+              "y": 21.121144332886,
+              "z": -60.609161376953
+            }
+          },
+          "name": "red_team",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 46.276611328125,
+              "y": 21.121140518188,
+              "z": -60.975860595703
+            }
+          }
+        },
+        {
+          "id": 2,
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 46.322944641113,
+              "y": 21.121144332886,
+              "z": -60.609161376953
+            }
+          },
+          "name": "blue_team",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 46.276611328125,
+              "y": 21.121140518188,
+              "z": -60.975860595703
+            }
+          }
+        }
+      ]
+    },
+    "unlimitedPlayTime": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b1dcb9c43ee0bfb4996faf3c9d430cca",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,55 @@
+2022-06-23 13:52:15.597 [20508] ALARM ----------------- log4z thread started! ----------------- log4z.cpp:1968
+2022-06-23 13:52:15.597 [20508] ALARM logger id=0 key=Main name=Main path=./logs/launcher/ level=1 display=true log4z.cpp:1978
+2022-06-23 13:52:15.597 [9108] INFO main.cpp<51>: App Start!
+2022-06-23 13:52:15.625 [9108] INFO WELauncher.cpp<120>: read editor_language.json, language=en
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<139>: User selected language: :/language/en
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/es
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/id
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/pt
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/ru
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/th
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/vi
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<148>: qrc language list: :/language/zh
+2022-06-23 13:52:15.626 [9108] WARN WELauncher.cpp<161>: Unsupported language(:/language/en), default language English will be used
+2022-06-23 13:52:15.626 [9108] INFO WELauncher.cpp<180>: WELauncher::initUi()
+2022-06-23 13:52:15.962 [5416] INFO StateMachine.cpp<253>: ENTER, StateMachine::Run
+2022-06-23 13:52:15.962 [5416] INFO timeElapsed.cpp<13>: #InitializeState#
+2022-06-23 13:52:15.977 [5416] INFO initialize_state.cpp<43>: is online: 1
+2022-06-23 13:52:15.977 [5416] INFO timeElapsed.cpp<25>: #InitializeState# takes 15 ms
+2022-06-23 13:52:15.977 [5416] INFO timeElapsed.cpp<13>: #CheckIpRegionState#
+2022-06-23 13:52:15.977 [5416] INFO check_ip_region_state.cpp<36>: url: http://editorapi.sandboxol.com/user-api/v1/region
+2022-06-23 13:52:16.878 [5416] INFO check_ip_region_state.cpp<66>: status: 1, agent: cubo
+2022-06-23 13:52:16.878 [5416] INFO timeElapsed.cpp<25>: #CheckIpRegionState# takes 901 ms
+2022-06-23 13:52:16.878 [5416] INFO timeElapsed.cpp<13>: #CheckServiceState#
+2022-06-23 13:52:16.878 [5416] INFO check_service_state.cpp<46>: url: https://editor.blockmanmobile.com/notice-api/v1/getNoticeAddress
+2022-06-23 13:52:17.560 [5416] INFO check_service_state.cpp<98>: type(0:normal,1:stop,2:start): 2
+2022-06-23 13:52:17.560 [5416] INFO timeElapsed.cpp<25>: #CheckServiceState# takes 682 ms
+2022-06-23 13:52:17.560 [5416] INFO timeElapsed.cpp<13>: #CheckUpdateState#
+2022-06-23 13:52:17.560 [5416] INFO check_update_state.cpp<43>: the welauncher's channel= alpha
+2022-06-23 13:52:17.560 [5416] INFO check_update_state.cpp<44>: the worldeditor's version= 1.10.126
+2022-06-23 13:52:17.560 [5416] INFO check_update_state.cpp<45>: the worldeditor's update url= 
+2022-06-23 13:52:17.562 [5416] INFO check_update_state.cpp<49>: Mac Address: C4-BD-E5-97-FC-7F
+2022-06-23 13:52:17.562 [5416] INFO check_update_state.cpp<61>: worldeditor's version: 1.10.126
+2022-06-23 13:52:17.562 [5416] INFO check_update_state.cpp<174>: url: https://service.blockmanmobile.com/editorproxy/version-api/v1/check_update
+2022-06-23 13:52:17.562 [5416] INFO check_update_state.cpp<178>: GetUserDefaultUILang, iso: US, lang: en, userLang: en_US
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<250>: need_update: 0
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<251>: force: 0
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<252>: version: 
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<253>: desc: 
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<254>: url: 
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<255>: md5: 
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<256>: x64_url: 
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<257>: x64_md5: 
+2022-06-23 13:52:17.981 [5416] INFO check_update_state.cpp<106>: not need update!!!
+2022-06-23 13:52:17.981 [5416] INFO timeElapsed.cpp<25>: #CheckUpdateState# takes 421 ms
+2022-06-23 13:52:17.981 [5416] INFO timeElapsed.cpp<13>: #StartClientState#
+2022-06-23 13:52:17.981 [5416] INFO start_client_state.cpp<39>: the client path: C:\Program Files (x86)\sandboxol\BlockmanEditor\worldeditor.exe
+2022-06-23 13:52:17.997 [5416] INFO start_client_state.cpp<58>: start client success.
+2022-06-23 13:52:17.997 [5416] INFO timeElapsed.cpp<25>: #StartClientState# takes 16 ms
+2022-06-23 13:52:17.997 [5416] INFO timeElapsed.cpp<13>: #SummaryState#
+2022-06-23 13:52:17.997 [5416] INFO summary_state.cpp<27>: remaining events: 3
+2022-06-23 13:52:20.580 [5416] INFO summary_state.cpp<40>: remaining events: 0
+2022-06-23 13:52:20.580 [5416] INFO timeElapsed.cpp<25>: #SummaryState# takes 2583 ms
+2022-06-23 13:52:20.580 [5416] INFO StateMachine.cpp<265>: LEAVE, StateMachine::Run
+2022-06-23 13:52:20.580 [9108] INFO WELauncher.cpp<326>: signal to exit the program received
+2022-06-23 13:52:20.582 [9108] INFO main.cpp<83>: App End!

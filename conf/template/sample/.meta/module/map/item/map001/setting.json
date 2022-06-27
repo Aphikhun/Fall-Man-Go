@@ -1,0 +1,77 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8636598139055390721",
+        "lightType": "GlobalLight",
+        "skyColor": {
+          "b": 127,
+          "g": 127
+        },
+        "skyLineColor": {
+          "b": 127,
+          "g": 127,
+          "r": 127
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8636598139123630081",
+        "lightBrightness": 0.5,
+        "lightType": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90,
+          "z": -30
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "61d8841f101591413d45996410022c2d"
+    },
+    "VERSION": "0.21"
+  }
+}

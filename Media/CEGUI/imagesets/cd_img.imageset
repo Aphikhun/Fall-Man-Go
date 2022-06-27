@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset nativeVertRes="936" version="2" nativeHorzRes="252" name="cd_img" imagefile="cd_img.png" autoScaled="vertical">
+    <Image xPos="0" width="252" height="252" name="rectangle2" yPos="0"/>
+    <Image xPos="0" width="252" height="252" name="round2" yPos="252"/>
+    <Image xPos="0" width="216" height="216" name="round1" yPos="504"/>
+    <Image xPos="0" width="216" height="216" name="rectangle1" yPos="720"/>
+</Imageset>

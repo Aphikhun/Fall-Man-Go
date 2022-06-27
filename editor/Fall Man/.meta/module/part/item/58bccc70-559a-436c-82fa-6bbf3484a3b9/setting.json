@@ -1,0 +1,66 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreatePartByPartStorage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_StorageEntry"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "49fd9b87-afb6-4ff3-843f-2a2b9fc2d40d"
+              },
+              "pos": {
+                "x": 810,
+                "y": 156
+              }
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "49fd9b87-afb6-4ff3-843f-2a2b9fc2d40d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "eec48073-8973-44da-a2a0-88236fae2db3"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "c942e53aefc640d63875310ea535dd4e"
+    },
+    "VERSION": "0.20"
+  }
+}

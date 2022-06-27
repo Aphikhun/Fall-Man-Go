@@ -1,0 +1,121 @@
+{
+  "data": {
+    "md5": "daaea7934f2b523fbe55da714616d23a",
+    "path": "asset/test.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "fc00293a-b935-445c-a3d1-8910c30db235"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 642.5
+            },
+            "UDim_Y": {
+              "Offect": 540.0
+            }
+          },
+          "triggers": {
+            "list": [
+              {
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        []
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "420047fa-a216-4533-9348-8345f86e40d4"
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "ead608a5-8312-42e3-a10d-35ebad69f730"
+          },
+          "name": "Button1",
+          "pos": {
+            "UDim_X": {
+              "Offect": 390.17272949219
+            },
+            "UDim_Y": {
+              "Offect": 600.77917480469
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "id": {
+            "value": "e2b0713a-f3eb-4f5c-b53f-68c40675dcc5"
+          },
+          "name": "Button2",
+          "pos": {
+            "UDim_X": {
+              "Offect": 887.81817626953
+            },
+            "UDim_Y": {
+              "Offect": 441.81817626953
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "id": {
+            "value": "fdb4438b-57fe-483d-b67c-8a3c73cc9eaf"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 553.71820068359
+            },
+            "UDim_Y": {
+              "Offect": 287.53247070312
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "id": {
+            "value": "d2cf38b5-05c0-4c68-8009-4b675b7d49b8"
+          },
+          "name": "Text1",
+          "pos": {
+            "UDim_X": {
+              "Offect": 341.10906982422
+            },
+            "UDim_Y": {
+              "Offect": 282.8571472168
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "14a8e36e-c39a-4f4a-b2c5-e457c9b06dd5"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 1145.2999913692
+        },
+        "UDim_Y": {
+          "Offect": 711.4285578727
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "daaea7934f2b523fbe55da714616d23a",
+      "triggers.bts": "7be438e1017caee36010f341b7fac6d1"
+    },
+    "VERSION": "0.20"
+  }
+}

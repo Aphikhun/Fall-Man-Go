@@ -1,0 +1,80 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8674746467658809345"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e939f19d-d826-4d60-8e06-d1da16d2f3df",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8674749261142441985",
+        "material": {
+          "color": {
+            "b": 127,
+            "g": 171,
+            "r": 0
+          },
+          "discardAlpha": 1.0
+        },
+        "position": {
+          "y": 1.5
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 80,
+          "z": 80
+        },
+        "size": {
+          "x": 80,
+          "z": 80
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "85455269-a80d-4694-b2d7-f49fc5e95aaa",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8674783509954887681",
+        "material": {
+          "discardAlpha": 1.0
+        },
+        "name": "Color plate",
+        "position": {
+          "y": 2.1,
+          "z": -3.4919078350067
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4,
+          "y": 0.1,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.1,
+          "z": 4
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_06c5de00-572a-4157-8cc8-bdda31d12163"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "855d22a4f8cfa2700a347ac7d0b9bce0"
+    },
+    "VERSION": "0.21"
+  }
+}

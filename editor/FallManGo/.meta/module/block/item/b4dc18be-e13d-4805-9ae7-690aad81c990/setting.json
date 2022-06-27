@@ -1,0 +1,39 @@
+{
+  "data": {
+    "name": {
+      "value": "block_b4dc18be-e13d-4805-9ae7-690aad81c990"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "9407568e-fc31-44f2-8ff3-97c11867e5da"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "f42b11cb-72bb-4ab1-adc7-18a476cac18c"
+            }
+          },
+          "type": "Trigger_BlockClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "58ea9fb30309ca21e7a129e12bb12ac8",
+      "triggers.bts": "a69c8057b5fd0b7895686ef679362d5c"
+    },
+    "VERSION": "0.21"
+  }
+}

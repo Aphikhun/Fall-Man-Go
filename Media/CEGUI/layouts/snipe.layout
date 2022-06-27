@@ -1,0 +1,143 @@
+<GUILayout version="4">
+  <Window type="DefaultWindow" name="Root">
+    <Window type="WindowsLook/StaticImage" name="Snipe_snipe_show">
+      <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="false" name="BackgroundEnabled">
+
+      </Property>
+      <Property value="ffffffff" name="FrameColours">
+
+      </Property>
+      <Property value="ffffffff" name="BackgroundColours">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="0 0 0 0" name="StaticImageStretch">
+
+      </Property>
+      <Property value="ffffffff" name="ImageColours">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+      <Property value="Left" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="false" name="FrameEnabled">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="gun/SniperSight" name="Image">
+
+      </Property>
+      <Property value="Stretched" name="vertFormatting">
+
+      </Property>
+      <Property value="false" name="Visible">
+
+      </Property>
+      <Property value="Stretched" name="horzFormatting">
+
+      </Property>
+    </Window>
+    <Window type="WindowsLook/StaticImage" name="Snipe_snipe_switch">
+      <Property value="{{0,50},{0,50},{0,100},{0,100}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="false" name="BackgroundEnabled">
+
+      </Property>
+      <Property value="ffffffff" name="FrameColours">
+
+      </Property>
+      <Property value="ffffffff" name="BackgroundColours">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="0 0 0 0" name="StaticImageStretch">
+
+      </Property>
+      <Property value="ffffffff" name="ImageColours">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+      <Property value="Left" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="false" name="FrameEnabled">
+
+      </Property>
+      <Property value="false" name="MousePassThroughEnabled">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="" name="Image">
+
+      </Property>
+      <Property value="Stretched" name="vertFormatting">
+
+      </Property>
+      <Property value="true" name="Visible">
+
+      </Property>
+      <Property value="Stretched" name="horzFormatting">
+
+      </Property>
+    </Window>
+    <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
+
+    </Property>
+    <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+    </Property>
+    <Property value="Top" name="VerticalAlignment">
+
+    </Property>
+    <Property value="false" name="ClippedByParent">
+
+    </Property>
+    <Property value="Left" name="HorizontalAlignment">
+
+    </Property>
+    <Property value="true" name="MousePassThroughEnabled">
+
+    </Property>
+    <Property value="1" name="Alpha">
+
+    </Property>
+    <Property value="false" name="Disabled">
+
+    </Property>
+    <Property value="true" name="Visible">
+
+    </Property>
+  </Window>
+</GUILayout>

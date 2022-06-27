@@ -1,0 +1,82 @@
+----------------------------------------------------------------------------------------------------
+LOG DATE: 06-21-2022 14:35:29 
+----------------------------------------------------------------------------------------------------
+(Main) [2022-06-21 14:35:29] [DEBUG]: Loading charset encoding...
+(Main) [2022-06-21 14:35:29] [DEBUG]: Charset encoding loaded success.
+(Main) [2022-06-21 14:35:29] [INFO]: GlobalProperty::init()
+(Main) [2022-06-21 14:35:29] [INFO]: ArchiveFactory for archive type FileSystem registered.
+(Main) [2022-06-21 14:35:29] [INFO]: ArchiveFactory for archive type Pak registered.
+(Main) [2022-06-21 14:35:29] [INFO]: ArchiveFactory for archive type FileSystemIndexByPath registered.
+(Main) [2022-06-21 14:35:29] [INFO]: Creating resource group Custom.
+(Main) [2022-06-21 14:35:29] [INFO]: Creating resource group General.
+(Main) [2022-06-21 14:35:29] [INFO]: WorldConfig is loaded
+(Main) [2022-06-21 14:35:29] [DEBUG]: init root read res config conten is empty, path:  C:/Program Files (x86)/sandboxol/BlockmanEditor/config\decoration.json
+(Main) [2022-06-21 14:35:29] [DEBUG]: init root read res config conten is empty, path:  C:/Program Files (x86)/sandboxol/BlockmanEditor/config\Game01.json
+(Main) [2022-06-21 14:35:29] [INFO]: WorldConfig is loaded
+(Main) [2022-06-21 14:35:29] [INFO]: Not found engine config file [engine.json], use default engine config.
+(Main) [2022-06-21 14:35:29] [INFO]: Thread Pool Startuped
+(Main) [2022-06-21 14:35:29] [INFO]: Lord Engine initialised success.
+(Main) [2022-06-21 14:35:29] [INFO]: using map dir:C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Game01/
+(Main) [2022-06-21 14:35:29] [INFO]: Client version: ea43f0b4b431ea3f1d6ebe5214ba837de7192d73
+(Main) [2022-06-21 14:35:29] [INFO]: Core version: 3adbe8521ec6b4fb86c5a1f5ca1ce06ae0c0dda7
+(Main) [2022-06-21 14:35:29] [INFO]: EntryThread started, id: 19460
+(Main) [2022-06-21 14:35:29] [INFO]: current engine version: 30036
+(Main) [2022-06-21 14:35:29] [INFO]: ======RoomGameConfig begin=======
+(Main) [2022-06-21 14:35:29] [INFO]: gameId=g100211978, gameName=Game01, gameIp=0.0.0.0, serverPort=19130, monitorAddr=
+(Main) [2022-06-21 14:35:29] [INFO]: gameType=sample, serverType=gameserver, gameDataDir=./editor, maxPlayers=500, maxVisitors=0, mapID=
+(Main) [2022-06-21 14:35:29] [INFO]: userConfig=users.json, secret=, isDebug=1, isChina=1
+(Main) [2022-06-21 14:35:29] [INFO]: serverTypeTag=game-server
+(Main) [2022-06-21 14:35:29] [INFO]: isLibServer=0
+(Main) [2022-06-21 14:35:29] [INFO]: ======RoomGameConfig end=======
+(Main) [2022-06-21 14:35:29] [WARNING]: Instance class 'MoveBase' is bound with creatable(true) but it's not constructible
+(Main) [2022-06-21 14:35:29] [INFO]: AutoRunner::doRegister
+(Main) [2022-06-21 14:35:29] [DEBUG]: [VoxelServer] VoxelServer created! isEnableVoxelTerrain? 1
+(Main) [2022-06-21 14:35:29] [INFO]: [Lua] compat.isLua51:	false
+(Main) [2022-06-21 14:35:29] [INFO]: [Lua] Start server script!	Game01
+(Main) [2022-06-21 14:35:29] [INFO]: [Lua] nil
+(Main) [2022-06-21 14:35:29] [INFO]: [Lua] **********************************debung server ************************
+(Main) [2022-06-21 14:35:29] [INFO]: [Lua] bin/zbstudio/lualibs/mobdebug/mobdebug.lua
+(Main) [2022-06-21 14:35:29] [INFO]: [Lua] bin/zbstudio/lualibs/socket.lua
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] Could not connect to localhost:8172: timeout
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] Locale: Thai_Thailand.utf8
+(Main) [2022-06-21 14:35:30] [ERROR]: failed to read csv file: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Game01/guide.csv
+(Main) [2022-06-21 14:35:30] [INFO]: Creating resource group .
+(Main) [2022-06-21 14:35:30] [INFO]: Creating resource group Editor.
+(Main) [2022-06-21 14:35:30] [ERROR]: failed to read csv file: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Game01/singleShop.csv
+(Main) [2022-06-21 14:35:30] [ERROR]: failed to read csv file: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Game01/store.csv
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] [Info] checkEnableMapPatchMgr, enableMapPatch: false, enableMapPatchMgr: false
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] No plugin: plugin/myplugin/ui_config/reportCfg/
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] !!!!!!!!!!!!!!!!!!!!!!!!! 	false	Game01
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] DBHandler init	Game01	local:localdata.csv		true
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] RedisHandler init	true
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] [Info] [Plugins.LoadPlugin]	plugin=tween
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] [Info] [Plugins tween] load success:	C:/Program Files (x86)/sandboxol/BlockmanEditor/lua/plugins/tween/
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] lua file not exist.	plugin.myplugin.lua.main	C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Game01/?.lua
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] load lua file success!	lua/main
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] script_server:hello world
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] script_common:hello world
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] loadMap	1	map001	true	false
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelStreamBlockFiles] loadUsedMaterialSet size: 1
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelTerrain] terrain created!
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelTerrain] terrain cachePath: 
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelTerrain] terrain savePath: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Game01/terrain/map001/
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelTerrain] isEmptyStream?: 0
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelTerrain] isUseCache?: 0
+(Main) [2022-06-21 14:35:30] [DEBUG]: [VoxelTerrain] isUseZip?: 0
+(Main) [2022-06-21 14:35:30] [DEBUG]: TerrainMeshManager::loadTerrainMesh load mesh file success
+(Main) [2022-06-21 14:35:30] [DEBUG]: TerrainVertexManager::loadTerrainVertex load mesh file success
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] GameAnalytics cannot find config, set disabled	Game01	1655796930
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] [DebugPort] start listen:	6600
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] collectgarbage cost	0
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] sendTCP
+(Main) [2022-06-21 14:35:30] [INFO]: RaknetInstance::m_recvedTimeoutThreshold=1260000
+(Main) [2022-06-21 14:35:30] [INFO]: ServerTickThread started, id: 19248
+(Main) [2022-06-21 14:35:30] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] Game set state	GAME_INIT	60	1
+(Main) [2022-06-21 14:35:30] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/activity/api/v2/inner/activity/games/settlement/rule
+(Main) [2022-06-21 14:35:30] [ERROR]: http get request(/activity/api/v2/inner/activity/games/settlement/rule) error, http status code : -5
+(Main) [2022-06-21 14:35:30] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/config/files/game-player-auth-config
+(Main) [2022-06-21 14:35:30] [ERROR]: http get request(/config/files/game-player-auth-config) error, http status code : -5
+(Main) [2022-06-21 14:35:30] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/config/files/name-sensitive-word-config
+(Main) [2022-06-21 14:35:30] [ERROR]: http get request(/config/files/name-sensitive-word-config) error, http status code : -5
+(Main) [2022-06-21 14:35:30] [INFO]: [Lua] AsyncProcess.GetBlockmodsExpRule	GetBlockmodsExpRule

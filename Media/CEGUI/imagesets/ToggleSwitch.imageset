@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" imagefile="ToggleSwitch.png" name="ToggleSwitch" nativeHorzRes="64" nativeVertRes="64" resourceGroup="_imagesets_" version="2">
+	<Image height="44" name="install_Slider3" width="44" xPos="0" yPos="0"/>
+</Imageset>

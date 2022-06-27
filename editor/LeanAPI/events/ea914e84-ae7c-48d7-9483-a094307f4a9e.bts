@@ -1,0 +1,8 @@
+PART_TOUCH_ENTITY_BEGIN {
+	Damage(damage = 1, entity = $obj2)
+	AddEntityBuff(buffTime = 40, cfg = "myplugin/freeze", entity = $obj2)
+	SetPartUseCollide(part = $part1, useCollide = false)
+	StartTimer2(interval = 40, time = 1, timer = "") {
+		SetPartUseCollide(part = $part1, useCollide = true)
+	}
+}

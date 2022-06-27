@@ -1,0 +1,16 @@
+#version 100
+
+precision mediump float;
+varying float vDepthMetricSM;
+uniform vec3 biasAndScaleSM;
+uniform vec2 depthValuesSM;
+// varying vec4 glFragColor;
+
+void main(void)
+{
+    float depthSM = vDepthMetricSM;
+    depthSM = clamp(exp(-min(87., biasAndScaleSM.z * depthSM)), 0., 1.);
+    // gl_FragColor =  vec4(depthSM, 1.0, 1.0, 1.0);
+    gl_FragColor = vec4(vec3(depthSM), 1.0);
+    return;
+}

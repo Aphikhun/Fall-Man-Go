@@ -1,0 +1,181 @@
+----------------------------------------------------------------------------------------------------
+LOG DATE: 06-22-2022 13:32:14 
+----------------------------------------------------------------------------------------------------
+(Main) [2022-06-22 13:32:14] [DEBUG]: Loading charset encoding...
+(Main) [2022-06-22 13:32:14] [DEBUG]: Charset encoding loaded success.
+(Main) [2022-06-22 13:32:14] [INFO]: GlobalProperty::init()
+(Main) [2022-06-22 13:32:14] [INFO]: ArchiveFactory for archive type FileSystem registered.
+(Main) [2022-06-22 13:32:14] [INFO]: ArchiveFactory for archive type Pak registered.
+(Main) [2022-06-22 13:32:14] [INFO]: ArchiveFactory for archive type FileSystemIndexByPath registered.
+(Main) [2022-06-22 13:32:14] [INFO]: Creating resource group Custom.
+(Main) [2022-06-22 13:32:14] [INFO]: Creating resource group General.
+(Main) [2022-06-22 13:32:14] [INFO]: WorldConfig is loaded
+(Main) [2022-06-22 13:32:14] [DEBUG]: init root read res config conten is empty, path:  C:/Program Files (x86)/sandboxol/BlockmanEditor/config\decoration.json
+(Main) [2022-06-22 13:32:14] [DEBUG]: init root read res config conten is empty, path:  C:/Program Files (x86)/sandboxol/BlockmanEditor/config\Fall-Man-Go.json
+(Main) [2022-06-22 13:32:14] [INFO]: WorldConfig is loaded
+(Main) [2022-06-22 13:32:14] [INFO]: Not found engine config file [engine.json], use default engine config.
+(Main) [2022-06-22 13:32:14] [INFO]: Thread Pool Startuped
+(Main) [2022-06-22 13:32:14] [INFO]: Lord Engine initialised success.
+(Main) [2022-06-22 13:32:14] [INFO]: using map dir:C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/
+(Main) [2022-06-22 13:32:14] [INFO]: Client version: ea43f0b4b431ea3f1d6ebe5214ba837de7192d73
+(Main) [2022-06-22 13:32:14] [INFO]: Core version: 3adbe8521ec6b4fb86c5a1f5ca1ce06ae0c0dda7
+(Main) [2022-06-22 13:32:14] [INFO]: EntryThread started, id: 16128
+(Main) [2022-06-22 13:32:14] [INFO]: current engine version: 30036
+(Main) [2022-06-22 13:32:14] [INFO]: ======RoomGameConfig begin=======
+(Main) [2022-06-22 13:32:14] [INFO]: gameId=g100211978, gameName=Fall-Man-Go, gameIp=0.0.0.0, serverPort=19130, monitorAddr=
+(Main) [2022-06-22 13:32:14] [INFO]: gameType=sample, serverType=gameserver, gameDataDir=./editor, maxPlayers=500, maxVisitors=0, mapID=
+(Main) [2022-06-22 13:32:14] [INFO]: userConfig=users.json, secret=, isDebug=1, isChina=1
+(Main) [2022-06-22 13:32:14] [INFO]: serverTypeTag=game-server
+(Main) [2022-06-22 13:32:14] [INFO]: isLibServer=0
+(Main) [2022-06-22 13:32:14] [INFO]: ======RoomGameConfig end=======
+(Main) [2022-06-22 13:32:14] [WARNING]: Instance class 'MoveBase' is bound with creatable(true) but it's not constructible
+(Main) [2022-06-22 13:32:14] [INFO]: AutoRunner::doRegister
+(Main) [2022-06-22 13:32:14] [DEBUG]: [VoxelServer] VoxelServer created! isEnableVoxelTerrain? 1
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] compat.isLua51:	false
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] Start server script!	Fall-Man-Go
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] nil
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] **********************************debung server ************************
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] bin/zbstudio/lualibs/mobdebug/mobdebug.lua
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] bin/zbstudio/lualibs/socket.lua
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] Could not connect to localhost:8172: timeout
+(Main) [2022-06-22 13:32:14] [INFO]: [Lua] Locale: Thai_Thailand.utf8
+(Main) [2022-06-22 13:32:14] [ERROR]: failed to read csv file: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/guide.csv
+(Main) [2022-06-22 13:32:14] [INFO]: Creating resource group .
+(Main) [2022-06-22 13:32:14] [INFO]: Creating resource group Editor.
+(Main) [2022-06-22 13:32:15] [ERROR]: failed to read csv file: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/singleShop.csv
+(Main) [2022-06-22 13:32:15] [ERROR]: failed to read csv file: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/store.csv
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] [Info] checkEnableMapPatchMgr, enableMapPatch: false, enableMapPatchMgr: false
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] No plugin: plugin/myplugin/ui_config/reportCfg/
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] !!!!!!!!!!!!!!!!!!!!!!!!! 	false	Fall-Man-Go
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] DBHandler init	Fall-Man-Go	local:localdata.csv		true
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] RedisHandler init	true
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] [Info] [Plugins.LoadPlugin]	plugin=tween
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] [Info] [Plugins tween] load success:	C:/Program Files (x86)/sandboxol/BlockmanEditor/lua/plugins/tween/
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] lua file not exist.	plugin.myplugin.lua.main	C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/?.lua
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] load lua file success!	lua/main
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] script_server:hello world
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] script_common:hello world
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] loadMap	1	06c5de00-572a-4157-8cc8-bdda31d12163	true	false
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelStreamBlockFiles] loadUsedMaterialSet size: 1
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelTerrain] terrain created!
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelTerrain] terrain cachePath: 
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelTerrain] terrain savePath: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/terrain/06c5de00-572a-4157-8cc8-bdda31d12163/
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelTerrain] isEmptyStream?: 0
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelTerrain] isUseCache?: 0
+(Main) [2022-06-22 13:32:15] [DEBUG]: [VoxelTerrain] isUseZip?: 0
+(Main) [2022-06-22 13:32:15] [DEBUG]: TerrainMeshManager::loadTerrainMesh load mesh file success
+(Main) [2022-06-22 13:32:15] [DEBUG]: TerrainVertexManager::loadTerrainVertex load mesh file success
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] GameAnalytics cannot find config, set disabled	Fall-Man-Go	1655879535
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] [DebugPort] start listen:	6600
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] collectgarbage cost	0
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] sendTCP
+(Main) [2022-06-22 13:32:15] [INFO]: RaknetInstance::m_recvedTimeoutThreshold=1260000
+(Main) [2022-06-22 13:32:15] [INFO]: ServerTickThread started, id: 19896
+(Main) [2022-06-22 13:32:15] [WARNING]: ===Server::tick===== server frame slow, forwardTicks 15
+(Main) [2022-06-22 13:32:15] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:15] [INFO]: [Lua] Game set state	GAME_INIT	60	1
+(Main) [2022-06-22 13:32:15] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/activity/api/v2/inner/activity/games/settlement/rule
+(Main) [2022-06-22 13:32:15] [ERROR]: http get request(/activity/api/v2/inner/activity/games/settlement/rule) error, http status code : -5
+(Main) [2022-06-22 13:32:15] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/config/files/game-player-auth-config
+(Main) [2022-06-22 13:32:15] [ERROR]: http get request(/config/files/game-player-auth-config) error, http status code : -5
+(Main) [2022-06-22 13:32:15] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/config/files/name-sensitive-word-config
+(Main) [2022-06-22 13:32:15] [ERROR]: http get request(/config/files/name-sensitive-word-config) error, http status code : -5
+(Main) [2022-06-22 13:32:16] [INFO]: recv raknet message ID_NEW_INCOMING_CONNECTION, sessionId=1655879535631072
+(Main) [2022-06-22 13:32:16] [INFO]: recv raknet message ID_NEW_INCOMING_CONNECTION, sessionId=1655879535758083
+(Main) [2022-06-22 13:32:16] [INFO]: [Lua] AsyncProcess.GetBlockmodsExpRule	GetBlockmodsExpRule
+(Main) [2022-06-22 13:32:16] [INFO]: _createNewSession_sessionid_1655879535631072 127.0.0.1:61738
+(Main) [2022-06-22 13:32:16] [INFO]: _createNewSession_sessionid_1655879535758083 127.0.0.1:61739
+(Main) [2022-06-22 13:32:16] [WARNING]: ===Server::tick===== server frame slow, forwardTicks 33
+(Main) [2022-06-22 13:32:18] [INFO]: game server recing C2SPacketSntp£¬client clock 2276
+(Main) [2022-06-22 13:32:18] [INFO]: game server reply with S2CPacketSntp£¬syncTick 86 server elapse 4302
+(Main) [2022-06-22 13:32:18] [INFO]: game server recing C2SPacketLogin£¬platform uid 18528, name pc_test02
+(Main) [2022-06-22 13:32:18] [INFO]: C2SPacketLogin ========== , session id 1655879535631072, platform uid 18528, name pc_test02
+(Main) [2022-06-22 13:32:18] [INFO]: ClientPeer::preLogin platform uid 18528, name pc_test02, session id 1655879535631072
+(Main) [2022-06-22 13:32:18] [INFO]: C2SPacketLogin token correct, session id 1655879535631072, platform uid 18528, name pc_test02
+(Main) [2022-06-22 13:32:18] [INFO]: ClientPeer::login send S2CPacketLoginResult, session id 1655879535631072, platform uid 18528, name pc_test02
+(Main) [2022-06-22 13:32:18] [INFO]: [Lua] AsyncProcess.RequestPlayerDetailInfo error, ServerHttpHost is nil !
+(Main) [2022-06-22 13:32:18] [INFO]: [Lua] [Info] [Game.OnPlayerLogin]	PlayerCount=1	FollowerCount=0	UserId=18528
+(Main) [2022-06-22 13:32:18] [INFO]: [Lua] GameAnalytics OnPlayerLogin	18528	{"user_id":"8888888","platform":"windows","device":"Windows","os_version":"windows 7","app_version":"1.0.0","version_code":1,"package_name":"com.sandboxol.blockymods","ram_memory":"2048 MB","session_id":"b8390000-835b-4000-9241-0000481d0000","session_num":1,"manufacturer":"lenovo"}
+(Main) [2022-06-22 13:32:18] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:18] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:18] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18528
+(Main) [2022-06-22 13:32:18] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18528) error, http status code : -5
+(Main) [2022-06-22 13:32:18] [INFO]: [Lua] loadMap	2	06c5de00-572a-4157-8cc8-bdda31d12163	nil	false
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelStreamBlockFiles] loadUsedMaterialSet size: 1
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelTerrain] terrain created!
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelTerrain] terrain cachePath: 
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelTerrain] terrain savePath: C:/Program Files (x86)/sandboxol/BlockmanEditor/editor/Fall-Man-Go/terrain/06c5de00-572a-4157-8cc8-bdda31d12163/
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelTerrain] isEmptyStream?: 0
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelTerrain] isUseCache?: 0
+(Main) [2022-06-22 13:32:18] [DEBUG]: [VoxelTerrain] isUseZip?: 0
+(Main) [2022-06-22 13:32:18] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = GetUserAnimoji, retry count = 1
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = LoadUserMoney, retry count = 1
+(Main) [2022-06-22 13:32:20] [WARNING]: ===Server::tick===== server frame slow, forwardTicks 32
+(Main) [2022-06-22 13:32:20] [INFO]: game server recing C2SPacketSntpRep, rtt 1649
+(Main) [2022-06-22 13:32:20] [INFO]: game server recing C2SPacketSntp£¬client clock 2291
+(Main) [2022-06-22 13:32:20] [INFO]: game server reply with S2CPacketSntp£¬syncTick 88 server elapse 5951
+(Main) [2022-06-22 13:32:20] [INFO]: game server recing C2SPacketLogin£¬platform uid 18544, name pc_test03
+(Main) [2022-06-22 13:32:20] [INFO]: C2SPacketLogin ========== , session id 1655879535758083, platform uid 18544, name pc_test03
+(Main) [2022-06-22 13:32:20] [INFO]: ClientPeer::preLogin platform uid 18544, name pc_test03, session id 1655879535758083
+(Main) [2022-06-22 13:32:20] [INFO]: C2SPacketLogin token correct, session id 1655879535758083, platform uid 18544, name pc_test03
+(Main) [2022-06-22 13:32:20] [INFO]: ClientPeer::login send S2CPacketLoginResult, session id 1655879535758083, platform uid 18544, name pc_test03
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] AsyncProcess.RequestPlayerDetailInfo error, ServerHttpHost is nil !
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] [Info] [Game.OnPlayerLogin]	PlayerCount=2	FollowerCount=0	UserId=18544
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] GameAnalytics OnPlayerLogin	18544	{"user_id":"8888888","platform":"windows","device":"Windows","os_version":"windows 7","app_version":"1.0.0","version_code":1,"package_name":"com.sandboxol.blockymods","ram_memory":"2048 MB","session_id":"31110000-c11e-4000-bc7b-0000f63b0000","session_num":1,"manufacturer":"lenovo"}
+(Main) [2022-06-22 13:32:20] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18544
+(Main) [2022-06-22 13:32:20] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18544) error, http status code : -5
+(Main) [2022-06-22 13:32:20] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:20] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = LoadUserMoney, retry count = 1
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = GetUserAnimoji, retry count = 1
+(Main) [2022-06-22 13:32:20] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:20] [INFO]: [Lua] Game set state	GAME_READY	0	2
+(Main) [2022-06-22 13:32:20] [INFO]: game server recing C2SPacketSntpRep, rtt 87
+(Main) [2022-06-22 13:32:21] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:21] [INFO]: [Lua] Game set state	GAME_WAIT_PLAYER_READY	0	3
+(Main) [2022-06-22 13:32:21] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:21] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:21] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = GetUserAnimoji, retry count = 2
+(Main) [2022-06-22 13:32:21] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18528
+(Main) [2022-06-22 13:32:21] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18528) error, http status code : -5
+(Main) [2022-06-22 13:32:21] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = LoadUserMoney, retry count = 2
+(Main) [2022-06-22 13:32:21] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18544
+(Main) [2022-06-22 13:32:21] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18544) error, http status code : -5
+(Main) [2022-06-22 13:32:21] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = LoadUserMoney, retry count = 2
+(Main) [2022-06-22 13:32:21] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:21] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:21] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = GetUserAnimoji, retry count = 2
+(Main) [2022-06-22 13:32:22] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:22] [INFO]: [Lua] Game set state	GAME_AUTO_ASSIGN_TEAM	0	4
+(Main) [2022-06-22 13:32:23] [INFO]: sendStartGame 2
+(Main) [2022-06-22 13:32:23] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:23] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:23] [INFO]: [Lua] Game set state	GAME_START	0	5
+(Main) [2022-06-22 13:32:24] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:24] [WARNING]: [Lua] [Warning]  error !!! try push data to DataCacheContainer but not name !!!
+(Main) [2022-06-22 13:32:24] [INFO]: [Lua] Game set state	GAME_GO	-1	6
+(Main) [2022-06-22 13:32:27] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:27] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:27] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = GetUserAnimoji, retry count = 3
+(Main) [2022-06-22 13:32:27] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18528
+(Main) [2022-06-22 13:32:27] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18528) error, http status code : -5
+(Main) [2022-06-22 13:32:27] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = LoadUserMoney, retry count = 3
+(Main) [2022-06-22 13:32:27] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18544
+(Main) [2022-06-22 13:32:27] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18544) error, http status code : -5
+(Main) [2022-06-22 13:32:27] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = LoadUserMoney, retry count = 3
+(Main) [2022-06-22 13:32:27] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:27] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:27] [INFO]: [Lua] AsyncProcess.HttpRequest retry, url = GetUserAnimoji, retry count = 3
+(Main) [2022-06-22 13:32:28] [ERROR]: [Lua] [Error] Actions.GetPlayerMap: the Entity is an invalid player !
+(Main) [2022-06-22 13:32:28] [ERROR]: [Lua] [Error] Actions.GetPlayerMap: the Entity is an invalid player !
+(Main) [2022-06-22 13:32:36] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:36] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:36] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18528
+(Main) [2022-06-22 13:32:36] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18528) error, http status code : -5
+(Main) [2022-06-22 13:32:36] [INFO]: [Lua] LoadUserMoney Error: 	nil
+(Main) [2022-06-22 13:32:36] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/pay/i/api/v1/wealth/users/18544
+(Main) [2022-06-22 13:32:36] [ERROR]: http get request(/pay/i/api/v1/wealth/users/18544) error, http status code : -5
+(Main) [2022-06-22 13:32:36] [INFO]: [Lua] LoadUserMoney Error: 	nil
+(Main) [2022-06-22 13:32:36] [ERROR]: HttpRequest::HttpGet failed, code=5 url=/decoration/api/v1/inner/decorations/actions
+(Main) [2022-06-22 13:32:36] [ERROR]: http get request(/decoration/api/v1/inner/decorations/actions) error, http status code : -5
+(Main) [2022-06-22 13:32:40] [INFO]: [Lua] server Skill.DoCast -	/empty	2

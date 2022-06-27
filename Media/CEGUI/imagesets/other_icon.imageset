@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" imagefile="other_icon.png" name="other_icon" nativeHorzRes="64" nativeVertRes="256" version="2">
+	<Image height="30" name="icon_armor" width="31" xPos="0" yPos="40"/>
+	<Image height="40" name="gun_info_icon" width="40" xPos="0" yPos="0"/>
+	<Image height="30" name="icon_potion" width="31" xPos="31" yPos="100"/>
+	<Image height="18" name="player_info_healt_nor" width="16" xPos="0" yPos="160" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image height="30" name="icon_materials" width="31" xPos="31" yPos="70"/>
+	<Image height="30" name="icon_enchantment" width="31" xPos="0" yPos="70"/>
+	<Image height="18" name="player_info_food_staturation_pre" width="16" xPos="46" yPos="130" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image height="30" name="icon_other" width="31" xPos="0" yPos="100"/>
+	<Image height="30" name="icon_tool" width="30" xPos="0" yPos="130"/>
+	<Image height="18" name="player_info_healt_pre" width="16" xPos="16" yPos="160" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image height="30" name="icon_block" width="31" xPos="31" yPos="40"/>
+	<Image height="18" name="player_info_food_staturation_nor" width="16" xPos="30" yPos="130" type="NineGridImage" stretch="5 5 5 5"/>
+</Imageset>

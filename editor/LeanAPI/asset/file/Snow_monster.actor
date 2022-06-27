@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='GB2312'?>
+<ActorTemplates>
+    <ActorTemplate Originalscale="1 1 1" MaxDistance="16" SoundName2="" SoundName1="" MinDistance="1" SelectedRingSize="1" SoundFileNum="0" TextHeight="0" AttackScale="1" WoundBone="" SoundName4="" Alpha="1" Skeleton="boy_01.skel" Volume="0.8" IsShowShadow="true" WoundAngle="25" res_skeleton="boy_01.skel" SoundName3="" IntervalTime="2" SoundName5="" name="Snow_monster.actor">
+        <BodyParts/>
+        <Skills>
+            <!--
+		<Skill TextMode="0" Name="idle" EnableWound="false" UserDefineTime="-2">
+			</Skill>
+		-->
+        </Skills>
+        <Anims/>
+    </ActorTemplate>
+</ActorTemplates>

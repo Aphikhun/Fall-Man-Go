@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate MaxDistance="16" Alpha="1" IntervalTime="2" SoundName4="" WoundAngle="25" WoundBone="" SoundName1="" IsShowShadow="true" SoundName2="" SoundName3="" TextHeight="0" Skeleton="stone01.skel" SelectedRingSize="1" Volume="0.8" AttackScale="1" SoundFileNum="0" SoundName5="" Originalscale="1 1 1" name="111.actor" MinDistance="1">
+		<Anims/>
+		<Skills/>
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" DefaultUse="true" MasterName="mutex_name_0" SlaveName="group0" EdgeColor="1 1 1 1">
+				<Effect>
+					<scale value="1"/>
+					<SocketName value="bip01"/>
+					<roll value="0"/>
+					<Alpha value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/stone/g2030_ranshao.effect"/>
+					<Position_Z value="0"/>
+					<type_name value="g2030_ranshao"/>
+					<Position_Y value="0"/>
+					<TimeScale value="1"/>
+					<Position_X value="0"/>
+					<yaw value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

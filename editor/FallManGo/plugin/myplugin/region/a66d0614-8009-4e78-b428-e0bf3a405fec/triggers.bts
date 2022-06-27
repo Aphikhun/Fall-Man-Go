@@ -1,0 +1,3 @@
+REGION_ENTER {
+	$obj1.EnterGoal = true
+}

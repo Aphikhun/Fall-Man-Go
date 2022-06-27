@@ -1,0 +1,98 @@
+<GUILayout version="4">
+  <Window name="Root" type="DefaultWindow">
+    <Property name="Area" value="{{0,0},{0,0},{0,500},{0,528}}">
+
+    </Property>
+    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+    </Property>
+    <Property name="Disabled" value="false">
+
+    </Property>
+    <Property name="ClippedByParent" value="true">
+
+    </Property>
+    <Property name="Alpha" value="1">
+
+    </Property>
+    <Property name="Visible" value="true">
+
+    </Property>
+    <Property name="HorizontalAlignment" value="Left">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Top">
+
+    </Property>
+    <Window name="ScrollableView" type="Engine/ScrollableView">
+      <Property name="Area" value="{{0,54},{0,37},{0,460},{0,503}}">
+
+      </Property>
+      <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+      </Property>
+      <Property name="Alpha" value="1">
+
+      </Property>
+      <Property name="ForceVertScrollbar" value="true">
+
+      </Property>
+      <Property name="VerticalAlignment" value="Top">
+
+      </Property>
+      <Property name="BackGroundImage" value="">
+
+      </Property>
+      <Property name="ClippedByParent" value="true">
+
+      </Property>
+      <Property name="Disabled" value="false">
+
+      </Property>
+      <Property name="HorizontalAlignment" value="Left">
+
+      </Property>
+      <Property name="ForceHorzScrollbar" value="true">
+
+      </Property>
+      <Property name="Visible" value="true">
+
+      </Property>
+      <Property name="ForceHorzScrollbar" value="false">
+
+      </Property>
+      <Property name="ForceVertScrollbar" value="false">
+
+      </Property>
+      <Window name="GridLayout" type="GridView">
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="GridSize" value="w:1 h:1">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+        <Property name="Disabled" value="false">
+
+        </Property>
+        <Property name="ClippedByParent" value="true">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+      </Window>
+    </Window>
+  </Window>
+</GUILayout>

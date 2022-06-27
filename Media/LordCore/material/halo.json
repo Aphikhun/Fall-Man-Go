@@ -1,0 +1,26 @@
+{
+    "blend": {
+        "blendEnable": true,
+        "srcBlend": "SRC_ALPHA",
+        "dstBlend": "INV_SRC_ALPHA",
+        "srcAlphaBlend": "ONE",
+        "dstAlphaBlend": "ZERO"
+    },
+    "depthStencil":
+    {
+        "depthEnable": true,
+        "writeDepth": false,
+        "depthFunc": "LESS_EQUAL"
+    },
+    "rasterizer": {
+        "cullMode": "NONE"
+    },
+    "param": {
+        "matWVP": {
+            "type": "MAT4",
+            "value": "activeCamera"
+        }
+    },
+    "vs": "line_object.vs",
+    "ps": "halo.fs"
+}

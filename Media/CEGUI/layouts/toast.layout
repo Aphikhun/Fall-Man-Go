@@ -1,0 +1,243 @@
+<GUILayout version="4">
+  <Window type="DefaultWindow" name="Root">
+    <Window type="DefaultWindow" name="Edit_Toaster">
+      <Window type="WindowsLook/StaticImage" name="Edit_Toast_Bg">
+        <Window type="WindowsLook/StaticText" name="Edit_Toast_Tip_Text">
+          <Property value="{{0,50},{0,0},{1,0},{1,0}}" name="Area">
+
+          </Property>
+          <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+          </Property>
+          <Property value="0" name="BorderWidth">
+
+          </Property>
+          <Property value="ffffffff" name="BackgroundColours">
+
+          </Property>
+          <Property value="false" name="word_warpped">
+
+          </Property>
+          <Property value="1" name="Alpha">
+
+          </Property>
+          <Property value="true" name="Visible">
+
+          </Property>
+          <Property value="DroidSans-16" name="Font">
+
+          </Property>
+          <Property value="false" name="BackgroundEnabled">
+
+          </Property>
+          <Property value="ff000000" name="TextColours">
+
+          </Property>
+          <Property value="房间号已复制，发送并邀请你的朋友来玩吧" name="Text">
+
+          </Property>
+          <Property value="ffffffff" name="FrameColours">
+
+          </Property>
+          <Property value="ffffffff" name="BorderColor">
+
+          </Property>
+          <Property value="false" name="ClippedByParent">
+
+          </Property>
+          <Property value="16" name="Font_size">
+
+          </Property>
+          <Property value="CentreAligned" name="VertFormatting">
+
+          </Property>
+          <Property value="LeftAligned" name="HorzFormatting">
+
+          </Property>
+          <Property value="Top" name="VerticalAlignment">
+
+          </Property>
+          <Property value="true" name="MousePassThroughEnabled">
+
+          </Property>
+          <Property value="false" name="Disabled">
+
+          </Property>
+          <Property value="false" name="BorderEnable">
+
+          </Property>
+          <Property value="Left" name="HorizontalAlignment">
+
+          </Property>
+          <Property value="false" name="FrameEnabled">
+
+          </Property>
+        </Window>
+        <Window type="WindowsLook/StaticImage" name="Edit_Toast_Head">
+          <Property value="{{0,-60},{0,-65},{0,52},{0,65}}" name="Area">
+
+          </Property>
+          <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+          </Property>
+          <Property value="1" name="Alpha">
+
+          </Property>
+          <Property value="true" name="Visible">
+
+          </Property>
+          <Property value="false" name="BackgroundEnabled">
+
+          </Property>
+          <Property value="ffffffff" name="BackgroundColours">
+
+          </Property>
+          <Property value="ffffffff" name="FrameColours">
+
+          </Property>
+          <Property value="0 0 0 0" name="StaticImageStretch">
+
+          </Property>
+          <Property value="Stretched" name="vertFormatting">
+
+          </Property>
+          <Property value="Stretched" name="horzFormatting">
+
+          </Property>
+          <Property value="Top" name="VerticalAlignment">
+
+          </Property>
+          <Property value="true" name="MousePassThroughEnabled">
+
+          </Property>
+          <Property value="false" name="ClippedByParent">
+
+          </Property>
+          <Property value="false" name="Disabled">
+
+          </Property>
+          <Property value="ffffffff" name="ImageColours">
+
+          </Property>
+          <Property value="Left" name="HorizontalAlignment">
+
+          </Property>
+          <Property value="false" name="FrameEnabled">
+
+          </Property>
+          <Property value="cegui_new_gameUI/icon_onlineRoom_TipHead" name="Image">
+
+          </Property>
+        </Window>
+        <Property value="{{0,60},{0,0},{1,0},{1,0}}" name="Area">
+
+        </Property>
+        <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+        </Property>
+        <Property value="1" name="Alpha">
+
+        </Property>
+        <Property value="true" name="Visible">
+
+        </Property>
+        <Property value="false" name="BackgroundEnabled">
+
+        </Property>
+        <Property value="ffffffff" name="BackgroundColours">
+
+        </Property>
+        <Property value="ffffffff" name="FrameColours">
+
+        </Property>
+        <Property value="10 10 10 10" name="StaticImageStretch">
+
+        </Property>
+        <Property value="Stretched" name="vertFormatting">
+
+        </Property>
+        <Property value="Stretched" name="horzFormatting">
+
+        </Property>
+        <Property value="Top" name="VerticalAlignment">
+
+        </Property>
+        <Property value="false" name="ClippedByParent">
+
+        </Property>
+        <Property value="true" name="MousePassThroughEnabled">
+
+        </Property>
+        <Property value="false" name="Disabled">
+
+        </Property>
+        <Property value="ffffffff" name="ImageColours">
+
+        </Property>
+        <Property value="Left" name="HorizontalAlignment">
+
+        </Property>
+        <Property value="false" name="FrameEnabled">
+
+        </Property>
+        <Property value="cegui_new_gameUI/icon_onlineRoom_TipBg" name="Image">
+
+        </Property>
+      </Window>
+      <Property value="{{0,0},{0,0},{0,550},{0,50}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="false" name="Visible">
+
+      </Property>
+      <Property value="Centre" name="VerticalAlignment">
+
+      </Property>
+      <Property value="true" name="MousePassThroughEnabled">
+
+      </Property>
+      <Property value="false" name="ClippedByParent">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="Centre" name="HorizontalAlignment">
+
+      </Property>
+    </Window>
+    <Property value="{{0,0},{0,-160},{1,0},{1,-160}}" name="Area">
+
+    </Property>
+    <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+    </Property>
+    <Property value="1" name="Alpha">
+
+    </Property>
+    <Property value="true" name="Visible">
+
+    </Property>
+    <Property value="Top" name="VerticalAlignment">
+
+    </Property>
+    <Property value="true" name="MousePassThroughEnabled">
+
+    </Property>
+    <Property value="false" name="Disabled">
+
+    </Property>
+    <Property value="false" name="ClippedByParent">
+
+    </Property>
+    <Property value="Left" name="HorizontalAlignment">
+
+    </Property>
+  </Window>
+</GUILayout>

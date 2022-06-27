@@ -1,0 +1,84 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    270
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "attack",
+  "castActionTime": -1,
+  "cdTime": 60,
+  "consumeItem": [
+    {
+      "consumeName": "myplugin/bc9d2d41-e8b9-463c-b9c3-0b5f9299fd70",
+      "count": 1
+    }
+  ],
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "myplugin/frontsight1",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_蹲下_act.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/b3b9a1c5-0243-4ce2-8a42-87dc8577373a"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Camera",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

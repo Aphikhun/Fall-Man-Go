@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="actionControl" imagefile="actionControl.png" nativeHorzRes="256" nativeVertRes="1024">
+	<Image name="bottom-left_act" width="60" height="60" xPos="91" yPos="122"/>
+	<Image name="bottom-left_nor" width="60" height="60" xPos="152" yPos="122"/>
+	<Image name="bottom-right_act" width="60" height="60" xPos="0" yPos="183"/>
+	<Image name="bottom-right_nor" width="60" height="60" xPos="61" yPos="183"/>
+	<Image name="down_act" width="60" height="90" xPos="61" yPos="335"/>
+	<Image name="down_nor" width="60" height="90" xPos="0" yPos="335"/>
+	<Image name="left_act" width="90" height="60" xPos="122" yPos="183"/>
+	<Image name="left_nor" width="90" height="60" xPos="0" yPos="244"/>
+	<Image name="linghuo_bottom" width="192" height="192" xPos="0" yPos="426"/>
+	<Image name="linghuo_up" width="54" height="54" xPos="0" yPos="0"/>
+	<Image name="right_act" width="90" height="60" xPos="0" yPos="122"/>
+	<Image name="right_nor" width="90" height="60" xPos="55" yPos="0"/>
+	<Image name="top-left_act" width="60" height="60" xPos="146" yPos="0"/>
+	<Image name="top-left_nor" width="60" height="60" xPos="0" yPos="61"/>
+	<Image name="top-right_act" width="60" height="60" xPos="61" yPos="61"/>
+	<Image name="top-right_nor" width="60" height="60" xPos="122" yPos="61"/>
+	<Image name="up_act" width="60" height="90" xPos="91" yPos="244"/>
+	<Image name="up_nor" width="60" height="90" xPos="152" yPos="244"/>
+</Imageset>

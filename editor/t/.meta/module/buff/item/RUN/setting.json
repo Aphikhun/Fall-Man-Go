@@ -1,0 +1,25 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/test/snow01.effect",
+        "selector": "editor/Capture the flag/asset/test/snow01.effect"
+      }
+    },
+    "moveFactor": 2,
+    "name": {
+      "value": "buff_RUN"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f81b8779c8cacca0b4c386c5def0f974"
+    },
+    "VERSION": "0.20"
+  }
+}

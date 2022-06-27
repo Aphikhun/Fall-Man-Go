@@ -1,0 +1,136 @@
+<GUILayout version="4">
+  <Window name="Root" type="DefaultWindow">
+    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+    </Property>
+    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+    </Property>
+    <Property name="Alpha" value="1">
+
+    </Property>
+    <Property name="ClippedByParent" value="true">
+
+    </Property>
+    <Property name="HorizontalAlignment" value="Left">
+
+    </Property>
+    <Property name="Visible" value="true">
+
+    </Property>
+    <Property name="VerticalAlignment" value="Top">
+
+    </Property>
+    <Window name="ScrollablePane" type="WindowsLook/ScrollablePane">
+      <Window name="MenuPlayer_PlayerList" type="VerticalLayoutContainer">
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+  
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+  
+        </Property>
+        <Property name="Alpha" value="1">
+  
+        </Property>
+        <Property name="ClippedByParent" value="true">
+  
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+  
+        </Property>
+        <Property name="Visible" value="true">
+  
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+  
+        </Property>
+      </Window>
+      <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
+
+      </Property>
+      <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+      </Property>
+      <Property value="true" name="ForceHorzScrollbar">
+
+      </Property>
+      <Property value="true" name="ForceVertScrollbar">
+
+      </Property>
+      <Property value="Top" name="VerticalAlignment">
+
+      </Property>
+      <Property value="false" name="Disabled">
+
+      </Property>
+      <Property value="Left" name="HorizontalAlignment">
+
+      </Property>
+      <Property value="1" name="Alpha">
+
+      </Property>
+      <Property value="true" name="Visible">
+
+      </Property>
+      <Property value="" name="BackGroundImage">
+
+      </Property>
+      <Property value="true" name="ClippedByParent">
+
+      </Property>
+    </Window>
+    <Window name="MenuPlayer_Tip_Message" type="WindowsLook/StaticText">
+      <Property name="Area" value="{{0,0},{0,-30},{1,0},{0,-5}}">
+
+      </Property>
+      <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+      </Property>
+      <Property name="Font" value="DroidSans-14">
+
+      </Property>
+      <Property name="FrameEnabled" value="false">
+
+      </Property>
+      <Property name="HorizontalAlignment" value="Left">
+
+      </Property>
+      <Property name="FrameColours" value="ffffffff">
+
+      </Property>
+      <Property name="VerticalAlignment" value="Bottom">
+
+      </Property>
+      <Property name="VertFormatting" value="CentreAligned">
+
+      </Property>
+      <Property name="BackgroundEnabled" value="false">
+
+      </Property>
+      <Property name="TextColours" value="ffe10000">
+
+      </Property>
+      <Property name="HorzFormatting" value="CentreAligned">
+
+      </Property>
+      <Property name="word_warpped" value="false">
+
+      </Property>
+      <Property name="BackgroundColours" value="ffffffff">
+
+      </Property>
+      <Property name="Text" value="Add friend request failed to send. Please try again">
+
+      </Property>
+      <Property name="Alpha" value="1">
+
+      </Property>
+      <Property name="Visible" value="true">
+
+      </Property>
+      <Property name="ClippedByParent" value="true">
+
+      </Property>
+    </Window>
+  </Window>
+</GUILayout>

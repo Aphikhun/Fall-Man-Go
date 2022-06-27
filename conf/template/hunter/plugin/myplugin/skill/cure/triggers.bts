@@ -1,0 +1,3 @@
+SKILL_CAST {
+	AddTeamBuff(buffTime = 0, cfg = "", teamId = 1)
+}

@@ -1,0 +1,144 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/ents/Venom Wizard.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/ents/Venom Wizard.actor",
+        "selector": "editor/hunter/asset/Actor/ents/Venom Wizard.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/ents/Venom Wizard.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 20,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/attack",
+          "priority": 1
+        },
+        {
+          "attackDis": 6,
+          "fullName": "myplugin/cure",
+          "priority": 2
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 20
+    },
+    "AI_patrol": {
+      "patrolDistance": 20,
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 1,
+        "y": 2.5,
+        "z": 1
+      }
+    },
+    "collision": true,
+    "damage": 3,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/ents/Venom Wizard.actor",
+      "selector": "editor/hunter/asset/Actor/ents/Venom Wizard.actor"
+    },
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 40,
+    "name": {
+      "value": "entity_ents"
+    },
+    "reachDistance": 7.5,
+    "reviveTime": {
+      "value": 100
+    },
+    "stepHeight": 1,
+    "textHeight": 3,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RewardMechanism",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e533470a-bee0-4d78-8cb7-9de5839315bc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_RewardEntry",
+                        "rawval": "myplugin/reward"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7aba383c-6f9b-4d09-b7e5-60d2931b5d8a"
+              },
+              "pos": {
+                "x": 729,
+                "y": 277
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "e533470a-bee0-4d78-8cb7-9de5839315bc"
+              },
+              "pos": {
+                "x": 1200,
+                "y": 295
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "7aba383c-6f9b-4d09-b7e5-60d2931b5d8a"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "cdae1e75-8cb4-4286-86e3-6145eb1e9ab9"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "eb3303fe726a73e467da73c2be089677",
+      "triggers.bts": "9975cdd83b1f94e968e74ac18f50e8de"
+    },
+    "VERSION": "0.18"
+  }
+}

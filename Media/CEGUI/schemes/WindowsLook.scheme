@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="WindowsLookSkin">
+	<LookNFeel filename="WindowsLook.looknfeel" />
+	<WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+	<FalagardMapping windowType="WindowsLook/Button"      targetType="CEGUI/PushButton"  renderer="Core/Button"       lookNFeel="WindowsLook/Button" />
+	<FalagardMapping windowType="WindowsLook/Checkbox"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="WindowsLook/Checkbox" />
+	<FalagardMapping windowType="WindowsLook/IconButton"  targetType="CEGUI/PushButton"  renderer="Core/Button"       lookNFeel="WindowsLook/IconButton" />
+	<FalagardMapping windowType="WindowsLook/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="WindowsLook/RadioButton" />
+	<FalagardMapping windowType="WindowsLook/Editbox"          targetType="CEGUI/Editbox"          renderer="Core/Editbox"          lookNFeel="WindowsLook/Editbox" />
+	<FalagardMapping windowType="WindowsLook/ProgressBar"          targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="WindowsLook/ProgressBar" />
+	<FalagardMapping windowType="WindowsLook/VerticalScrollbar"   targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="WindowsLook/VerticalScrollbar" />
+	<FalagardMapping windowType="WindowsLook/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="WindowsLook/HorizontalScrollbar" />
+	<FalagardMapping windowType="WindowsLook/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="WindowsLook/VerticalScrollbarThumb" />
+	<FalagardMapping windowType="WindowsLook/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="WindowsLook/HorizontalScrollbarThumb" />
+	<FalagardMapping windowType="WindowsLook/HorizontalSlider"      targetType="CEGUI/Slider" renderer="Core/Slider"  lookNFeel="WindowsLook/HorizontalSlider" />
+	<FalagardMapping windowType="WindowsLook/SliderThumb" targetType="CEGUI/Thumb"  renderer="Core/Button"  lookNFeel="WindowsLook/SliderThumb" />
+	<FalagardMapping windowType="WindowsLook/VerticalSlider"      targetType="CEGUI/Slider" renderer="Core/Slider"  lookNFeel="WindowsLook/VerticalSlider" />
+	<FalagardMapping windowType="WindowsLook/VSliderThumb" targetType="CEGUI/Thumb"  renderer="Core/Button"  lookNFeel="WindowsLook/VSliderThumb" />
+	<FalagardMapping windowType="WindowsLook/ScrollablePane" targetType="CEGUI/ScrollablePane" renderer="Core/ScrollablePane" lookNFeel="WindowsLook/ScrollablePane" />
+	<FalagardMapping windowType="WindowsLook/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="WindowsLook/StaticImage" />
+	<FalagardMapping windowType="WindowsLook/StaticText"  targetType="DefaultWindow" renderer="Core/StaticText"  lookNFeel="WindowsLook/StaticText" />
+	<FalagardMapping windowType="WindowsLook/ScrollableView" targetType="CEGUI/ScrollableView" renderer="Core/ScrollablePane" lookNFeel="WindowsLook/ScrollablePane" />
+	<FalagardMapping windowType="WindowsLook/ActorWindow" targetType="CEGUI/ActorWindow" renderer="Core/Default" lookNFeel="WindowsLook/ActorWindow" />
+	<FalagardMapping windowType="WindowsLook/CustomHorizontalSlider" targetType="CEGUI/CustomSlider" renderer="Core/CustomSlider" lookNFeel="WindowsLook/CustomHorizontalSlider" />
+	<FalagardMapping windowType="WindowsLook/CustomVerticalSlider" targetType="CEGUI/CustomSlider" renderer="Core/CustomSlider" lookNFeel="WindowsLook/CustomVerticalSlider" />
+	<FalagardMapping windowType="WindowsLook/EffectWindow" targetType="CEGUI/EffectWindow" renderer="Core/Default" lookNFeel="WindowsLook/EffectWindow" />
+</GUIScheme>
+

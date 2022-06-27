@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/g2021_25_B.effect",
+        "selector": "editor/b/asset/g2021_25_B.effect"
+      },
+      "once": false,
+      "yaw": 90
+    },
+    "name": {
+      "value": "buff_electricity"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e7fd4ae30d709598f3f8bf73e5132175"
+    },
+    "VERSION": "0.18"
+  }
+}

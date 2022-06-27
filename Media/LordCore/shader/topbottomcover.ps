@@ -1,0 +1,16 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D ScnSamp;
+uniform vec4 CoverColor;
+uniform float height;
+
+varying vec2 texCoord;
+
+void main(void)
+{
+    gl_FragColor = (texCoord.y > height && texCoord.y < (1.0 - height))
+		? texture2D(ScnSamp, texCoord)
+		: CoverColor;
+}

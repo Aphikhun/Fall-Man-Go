@@ -1,0 +1,20 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D texSampler;
+uniform vec4 densityAndOffset;
+
+varying vec4 color;
+varying vec2 texCoord;
+
+void main(void)
+{
+    vec2 tileDensity = densityAndOffset.xy;
+    vec2 uvOffset = densityAndOffset.zw;
+    
+    vec2 skyTexCoord = gl_FragCoord.xy * tileDensity;
+	vec3 textureColor = texture2D(texSampler, skyTexCoord + uvOffset).rgb;
+    float alpha = texture2D(texSampler, texCoord).a;
+	gl_FragColor = vec4(textureColor.rgb * color.rgb, alpha);
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="setting" imagefile="setting.png" nativeHorzRes="2048" nativeVertRes="4096">
+	<Image name="bg_BiaoTi" width="880" height="48" xPos="451" yPos="0"/>
+	<Image name="bg_DingBuBiaoTi" width="1280" height="77" xPos="0" yPos="68"/>
+	<Image name="bg_SheZhiDiBu" width="1280" height="720" xPos="0" yPos="2076"/>
+	<Image name="bg_SheZhiDiBuDieHao" width="1280" height="720" xPos="0" yPos="1356"/>
+	<Image name="bg_SheZhiHuaWen" width="1280" height="720" xPos="330" yPos="636"/>
+	<Image name="bg_SheZhiZuoCe_TAB_DieHao" width="320" height="85" xPos="0" yPos="148"/>
+	<Image name="bg_tab_DaBeiJing" width="330" height="720" xPos="0" yPos="636"/>
+	<Image name="bg_TanChuang" width="550" height="340" xPos="880" yPos="296"/>
+	<Image name="CaoZuo_XuanZhong" width="220" height="220" xPos="440" yPos="296"/>
+	<Image name="DiSanRenCheng" width="218" height="148" xPos="756" yPos="148"/>
+	<Image name="DiYiRenCheng" width="218" height="148" xPos="538" yPos="148"/>
+	<Image name="DuiGou" width="40" height="30" xPos="103" yPos="0"/>
+	<Image name="DuiGou_DiKuang" width="30" height="30" xPos="73" yPos="0"/>
+	<Image name="FangXiangJian" width="220" height="220" xPos="0" yPos="296"/>
+	<Image name="GuDingShiJiao" width="218" height="148" xPos="320" yPos="148"/>
+	<Image name="GuDingYaoGan" width="220" height="220" xPos="660" yPos="296"/>
+	<Image name="HuaDongTiao_DiBu" width="10" height="6" xPos="6" yPos="0"/>
+	<Image name="HuaDongTiao_ShangBu" width="6" height="2" xPos="0" yPos="0" type="NineGridImage" stretch="0 1 0 1"/>
+	<Image name="HuaGan_KongZhiHuaGan" width="30" height="34" xPos="143" yPos="0"/>
+	<Image name="HuaGan_KongZhiHuaGan_Hui" width="30" height="34" xPos="173" yPos="0"/>
+	<Image name="HuaGan_Shang" width="2" height="14" xPos="16" yPos="0"/>
+	<Image name="HuaGan_Shang_Hui" width="2" height="14" xPos="18" yPos="0"/>
+	<Image name="HuaGan_Xia" width="10" height="22" xPos="30" yPos="0"/>
+	<Image name="HuaGan_Xia_Hui" width="10" height="22" xPos="20" yPos="0"/>
+	<Image name="icon_back_setting" width="60" height="60" xPos="1331" yPos="0"/>
+	<Image name="icon_close" width="33" height="29" xPos="40" yPos="0"/>
+	<Image name="icon_exit" width="260" height="80" xPos="1280" yPos="68"/>
+	<Image name="icon_NO" width="86" height="68" xPos="1477" yPos="0"/>
+	<Image name="icon_YES" width="86" height="68" xPos="1391" yPos="0"/>
+	<Image name="KaiGuan_Guan" width="124" height="40" xPos="203" yPos="0"/>
+	<Image name="KaiGuan_Kai" width="124" height="40" xPos="327" yPos="0"/>
+	<Image name="LingHuoShiJiao" width="218" height="148" xPos="974" yPos="148"/>
+	<Image name="LingHuoYaoGan" width="220" height="220" xPos="220" yPos="296"/>
+	<Image name="SheXiangJiShiJiao_XuanZhong" width="218" height="148" xPos="1410" yPos="148"/>
+	<Image name="ZhengShiJiao" width="218" height="148" xPos="1192" yPos="148"/>
+</Imageset>

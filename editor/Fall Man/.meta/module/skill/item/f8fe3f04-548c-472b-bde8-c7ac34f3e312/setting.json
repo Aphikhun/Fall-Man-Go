@@ -1,0 +1,43 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 60
+    },
+    "consumeItem": [
+      {
+        "itemType": {
+          "item": "myplugin/f57375d8-2b70-4f29-a0f5-4b137859cb13"
+        }
+      }
+    ],
+    "name": {
+      "value": "skill_f8fe3f04-548c-472b-bde8-c7ac34f3e312"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/fa02716a-467d-406a-b59c-0354e429af09",
+        "buffTime": {
+          "value": 60
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_潜行_act.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0200b4f6fca1d065857bd5e7adfe7b2e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

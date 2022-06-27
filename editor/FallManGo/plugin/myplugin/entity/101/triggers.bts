@@ -1,0 +1,35 @@
+ENTITY_ENTER {
+	ShowTip(
+		entity = ArrayGet(
+		array = $obj1.listPlayer,
+		entity = $obj1,
+		index = 1
+	),
+		keepTime = 200,
+		textKey = "a3f35e30-e917-4948-8b77-dac0538facfa",
+		tipType = "1"
+	)
+	ShowTip(
+		entity = ArrayGet(
+		array = $obj1.listPlayer,
+		entity = $obj1,
+		index = 1
+	),
+		keepTime = 200,
+		textKey = "71a4e45b-ffab-478a-be27-8548b25fc8c5",
+		tipType = "1"
+	)
+}
+
+ENTITY_CLICK {
+	ShowTip(
+		entity = ArrayGet(
+		array = $obj1.listPlayer,
+		entity = $obj1,
+		index = 1
+	),
+		keepTime = 200,
+		textKey = "7410f2f4-6719-4835-91b7-aca9bfe7c5fa",
+		tipType = "1"
+	)
+}

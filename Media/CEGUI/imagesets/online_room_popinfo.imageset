@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" imagefile="online_room_popinfo.png" name="online_room_popinfo" nativeHorzRes="512" nativeVertRes="1024" version="2">
+	<Image height="1" name="line_bg" width="260" xPos="0" yPos="0"/>
+	<Image height="44" name="bg_roomid_full" width="142" xPos="142" yPos="40"/>
+	<Image height="48" name="button_green_NPC_act" width="156" xPos="0" yPos="88"/>
+	<Image height="48" name="btn_close_nor" width="48" xPos="332" yPos="40"/>
+	<Image height="300" name="bg_tips_popwind" width="496" xPos="0" yPos="298"/>
+	<Image height="48" name="button_yellow_NPC" width="156" xPos="312" yPos="88"/>
+	<Image height="20" name="icon_room_player" width="20" xPos="260" yPos="0"/>
+	<Image height="48" name="button_green_NPC_nor" width="156" xPos="156" yPos="88"/>
+	<Image height="48" name="button_yellow_NPC_act" width="157" xPos="0" yPos="136"/>
+	<Image height="28" name="check_box_1" width="28" xPos="404" yPos="0"/>
+	<Image height="28" name="check_box_0" width="28" xPos="376" yPos="0"/>
+	<Image height="40" name="btn_copy_nor" width="64" xPos="0" yPos="40"/>
+	<Image height="24" name="icon_share_act" width="24" xPos="328" yPos="0"/>
+	<Image height="24" name="icon_share_nor" width="24" xPos="352" yPos="0"/>
+	<Image height="48" name="btn_close_act" width="48" xPos="284" yPos="40"/>
+	<Image height="162" name="bg_roomid_popwind" width="306" xPos="157" yPos="136"/>
+	<Image height="24" name="icon_copy_nor" width="24" xPos="304" yPos="0"/>
+	<Image height="44" name="bg_roomid" width="78" xPos="64" yPos="40"/>
+	<Image height="40" name="btn_copy_act" width="64" xPos="432" yPos="0"/>
+	<Image height="24" name="icon_copy_act" width="24" xPos="280" yPos="0"/>
+</Imageset>

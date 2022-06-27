@@ -1,0 +1,15 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D texSampler_texture;
+uniform float specialAlpha;
+
+varying vec2 texCoord_texture;
+varying vec3 color;
+
+void main(void)
+{
+    vec4 albedo = texture2D(texSampler_texture, texCoord_texture.xy);
+    gl_FragColor = albedo * vec4(color, specialAlpha);
+}

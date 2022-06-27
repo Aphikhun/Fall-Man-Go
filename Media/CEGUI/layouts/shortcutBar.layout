@@ -1,0 +1,154 @@
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="Root">
+        <Property value="{{0,0},{0,0},{0,746},{0,53}}" name="Area">
+
+        </Property>
+        <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+        </Property>
+        <Property value="1" name="Alpha">
+
+        </Property>
+        <Property value="false" name="Disabled">
+
+        </Property>
+        <Property value="true" name="Visible">
+
+        </Property>
+        <Property value="true" name="ClippedByParent">
+
+        </Property>
+        <Property value="Bottom" name="VerticalAlignment">
+
+        </Property>
+        <Property value="Centre" name="HorizontalAlignment">
+
+        </Property>
+        <Window type="WindowsLook/StaticImage" name="BG">
+            <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
+
+            </Property>
+            <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+            </Property>
+            <Property value="ffffffff" name="BackgroundColours">
+
+            </Property>
+            <Property value="Bottom" name="VerticalAlignment">
+
+            </Property>
+            <Property value="ffffffff" name="ImageColours">
+
+            </Property>
+            <Property value="false" name="BackgroundEnabled">
+
+            </Property>
+            <Property value="true" name="ClippedByParent">
+
+            </Property>
+            <Property value="false" name="FrameEnabled">
+
+            </Property>
+            <Property value="true" name="Visible">
+
+            </Property>
+            <Property value="ffffffff" name="FrameColours">
+
+            </Property>
+            <Property value="bottom_bar/bar_bg" name="Image">
+
+            </Property>
+            <Property value="Stretched" name="horzFormatting">
+
+            </Property>
+            <Property value="Stretched" name="vertFormatting">
+
+            </Property>
+            <Property value="1" name="Alpha">
+
+            </Property>
+            <Property value="false" name="Disabled">
+
+            </Property>
+            <Property value="Centre" name="HorizontalAlignment">
+
+            </Property>
+        </Window>
+        <Window type="WindowsLook/StaticImage" name="OpenBagItem">
+            <Property value="{{0,-41},{0,-5},{0,19},{0,72}}" name="Area">
+
+            </Property>
+            <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+            </Property>
+            <Property value="ffffffff" name="BackgroundColours">
+
+            </Property>
+            <Property value="Bottom" name="VerticalAlignment">
+
+            </Property>
+            <Property value="ffffffff" name="ImageColours">
+
+            </Property>
+            <Property value="false" name="BackgroundEnabled">
+
+            </Property>
+            <Property value="false" name="ClippedByParent">
+
+            </Property>
+            <Property value="false" name="FrameEnabled">
+
+            </Property>
+            <Property value="true" name="Visible">
+
+            </Property>
+            <Property value="ffffffff" name="FrameColours">
+
+            </Property>
+            <Property value="bottom_bar/bar_bag" name="Image">
+
+            </Property>
+            <Property value="Stretched" name="horzFormatting">
+
+            </Property>
+            <Property value="Stretched" name="vertFormatting">
+
+            </Property>
+            <Property value="1" name="Alpha">
+
+            </Property>
+            <Property value="false" name="Disabled">
+
+            </Property>
+            <Property value="Right" name="HorizontalAlignment">
+
+            </Property>
+        </Window>
+        <Window type="DefaultWindow" name="ItemCellBase">
+            <Property value="{{0,49},{0,-12},{0.78,49},{0,66}}" name="Area">
+
+            </Property>
+            <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+            </Property>
+            <Property value="1" name="Alpha">
+
+            </Property>
+            <Property value="false" name="Disabled">
+
+            </Property>
+            <Property value="true" name="Visible">
+
+            </Property>
+            <Property value="false" name="ClippedByParent">
+
+            </Property>
+            <Property value="Bottom" name="VerticalAlignment">
+
+            </Property>
+            <Property value="Left" name="HorizontalAlignment">
+
+            </Property>
+        </Window>
+    </Window>
+</GUILayout>

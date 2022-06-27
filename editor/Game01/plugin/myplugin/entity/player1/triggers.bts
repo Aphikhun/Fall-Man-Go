@@ -1,0 +1,37 @@
+ENTITY_LEAVE {
+	If (not IsNil(data = $obj1.curEntity) and IsValueInArray(array = $obj1.curEntity.List_Player, value = $obj1, entity = $obj1.curEntity)) {
+		ArrayRemove(
+			array = $obj1.curEntity.List_Player,
+			index = ArrayFind(
+			array = $obj1.curEntity.List_Player,
+			value = $obj1,
+			entity = $obj1.curEntity
+		),
+			entity = $obj1.curEntity
+		)
+		ShowTip(
+			entity = ArrayGet(
+			array = $obj1.List_Player,
+			entity = $obj1,
+			index = 1
+		),
+			keepTime = 200,
+			textKey = "09b785e7-cda6-4455-8e82-69d6ed94fdd3",
+			tipType = "4"
+		)
+	}
+	ShowTip(
+		entity = ArrayGet(
+		array = $obj1.curEntity.List_Player,
+		entity = $obj1.curEntity,
+		index = 1
+	),
+		keepTime = 200,
+		textKey = "0a64d997-ec8d-45e3-8c5c-62825ec20296",
+		tipType = "4"
+	)
+}
+
+ENTITY_ENTER {
+	ExecScript(player = $obj1, script_name = "ScriptableNode_3", teamid = NumberFloor(p1 = 5))
+}

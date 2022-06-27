@@ -1,0 +1,23 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/auxiliary/The wizard rod.png",
+  "itemintroduction": "9a59603a-d827-46e7-8c19-c51481051a16",
+  "itemname": "item_The_wizard_rod",
+  "mesh": "asset/auxiliary/Eternal Axe.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/Shield_royal",
+    "myplugin/ice",
+    "myplugin/damage"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

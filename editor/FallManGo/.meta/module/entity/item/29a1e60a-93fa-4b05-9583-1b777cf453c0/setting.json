@@ -1,0 +1,46 @@
+{
+  "data": {
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "name": {
+      "value": "entity_29a1e60a-93fa-4b05-9583-1b777cf453c0"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "9e459535-b92c-43f8-a6a4-9fee49f55739"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "21e90117-40ce-4dd7-a0d1-d67fcf0af4b5"
+            },
+            "pos": {
+              "x": 298,
+              "y": 308
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "26a02d6155b1e39582a028ed9b4d3413",
+      "triggers.bts": "6a0c90522e1ec791f774f8fc7e12d334"
+    },
+    "VERSION": "0.21"
+  }
+}

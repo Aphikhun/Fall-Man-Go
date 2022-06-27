@@ -1,0 +1,7 @@
+BLOCK_CLICK {
+	CreateBlock(
+		block = "myplugin/carrots_stage_3",
+		map = $map,
+		pos = ComputeV3(op = "add", p1 = $pos, p2 = { __OBJ_TYPE = "Vector3", x = 0, y = 1, z = 0 })
+	)
+}

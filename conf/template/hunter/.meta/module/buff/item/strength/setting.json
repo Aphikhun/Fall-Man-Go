@@ -1,0 +1,17 @@
+{
+  "data": {
+    "damage": 5,
+    "maxHp": 10,
+    "moveSpeed": 3,
+    "name": {
+      "value": "buff_strength"
+    },
+    "reachDistance": 1
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "14ddc995a0513770f16bf8e98c2eae4b"
+    },
+    "VERSION": "0.18"
+  }
+}

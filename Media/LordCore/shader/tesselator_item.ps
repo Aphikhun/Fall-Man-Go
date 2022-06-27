@@ -1,0 +1,33 @@
+#version 100
+
+varying mediump vec4 color;
+varying mediump vec2 texCoord;
+
+#ifndef NEW_FOG
+varying mediump vec4 oFogColor;
+#else
+uniform mediump vec4 fogParam[3];
+
+mediump float LinearizeDepth(mediump float depth, mediump float near, mediump float far) 
+{
+    mediump float z = depth * 2.0 - 1.0; // back to NDC 
+    return (2.0 * near * far) / (far + near - z * (far - near));    
+}
+
+mediump float ComputeFog(mediump float z, mediump float w, mediump float density, mediump float near, mediump float far, mediump float min, mediump vec4 notUse)
+{
+	const mediump float LOG2 = 1.442695;
+	mediump float fogFactor = exp2(-density * density * (z / w) * (z / w) * LOG2);
+	fogFactor = clamp(fogFactor, 0.0, 1.0) + 1.0 - LinearizeDepth(z, near, far) / far;
+	return clamp(fogFactor, min, 1.0);
+}
+#endif
+
+void main(void)
+{
+#ifdef NEW_FOG
+	mediump vec4 oFogColor =  vec4(fogParam[1].rgb, ComputeFog(gl_FragCoord.z, gl_FragCoord.w, fogParam[0].z, fogParam[0].x, fogParam[0].y, fogParam[0].w, fogParam[2]));
+#endif
+
+	gl_FragColor = vec4(mix(oFogColor.rgb, color.rgb, oFogColor.a), color.a + texCoord.x * 0.001);
+}

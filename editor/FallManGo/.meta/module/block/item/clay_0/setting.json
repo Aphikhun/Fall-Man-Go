@@ -1,0 +1,72 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_clay_0"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/clay.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "531ca0e4-80a8-4c81-85c4-3f1dd8a0508b"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "dd9d5806-fc87-4b48-b3fa-c41abe77afcd"
+            }
+          },
+          "type": "Trigger_BlockClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7be9543f86fdf6f0c6ee1128206c8d43",
+      "triggers.bts": "a69c8057b5fd0b7895686ef679362d5c"
+    },
+    "VERSION": "0.21"
+  }
+}

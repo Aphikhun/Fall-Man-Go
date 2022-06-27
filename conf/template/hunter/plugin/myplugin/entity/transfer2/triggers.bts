@@ -1,0 +1,13 @@
+ENTITY_TOUCH_ALL {
+	EnterMap(
+		entity = $obj2,
+		map = "map001",
+		pos = {
+			x = 14.019254684448,
+			y = 1.03609375,
+			z = 9.6348667144775
+		},
+		rp = 0,
+		ry = 0
+	)
+}

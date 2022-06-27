@@ -1,0 +1,88 @@
+{
+  "data": {
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "3ab8a4c0-7175-47b1-beb5-4ef8d28fae95",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "id": "8673307749780275201"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8673307749779734529",
+        "mass": 1.760000026226,
+        "massCenter": {
+          "x": 44.689163208008,
+          "y": 40.681007385254,
+          "z": 9.7464065551758
+        },
+        "material": {
+          "color": {
+            "b": 117,
+            "g": 216
+          }
+        },
+        "name": "Broken plate",
+        "position": {
+          "x": 44.689163208008,
+          "y": 40.681007385254,
+          "z": 9.7464065551758
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2,
+          "y": 0.2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 0.2,
+          "z": 2
+        },
+        "useGravity": false,
+        "volume": 0.80000001192093
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "5b178a7f-e620-4b02-ad7b-5b5518319f48",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8674783414697869313",
+        "mass": 3.5199997901917,
+        "massCenter": {
+          "x": 7.9737215042114,
+          "y": 2.1,
+          "z": 0.22429415583611
+        },
+        "name": "Color plate",
+        "position": {
+          "x": 7.9737215042114,
+          "y": 2.1,
+          "z": 0.22429415583611
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4,
+          "y": 0.1,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.1,
+          "z": 4
+        },
+        "useAnchor": true,
+        "volume": 1.5999999046326
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e7dc5bc0278d48e594be671a7117b58d"
+    },
+    "VERSION": "0.20"
+  }
+}

@@ -1,0 +1,204 @@
+#version 100
+
+uniform sampler2D texSampler;
+uniform sampler2D texSampler_depthmap;
+uniform mediump vec4 naturalColor;
+uniform mediump vec4 customColor;
+uniform mediump vec4 alphaColor;
+uniform mediump float useSpecular;
+uniform mediump float useShadow;
+uniform mediump float discardAlpha;
+uniform mediump vec3 uvParam;
+uniform mediump float alpha;
+uniform mediump vec3 surface;
+uniform mediump int useMultiSamplerSize;
+uniform sampler2D texSampler_01;
+uniform sampler2D texSampler_02;
+uniform sampler2D texSampler_03;
+uniform mediump float subMeshAlpha;
+uniform mediump vec4 subMeshColor;
+uniform mediump vec3 subMeshUVParam;
+uniform mediump vec3 subMeshOffsetParam;
+uniform mediump float isSubMesh;
+uniform mediump float customThreshold;
+uniform mediump float imageSize;
+uniform mediump float useTextureAlpha;
+uniform mediump float ambientStrength;
+
+varying mediump vec4 oFogColor;
+uniform mediump vec4 multiCalColor;
+
+varying mediump vec2 texCoord;
+varying mediump vec3 normal;
+varying mediump vec3 vMainViewPos;
+varying mediump vec3 vertexPos;
+varying mediump vec4 FragPosLightSpace;
+varying mediump vec3 vMainLightDir;
+varying mediump vec4 vMainLightColor;
+varying mediump float ismul;
+
+varying mediump vec2 lightMapUV;
+uniform sampler2D lightMap;
+uniform mediump vec2 bakeScale;
+uniform mediump vec2 bakeOffset;
+uniform mediump float useBakePointLight;
+uniform mediump float bakeShadowIntensity;
+uniform mediump float lightMapIntensity;
+uniform mediump float ignoreMainLight;
+
+mediump vec4 getLightMap()
+{
+	mediump vec2 uv = lightMapUV * bakeScale + bakeOffset;
+	return vec4(texture2D(lightMap, uv).rgba);
+}
+
+
+#define USE_SHADOW_PCF
+
+mediump float getShadow(mediump float diff)
+{
+	// 取得最近点的深度(使用[0,1]范围下的fragPosLight当坐标)
+	mediump float closestDepth = 0.0;
+	// 取得当前片元在光源视角下的深度
+	mediump float currentDepth = 0.0;
+	mediump vec3 projCoords;
+	mediump vec4 depthColor;
+
+    // mediump float adjust = 0.2 + (1.0 - max(sign(diff), 0.0)) * 9.8;
+	// mediump float bias = max(adjust * useShadow * (1.0 - diff), 0.0036);
+	mediump float bias = mix(0.02, 0.001, diff);
+	mediump float shadow = 0.0;
+	mediump float shadowIntensity = 0.43;
+
+	projCoords = FragPosLightSpace.xyz / FragPosLightSpace.w;
+	projCoords = projCoords * 0.5 + 0.5;
+	//去掉深度图外、深度摄像机外的点的阴影计算
+	mediump float tmp = 1.0 - max(sign(1.0 - projCoords.x), 0.0) 
+				+ 1.0 - max(sign(projCoords.x - 0.0), 0.0) 
+				+ 1.0 - max(sign(1.0 - projCoords.y), 0.0) 
+				+ 1.0 - max(sign(projCoords.y - 0.0), 0.0)
+				+ max(sign(projCoords.z - 1.0), 0.0)
+				+ 1.0 - max(sign(useShadow), 0.0);
+  
+	if(tmp > 0.0) return 0.0;
+
+	currentDepth = projCoords.z;
+
+#ifdef USE_SHADOW_PCF
+	// PCF
+	mediump vec2 pixelSize = vec2(1.0 / imageSize);
+    mediump float shadowWeights[9];
+    shadowWeights[0] = shadowWeights[2] = shadowWeights[6] = shadowWeights[8] = 0.0947416;
+    shadowWeights[1] = shadowWeights[3] = shadowWeights[5] = shadowWeights[7] = 0.118318;
+    shadowWeights[4] = 0.1477616;
+	for (lowp int i = -1; i <= 1; ++i)
+	{
+		for (lowp int j = -1; j <= 1; ++j)
+		{
+			depthColor = texture2D(texSampler_depthmap, projCoords.xy + pixelSize * vec2(i, j));
+			closestDepth = depthColor.r;
+			mediump float s = (1.0 - step(currentDepth - bias, closestDepth));
+			lowp int index = (j + 1) * 3 + i + 1;
+			shadow += s * shadowWeights[index];
+		}
+	}
+	shadow *= shadowIntensity;
+#else
+	depthColor = texture2D(texSampler_depthmap, projCoords.xy);
+	closestDepth = depthColor.r;
+	shadow = (1.0 - step(currentDepth - bias, closestDepth)) * shadowIntensity;
+#endif
+
+	mediump float d = distance(projCoords.xy, vec2(0.5, 0.5)) - 0.4;
+	d = clamp(d, 0.0, 0.1);
+	shadow = clamp(mix(shadow, 0.0, d * 10.0), 0.0, 1.0);
+
+	return shadow;
+}
+
+void main(void)
+{
+	mediump float fSubMesh = step(0.0, isSubMesh);
+	mediump vec2 coord = (1.0 - fSubMesh) * (texCoord * uvParam.xy) + fSubMesh * ((texCoord + subMeshOffsetParam.xy) * subMeshUVParam.xy);
+	mediump vec4 color = vec4(multiCalColor.rgb, 1.0);
+	mediump float useOverlayColorReplaceMode = multiCalColor.a;
+
+	mediump vec4 textureColor = texture2D(texSampler, coord);
+	mediump vec4 finalColor = textureColor;
+	mediump float fNature = 0.0;
+	if (useTextureAlpha > 0.0)
+	{
+		mediump float textureAlpha = textureColor.a;
+		if (textureColor.a < discardAlpha)
+		{
+			discard;
+		}
+
+		mediump float fAlpha = step(textureColor.a, 0.3);
+		textureColor.rgb = (1.0 - fAlpha) * textureColor.rgb + fAlpha * (textureColor.rgb * (1.0 - customColor.a) + customColor.rgb * customColor.a);
+		textureColor.a = (1.0 - fAlpha) * textureColor.a + fAlpha;
+
+		finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+		fNature = dot(max(sign(vec3(1.0) - naturalColor.rgb), vec3(0.0)), vec3(1.0));
+		fNature = sign(fNature);
+		textureColor.a = (1.0 - fNature) * textureColor.a + fNature * (finalColor.r * 0.299 + finalColor.g * 0.587 + finalColor.b * 0.114);
+		finalColor = (1.0 - fNature) * finalColor + (fNature * textureColor.a) * naturalColor;
+
+		finalColor.a *= (1.0 - fSubMesh) * alpha + fSubMesh * subMeshAlpha;
+
+		mediump vec4 c0 = vec4(textureColor.rgb * customColor.rgb, finalColor.a);
+		mediump vec4 c1 = vec4(textureColor.rgb, finalColor.a);
+		mediump vec4 c2 = vec4(textureColor.rgb * subMeshColor.rgb, finalColor.a);
+		mediump float fCustom = step(textureAlpha, customThreshold);
+		finalColor = fCustom * c0 + (1.0 - fCustom) * c1;
+		finalColor = (1.0 - fSubMesh) * finalColor + fSubMesh * c2;
+	}
+	else
+	{
+		textureColor.a = 1.0;
+		finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+		fNature = dot(max(sign(vec3(1.0) - naturalColor.rgb), vec3(0.0)), vec3(1.0));
+		fNature = sign(fNature);
+		textureColor.a = (1.0 - fNature) * textureColor.a + fNature * (finalColor.r * 0.299 + finalColor.g * 0.587 + finalColor.b * 0.114);
+		mediump float finalAlpha = (1.0 - fNature) * finalColor.a;
+		finalAlpha += fNature * textureColor.a * naturalColor.a;
+		finalAlpha *= (1.0 - fSubMesh) * alpha + fSubMesh * subMeshAlpha; 
+		finalColor.rgb = textureColor.rgb;
+		finalColor.a = finalAlpha;
+	}
+
+    // Ambient
+    //mediump float ambientStrength = 0.6;
+    mediump vec4 ambient = ambientStrength * vMainLightColor;
+  	
+    // Diffuse 
+    mediump vec3 norm = normalize(normal);
+    mediump vec3 lightDir = normalize(vMainLightDir);
+    mediump float diff = max(dot(norm, lightDir), 0.0);
+    mediump vec4 diffuse = diff * vMainLightColor;
+
+    // Specular
+    mediump vec4 specular = vec4(0.0);
+    mediump float specularStrength = 0.5;
+    mediump vec3 viewDir = normalize(vMainViewPos - vertexPos);
+    mediump vec3 reflectDir = reflect(-lightDir, norm);
+    mediump float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32.0);
+    specular = specularStrength * spec * vMainLightColor;
+
+    // Shadow
+    mediump float shadow = getShadow(diff);
+	mediump vec4 lightFactor = (ambient + (1.0 - shadow) * (diffuse + specular));
+	mediump vec4 light = lightFactor * (1.0 - ignoreMainLight) + vec4(1.0) * (ignoreMainLight);
+	mediump vec4 result = light * finalColor;
+
+	mediump vec4 lightMapColor = getLightMap();
+	mediump vec3 bakeLightColor = result.rgb * lightMapColor.rgb * lightMapIntensity * useBakePointLight;
+	result.rgb += bakeLightColor;
+	mediump vec3 bakeShadowColor = vec3(clamp(lightMapColor.a * bakeShadowIntensity, 0.0, 1.0));
+	result.rgb -= bakeShadowColor;
+    result.a = finalColor.a;
+
+    // fog
+    gl_FragColor = vec4(mix(oFogColor.rgb, result.rgb, oFogColor.a), finalColor.a);//alpha * textureAlpha//不是用此shader
+}
+

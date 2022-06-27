@@ -1,0 +1,21 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/food/pizza.png",
+  "itemintroduction": "7b6fb2d0-1850-4d9a-ad14-c205cca028e7",
+  "itemname": "item_pizza",
+  "mesh": "asset/food/g2024_food_pizza.mesh",
+  "needSave": false,
+  "stack_count_max": 30,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/Force",
+    "time": 200
+  }
+}

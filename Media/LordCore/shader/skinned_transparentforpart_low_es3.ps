@@ -1,0 +1,88 @@
+#version 300 es
+
+uniform sampler2D texSampler;
+uniform sampler2D texSampler_depthmap;
+uniform mediump vec4 naturalColor;
+uniform mediump vec4 customColor;
+uniform mediump vec4 alphaColor;
+uniform mediump float useSpecular;
+uniform mediump float useShadow;
+uniform mediump float discardAlpha;
+uniform mediump vec3 uvParam;
+uniform mediump float alpha;
+uniform mediump vec3 surface;
+uniform mediump int useMultiSamplerSize;
+uniform sampler2D texSampler_01;
+uniform sampler2D texSampler_02;
+uniform sampler2D texSampler_03;
+uniform mediump float subMeshAlpha;
+uniform mediump vec4 subMeshColor;
+uniform mediump vec3 subMeshUVParam;
+uniform mediump vec3 subMeshOffsetParam;
+uniform mediump float isSubMesh;
+uniform mediump float customThreshold;
+uniform mediump float textureSize;
+uniform mediump float useTextureAlpha;
+uniform mediump float useGPUInstance;
+
+out mediump vec4 FragColor;
+in mediump vec4 gpuinstanceColor;
+in mediump vec4 color;
+in mediump vec2 texCoord;
+in mediump vec3 lightFactor;
+in mediump float useOverlayColorReplaceMode;
+
+void main(void)
+{
+	mediump float fSubMesh = step(0.0, isSubMesh);
+	mediump vec2 coord = (1.0 - fSubMesh) * (texCoord * uvParam.xy) + fSubMesh * ((texCoord + subMeshOffsetParam.xy) * subMeshUVParam.xy);
+
+	mediump vec4 textureColor = texture(texSampler, coord);
+	mediump vec4 finalColor = textureColor;
+	mediump float fNature = 0.0;
+	if (useTextureAlpha > 0.9)
+	{
+		mediump float textureAlpha = textureColor.a;
+		if (textureColor.a < discardAlpha)
+		{
+			discard;
+		}
+		mediump vec4 realColor = (useGPUInstance > 0.9 ? gpuinstanceColor : customColor);
+
+		mediump float fAlpha = step(textureColor.a, 0.3);
+		textureColor.rgb = (1.0 - fAlpha) * textureColor.rgb + fAlpha * (textureColor.rgb * (1.0 - realColor.a) + realColor.rgb * realColor.a);
+		textureColor.a = (1.0 - fAlpha) * textureColor.a + fAlpha;
+
+		finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+		fNature = dot(max(sign(vec3(1.0) - naturalColor.rgb), vec3(0.0)), vec3(1.0));
+		fNature = sign(fNature);
+		textureColor.a = (1.0 - fNature) * textureColor.a + fNature * (finalColor.r * 0.299 + finalColor.g * 0.587 + finalColor.b * 0.114);
+		finalColor = (1.0 - fNature) * finalColor + (fNature * textureColor.a) * naturalColor;
+
+		finalColor.a *= (1.0 - fSubMesh) * alpha + fSubMesh * subMeshAlpha;
+
+		mediump vec4 c0 = vec4(textureColor.rgb * realColor.rgb, finalColor.a);
+		mediump vec4 c1 = vec4(textureColor.rgb, finalColor.a);
+		mediump vec4 c2 = vec4(textureColor.rgb * subMeshColor.rgb, finalColor.a);
+		mediump float fCustom = step(textureAlpha, customThreshold);
+		finalColor = fCustom * c0 + (1.0 - fCustom) * c1;
+		finalColor = (1.0 - fSubMesh) * finalColor + fSubMesh * c2;
+	}
+	else
+	{
+		textureColor.a = 1.0;
+		finalColor = (1.0 - useOverlayColorReplaceMode) * textureColor * color + useOverlayColorReplaceMode * color;
+		fNature = dot(max(sign(vec3(1.0) - naturalColor.rgb), vec3(0.0)), vec3(1.0));
+		fNature = sign(fNature);
+		textureColor.a = (1.0 - fNature) * textureColor.a + fNature * (finalColor.r * 0.299 + finalColor.g * 0.587 + finalColor.b * 0.114);
+		mediump float finalAlpha = (1.0 - fNature) * finalColor.a;
+		finalAlpha += fNature * textureColor.a * naturalColor.a;
+		finalAlpha *= (1.0 - fSubMesh) * alpha + fSubMesh * subMeshAlpha; 
+		finalColor.rgb = textureColor.rgb;
+	}
+
+    mediump vec3 result = lightFactor * finalColor.rgb;
+	
+    FragColor = vec4(result, finalColor.a);
+}
+

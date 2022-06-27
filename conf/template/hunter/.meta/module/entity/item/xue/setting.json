@@ -1,0 +1,26 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/stone/xue.actor",
+      "selector": "editor/hunter/asset/stone/xue.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_xue"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1f158a3930ed084e5d64b4498502fc26",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

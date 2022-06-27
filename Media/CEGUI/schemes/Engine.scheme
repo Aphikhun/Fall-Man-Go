@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="Engine">
+
+
+  <LookNFeel filename="Engine.looknfeel"/>
+
+  <WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+
+  <FalagardMapping windowType="Engine/Button" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="EngineSkin/Button" />
+  <FalagardMapping windowType="Engine/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="EngineSkin/StaticImage" />
+  <FalagardMapping windowType="Engine/DefaultWindow" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="EngineSkin/StaticImage" />
+  <FalagardMapping windowType="Engine/Checkbox" targetType="CEGUI/ToggleButton" renderer="Core/ToggleButton" lookNFeel="EngineSkin/Checkbox" />
+  <FalagardMapping windowType="Engine/Titlebar" targetType="CEGUI/Titlebar" renderer="Core/Titlebar" lookNFeel="EngineSkin/Titlebar" />
+  <FalagardMapping windowType="Engine/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" lookNFeel="EngineSkin/FrameWindow" />
+  <FalagardMapping windowType="Engine/StaticText" targetType="DefaultWindow" renderer="Core/StaticText" lookNFeel="EngineSkin/StaticText" />
+  <FalagardMapping windowType="Engine/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="EngineSkin/HorizontalScrollbarThumb" />
+  <FalagardMapping windowType="Engine/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="EngineSkin/HorizontalScrollbar" />
+  <FalagardMapping windowType="Engine/ImageButton" targetType="CEGUI/PushButton" renderer="Core/Button" lookNFeel="EngineSkin/ImageButton" />
+  <FalagardMapping windowType="Engine/TestTitlebar" targetType="CEGUI/Titlebar" renderer="Core/Titlebar" lookNFeel="EngineSkin/TestTitlebar" />
+  <FalagardMapping windowType="Engine/VerticalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="EngineSkin/VerticalScrollbarThumb" />
+  <FalagardMapping windowType="Engine/VerticalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="EngineSkin/VerticalScrollbar" />
+  <FalagardMapping windowType="Engine/ProgressBar" targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="EngineSkin/ProgressBar" />
+  <FalagardMapping windowType="Engine/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="EngineSkin/RadioButton" />
+  <FalagardMapping windowType="Engine/ScrollableView" targetType="CEGUI/ScrollableView" renderer="Core/ScrollablePane" lookNFeel="EngineSkin/ScrollableView" />
+  <FalagardMapping windowType="Engine/Actor" targetType="CEGUI/ActorWindow" renderer="Core/Default" lookNFeel="EngineSkin/Actor" />
+  <FalagardMapping windowType="Engine/Effect" targetType="CEGUI/EffectWindow" renderer="Core/Default" lookNFeel="EngineSkin/Effect" />
+
+
+
+  <!--  TODO LIST
+  <FalagardMapping windowType="Engine/Label" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="EngineSkin/Label" />
+  <FalagardMapping windowType="Engine/FrameWindow" targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow" lookNFeel="EngineSkin/FrameWindow" />
+  <FalagardMapping windowType="Engine/Editbox" targetType="CEGUI/Editbox" renderer="Core/Editbox" lookNFeel="EngineSkin/Editbox" />
+  
+  
+  <FalagardMapping windowType="Engine/Listbox" targetType="CEGUI/Listbox" renderer="Core/Listbox" lookNFeel="EngineSkin/Listbox" />
+  <FalagardMapping windowType="Engine/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" renderer="Core/MultiLineEditbox" lookNFeel="EngineSkin/MultiLineEditbox" />
+  <FalagardMapping windowType="Engine/ComboDropList" targetType="CEGUI/ComboDropList" renderer="Core/Listbox" lookNFeel="EngineSkin/ComboDropList" />
+  <FalagardMapping windowType="Engine/Combobox" targetType="CEGUI/Combobox" renderer="Core/Default" lookNFeel="EngineSkin/Combobox" />
+  
+    <FalagardMapping windowType="Engine/Tooltip" targetType="CEGUI/Tooltip" renderer="Core/Tooltip" lookNFeel="EngineSkin/Tooltip" />
+  <FalagardMapping windowType="Engine/LabelWithOutline" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="EngineSkin/LabelWithOutline" />
+  <FalagardMapping windowType="Engine/Image" targetType="DefaultWindow" renderer="Core/Default" lookNFeel="EngineSkin/Image" />
+    
+  -->
+
+
+
+</GUIScheme>

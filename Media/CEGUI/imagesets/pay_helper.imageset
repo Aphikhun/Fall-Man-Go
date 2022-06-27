@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="pay_helper" imagefile="pay_helper.png" nativeHorzRes="512" nativeVertRes="512">
+	<Image name="bg" width="410" height="258" xPos="0" yPos="55" type="NineGridImage" stretch="32 32 32 32"/>
+	<Image name="button_blue_act" width="17" height="48" xPos="0" yPos="0" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image name="button_blue_nor" width="17" height="48" xPos="18" yPos="0" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image name="button_green_act" width="17" height="48" xPos="36" yPos="0" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image name="button_green_nor" width="17" height="48" xPos="54" yPos="0" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image name="close" width="54" height="54" xPos="115" yPos="0"/>
+	<Image name="gdiamond" width="42" height="42" xPos="72" yPos="0"/>
+	<Image name="title" width="410" height="56" xPos="0" yPos="314" type="NineGridImage" stretch="32 0 32 0"/>
+</Imageset>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" nativeHorzRes="960" imagefile="profiler.png" name="profiler" nativeVertRes="56">
+    <Image name="statistics_background" yPos="0" xPos="0" height="24" width="760"/>
+    <Image name="statistics_tabs" yPos="0" xPos="760" height="42" width="200"/>
+    <Image name="statistics_close" yPos="24" xPos="0" height="32" width="32"/>
+</Imageset>

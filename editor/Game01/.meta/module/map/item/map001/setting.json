@@ -1,0 +1,97 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8678302152135606273",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0dc94b7a-fba4-47d9-b5c3-1743733ad2a7",
+        "density": 1.3,
+        "friction": 0.35,
+        "id": "8673805163760467969",
+        "material": {
+          "discardAlpha": 1,
+          "texture": "part_caodi.tga"
+        },
+        "position": {
+          "x": 15.932827949524,
+          "y": 1.4999001026154,
+          "z": 25.076005935669
+        },
+        "restitution": 0.1,
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/e09db481-fc79-435c-9208-449912483887",
+        "id": "8673807478157000705",
+        "name": "Match",
+        "position": {
+          "x": 16.030048370361,
+          "y": 0.99989998340607,
+          "z": 20.9670753479
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/fd0ff3df-3ce9-4b36-a6e6-301f22b4f8ac",
+        "id": "8674760680662269953",
+        "name": "EntityLevel01",
+        "position": {
+          "x": 31.262563705444,
+          "y": 0.99990272521973,
+          "z": 57.30269241333
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "2e6db05a1deeffc54dad792fc06c447f"
+    },
+    "VERSION": "0.21"
+  }
+}

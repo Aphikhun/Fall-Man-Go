@@ -1,0 +1,17 @@
+﻿#version 300 es
+
+precision mediump float;
+
+#include "headers/defer_basic.glsl"
+//#include "headers/lighting.glsl"
+//#include "headers/shadow.glsl"
+//#include "headers/fog.glsl"
+
+uniform sampler2D texSampler;
+
+void main(void)
+{
+	vec4 diffuse = texture(texSampler, texCoord);
+
+	DrawToGBuffers(diffuse);
+}

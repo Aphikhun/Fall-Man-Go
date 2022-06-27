@@ -1,0 +1,23 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/warrior/dao.png",
+  "itemintroduction": "5cba3d8c-1190-4311-8810-9310398a8555",
+  "itemname": "item_epee",
+  "mesh": "asset/warrior/hunter_dao.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/Blasting_gas",
+    "myplugin/blow",
+    "myplugin/damage"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

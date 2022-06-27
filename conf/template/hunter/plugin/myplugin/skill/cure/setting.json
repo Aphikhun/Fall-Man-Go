@@ -1,0 +1,54 @@
+{
+  "area": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "area_number": 0,
+  "backSwingTime": 0,
+  "buffCfg": "myplugin/cure",
+  "buffTime": 80,
+  "castAction": "skills",
+  "castActionTime": -1,
+  "cdTime": 200,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableBackSwing": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "enablePreSwing": false,
+  "frontSight": "",
+  "horizontalAlignment": 1,
+  "icon": "",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "target": "self",
+  "type": "Buff"
+}

@@ -1,0 +1,69 @@
+{
+  "additionalData": {
+    "local_transform": []
+  },
+  "basicShapesData": [
+    {
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "booleanOperation": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "id": "8428398544799137793",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "materialAlpha": "1",
+        "materialColor": "r:1 g:0.960784 b:0.835294 a:1",
+        "materialOffset": "x:1 y:1 z:1",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "position": "x:100.33 y:29.29 z:-2.91",
+        "restitution": "0.3",
+        "rotation": "x:-0 y:0 z:0",
+        "scale": "x:12 y:6.90671 z:12",
+        "shape": "3",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "true"
+      }
+    },
+    {
+      "class": "Part",
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "booleanOperation": "2",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "id": "8428403857260101633",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "materialAlpha": "1",
+        "materialColor": "r:1 g:1 b:1 a:1",
+        "materialOffset": "x:1 y:1 z:1",
+        "materialTexture": "part_suliao.tga",
+        "name": "Part",
+        "position": "x:94.4772 y:27.5139 z:-2.91",
+        "restitution": "0.3",
+        "rotation": "x:-0 y:0 z:0",
+        "scale": "x:2.76268 y:3.63213 z:2.76268",
+        "shape": "1",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "true"
+      }
+    }
+  ],
+  "brushData": {
+    "colors": [],
+    "uv2s": [],
+    "uvs": [],
+    "vertices": []
+  }
+}

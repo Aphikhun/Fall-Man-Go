@@ -1,0 +1,17 @@
+#version 100
+
+precision mediump float;
+
+uniform sampler2D texSampler;
+uniform vec2 pixelSize;
+
+varying vec2 texCoord;
+
+void main(void)
+{
+    vec4 color = texture2D(texSampler, texCoord + pixelSize);
+    color += texture2D(texSampler, texCoord + vec2(-pixelSize.x, -pixelSize.y));
+    color += texture2D(texSampler, texCoord + vec2(pixelSize.x, -pixelSize.y));
+    color += texture2D(texSampler, texCoord + vec2(-pixelSize.x, pixelSize.y));
+	gl_FragColor = vec4(color.rgb / color.a, color.a);
+}

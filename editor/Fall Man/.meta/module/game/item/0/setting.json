@@ -1,0 +1,155 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 49.049438476562,
+        "y": 20.139998474121,
+        "z": -49.455940246582
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 20,
+      "min": 1
+    },
+    "shops": [
+      {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "c27137e0-670b-48c2-ae98-21df92e594e7"
+            },
+            "item": {
+              "item": "8d5f515b-ef35-4de3-bc58-49dddcd75ef6"
+            },
+            "name": {
+              "value": "71f12c4c-c514-4850-8b75-c730dff7c26d"
+            },
+            "num": 5
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "503d897f-4846-45f4-bf17-21b28bf70b59"
+            },
+            "item": {
+              "item": "bc9d2d41-e8b9-463c-b9c3-0b5f9299fd70"
+            },
+            "name": {
+              "value": "3453a459-6a46-499f-b07e-6d6d5cd19c60"
+            },
+            "num": 5
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "081b8d3d-fe6d-4d79-a428-1a0aeddad226"
+            },
+            "item": {
+              "item": "f57375d8-2b70-4f29-a0f5-4b137859cb13"
+            },
+            "name": {
+              "value": "7acf067c-2752-40d7-9db4-4c37a1388bcd"
+            },
+            "num": 5
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "f0303e25-2ed5-493a-accb-8a02070c668d"
+            },
+            "item": {
+              "item": "a5c79327-9d7f-4ebf-80e3-6b37d40213ae"
+            },
+            "name": {
+              "value": "2634c4b8-3ad9-4103-b90c-9ca7411da956"
+            },
+            "num": 5
+          }
+        ],
+        "name": {
+          "value": "22589310-07ae-46d6-a427-824e1ddf2d9b"
+        }
+      }
+    ],
+    "showShop": true,
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 50.51432800293,
+        "y": 20.140036621094,
+        "z": -49.423606872559
+      }
+    },
+    "team": {
+      "team": [
+        {
+          "image": {
+            "selector": "editor/Fall Man/asset/Texture/Team/flag/flag_1.png"
+          },
+          "initPos": {
+            "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
+            "pos": {
+              "y": 2
+            }
+          },
+          "name": "team1",
+          "startPos": {
+            "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
+            "pos": {
+              "y": 2
+            }
+          }
+        },
+        {
+          "id": 2,
+          "image": {
+            "asset": "asset/Texture/Team/flag/flag_7.png",
+            "selector": "editor/Fall Man/asset/Texture/Team/flag/flag_7.png"
+          },
+          "initPos": {
+            "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
+            "pos": {
+              "y": 2
+            }
+          },
+          "name": "team2",
+          "startPos": {
+            "map": "06c5de00-572a-4157-8cc8-bdda31d12163",
+            "pos": {
+              "y": 2
+            }
+          }
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "score"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d0580215a42e4b24ed3163ffb1f05c18",
+      "shop.csv": "f506c3e68acdbe5999045a95908ecafe",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

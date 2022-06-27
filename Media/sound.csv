@@ -1,0 +1,15 @@
+SoundId	IsRepeat	RepeatInterval_min	RepeatInterval_max	SoundFile	Type	SubType	Desc
+0	0	0	0	plugin/myplugin/sound/ui_3		忍者UI音效	
+201	0	0	0	plugin/myplugin/sound/ui_1		忍者UI音效	
+202	0	0	0	plugin/myplugin/sound/ui_2		忍者UI音效	
+203	0	0	0	plugin/myplugin/sound/ui_3		忍者UI音效	
+204	0	0	0	plugin/myplugin/sound/ui_4		忍者UI音效	
+205	0	0	0	plugin/myplugin/sound/ui_5		忍者UI音效	
+206	0	0	0	plugin/myplugin/sound/ui_6		忍者UI音效	
+207	0	0	0	plugin/myplugin/sound/ui_7		忍者UI音效	
+208	0	0	0	plugin/myplugin/sound/ui_8		忍者UI音效	
+209	0	0	0	plugin/myplugin/sound/ui_9		忍者UI音效	
+210	0	0	0	plugin/myplugin/sound/ui_10		忍者UI音效	
+211	0	0	0	plugin/myplugin/sound/ui_11		忍者UI音效	
+212	0	0	0	plugin/myplugin/sound/ui_12		忍者UI音效	
+213	0	0	0	plugin/myplugin/sound/ui_13		忍者UI音效	

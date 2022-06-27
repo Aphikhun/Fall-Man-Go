@@ -1,0 +1,47 @@
+{
+  "data": {
+    "castAction": "blow",
+    "cdTime": {
+      "value": 200
+    },
+    "name": {
+      "value": "skill_blow"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/earthquake",
+            "startPos": {
+              "y": -5
+            },
+            "startWait": {
+              "value": 22
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/warrior/icon_震.png",
+        "selector": "editor/hunter/asset/warrior/icon_震.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6a727b819e33f0961eb34e807721fb8d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

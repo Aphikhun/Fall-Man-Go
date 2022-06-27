@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2" name="conversation" imagefile="conversation.png" nativeHorzRes="512" nativeVertRes="256">
+	<Image name="bg_NPC" width="1" height="10" xPos="2" yPos="2" type="NineGridImage" stretch="0 8 0 2"/>
+	<Image name="button_blue_NPC" width="9" height="56" xPos="5" yPos="2" type="NineGridImage" stretch="4 4 6 6"/>
+	<Image name="button_gray_NPC" width="9" height="56" xPos="16" yPos="2" type="NineGridImage" stretch="4 4 6 6"/>
+	<Image name="button_green_NPC_act" width="9" height="48" xPos="27" yPos="2"/>
+	<Image name="button_green_NPC_nor" width="9" height="48" xPos="38" yPos="2" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image name="button_yellow_NPC_act" width="9" height="48" xPos="49" yPos="2" />
+	<Image name="button_yellow_NPC_nor" width="9" height="48" xPos="60" yPos="2" type="NineGridImage" stretch="5 5 5 5"/>
+	<Image name="head" width="158" height="148" xPos="71" yPos="2" />
+	<Image name="head_NPC" width="180" height="169" xPos="231" yPos="2" type="NineGridImage" stretch="11 11 11 11"/>
+	<Image name="name_NPC" width="48" height="47" xPos="413" yPos="2" type="NineGridImage" stretch="10 1 39 1"/>
+</Imageset>

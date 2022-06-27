@@ -1,0 +1,24 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handBuff": "myplugin/strength",
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/master/mofazhang.png",
+  "itemintroduction": "c2bec2bc-e673-4c7a-bb1c-d3a2cae3b43a",
+  "itemname": "item_wand",
+  "mesh": "asset/master/hunter_fazhang.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/ray",
+    "myplugin/fireball",
+    "myplugin/damage"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

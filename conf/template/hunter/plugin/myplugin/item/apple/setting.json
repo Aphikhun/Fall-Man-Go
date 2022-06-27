@@ -1,0 +1,20 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/food/苹果.png",
+  "itemintroduction": "b7e6a162-0141-479d-88c9-c38296e0c435",
+  "itemname": "item_apple",
+  "needSave": false,
+  "stack_count_max": 100,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "useBuff": {
+    "cfg": "myplugin/cure",
+    "time": 60
+  }
+}

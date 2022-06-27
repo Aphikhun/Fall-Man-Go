@@ -1,0 +1,15 @@
+#version 100
+
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+	precision highp float;
+#else
+	precision mediump float;
+#endif
+
+uniform vec3 fogColor;
+
+void main()
+{
+	gl_FragColor = vec4(fogColor.rgb, 1.0);
+}
+

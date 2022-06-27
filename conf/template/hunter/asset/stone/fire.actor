@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate Alpha="1" SoundName3="" WoundBone="" TextHeight="0" SoundName1="" MinDistance="1" Originalscale="1 1 1" AttackScale="1" SoundFileNum="0" MaxDistance="16" name="111.actor" IntervalTime="2" SoundName2="" SoundName5="" SelectedRingSize="1" IsShowShadow="true" WoundAngle="25" SoundName4="" Volume="0.8" Skeleton="stone01.skel">
+		<Anims/>
+		<Skills/>
+		<BodyParts>
+			<BodyPart SlaveName="group0" MasterName="mutex_name_0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<type_name value="g2030_burning"/>
+					<yaw value="0"/>
+					<FileName value="asset/stone/g2030_burning.effect"/>
+					<SocketName value="bip01"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Position_Y value="0"/>
+					<Alpha value="1"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

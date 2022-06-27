@@ -1,0 +1,619 @@
+[
+	{ "name": "pc_test01", "enable": true, "sex": 1, "userId": 18512, "token": "234976807743fee23d9bd5ca5f1a81e86f50df76", "classes": 0, "team": 1, "regionId": 1001, "vip": 1,  "pioneer": true },
+	{ "name": "pc_test02", "enable": true, "sex": 1, "userId": 18528, "token": "0049d4c96e116711b79c6231c48d058e0bfc8483", "classes": 1, "team": 2, "regionId": 1001, "vip": 2,  "pioneer": true },
+	{ "name": "pc_test03", "enable": true, "sex": 1, "userId": 18544, "token": "3bbcc6ef5522d408d75e128e8e6404fc0c2a19c4", "classes": 2, "team": 3, "regionId": 1001, "vip": 3,  "pioneer": true },
+	{ "name": "pc_test04", "enable": true, "sex": 2, "userId": 18560, "token": "65f504586fe1a8c98d73ef139c893edfc913fda7", "classes": 3, "team": 4, "regionId": 1001, "vip": 4,  "pioneer": true },
+	{ "name": "pc_test05", "enable": true, "sex": 2, "userId": 59456, "token": "29a1d091a88a2c9de901abba369a95dbd882d8cd", "classes": 0, "team": 1, "regionId": 1001, "vip": 5,  "pioneer": true },
+	{ "name": "pc_test06", "enable": true, "sex": 1, "userId": 59472, "token": "5bba0b8b8c993f65211d3b24548e4ffd203a731f", "classes": 1, "team": 2, "regionId": 1001, "vip": 6,  "pioneer": true },
+	{ "name": "pc_test07", "enable": true, "sex": 1, "userId": 59488, "token": "f81f440a6848c77b18a3b6fa268dfac8ceb89d7c", "classes": 2, "team": 3, "regionId": 1001, "vip": 7,  "pioneer": true },	
+	{ "name": "pc_test08", "enable": true, "sex": 2, "userId": 59504, "token": "9a5cb3dab608214d184330ab30a07e1d00f52da8", "classes": 3, "team": 4, "regionId": 1001, "vip": 8,  "pioneer": true },
+	{ "name": "pc_test09", "enable": true, "sex": 1, "userId": 59520, "token": "f3011ff4bab9f5f9236be0866fadbbd14fb80fa4", "classes": 0, "team": 1, "regionId": 1001, "vip": 9,  "pioneer": true },
+	{ "name": "pc_test10", "enable": true, "sex": 1, "userId": 59616, "token": "41b15ba53c3bcdf6c4dc1b3f01c5572a1eb6b855", "classes": 2, "team": 3, "regionId": 1001, "vip": 15, "pioneer": true },
+	{ "name": "pc_test11", "enable": true, "sex": 1, "userId": 59552, "token": "dd4c798e17f30654130f0bd383e74609d184b4ea", "classes": 2, "team": 3, "regionId": 1001, "vip": 11, "pioneer": true },
+	{ "name": "pc_test12", "enable": true, "sex": 2, "userId": 59568, "token": "a2cbde47060c9ccb1ff3ac636b4118c9e10f085c", "classes": 3, "team": 4, "regionId": 1001, "vip": 12, "pioneer": true },
+	{ "name": "pc_test13", "enable": true, "sex": 1, "userId": 59584, "token": "16361ce92326011f17ad4ed8426a70fa8b95b85f", "classes": 0, "team": 1, "regionId": 1001, "vip": 13, "pioneer": true },
+	{ "name": "pc_test14", "enable": true, "sex": 2, "userId": 59600, "token": "902cab03356abbaa059464f0ae0b5a24c8394e74", "classes": 1, "team": 2, "regionId": 1001, "vip": 14, "pioneer": true },
+	{ "name": "pc_test15", "enable": true, "sex": 2, "userId": 59536, "token": "5b44f2bdb28571b2e2f75ccdd879239eaed933d4", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+	{ "name": "robot1602", "enable": true, "sex": 1, "userId": 1602, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1618", "enable": true, "sex": 1, "userId": 1618, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1634", "enable": true, "sex": 1, "userId": 1634, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1650", "enable": true, "sex": 1, "userId": 1650, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1666", "enable": true, "sex": 1, "userId": 1666, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1682", "enable": true, "sex": 1, "userId": 1682, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1698", "enable": true, "sex": 1, "userId": 1698, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1714", "enable": true, "sex": 1, "userId": 1714, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1730", "enable": true, "sex": 1, "userId": 1730, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1746", "enable": true, "sex": 1, "userId": 1746, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1762", "enable": true, "sex": 1, "userId": 1762, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1778", "enable": true, "sex": 1, "userId": 1778, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1794", "enable": true, "sex": 1, "userId": 1794, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1810", "enable": true, "sex": 1, "userId": 1810, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1826", "enable": true, "sex": 1, "userId": 1826, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1842", "enable": true, "sex": 1, "userId": 1842, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1858", "enable": true, "sex": 1, "userId": 1858, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1874", "enable": true, "sex": 1, "userId": 1874, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1890", "enable": true, "sex": 1, "userId": 1890, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1906", "enable": true, "sex": 1, "userId": 1906, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1922", "enable": true, "sex": 1, "userId": 1922, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1938", "enable": true, "sex": 1, "userId": 1938, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1954", "enable": true, "sex": 1, "userId": 1954, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1970", "enable": true, "sex": 1, "userId": 1970, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot1986", "enable": true, "sex": 1, "userId": 1986, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2002", "enable": true, "sex": 1, "userId": 2002, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2018", "enable": true, "sex": 1, "userId": 2018, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2034", "enable": true, "sex": 1, "userId": 2034, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2050", "enable": true, "sex": 1, "userId": 2050, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2066", "enable": true, "sex": 1, "userId": 2066, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2082", "enable": true, "sex": 1, "userId": 2082, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2098", "enable": true, "sex": 1, "userId": 2098, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2114", "enable": true, "sex": 1, "userId": 2114, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2130", "enable": true, "sex": 1, "userId": 2130, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2146", "enable": true, "sex": 1, "userId": 2146, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2162", "enable": true, "sex": 1, "userId": 2162, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2178", "enable": true, "sex": 1, "userId": 2178, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2194", "enable": true, "sex": 1, "userId": 2194, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2210", "enable": true, "sex": 1, "userId": 2210, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2226", "enable": true, "sex": 1, "userId": 2226, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2242", "enable": true, "sex": 1, "userId": 2242, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2258", "enable": true, "sex": 1, "userId": 2258, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2274", "enable": true, "sex": 1, "userId": 2274, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2290", "enable": true, "sex": 1, "userId": 2290, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2306", "enable": true, "sex": 1, "userId": 2306, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2322", "enable": true, "sex": 1, "userId": 2322, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2338", "enable": true, "sex": 1, "userId": 2338, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2354", "enable": true, "sex": 1, "userId": 2354, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2370", "enable": true, "sex": 1, "userId": 2370, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2386", "enable": true, "sex": 1, "userId": 2386, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2402", "enable": true, "sex": 1, "userId": 2402, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2418", "enable": true, "sex": 1, "userId": 2418, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2434", "enable": true, "sex": 1, "userId": 2434, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2450", "enable": true, "sex": 1, "userId": 2450, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2466", "enable": true, "sex": 1, "userId": 2466, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2482", "enable": true, "sex": 1, "userId": 2482, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2498", "enable": true, "sex": 1, "userId": 2498, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2514", "enable": true, "sex": 1, "userId": 2514, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2530", "enable": true, "sex": 1, "userId": 2530, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2546", "enable": true, "sex": 1, "userId": 2546, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2562", "enable": true, "sex": 1, "userId": 2562, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2578", "enable": true, "sex": 1, "userId": 2578, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2594", "enable": true, "sex": 1, "userId": 2594, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2610", "enable": true, "sex": 1, "userId": 2610, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2626", "enable": true, "sex": 1, "userId": 2626, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2642", "enable": true, "sex": 1, "userId": 2642, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2658", "enable": true, "sex": 1, "userId": 2658, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2674", "enable": true, "sex": 1, "userId": 2674, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2690", "enable": true, "sex": 1, "userId": 2690, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2706", "enable": true, "sex": 1, "userId": 2706, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2722", "enable": true, "sex": 1, "userId": 2722, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2738", "enable": true, "sex": 1, "userId": 2738, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2754", "enable": true, "sex": 1, "userId": 2754, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2770", "enable": true, "sex": 1, "userId": 2770, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2786", "enable": true, "sex": 1, "userId": 2786, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2802", "enable": true, "sex": 1, "userId": 2802, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2818", "enable": true, "sex": 1, "userId": 2818, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2834", "enable": true, "sex": 1, "userId": 2834, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2850", "enable": true, "sex": 1, "userId": 2850, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2866", "enable": true, "sex": 1, "userId": 2866, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2882", "enable": true, "sex": 1, "userId": 2882, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2898", "enable": true, "sex": 1, "userId": 2898, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2914", "enable": true, "sex": 1, "userId": 2914, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2930", "enable": true, "sex": 1, "userId": 2930, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2946", "enable": true, "sex": 1, "userId": 2946, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2962", "enable": true, "sex": 1, "userId": 2962, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2978", "enable": true, "sex": 1, "userId": 2978, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot2994", "enable": true, "sex": 1, "userId": 2994, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3010", "enable": true, "sex": 1, "userId": 3010, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3026", "enable": true, "sex": 1, "userId": 3026, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3042", "enable": true, "sex": 1, "userId": 3042, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3058", "enable": true, "sex": 1, "userId": 3058, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3074", "enable": true, "sex": 1, "userId": 3074, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3090", "enable": true, "sex": 1, "userId": 3090, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3106", "enable": true, "sex": 1, "userId": 3106, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3122", "enable": true, "sex": 1, "userId": 3122, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3138", "enable": true, "sex": 1, "userId": 3138, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3154", "enable": true, "sex": 1, "userId": 3154, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3170", "enable": true, "sex": 1, "userId": 3170, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3186", "enable": true, "sex": 1, "userId": 3186, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3202", "enable": true, "sex": 1, "userId": 3202, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3218", "enable": true, "sex": 1, "userId": 3218, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3234", "enable": true, "sex": 1, "userId": 3234, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3250", "enable": true, "sex": 1, "userId": 3250, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3266", "enable": true, "sex": 1, "userId": 3266, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3282", "enable": true, "sex": 1, "userId": 3282, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3298", "enable": true, "sex": 1, "userId": 3298, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3314", "enable": true, "sex": 1, "userId": 3314, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3330", "enable": true, "sex": 1, "userId": 3330, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3346", "enable": true, "sex": 1, "userId": 3346, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3362", "enable": true, "sex": 1, "userId": 3362, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3378", "enable": true, "sex": 1, "userId": 3378, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3394", "enable": true, "sex": 1, "userId": 3394, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3410", "enable": true, "sex": 1, "userId": 3410, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3426", "enable": true, "sex": 1, "userId": 3426, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3442", "enable": true, "sex": 1, "userId": 3442, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3458", "enable": true, "sex": 1, "userId": 3458, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3474", "enable": true, "sex": 1, "userId": 3474, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3490", "enable": true, "sex": 1, "userId": 3490, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3506", "enable": true, "sex": 1, "userId": 3506, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3522", "enable": true, "sex": 1, "userId": 3522, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3538", "enable": true, "sex": 1, "userId": 3538, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3554", "enable": true, "sex": 1, "userId": 3554, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3570", "enable": true, "sex": 1, "userId": 3570, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3586", "enable": true, "sex": 1, "userId": 3586, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3602", "enable": true, "sex": 1, "userId": 3602, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3618", "enable": true, "sex": 1, "userId": 3618, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3634", "enable": true, "sex": 1, "userId": 3634, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3650", "enable": true, "sex": 1, "userId": 3650, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3666", "enable": true, "sex": 1, "userId": 3666, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3682", "enable": true, "sex": 1, "userId": 3682, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3698", "enable": true, "sex": 1, "userId": 3698, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3714", "enable": true, "sex": 1, "userId": 3714, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3730", "enable": true, "sex": 1, "userId": 3730, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3746", "enable": true, "sex": 1, "userId": 3746, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3762", "enable": true, "sex": 1, "userId": 3762, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3778", "enable": true, "sex": 1, "userId": 3778, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3794", "enable": true, "sex": 1, "userId": 3794, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3810", "enable": true, "sex": 1, "userId": 3810, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3826", "enable": true, "sex": 1, "userId": 3826, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3842", "enable": true, "sex": 1, "userId": 3842, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3858", "enable": true, "sex": 1, "userId": 3858, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3874", "enable": true, "sex": 1, "userId": 3874, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3890", "enable": true, "sex": 1, "userId": 3890, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3906", "enable": true, "sex": 1, "userId": 3906, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3922", "enable": true, "sex": 1, "userId": 3922, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3938", "enable": true, "sex": 1, "userId": 3938, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3954", "enable": true, "sex": 1, "userId": 3954, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3970", "enable": true, "sex": 1, "userId": 3970, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot3986", "enable": true, "sex": 1, "userId": 3986, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4002", "enable": true, "sex": 1, "userId": 4002, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4018", "enable": true, "sex": 1, "userId": 4018, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4034", "enable": true, "sex": 1, "userId": 4034, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4050", "enable": true, "sex": 1, "userId": 4050, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4066", "enable": true, "sex": 1, "userId": 4066, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4082", "enable": true, "sex": 1, "userId": 4082, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4098", "enable": true, "sex": 1, "userId": 4098, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4114", "enable": true, "sex": 1, "userId": 4114, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4130", "enable": true, "sex": 1, "userId": 4130, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4146", "enable": true, "sex": 1, "userId": 4146, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4162", "enable": true, "sex": 1, "userId": 4162, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4178", "enable": true, "sex": 1, "userId": 4178, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4194", "enable": true, "sex": 1, "userId": 4194, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4210", "enable": true, "sex": 1, "userId": 4210, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4226", "enable": true, "sex": 1, "userId": 4226, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4242", "enable": true, "sex": 1, "userId": 4242, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4258", "enable": true, "sex": 1, "userId": 4258, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4274", "enable": true, "sex": 1, "userId": 4274, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4290", "enable": true, "sex": 1, "userId": 4290, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4306", "enable": true, "sex": 1, "userId": 4306, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4322", "enable": true, "sex": 1, "userId": 4322, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4338", "enable": true, "sex": 1, "userId": 4338, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4354", "enable": true, "sex": 1, "userId": 4354, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4370", "enable": true, "sex": 1, "userId": 4370, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4386", "enable": true, "sex": 1, "userId": 4386, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4402", "enable": true, "sex": 1, "userId": 4402, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4418", "enable": true, "sex": 1, "userId": 4418, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4434", "enable": true, "sex": 1, "userId": 4434, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4450", "enable": true, "sex": 1, "userId": 4450, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4466", "enable": true, "sex": 1, "userId": 4466, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4482", "enable": true, "sex": 1, "userId": 4482, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4498", "enable": true, "sex": 1, "userId": 4498, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4514", "enable": true, "sex": 1, "userId": 4514, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4530", "enable": true, "sex": 1, "userId": 4530, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4546", "enable": true, "sex": 1, "userId": 4546, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4562", "enable": true, "sex": 1, "userId": 4562, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4578", "enable": true, "sex": 1, "userId": 4578, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4594", "enable": true, "sex": 1, "userId": 4594, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4610", "enable": true, "sex": 1, "userId": 4610, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4626", "enable": true, "sex": 1, "userId": 4626, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4642", "enable": true, "sex": 1, "userId": 4642, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4658", "enable": true, "sex": 1, "userId": 4658, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4674", "enable": true, "sex": 1, "userId": 4674, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4690", "enable": true, "sex": 1, "userId": 4690, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4706", "enable": true, "sex": 1, "userId": 4706, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4722", "enable": true, "sex": 1, "userId": 4722, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4738", "enable": true, "sex": 1, "userId": 4738, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4754", "enable": true, "sex": 1, "userId": 4754, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4770", "enable": true, "sex": 1, "userId": 4770, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4786", "enable": true, "sex": 1, "userId": 4786, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4802", "enable": true, "sex": 1, "userId": 4802, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4818", "enable": true, "sex": 1, "userId": 4818, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4834", "enable": true, "sex": 1, "userId": 4834, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4850", "enable": true, "sex": 1, "userId": 4850, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4866", "enable": true, "sex": 1, "userId": 4866, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4882", "enable": true, "sex": 1, "userId": 4882, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4898", "enable": true, "sex": 1, "userId": 4898, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4914", "enable": true, "sex": 1, "userId": 4914, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4930", "enable": true, "sex": 1, "userId": 4930, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4946", "enable": true, "sex": 1, "userId": 4946, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4962", "enable": true, "sex": 1, "userId": 4962, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4978", "enable": true, "sex": 1, "userId": 4978, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot4994", "enable": true, "sex": 1, "userId": 4994, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5010", "enable": true, "sex": 1, "userId": 5010, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5026", "enable": true, "sex": 1, "userId": 5026, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5042", "enable": true, "sex": 1, "userId": 5042, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5058", "enable": true, "sex": 1, "userId": 5058, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5074", "enable": true, "sex": 1, "userId": 5074, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5090", "enable": true, "sex": 1, "userId": 5090, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5106", "enable": true, "sex": 1, "userId": 5106, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5122", "enable": true, "sex": 1, "userId": 5122, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5138", "enable": true, "sex": 1, "userId": 5138, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5154", "enable": true, "sex": 1, "userId": 5154, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5170", "enable": true, "sex": 1, "userId": 5170, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5186", "enable": true, "sex": 1, "userId": 5186, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5202", "enable": true, "sex": 1, "userId": 5202, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5218", "enable": true, "sex": 1, "userId": 5218, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5234", "enable": true, "sex": 1, "userId": 5234, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5250", "enable": true, "sex": 1, "userId": 5250, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5266", "enable": true, "sex": 1, "userId": 5266, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5282", "enable": true, "sex": 1, "userId": 5282, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5298", "enable": true, "sex": 1, "userId": 5298, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5314", "enable": true, "sex": 1, "userId": 5314, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5330", "enable": true, "sex": 1, "userId": 5330, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5346", "enable": true, "sex": 1, "userId": 5346, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5362", "enable": true, "sex": 1, "userId": 5362, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5378", "enable": true, "sex": 1, "userId": 5378, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5394", "enable": true, "sex": 1, "userId": 5394, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5410", "enable": true, "sex": 1, "userId": 5410, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5426", "enable": true, "sex": 1, "userId": 5426, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5442", "enable": true, "sex": 1, "userId": 5442, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5458", "enable": true, "sex": 1, "userId": 5458, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5474", "enable": true, "sex": 1, "userId": 5474, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5490", "enable": true, "sex": 1, "userId": 5490, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5506", "enable": true, "sex": 1, "userId": 5506, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5522", "enable": true, "sex": 1, "userId": 5522, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5538", "enable": true, "sex": 1, "userId": 5538, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5554", "enable": true, "sex": 1, "userId": 5554, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5570", "enable": true, "sex": 1, "userId": 5570, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5586", "enable": true, "sex": 1, "userId": 5586, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5602", "enable": true, "sex": 1, "userId": 5602, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5618", "enable": true, "sex": 1, "userId": 5618, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5634", "enable": true, "sex": 1, "userId": 5634, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5650", "enable": true, "sex": 1, "userId": 5650, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5666", "enable": true, "sex": 1, "userId": 5666, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5682", "enable": true, "sex": 1, "userId": 5682, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5698", "enable": true, "sex": 1, "userId": 5698, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5714", "enable": true, "sex": 1, "userId": 5714, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5730", "enable": true, "sex": 1, "userId": 5730, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5746", "enable": true, "sex": 1, "userId": 5746, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5762", "enable": true, "sex": 1, "userId": 5762, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5778", "enable": true, "sex": 1, "userId": 5778, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5794", "enable": true, "sex": 1, "userId": 5794, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5810", "enable": true, "sex": 1, "userId": 5810, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5826", "enable": true, "sex": 1, "userId": 5826, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5842", "enable": true, "sex": 1, "userId": 5842, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5858", "enable": true, "sex": 1, "userId": 5858, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5874", "enable": true, "sex": 1, "userId": 5874, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5890", "enable": true, "sex": 1, "userId": 5890, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5906", "enable": true, "sex": 1, "userId": 5906, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5922", "enable": true, "sex": 1, "userId": 5922, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5938", "enable": true, "sex": 1, "userId": 5938, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5954", "enable": true, "sex": 1, "userId": 5954, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5970", "enable": true, "sex": 1, "userId": 5970, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot5986", "enable": true, "sex": 1, "userId": 5986, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6002", "enable": true, "sex": 1, "userId": 6002, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6018", "enable": true, "sex": 1, "userId": 6018, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6034", "enable": true, "sex": 1, "userId": 6034, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6050", "enable": true, "sex": 1, "userId": 6050, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6066", "enable": true, "sex": 1, "userId": 6066, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6082", "enable": true, "sex": 1, "userId": 6082, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6098", "enable": true, "sex": 1, "userId": 6098, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6114", "enable": true, "sex": 1, "userId": 6114, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6130", "enable": true, "sex": 1, "userId": 6130, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6146", "enable": true, "sex": 1, "userId": 6146, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6162", "enable": true, "sex": 1, "userId": 6162, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6178", "enable": true, "sex": 1, "userId": 6178, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6194", "enable": true, "sex": 1, "userId": 6194, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6210", "enable": true, "sex": 1, "userId": 6210, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6226", "enable": true, "sex": 1, "userId": 6226, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6242", "enable": true, "sex": 1, "userId": 6242, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6258", "enable": true, "sex": 1, "userId": 6258, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6274", "enable": true, "sex": 1, "userId": 6274, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6290", "enable": true, "sex": 1, "userId": 6290, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6306", "enable": true, "sex": 1, "userId": 6306, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6322", "enable": true, "sex": 1, "userId": 6322, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6338", "enable": true, "sex": 1, "userId": 6338, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6354", "enable": true, "sex": 1, "userId": 6354, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6370", "enable": true, "sex": 1, "userId": 6370, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6386", "enable": true, "sex": 1, "userId": 6386, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true },
+
+{ "name": "robot6402", "enable": true, "sex": 1, "userId": 6402, "token": "auto", "classes": 1, "team": 2, "regionId": 1001, "vip": 10, "pioneer": true }
+]

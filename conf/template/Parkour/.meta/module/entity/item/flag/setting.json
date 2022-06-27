@@ -1,0 +1,36 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/file/flag/flag.actor",
+        "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+      },
+      "girlactor": {
+        "asset": "asset/file/flag/flag.actor",
+        "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/file/flag/flag.actor",
+      "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+    },
+    "girlactor": {
+      "asset": "asset/file/flag/flag.actor",
+      "selector": "editor/Fun_Jump/asset/file/flag/flag.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_flag"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "068d062dde825b4b7b9bb8c1c13f32a5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

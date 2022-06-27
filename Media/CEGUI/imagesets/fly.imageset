@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="vertical" version="2"  name="fly" imagefile="fly.png" nativeHorzRes="1024" nativeVertRes="128">
+	<Image name="fly" width="60" height="60" xPos="0" yPos="0"/>
+	<Image name="fly_cancel" width="60" height="60" xPos="60" yPos="0"/>
+	<Image name="fly_down_normal" width="190" height="120" xPos="120" yPos="0"/>
+	<Image name="fly_down_push" width="190" height="120" xPos="310" yPos="0"/>
+	<Image name="fly_up_normal" width="190" height="120" xPos="500" yPos="0"/>
+	<Image name="fly_up_push" width="190" height="120" xPos="690" yPos="0"/>
+</Imageset>

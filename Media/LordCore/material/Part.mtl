@@ -1,0 +1,94 @@
+{
+    "Type": "Material",
+    "Name": "Part",
+    "Shaders": {
+        "Vertex": "mesh_transparent_part_es3_new.vs",
+        "Fragment": "mesh_transparent_part_es3_new.fs",
+        "Geometry": "",
+        "TessellationControl": "",
+        "TessellationEvaluation": "",
+        "Compute": ""
+    },
+    "Defines": {
+        "uv2" : false,
+        "lowEffect" : false,
+        "useFog" : false,
+        "useBatch" : true
+    },
+    "RenderStates": {
+        "Blend": {
+            "blendEnable": true,
+            "srcBlend": 2,
+            "dstBlend": 4,
+            "blendOP": 0,
+            "srcAlphaBlend": 1,
+            "dstAlphaBlend": 0,
+            "alphaBlendOP": 0,
+            "colorWriteMask": 15,
+            "alphaToCoverageEnable": false,
+            "independBlendEnable": false,
+            "blendFactor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            }
+        },
+        "DepthStencil": {
+            "depthEnable": true,
+            "writeDepth": false,
+            "depthFunc": 2,
+            "frontStencilEnable": false,
+            "frontStencilFunc": 6,
+            "frontStencilReadMask": 65535,
+            "frontStencilWriteMask": 65535,
+            "frontStencilFailOP": 0,
+            "frontStencilDepthFailOP": 3,
+            "frontStencilPassOP": 0,
+            "frontStencilRef": 1,
+            "backStencilEnable": false,
+            "backStencilFunc": 6,
+            "backStencilReadMask": 65535,
+            "backStencilWriteMask": 65535,
+            "backStencilFailOP": 0,
+            "backStencilDepthFailOP": 4,
+            "backStencilPassOP": 0,
+            "backStencilRef": 1
+        },
+        "Raster": {
+            "polygonMode": 2,
+            "shadeModel": 1,
+            "cullMode": 2,
+            "frontFaceCCW": false,
+            "depthBias": 0.0,
+            "depthBiasFactor": 0.0,
+            "lineWidth": 1.0,
+            "depthClipEnable": true,
+            "scissorEnable": false,
+            "multisampleEnable": false
+        }
+    },
+    "Properties": {
+        "Textures": {},
+        "Floats": {
+            "overlay": 1.0
+        },
+        "Integers": {
+            "testInteger": 1,
+            "testInteger2": 1348031
+        },
+        "Vectors": {
+            "lightDirection": [0.3, 0.4, 0.5],
+            "offset": [3, 8],
+            "vector4Test": [0.3, 0.1, 0.9, 9.8]
+        },
+        "Colors": {
+            "BaseColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        }
+    }
+}

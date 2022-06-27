@@ -1,0 +1,138 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/transfer/g2038_yushanjia_blue.actor",
+        "selector": "editor/hunter/asset/transfer/g2038_yushanjia_blue.actor"
+      },
+      "girlactor": {
+        "asset": "asset/transfer/g2038_yushanjia_blue.actor",
+        "selector": "editor/hunter/asset/transfer/g2038_yushanjia_blue.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/transfer/g2038_yushanjia_blue.actor",
+      "selector": "editor/hunter/asset/transfer/g2038_yushanjia_blue.actor"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 1,
+        "z": 1
+      },
+      "radius": 1,
+      "type": "Cylinder"
+    },
+    "canJump": false,
+    "canMove": false,
+    "girlactor": {
+      "asset": "asset/transfer/g2038_yushanjia_blue.actor",
+      "selector": "editor/hunter/asset/transfer/g2038_yushanjia_blue.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_transfer2"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_EnterMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a3c5bcde-d972-44cb-98cb-0a6940e534ad"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 14.019254684448,
+                            "y": 1.03609375,
+                            "z": 9.6348667144775
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9a610f6b-b343-46c8-87bd-60852c541150"
+              },
+              "pos": {
+                "x": 716,
+                "y": 307
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "a3c5bcde-d972-44cb-98cb-0a6940e534ad"
+              },
+              "pos": {
+                "x": 1443,
+                "y": 438
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9a610f6b-b343-46c8-87bd-60852c541150"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3ddf50ea-bd15-48b0-bb9e-8f70048168cb"
+            }
+          },
+          "type": "Trigger_ENTITY_TOUCH_ALL"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "91d7b499be002a4fdaf00c0b62c7dd02",
+      "triggers.bts": "2c934755315f8eb2a3ad70d6d2671423"
+    },
+    "VERSION": "0.18"
+  }
+}

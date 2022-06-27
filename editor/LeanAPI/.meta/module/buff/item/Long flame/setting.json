@@ -1,0 +1,25 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/Ice fire2.effect",
+        "selector": "editor/Parkour/asset/file/Ice fire2.effect"
+      },
+      "yaw": 180
+    },
+    "name": {
+      "value": "buff_Long flame"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "106621548c534482ee88d33c554cdfc0"
+    },
+    "VERSION": "0.20"
+  }
+}

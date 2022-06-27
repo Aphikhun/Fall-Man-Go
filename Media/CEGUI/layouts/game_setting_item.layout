@@ -1,0 +1,412 @@
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="Root">
+        <Property name="Area" value="{{0,7.5},{0,0},{0.5,7.5},{0,160}}">
+
+        </Property>
+        <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+        </Property>
+        <Property name="Alpha" value="1">
+
+        </Property>
+        <Property name="VerticalAlignment" value="Top">
+
+        </Property>
+        <Property name="HorizontalAlignment" value="Left">
+
+        </Property>
+        <Property name="ClippedByParent" value="true">
+
+        </Property>
+        <Property name="Visible" value="true">
+
+        </Property>
+        <Window type="DefaultWindow" name="GameSettingItem_Item">
+            <Property name="Area" value="{{0,0},{0,0},{0.98,0},{0.9,0}}">
+
+            </Property>
+            <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+            </Property>
+            <Property name="Alpha" value="1">
+
+            </Property>
+            <Property name="VerticalAlignment" value="Centre">
+
+            </Property>
+            <Property name="HorizontalAlignment" value="Left">
+
+            </Property>
+            <Property name="ClippedByParent" value="true">
+
+            </Property>
+            <Property name="Visible" value="true">
+
+            </Property>
+            <Window type="WindowsLook/StaticImage" name="GameSettingItem_Item_Bg">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="ClippedByParent" value="true">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+                <Property name="Image" value="new_gui_material/menu_setting_item_bg">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="ImageColours" value="ffffffff">
+
+                </Property>
+            </Window>
+            <Window type="WindowsLook/StaticImage" name="GameSettingItem_bg">
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="ClippedByParent" value="true">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="vertFormatting" value="Stretched">
+
+                </Property>
+                <Property name="horzFormatting" value="Stretched">
+
+                </Property>
+                <Property name="Image" value="new_gui_material/menu_setting_item_bg">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="ImageColours" value="ffffffff">
+
+                </Property>
+            </Window>
+            <Window type="WindowsLook/StaticText" name="GameSettingItem_Name">
+                <Property name="Area" value="{{0,34},{0,4},{0,205},{0,46}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="Text" value="Text">
+
+                </Property>
+                <Property name="ClippedByParent" value="true">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Top">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Left">
+
+                </Property>
+                <Property name="BackgroundColours" value="ffffffff">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="VertFormatting" value="CentreAligned">
+
+                </Property>
+                <Property name="HorzFormatting" value="LeftAligned">
+
+                </Property>
+                <Property name="Font" value="DroidSans-20">
+
+                </Property>
+                <Property name="FrameEnabled" value="false">
+
+                </Property>
+                <Property name="BackgroundEnabled" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property name="FrameColours" value="ffffffff">
+
+                </Property>
+                <Property name="TextColours" value="ffffffff">
+
+                </Property>
+                <Property name="BorderEnable" value="true">
+
+                </Property>
+                <Property name="BorderWidth" value="1">
+
+                </Property>
+                <Property name="BorderColor" value="ff4a4333">
+
+                </Property>
+            </Window>
+            <Window type="WindowsLook/HorizontalSlider" name="GameSettingItem_Slider">
+                <Property name="Area" value="{{0,0},{0,-40},{1,-180},{0,-10}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="ClippedByParent" value="true">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Bottom">
+
+                </Property>
+                <Property name="CurrentValue" value="0.1">
+
+                </Property>
+                <Property name="slider_top" value="new_gui_material/menu_setting_progress_btn">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Centre">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="thumb_image" value="new_gui_material/menu_setting_progress_pre">
+
+                </Property>
+                <Property value="new_gui_material/menu_setting_progress_nor" name="slider_bg">
+
+                </Property>
+                <Property name="MaximumValue" value="1">
+
+                </Property>
+                <Property name="ReversedDirection" value="false">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+                <Property value="true" name="MousePassThroughEnabled">
+
+                </Property>
+                <Window type="WindowsLook/StaticText" name="GameSettingItem_Low">
+                    <Property name="Area" value="{{0,-70},{0,-15},{0,-20},{0,35}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Text" value="Text">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="true">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="TextColours" value="ff000000">
+
+                    </Property>
+                    <Property name="BorderEnable" value="true">
+
+                    </Property>
+                    <Property name="BorderWidth" value="1">
+    
+                    </Property>
+                    <Property name="BorderColor" value="ff000000">
+    
+                    </Property>
+                </Window>
+                <Window type="WindowsLook/StaticText" name="GameSettingItem_High">
+                    <Property name="Area" value="{{1,20},{0,-15},{1,70},{0,35}}">
+
+                    </Property>
+                    <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                    </Property>
+                    <Property name="Text" value="Text">
+
+                    </Property>
+                    <Property name="ClippedByParent" value="true">
+
+                    </Property>
+                    <Property name="VerticalAlignment" value="Top">
+
+                    </Property>
+                    <Property name="HorizontalAlignment" value="Left">
+
+                    </Property>
+                    <Property name="BackgroundColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="Visible" value="true">
+
+                    </Property>
+                    <Property name="VertFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="HorzFormatting" value="CentreAligned">
+
+                    </Property>
+                    <Property name="Font" value="DroidSans-12">
+
+                    </Property>
+                    <Property name="FrameEnabled" value="false">
+
+                    </Property>
+                    <Property name="BackgroundEnabled" value="false">
+
+                    </Property>
+                    <Property name="Alpha" value="1">
+
+                    </Property>
+                    <Property name="FrameColours" value="ffffffff">
+
+                    </Property>
+                    <Property name="TextColours" value="ff000000">
+
+                    </Property>
+                    <Property name="BorderEnable" value="true">
+
+                    </Property>
+                    <Property name="BorderWidth" value="1">
+    
+                    </Property>
+                    <Property name="BorderColor" value="ff000000">
+    
+                    </Property>
+                </Window>
+                <AutoWindow namePath="__auto_thumb__">
+                    <Property name="thumb_image" value="new_gui_material/menu_setting_progress_pre">
+
+                    </Property>
+                </AutoWindow>
+            </Window>
+            <Window type="WindowsLook/Checkbox" name="GameSettingItem_CheckBox">
+                <Property name="Area" value="{{0,0},{0,-32},{0,89},{0,6}}">
+
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+                </Property>
+                <Property name="Text" value="">
+
+                </Property>
+                <Property name="ClippedByParent" value="true">
+
+                </Property>
+                <Property name="VerticalAlignment" value="Bottom">
+
+                </Property>
+                <Property name="Selected" value="false">
+
+                </Property>
+                <Property name="HorizontalAlignment" value="Centre">
+
+                </Property>
+                <Property name="unselectableImage" value="new_gui_material/menu_setting_switch_close">
+
+                </Property>
+                <Property name="Visible" value="true">
+
+                </Property>
+                <Property name="selectableImage" value="new_gui_material/menu_setting_switch_open">
+
+                </Property>
+                <Property name="DisabledTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="NormalTextColour" value="ffffffff">
+
+                </Property>
+                <Property name="Font" value="DroidSans-12">
+
+                </Property>
+                <Property name="Alpha" value="1">
+
+                </Property>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

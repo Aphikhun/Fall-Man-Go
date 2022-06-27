@@ -1,0 +1,129 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Node_CollapseGraph",
+              "actions": [
+                {
+                  "__OBJ_TYPE": "Action_SetObjectVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Params",
+                      "params": [
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_ObjectVar",
+                            "rawval": "EnterGoal"
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Bool",
+                            "rawval": true
+                          }
+                        },
+                        {
+                          "value": {
+                            "__OBJ_TYPE": "T_Entity",
+                            "action": "51eceab5-5d2a-477a-9fa8-f595ce03a195"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "1d10c0bd-b4e9-4601-8e85-fded764eaed7"
+                  },
+                  "pos": {
+                    "x": 702.64963382935,
+                    "y": 26.139225509842
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "Action_GetContextVar",
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Context",
+                      "key": "obj1"
+                    }
+                  ],
+                  "id": {
+                    "value": "51eceab5-5d2a-477a-9fa8-f595ce03a195"
+                  },
+                  "pos": {
+                    "x": 1091.9988060925,
+                    "y": 63.056352030285
+                  },
+                  "type": "T_Entity"
+                }
+              ],
+              "export_node": {
+                "id": {
+                  "value": "b6e7df7b-1754-4cea-b381-4b85250a3ade"
+                },
+                "ports": [
+                  {
+                    "id": "1d10c0bd-b4e9-4601-8e85-fded764eaed7",
+                    "name": {
+                      "value": "91c4aebf-200a-4ad1-97a2-ca022dc9ad77"
+                    },
+                    "type": "T_Bool"
+                  }
+                ]
+              },
+              "id": {
+                "value": "4e9e37c7-8cb6-4531-b9c7-afc917c5e117"
+              },
+              "import_node": {
+                "id": {
+                  "value": "2c693cf5-00a7-4e2c-8914-d67738a107ac"
+                }
+              },
+              "name": {
+                "value": "502b2d50-653e-4139-a2e9-b1f7e6338138"
+              },
+              "pos": {
+                "x": 897.32421996093,
+                "y": 44.597788770064
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "cec8e998-e5dd-4e66-ac9e-f2aa185856a6"
+            }
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1d10c0bd-b4e9-4601-8e85-fded764eaed7"
+                  },
+                  [],
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "4abb2091-be48-4cb9-972e-d84f7b80a404"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "4d9cb7103789ae72c6063f7b7a7c0176"
+    },
+    "VERSION": "0.21"
+  }
+}

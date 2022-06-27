@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate MinDistance="1" IntervalTime="2" IsShowShadow="true" SelectedRingSize="1" SoundName1="" Skeleton="8_weapon.skel" WoundBone="" WoundAngle="25" name="111.actor" SoundName2="" MaxDistance="16" AttackScale="1" TextHeight="0" SoundName4="" Alpha="1" Originalscale="1 1 1" Volume="0.8" SoundFileNum="0" SoundName5="" SoundName3="">
+		<BodyParts>
+			<BodyPart SlaveName="group0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_0" DefaultUse="true">
+				<Effect>
+					<yaw value="0"/>
+					<Position_X value="0"/>
+					<type_name value="fire"/>
+					<pitch value="0"/>
+					<Alpha value="1"/>
+					<SocketName value="Bone002"/>
+					<Position_Z value="0"/>
+					<TimeScale value="2"/>
+					<scale value="1"/>
+					<FileName value="asset/file/Ice fire2.effect"/>
+					<Position_Y value="0"/>
+					<roll value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

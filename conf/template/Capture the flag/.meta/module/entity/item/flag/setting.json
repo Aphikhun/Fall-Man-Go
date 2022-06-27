@@ -1,0 +1,44 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": ""
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      }
+    },
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_flag"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a49da3eef638cfc15137bee3c9bef537",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.19"
+  }
+}
