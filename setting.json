@@ -92,9 +92,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
-    "x": 0.0013869404792786,
-    "y": 1.3900385284424,
-    "z": -0.050804138183594
+    "x": 0,
+    "y": 2,
+    "z": 0
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -229,9 +229,9 @@
   "startPos": [
     {
       "map": "ecfea41a-1ce7-487f-86e8-e7dff6aa1932",
-      "x": 1.2799550294876,
-      "y": 1.3900442504883,
-      "z": 1.4583950042725
+      "x": 0,
+      "y": 2,
+      "z": 0
     }
   ],
   "team": [

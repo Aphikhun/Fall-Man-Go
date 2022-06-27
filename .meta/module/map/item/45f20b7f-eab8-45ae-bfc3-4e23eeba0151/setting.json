@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 140,
-          "g": 132
+          "b": 141,
+          "g": 133
         },
         "skyLineColor": {
-          "g": 59,
+          "g": 60,
           "r": 62
         }
       },
@@ -190,10 +190,14 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8690189923061678081",
+        "massCenter": {
+          "y": 20,
+          "z": -81.230995178223
+        },
         "name": "Start",
         "position": {
           "y": 20,
-          "z": -50
+          "z": -81.230995178223
         },
         "restitution": 0.3,
         "scale": {
@@ -224,10 +228,14 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8690192006718947329",
+        "massCenter": {
+          "y": 20,
+          "z": 79.759002685547
+        },
         "name": "End",
         "position": {
           "y": 20,
-          "z": 50
+          "z": 79.759002685547
         },
         "restitution": 0.3,
         "scale": {
@@ -251,14 +259,18 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690193630077878273",
+            "massCenter": {
+              "y": 20,
+              "z": -71.231010437012
+            },
             "material": {
               "color": {
-                "g": 171
+                "g": 172
               }
             },
             "position": {
               "y": 20,
-              "z": -40
+              "z": -71.231010437012
             },
             "restitution": 0.3,
             "scale": {
@@ -279,14 +291,18 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690196279381164033",
+            "massCenter": {
+              "y": 20,
+              "z": -67.231010437012
+            },
             "material": {
               "color": {
-                "g": 171
+                "g": 172
               }
             },
             "position": {
               "y": 20,
-              "z": -36
+              "z": -67.231010437012
             },
             "restitution": 0.3,
             "scale": {
@@ -307,14 +323,18 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690196810260971521",
+            "massCenter": {
+              "y": 20,
+              "z": -63.231010437012
+            },
             "material": {
               "color": {
-                "g": 171
+                "g": 172
               }
             },
             "position": {
               "y": 20,
-              "z": -32
+              "z": -63.231010437012
             },
             "restitution": 0.3,
             "scale": {
@@ -334,7 +354,7 @@
         "name": "Zone1",
         "position": {
           "y": 20,
-          "z": -36
+          "z": -67.231010437012
         }
       },
       {
@@ -356,22 +376,28 @@
         "lineVelocity": {
           "z": 5
         },
+        "massCenter": {
+          "x": -1.1433363624747e-06,
+          "y": 20,
+          "z": -48.427982330322
+        },
         "name": "Zone2",
         "position": {
+          "x": -1.1433363624747e-06,
           "y": 20,
-          "z": -14
+          "z": -48.427982330322
         },
         "restitution": 0.3,
         "rotation": {
           "y": -90
         },
         "scale": {
-          "x": 30,
+          "x": 25,
           "y": 0.2,
           "z": 10
         },
         "size": {
-          "x": 30,
+          "x": 25,
           "y": 0.2,
           "z": 10
         },
@@ -392,6 +418,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690203524349591553",
+            "massCenter": {
+              "x": -2.3469272036891e-07,
+              "y": 20,
+              "z": 6.3134231567383
+            },
             "material": {
               "color": {
                 "b": 117,
@@ -401,9 +432,9 @@
             },
             "name": "Broken plate",
             "position": {
-              "x": -4.8428752563723e-08,
+              "x": -2.3469272036891e-07,
               "y": 20,
-              "z": 37.544425964355
+              "z": 6.3134231567383
             },
             "restitution": 0.3,
             "scale": {
@@ -430,6 +461,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690203960081219585",
+            "massCenter": {
+              "x": 4.5029702186584,
+              "y": 20,
+              "z": 6.3134231567383
+            },
             "material": {
               "color": {
                 "b": 117,
@@ -439,9 +475,9 @@
             },
             "name": "Broken plate",
             "position": {
-              "x": 4.5029940605164,
+              "x": 4.5029702186584,
               "y": 20,
-              "z": 37.544425964355
+              "z": 6.3134231567383
             },
             "restitution": 0.3,
             "scale": {
@@ -468,6 +504,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690204093417226241",
+            "massCenter": {
+              "x": -4.6239705085754,
+              "y": 20,
+              "z": 6.3134231567383
+            },
             "material": {
               "color": {
                 "b": 117,
@@ -477,9 +518,9 @@
             },
             "name": "Broken plate",
             "position": {
-              "x": -4.6239943504333,
+              "x": -4.6239705085754,
               "y": 20,
-              "z": 37.544425964355
+              "z": 6.3134231567383
             },
             "restitution": 0.3,
             "scale": {
@@ -506,6 +547,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690204416591446017",
+            "massCenter": {
+              "x": -2.3469272036891e-07,
+              "y": 20,
+              "z": 10.776411056519
+            },
             "material": {
               "color": {
                 "b": 117,
@@ -515,9 +561,9 @@
             },
             "name": "Broken plate",
             "position": {
-              "x": -4.8428752563723e-08,
+              "x": -2.3469272036891e-07,
               "y": 20,
-              "z": 42.007415771484
+              "z": 10.776411056519
             },
             "restitution": 0.3,
             "scale": {
@@ -544,6 +590,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690204416597049345",
+            "massCenter": {
+              "x": 4.5029702186584,
+              "y": 20,
+              "z": 10.776411056519
+            },
             "material": {
               "color": {
                 "b": 117,
@@ -553,9 +604,9 @@
             },
             "name": "Broken plate",
             "position": {
-              "x": 4.5029940605164,
+              "x": 4.5029702186584,
               "y": 20,
-              "z": 42.007415771484
+              "z": 10.776411056519
             },
             "restitution": 0.3,
             "scale": {
@@ -582,6 +633,11 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690204416602062849",
+            "massCenter": {
+              "x": -4.6239705085754,
+              "y": 20,
+              "z": 10.776411056519
+            },
             "material": {
               "color": {
                 "b": 117,
@@ -591,9 +647,9 @@
             },
             "name": "Broken plate",
             "position": {
-              "x": -4.6239943504333,
+              "x": -4.6239705085754,
               "y": 20,
-              "z": 42.007415771484
+              "z": 10.776411056519
             },
             "restitution": 0.3,
             "scale": {
@@ -614,7 +670,7 @@
         "position": {
           "x": -0.060500144958496,
           "y": 20,
-          "z": 39.77592086792
+          "z": 8.5449180603027
         }
       },
       {
@@ -639,17 +695,22 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690200704456261633",
+            "massCenter": {
+              "x": -0.37207508087158,
+              "y": 20,
+              "z": -20.614999771118
+            },
             "material": {
               "color": {
                 "b": 127,
-                "g": 171,
+                "g": 172,
                 "r": 85
               }
             },
             "position": {
               "x": -0.37207508087158,
               "y": 20,
-              "z": 10.616003036499
+              "z": -20.614999771118
             },
             "restitution": 0.3,
             "scale": {
@@ -684,17 +745,22 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8690201769682649089",
+            "massCenter": {
+              "x": -0.37207508087158,
+              "y": 20,
+              "z": -4.0370025634766
+            },
             "material": {
               "color": {
                 "b": 127,
-                "g": 171,
+                "g": 172,
                 "r": 85
               }
             },
             "position": {
               "x": -0.37207508087158,
               "y": 20,
-              "z": 27.194002151489
+              "z": -4.0370025634766
             },
             "restitution": 0.3,
             "scale": {
@@ -716,7 +782,7 @@
         "position": {
           "x": -0.37207508087158,
           "y": 20,
-          "z": 19.223002910614
+          "z": -12.007998466492
         }
       },
       {
@@ -729,11 +795,11 @@
         },
         "scale": {
           "x": 50,
-          "z": 150
+          "z": 200
         },
         "size": {
           "x": 50,
-          "z": 150
+          "z": 200
         }
       },
       {
@@ -742,8 +808,8 @@
         "id": "8690214023276134401",
         "name": "Goal",
         "position": {
-          "y": 22.6,
-          "z": 50
+          "y": 22.60000038147,
+          "z": 79.759002685547
         },
         "scale": {
           "x": 9,
@@ -766,6 +832,547 @@
           "y": 30.100002288818,
           "z": -0.11966913938522
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6240bc32-9daf-4699-80df-1bbcded44b2c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8690384380791783425"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690384380791144449",
+            "massCenter": {
+              "x": -4.7310950890278e-07,
+              "y": 20,
+              "z": 21.961423873901
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -4.7310950890278e-07,
+              "y": 20,
+              "z": 21.961423873901
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "698523e9-d60b-4ed9-838b-9294d684cd0b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8690384380800270337"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690384380799598593",
+            "massCenter": {
+              "x": 4.5029397010803,
+              "y": 20,
+              "z": 21.961423873901
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 4.5029397010803,
+              "y": 20,
+              "z": 21.961423873901
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c80aab8a-1fef-4eac-a9fa-cba860e18dda",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8690384380805496833"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690384380804841473",
+            "massCenter": {
+              "x": -4.6239399909973,
+              "y": 20,
+              "z": 21.961423873901
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -4.6239399909973,
+              "y": 20,
+              "z": 21.961423873901
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a0a2caa7-6102-449d-bf0e-d65ff45d46ab",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8690384380810706945"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690384380810100737",
+            "massCenter": {
+              "x": -4.7310950890278e-07,
+              "y": 20,
+              "z": 26.424411773682
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -4.7310950890278e-07,
+              "y": 20,
+              "z": 26.424411773682
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2f7b8663-ec47-4339-9a43-c322f7a1cdd8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8690384380815867905"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690384380815278081",
+            "massCenter": {
+              "x": 4.5029397010803,
+              "y": 20,
+              "z": 26.424411773682
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 4.5029397010803,
+              "y": 20,
+              "z": 26.424411773682
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "57ce6454-f1ed-44dc-9c37-5caefb343e24",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8690384380820963329"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690384380820357121",
+            "massCenter": {
+              "x": -4.6239399909973,
+              "y": 20,
+              "z": 26.424411773682
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -4.6239399909973,
+              "y": 20,
+              "z": 26.424411773682
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8690384380789587969",
+        "name": "Zone4",
+        "position": {
+          "x": -0.060500144958496,
+          "y": 20,
+          "z": 24.192918777466
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bd35bdd0-2706-425f-b7f9-e2a6e00e2539",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/dw.png"
+            },
+            "id": "8690384664823185409"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8690384664822398977",
+        "massCenter": {
+          "y": 20.185995101929,
+          "z": -32.143260955811
+        },
+        "name": "CheckPoint",
+        "position": {
+          "y": 20.185995101929,
+          "z": -32.143260955811
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "1cd30ee1-30bd-4afe-aa15-f83186d9afc3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/dw.png"
+            },
+            "id": "8690386239637372929"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8690386239636324353",
+        "massCenter": {
+          "y": 20.185995101929,
+          "z": 16.223733901978
+        },
+        "name": "CheckPoint",
+        "position": {
+          "y": 20.185995101929,
+          "z": 16.223733901978
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5,
+          "y": 0.2,
+          "z": 5
+        },
+        "size": {
+          "x": 5,
+          "y": 0.2,
+          "z": 5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "92382604-9137-4de4-80fd-0e06b062cd75",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8690390258980618241"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690386932381941761",
+            "lineVelocity": {
+              "x": -3
+            },
+            "massCenter": {
+              "y": 20,
+              "z": 63.879009246826
+            },
+            "material": {
+              "color": {
+                "g": 172
+              }
+            },
+            "position": {
+              "y": 20,
+              "z": 63.879009246826
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.199996,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "d9c24cc9-5a36-4fbd-ad69-545052f9a928",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8690390492674146305"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690386932384628737",
+            "lineVelocity": {
+              "x": 3
+            },
+            "massCenter": {
+              "y": 20,
+              "z": 67.879028320312
+            },
+            "material": {
+              "color": {
+                "g": 172
+              }
+            },
+            "position": {
+              "y": 20,
+              "z": 67.879028320312
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 180
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.199996,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "8d897657-d639-44e8-9fec-dd0c144c5599",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/Texture/Item/qianjin.png"
+                },
+                "id": "8690390601151987713"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8690386932387053569",
+            "lineVelocity": {
+              "x": -3
+            },
+            "massCenter": {
+              "y": 20,
+              "z": 71.879028320312
+            },
+            "material": {
+              "color": {
+                "g": 172
+              }
+            },
+            "position": {
+              "y": 20,
+              "z": 71.879028320312
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 10,
+              "y": 0.199996,
+              "z": 2
+            },
+            "size": {
+              "x": 10,
+              "y": 0.2,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8690386932380975105",
+        "name": "Zone5",
+        "position": {
+          "y": 20,
+          "z": 67.035011291504
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6982322d-0bdf-4983-8930-86771850cb34",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/Texture/Item/penhuo.png"
+            },
+            "id": "8690388167223525377"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8690388167222706177",
+        "lineVelocity": {
+          "z": 2
+        },
+        "massCenter": {
+          "x": 3.2021653169068e-05,
+          "y": 20,
+          "z": 45.855972290039
+        },
+        "name": "Zone2",
+        "position": {
+          "x": 3.2021653169068e-05,
+          "y": 20,
+          "z": 45.855972290039
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 32,
+          "y": 0.2,
+          "z": 10
+        },
+        "size": {
+          "x": 32,
+          "y": 0.2,
+          "z": 10
+        },
+        "useAnchor": true
       }
     ],
     "name": {
@@ -775,7 +1382,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "2e3429fbed9ff48c6b2c0fb1fc365592"
+      "setting.json": "c9031f58d37a7f52886489c824652585"
     },
     "VERSION": "0.21"
   }

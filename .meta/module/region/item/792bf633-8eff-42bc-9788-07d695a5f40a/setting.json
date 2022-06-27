@@ -5,31 +5,38 @@
         {
           "actions": [
             {
-              "__OBJ_TYPE": "Action_KillEntity",
+              "__OBJ_TYPE": "Action_SetObjectVar",
               "components": [
                 {
                   "__OBJ_TYPE": "Component_Params",
                   "params": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "30b48c9f-056a-4e15-a8d4-f40c5f666a42"
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "WinStage"
                       }
                     },
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity"
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "02b5e2c1-34c3-496e-9fb8-5a9ef7c83d86"
                       }
                     }
                   ]
                 }
               ],
               "id": {
-                "value": "7fd6b0bd-0457-4d4b-96c8-02c274aa8b4b"
+                "value": "6371804e-99a0-4def-b10c-da1cdd3495f2"
               },
               "pos": {
-                "x": 786,
-                "y": 289
+                "x": 845,
+                "y": 330
               }
             },
             {
@@ -41,18 +48,18 @@
                 }
               ],
               "id": {
-                "value": "30b48c9f-056a-4e15-a8d4-f40c5f666a42"
+                "value": "02b5e2c1-34c3-496e-9fb8-5a9ef7c83d86"
               },
               "pos": {
-                "x": 1168,
-                "y": 278
+                "x": 1297,
+                "y": 373
               },
               "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
             "name": {
-              "value": "1ad5527f-2bc0-4206-8849-ffed5bd8def2"
+              "value": "cbda4e23-809c-4bbc-98f0-c1ad74f46506"
             },
             "type": "Trigger_RegionEnter"
           },
@@ -62,13 +69,13 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
-                    "action": "7fd6b0bd-0457-4d4b-96c8-02c274aa8b4b"
+                    "action": "6371804e-99a0-4def-b10c-da1cdd3495f2"
                   }
                 ]
               }
             ],
             "id": {
-              "value": "36006e92-58ae-4792-b435-b0359df18fdb"
+              "value": "40f9738c-1d87-4a69-96d9-a8159c2a2734"
             }
           },
           "type": "Trigger_RegionEnter"
@@ -79,7 +86,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
-      "triggers.bts": "446c8f8d36fec44259b5315f42d522ac"
+      "triggers.bts": "450cda17b508b5db865628908edfb06f"
     },
     "VERSION": "0.21"
   }

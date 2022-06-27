@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "00cccea224a9c8949bbd33327f1e21b7",
+    "md5": "aa2af8283f1667fd6b21063f22e22626",
     "path": "asset/tutorial01.layout",
     "root": {
       "anchor": {
@@ -23,7 +23,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "902e4964-10d4-4e4a-beef-c5fdef69bf39"
+                "value": "949ff1a9-90d1-46d9-a83d-ee81d4d22529"
               },
               "Image": {
                 "asset": "asset/282131864_396724449076311_1389971232290795172_n.png"
@@ -62,7 +62,7 @@
                 "r": 255
               },
               "id": {
-                "value": "f39018be-d408-4fd1-ac7d-3b2ade2cc713"
+                "value": "66fc0baf-a577-4e56-8cff-a1a384e542e6"
               },
               "NormalImage": {
                 "asset": "asset/Component/Btn_Demo/Btn_Rectangle00_n_Orange.png"
@@ -109,7 +109,7 @@
                 "asset": "asset/Component/Icon/Icon_WhiteIcon_Arrow02_Right.png"
               },
               "id": {
-                "value": "12803d2a-e1e4-4a9e-aadc-83f8a39763ea"
+                "value": "5e7cdb60-2e40-4dcb-a9a5-27be4fa5c7c6"
               },
               "name": "Button1",
               "NormalImage": {
@@ -147,7 +147,7 @@
               "Font_size": 18,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "dd74e45e-8d4e-48d1-bb36-e930e3f8ae4d"
+                "value": "6f5a9352-7845-4161-bee9-32168e19305a"
               },
               "pos": {
                 "UDim_Y": {
@@ -179,7 +179,7 @@
                 "asset": "asset/Component/Icon/Icon_WhiteIcon_Arrow02_Left.png"
               },
               "id": {
-                "value": "5a4f58f7-d87d-4168-9a08-56c4f1e6e1fc"
+                "value": "2242534b-a78d-44b7-9c0b-3f45e63f96ae"
               },
               "name": "Button11",
               "NormalImage": {
@@ -209,7 +209,7 @@
             }
           ],
           "id": {
-            "value": "d4c54eda-4b45-4ac9-9f51-be18bf622375"
+            "value": "7edf21c3-6362-4c0e-bcb9-967abedf3096"
           },
           "Image": {
             "asset": "asset/Component/Frame/BasicFrame_Square02_Yellow.png"
@@ -233,7 +233,7 @@
         }
       ],
       "id": {
-        "value": "0a33d016-630d-4394-8b04-1d8dd597538d"
+        "value": "dfad4b58-6d91-441f-8ba2-7d76e5154ccb"
       },
       "size": {
         "UDim_X": {
@@ -249,7 +249,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "00cccea224a9c8949bbd33327f1e21b7",
+      "layout": "aa2af8283f1667fd6b21063f22e22626",
       "triggers.bts": "2f8badcfbf2d40664d002a8db97c2012"
     },
     "VERSION": "0.21"
