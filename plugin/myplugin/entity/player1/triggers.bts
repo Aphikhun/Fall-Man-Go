@@ -1,15 +1,18 @@
 ENTITY_REBIRTH {
-	AddItem(cfg = "myplugin/a5c79327-9d7f-4ebf-80e3-6b37d40213ae", count = 1, entity = $obj1, reason = "")
+	$haveItem = RewardMechanism(entity = $obj1, path = "myplugin/5b28978f-e5c8-40eb-bde7-0bafc1b33f3e")
+	WhileBranch(condition = not $haveItem) {
+		$haveItem = RewardMechanism(entity = $obj1, path = "myplugin/5b28978f-e5c8-40eb-bde7-0bafc1b33f3e")
+	}
 }
 
 ENTITY_LEAVE {
-	If (not IsNil(data = $obj1.curNpcPlayer) and IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, value = $obj1, entity = $obj1.curNpcPlayer)) {
+	If (not IsNil(data = $obj1.curNpcPlayer) and IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, entity = $obj1.curNpcPlayer, value = $obj1)) {
 		ArrayRemove(
 			array = $obj1.curNpcPlayer.listPlayer,
 			index = ArrayFind(
 			array = $obj1.curNpcPlayer.listPlayer,
-			value = $obj1,
-			entity = $obj1.curNpcPlayer
+			entity = $obj1.curNpcPlayer,
+			value = $obj1
 		),
 			entity = $obj1.curNpcPlayer
 		)
@@ -18,13 +21,13 @@ ENTITY_LEAVE {
 
 ENTITY_DIE {
 	If ($obj1.stagePlayer == 3) {
-		If (IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, value = $obj1, entity = $obj1.curNpcPlayer)) {
+		If (IsValueInArray(array = $obj1.curNpcPlayer.listPlayer, entity = $obj1.curNpcPlayer, value = $obj1)) {
 			ArrayRemove(
 				array = $obj1.curNpcPlayer.listPlayer,
 				index = ArrayFind(
 				array = $obj1.curNpcPlayer.listPlayer,
-				value = $obj1,
-				entity = $obj1.curNpcPlayer
+				entity = $obj1.curNpcPlayer,
+				value = $obj1
 			),
 				entity = $obj1.curNpcPlayer
 			)

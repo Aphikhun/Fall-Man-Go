@@ -1,0 +1,45 @@
+PART_TOUCH_ENTITY_BEGIN {
+	If (IsPlayer(entity = $obj2)) {
+				If ($obj2.team == 1) {
+			If (not IsValueInArray(array = $obj2.curNpcPlayer.platform1, entity = $obj2.curNpcPlayer, value = $part1)) {
+				SetPartColor(color = [1.0, 0.0, 0.0, 1.0], part = $part1)
+				If (IsValueInArray(array = $obj2.curNpcPlayer.platform2, entity = $obj2.curNpcPlayer, value = $part1)) {
+					ArrayRemove(
+						array = $obj2.curNpcPlayer.platform2,
+						index = ArrayFind(
+						array = $obj2.curNpcPlayer.platform2,
+						entity = $obj2.curNpcPlayer,
+						value = $part1
+					),
+						entity = $obj2.curNpcPlayer
+					)
+				}
+				ArrayAppend(
+					array = $obj2.curNpcPlayer.platform1,
+					entity = $obj2.curNpcPlayer,
+					value = $part1
+				)
+			}
+		} ElseIf ($obj2.team == 2) {
+			If (not IsValueInArray(array = $obj2.curNpcPlayer.platform2, entity = $obj2.curNpcPlayer, value = $part1)) {
+				SetPartColor(color = [0.0, 0.0, 1.0, 1.0], part = $part1)
+				If (IsValueInArray(array = $obj2.curNpcPlayer.platform1, entity = $obj2.curNpcPlayer, value = $part1)) {
+					ArrayRemove(
+						array = $obj2.curNpcPlayer.platform1,
+						index = ArrayFind(
+						array = $obj2.curNpcPlayer.platform1,
+						entity = $obj2.curNpcPlayer,
+						value = $part1
+					),
+						entity = $obj2.curNpcPlayer
+					)
+				}
+				ArrayAppend(
+					array = $obj2.curNpcPlayer.platform2,
+					entity = $obj2.curNpcPlayer,
+					value = $part1
+				)
+			}
+		}
+	}
+}

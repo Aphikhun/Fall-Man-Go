@@ -1,0 +1,3 @@
+HAND_ITEM_CHANGED_HAND {
+	ShowTip(entity = $obj1, keepTime = 100, textKey = "ea38b8b2-63a9-4c15-95ea-d78f41d7f366", tipType = "3")
+}

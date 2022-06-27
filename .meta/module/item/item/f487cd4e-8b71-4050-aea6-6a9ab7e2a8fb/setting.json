@@ -15,12 +15,104 @@
     "name": {
       "value": "item_f487cd4e-8b71-4050-aea6-6a9ab7e2a8fb"
     },
-    "stack_count_max": 5
+    "stack_count_max": 5,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1c293877-a06e-464d-89a4-96b527496d4e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType",
+                        "rawval": "3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "16d580f5-bfeb-4a14-a81c-d1c0156f1f2f"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c8974e67-4f7a-4080-9b93-4fe9cc9b0310"
+              },
+              "pos": {
+                "x": 834,
+                "y": 348
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "1c293877-a06e-464d-89a4-96b527496d4e"
+              },
+              "pos": {
+                "x": 1381,
+                "y": 316
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "84c69a2f-a1f3-4224-9b99-553109133456"
+            },
+            "type": "Trigger_Hand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c8974e67-4f7a-4080-9b93-4fe9cc9b0310"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3813f58d-5691-4994-a9e6-df7e271b1a14"
+            }
+          },
+          "type": "Trigger_Hand"
+        }
+      ]
+    }
   },
   "meta": {
     "EXPORT": {
       "setting.json": "9e3c9f2c9852da361720b494bbca7f1c",
-      "triggers.bts": ""
+      "triggers.bts": "87a9a5fc57c1c144f0a14a972e0260b8"
     },
     "VERSION": "0.21"
   }
