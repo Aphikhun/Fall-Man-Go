@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Imageset autoScaled="vertical" imagefile="mapEditHomeMsgPopImgSet.png" name="mapEditHomeMsgPopImgSet" nativeHorzRes="512" nativeVertRes="256" resourceGroup="_imagesets_" version="2">
-	<Image height="200" name="pop_big" width="200" xPos="0" yPos="0"/>
-	<Image height="200" name="pop_gif" width="200" xPos="200" yPos="0"/>
-	<Image height="100" name="pop_small" width="100" xPos="400" yPos="0"/>
-</Imageset>

@@ -1,3 +1,0 @@
-REGION_ENTER {
-	KillEntity(entity = $obj1)
-}

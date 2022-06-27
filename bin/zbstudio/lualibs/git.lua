@@ -1,5 +1,0 @@
-ZBREQUIRE 'git.util'
-ZBREQUIRE 'git.objects'
-ZBREQUIRE 'git.pack'
-ZBREQUIRE 'git.repo'
-ZBREQUIRE 'git.protocol'

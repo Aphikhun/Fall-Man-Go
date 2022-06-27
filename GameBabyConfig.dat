@@ -1,9 +1,0 @@
-<GameBabyConfig __version="1">
-	<GameName>worldeditor.exe</GameName>
-	<LobbyName></LobbyName>
-	<IgnoreDllCnt>2</IgnoreDllCnt> 
-	<IgnoreDlls>TenSLX.dll</IgnoreDlls>
-	<IgnoreDlls>Tensafe.dll</IgnoreDlls>
-	<AppId>cd008e8d63</AppId>
-	<DomainUrl>windows.ugm.qq.com</DomainUrl>
-</GameBabyConfig>

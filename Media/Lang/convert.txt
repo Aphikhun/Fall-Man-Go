@@ -1,5 +1,0 @@
-    ==========多语言转换工具convert.bat使用==========
-
-生成csv文件：直接点击convert.bat即可，生成lang.csv文件后直接编辑
-
-生成各个语言的lang文件：直接将编辑后的csv直接拖向convert.bat即可生成

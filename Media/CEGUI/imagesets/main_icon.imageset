@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Imageset autoScaled="vertical" imagefile="main_icon.png" name="main_icon" nativeHorzRes="512" nativeVertRes="128" resourceGroup="_imagesets_" version="2">
-	<Image height="74" name="click_button_tools" width="74" xPos="2" yPos="2"/>
-	<Image height="74" name="click_button_tools_select" width="74" xPos="78" yPos="2"/>
-	<Image height="74" name="delete_button_tools" width="74" xPos="154" yPos="2"/>
-	<Image height="74" name="delete_button_tools_select" width="74" xPos="230" yPos="2"/>
-</Imageset>

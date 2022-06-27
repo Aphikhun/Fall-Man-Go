@@ -1,9 +1,0 @@
-HIT_ENTITY {
-	SetEntityPosition(
-		entity = $obj1,
-		map = GetEntityMap(entity = $obj2),
-		pos = GetEntityPosition(entity = $obj2),
-		rp = 0,
-		ry = GetEntityYaw(entity = $obj2)
-	)
-}

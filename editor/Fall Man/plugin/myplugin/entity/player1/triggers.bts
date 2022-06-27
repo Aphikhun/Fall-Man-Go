@@ -1,3 +1,0 @@
-ENTITY_REBIRTH {
-	AddItem(cfg = "myplugin/a5c79327-9d7f-4ebf-80e3-6b37d40213ae", count = 1, entity = $obj1, reason = "")
-}

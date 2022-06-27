@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Imageset autoScaled="vertical" imagefile="mapEdit_back.png" name="mapEdit_back" nativeHorzRes="128" nativeVertRes="128" resourceGroup="_imagesets_" version="2">
-	<Image height="90" name="back" width="90" xPos="0" yPos="0"/>
-</Imageset>

@@ -1,3 +1,0 @@
-REGION_ENTER {
-	$obj1.WinStage = true
-}

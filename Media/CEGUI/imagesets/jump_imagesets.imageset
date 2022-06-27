@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Imageset autoScaled="vertical" version="2" name="jump_imagesets" imagefile="jump_imagesets.png" resourceGroup="_imagesets_" nativeHorzRes="512" nativeVertRes="256">
-	<Image name="icon_jump_act.png" width="184" height="184" xPos="0" yPos="0"/>
-	<Image name="icon_jump_nor.png" width="184" height="184" xPos="184" yPos="0"/>
-</Imageset>

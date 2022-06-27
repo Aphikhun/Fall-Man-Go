@@ -1,3 +1,0 @@
-﻿local M = {}
-
-return M

@@ -1,4 +1,0 @@
-HIT_ENTITY {
-	AddEntityBuff(buffTime = 60, cfg = "myplugin/burning", entity = $obj1)
-	Damage(damage = 5, entity = $obj1, from = $obj2)
-}

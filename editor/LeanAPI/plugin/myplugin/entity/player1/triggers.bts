@@ -1,3 +1,0 @@
-ENTITY_ENTER {
-	$obj1.mind = 1
-}

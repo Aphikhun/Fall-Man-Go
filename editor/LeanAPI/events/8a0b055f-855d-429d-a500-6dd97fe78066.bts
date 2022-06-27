@@ -1,8 +1,0 @@
-PART_TOUCH_ENTITY_BEGIN {
-	SetEntityRebirthPosition(entity = $obj2, pos = { x = -43.607860565186, y = 35.191416778564, z = 3.8509712219238 })
-	AddEntityBuff(buffTime = 60, cfg = "myplugin/aperture", entity = $obj2)
-	If ($obj2.mind < 8) {
-		$obj2.mind = 8
-		ShowTip(entity = $obj2, keepTime = 40, textKey = "a4a2cf24-17ac-49d8-bd4a-a95408f4c5cc", tipType = "1")
-	}
-}

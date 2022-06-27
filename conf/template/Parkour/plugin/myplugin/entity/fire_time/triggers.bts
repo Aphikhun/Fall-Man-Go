@@ -1,5 +1,0 @@
-GAME_GO {
-	StartTimer2(interval = 80, time = 99999999, timer = "") {
-		AddEntityBuff(buffTime = 60, cfg = "myplugin/Long flame", entity = $obj1)
-	}
-}

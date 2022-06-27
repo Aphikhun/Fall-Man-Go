@@ -1,8 +1,0 @@
-SKILL_CAST {
-	$haveItem = RewardMechanism(entity = $obj1, path = "myplugin/5b28978f-e5c8-40eb-bde7-0bafc1b33f3e")
-	Test(Message = $haveItem)
-	WhileBranch(condition = not $haveItem) {
-		$haveItem = RewardMechanism(entity = $obj1, path = "myplugin/5b28978f-e5c8-40eb-bde7-0bafc1b33f3e")
-		Test(Message = $haveItem)
-	}
-}

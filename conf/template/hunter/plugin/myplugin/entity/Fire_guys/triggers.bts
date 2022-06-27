@@ -1,3 +1,0 @@
-ENTITY_DIE {
-	RewardMechanism(entity = $obj2, path = "myplugin/reward")
-}
