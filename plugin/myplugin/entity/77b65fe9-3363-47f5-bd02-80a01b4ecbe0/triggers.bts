@@ -38,15 +38,15 @@ ENTITY_TOUCH_ALL {
 								map = "",
 								max = {
 									__OBJ_TYPE = "Vector3i",
-									x = 20,
-									y = 52,
-									z = 21
+									x = 10,
+									y = 53,
+									z = 10
 								},
 								min = {
 									__OBJ_TYPE = "Vector3i",
-									x = -18,
-									y = 51,
-									z = -19
+									x = -10,
+									y = 53,
+									z = -10
 								}
 							}
 						),

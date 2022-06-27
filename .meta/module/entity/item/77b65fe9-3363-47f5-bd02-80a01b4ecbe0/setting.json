@@ -3555,14 +3555,14 @@
                         "rawval": {
                           "region": {
                             "max": {
-                              "x": 20,
-                              "y": 52,
-                              "z": 21
+                              "x": 10,
+                              "y": 53,
+                              "z": 10
                             },
                             "min": {
-                              "x": -18,
-                              "y": 51,
-                              "z": -19
+                              "x": -10,
+                              "y": 53,
+                              "z": -10
                             }
                           }
                         }
@@ -4098,7 +4098,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "2aa8626b020650348ec61e9478b49ffb",
-      "triggers.bts": "967a1f8704f0af8eb8d766fb8cfc812e"
+      "triggers.bts": "f98872ed8bc02fff8929c6185828b6a4"
     },
     "VERSION": "0.21"
   }

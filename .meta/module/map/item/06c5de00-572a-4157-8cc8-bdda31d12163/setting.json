@@ -187,7 +187,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8674749261142441985",
-        "isLockedInEditor": true,
         "material": {
           "color": {
             "b": 127,
@@ -201,443 +200,14 @@
         },
         "restitution": 0.3,
         "scale": {
-          "x": 84,
-          "z": 84
+          "x": 61,
+          "z": 61
         },
         "size": {
-          "x": 84,
-          "z": 84
+          "x": 61,
+          "z": 61
         },
         "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Model",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "798b6c75-3e81-46f7-9e4d-b50578827cbd",
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681752630652305409",
-            "isLockedInEditor": true,
-            "material": {
-              "color": {
-                "b": 143,
-                "g": 194,
-                "r": 0
-              }
-            },
-            "position": {
-              "y": 4.5
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 24,
-              "y": 5,
-              "z": 24
-            },
-            "size": {
-              "x": 24,
-              "y": 5,
-              "z": 24
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_PartOperation",
-            "btsKey": "d1a2a28b-2a50-4f5e-9a3e-728edfb6640c",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332948049921",
-                "material": {
-                  "color": {
-                    "b": 138,
-                    "g": 189,
-                    "r": 0
-                  }
-                },
-                "position": {
-                  "x": -0.121639,
-                  "y": 4.5,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                },
-                "size": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                }
-              },
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "booleanOperation": 2,
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332952064001",
-                "material": {
-                  "color": {
-                    "b": 0,
-                    "g": 0
-                  }
-                },
-                "position": {
-                  "x": -3.82272,
-                  "y": 7.40844,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "rotation": {
-                  "z": 15
-                },
-                "scale": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                },
-                "size": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                }
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681765395802996737",
-            "isLockedInEditor": true,
-            "material": {
-              "color": {
-                "b": 143,
-                "g": 194,
-                "r": 0
-              }
-            },
-            "mergeShapesDataKey": "8681763332955029505",
-            "position": {
-              "x": -14.5,
-              "y": 4.4999995231628
-            },
-            "restitution": 0.3,
-            "rotation": {
-              "y": -90
-            },
-            "scale": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "size": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_PartOperation",
-            "btsKey": "36fd3fa3-8715-413e-b7c7-1fabd6bc08d6",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332948049921",
-                "material": {
-                  "color": {
-                    "b": 138,
-                    "g": 189,
-                    "r": 0
-                  }
-                },
-                "position": {
-                  "x": -0.121639,
-                  "y": 4.5,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                },
-                "size": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                }
-              },
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "booleanOperation": 2,
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332952064001",
-                "material": {
-                  "color": {
-                    "b": 0,
-                    "g": 0
-                  }
-                },
-                "position": {
-                  "x": -3.82272,
-                  "y": 7.40844,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "rotation": {
-                  "z": 15
-                },
-                "scale": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                },
-                "size": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                }
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681763333035098113",
-            "isLockedInEditor": true,
-            "material": {
-              "color": {
-                "b": 143,
-                "g": 194,
-                "r": 0
-              }
-            },
-            "mergeShapesDataKey": "8681763332955029505",
-            "position": {
-              "y": 4.4999995231628,
-              "z": 14.5
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "size": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_PartOperation",
-            "btsKey": "34a7cc8a-86cf-46d1-9960-45bd4041ae34",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332948049921",
-                "material": {
-                  "color": {
-                    "b": 138,
-                    "g": 189,
-                    "r": 0
-                  }
-                },
-                "position": {
-                  "x": -0.121639,
-                  "y": 4.5,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                },
-                "size": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                }
-              },
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "booleanOperation": 2,
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332952064001",
-                "material": {
-                  "color": {
-                    "b": 0,
-                    "g": 0
-                  }
-                },
-                "position": {
-                  "x": -3.82272,
-                  "y": 7.40844,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "rotation": {
-                  "z": 15
-                },
-                "scale": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                },
-                "size": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                }
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681764599486431233",
-            "isLockedInEditor": true,
-            "material": {
-              "color": {
-                "b": 143,
-                "g": 194,
-                "r": 0
-              }
-            },
-            "mergeShapesDataKey": "8681763332955029505",
-            "position": {
-              "y": 4.4999995231628,
-              "z": -14.5
-            },
-            "restitution": 0.3,
-            "rotation": {
-              "y": 180
-            },
-            "scale": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "size": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_PartOperation",
-            "btsKey": "6b9864db-f6b0-4d7a-b403-437689f70495",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332948049921",
-                "material": {
-                  "color": {
-                    "b": 138,
-                    "g": 189,
-                    "r": 0
-                  }
-                },
-                "position": {
-                  "x": -0.121639,
-                  "y": 4.5,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "scale": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                },
-                "size": {
-                  "x": 24,
-                  "y": 5,
-                  "z": 5
-                }
-              },
-              {
-                "__OBJ_TYPE": "Instance_Part",
-                "booleanOperation": 2,
-                "density": 2.2,
-                "friction": 0.37,
-                "id": "8681763332952064001",
-                "material": {
-                  "color": {
-                    "b": 0,
-                    "g": 0
-                  }
-                },
-                "position": {
-                  "x": -3.82272,
-                  "y": 7.40844,
-                  "z": 49.2726
-                },
-                "restitution": 0.3,
-                "rotation": {
-                  "z": 15
-                },
-                "scale": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                },
-                "size": {
-                  "x": 25,
-                  "y": 6,
-                  "z": 6
-                }
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8681765083832631297",
-            "isLockedInEditor": true,
-            "material": {
-              "color": {
-                "b": 143,
-                "g": 194,
-                "r": 0
-              }
-            },
-            "mergeShapesDataKey": "8681763332955029505",
-            "position": {
-              "x": 14.5,
-              "y": 4.4999995231628
-            },
-            "restitution": 0.3,
-            "rotation": {
-              "y": 90
-            },
-            "scale": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "size": {
-              "x": 24,
-              "y": 5,
-              "z": 5
-            },
-            "useAnchor": true
-          }
-        ],
-        "id": "8681767625713926145",
-        "name": "Floor2",
-        "position": {
-          "y": 4.4999998807907
-        }
       },
       {
         "__OBJ_TYPE": "Instance_Part",
@@ -2304,87 +1874,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "ed3d1877-f9b7-4918-9a51-9a1deabf9cea",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683321092881481729",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "86a96d3e-9bd9-46bb-af06-64118a0254fd",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683321301888139265",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "4f8ebd97-f33b-401d-b7a4-5bc67e26b17a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683321888026198017",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "873c64cb-8276-4ea0-9361-f226cd56a4f6",
         "density": 2.2,
         "friction": 0.37,
@@ -2395,90 +1884,6 @@
         "name": "Color plate",
         "position": {
           "x": -24,
-          "y": 2.0999999046326,
-          "z": 4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f3288ece-cbd1-4f3b-bab5-ad4dad6d24b7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334506546266113",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8f1f8493-b6dc-4837-b0d7-8cea0e619b07",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334506548772865",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7b7fd576-4914-4587-b997-7259e1c8adc7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334506551214081",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
           "y": 2.0999999046326,
           "z": 4
         },
@@ -2609,34 +2014,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "50af95c2-9896-496f-99d6-3f6ea200ef76",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334607251636225",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "17a496af-5b2e-46ca-ab22-3c048f6b840c",
         "density": 2.2,
         "friction": 0.37,
@@ -2647,62 +2024,6 @@
         "name": "Color plate",
         "position": {
           "x": -28,
-          "y": 2.0999999046326,
-          "z": 8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3d1e5573-82f2-49f2-95c4-1bb867544f7e",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334607259549697",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f9986479-fa5e-4d16-8fdd-1e975f65398f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334607262728193",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
           "y": 2.0999999046326,
           "z": 8
         },
@@ -2749,34 +2070,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "4cf197f9-4d39-4fb6-a97b-4f56aa9c29ed",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334684174712833",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "4a37ee56-4324-4841-ab67-ce650c48b1f4",
         "density": 2.2,
         "friction": 0.37,
@@ -2787,62 +2080,6 @@
         "name": "Color plate",
         "position": {
           "x": -24,
-          "y": 2.0999999046326,
-          "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "31af5308-7cdc-4907-8440-4e5c3a869c4f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334684180234241",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "ae8bb9e6-9d67-401d-a046-7ad9cff0c804",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334684182953985",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
           "y": 2.0999999046326,
           "z": 12
         },
@@ -2873,62 +2110,6 @@
           "x": -28,
           "y": 2.0999999046326,
           "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "73b7b24f-de52-4c39-9591-3f2ad7bb4a33",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334768749608961",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e6e07cc5-be34-4226-a663-2deb7972f764",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334768752803841",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 16
         },
         "restitution": 0.3,
         "scale": {
@@ -3029,62 +2210,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0398c0f5-0895-4964-8012-7e1fa40d1bf0",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334768767188993",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "da29ef29-cd14-48e4-806d-4fd30cd6e49d",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334854159073281",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "77c86e2d-5e36-49d6-8ad9-134c7d687cd5",
         "density": 2.2,
         "friction": 0.37,
@@ -3141,34 +2266,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b9f94347-7261-4f32-8194-a0cc5f097774",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334854166937601",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "dd9c2b22-d03c-4feb-907a-8091425dd455",
         "density": 2.2,
         "friction": 0.37,
@@ -3181,90 +2278,6 @@
           "x": -24,
           "y": 2.0999999046326,
           "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "acdd0913-b674-47ff-bf36-a5262aa15276",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334854173163521",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "46587281-4358-4fe4-bdc2-2f665e8d464c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334973406887937",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b257a329-ca12-4674-8043-8c547e094848",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334973410918401",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -20
         },
         "restitution": 0.3,
         "scale": {
@@ -3337,34 +2350,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "4cc0c803-ed96-4582-be4f-c6e681ac4a4a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683334973422878721",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "c68a8a3d-411f-4123-8c5f-2084db984ce9",
         "density": 2.2,
         "friction": 0.37,
@@ -3377,90 +2362,6 @@
           "x": -28,
           "y": 2.0999999046326,
           "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e0d242d5-c410-4ed1-86b5-0d86d5e9d8ea",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335069011296257",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d3b2a072-6b9b-481a-84c6-f76cf43c9060",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335069015293953",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "87259315-822d-47f2-9395-bc8876c7687b",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335069019815937",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -16
         },
         "restitution": 0.3,
         "scale": {
@@ -3561,34 +2462,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "fd17ea4c-e576-4197-886e-1ac3b046679c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335207177175041",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "1b072970-7702-4515-b050-524716878e40",
         "density": 2.2,
         "friction": 0.37,
@@ -3600,34 +2473,6 @@
         "position": {
           "x": -20,
           "y": 2.1,
-          "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "afe10f95-8e4d-48eb-813f-10e6ccea0530",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335207183958017",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
           "z": -12
         },
         "restitution": 0.3,
@@ -3685,62 +2530,6 @@
           "x": -28,
           "y": 2.0999999046326,
           "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "ec458840-1987-4bca-a0e8-5560f86ffeee",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335207194001409",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b0601f56-61be-4fa1-b800-6a64872dd90f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335286709747713",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -4
         },
         "restitution": 0.3,
         "scale": {
@@ -3841,62 +2630,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b6faedf0-7d3e-46fb-b7b4-f7973a599f50",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335286722134017",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "09271953-9783-4750-9cea-1d2f70c34f31",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335286725279745",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "2d6e9441-edd2-4eca-af2b-89f32bf9a636",
         "density": 2.2,
         "friction": 0.37,
@@ -3908,34 +2641,6 @@
         "position": {
           "x": -20,
           "y": 2.1,
-          "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6e0ed63a-a2d2-41e4-85df-1818ba2a7b2c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335487909396481",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
           "z": -8
         },
         "restitution": 0.3,
@@ -3981,62 +2686,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0d4de612-5032-4aae-bc46-cacf6fb554c2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335487939870721",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e63a7cba-d471-44a0-bd2f-72a6e1bd432f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335487969443841",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "42f0f4dd-72cc-45b8-a5ec-d0f7fc9f4d8f",
         "density": 2.2,
         "friction": 0.37,
@@ -4049,90 +2698,6 @@
           "x": -28,
           "y": 2.0999999046326,
           "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "4f10d9c7-7184-46d9-880d-6e314b746c80",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335581756555265",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5224038f-b3c4-48b2-81d4-f2e1b4041f87",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335581760208897",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7b5ca20b-6d08-4144-abe6-5d0170575348",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335581763731457",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -24
         },
         "restitution": 0.3,
         "scale": {
@@ -4233,174 +2798,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "fee60d8a-61b0-40dd-8a87-875b2fa55cc3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335778389262337",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "76e390ec-380e-4f7b-b8b7-170007eb7b57",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335778392539137",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "81d34d18-f0f1-4041-bd02-c534cca34877",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335778395291649",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2e60ee42-6609-4a8a-8aa1-fef3d615d4a7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335778398060545",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8b2c9b53-1ad9-47fd-a483-3e4bf96801e9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335778400845825",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a6760334-9852-4ef5-b981-2ff73e525385",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335778403549185",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "2b754b32-400b-46d1-a286-59b828bc275b",
         "density": 2.2,
         "friction": 0.37,
@@ -4411,90 +2808,6 @@
         "name": "Color plate",
         "position": {
           "x": -28,
-          "y": 2.0999999046326,
-          "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "cba1b7b6-e7a5-4244-8a44-238b99b32abe",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335960550424577",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f98c9462-6815-46d7-954b-3b7f5005ccd9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335960553865217",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b88038c0-bc80-45c7-8aa3-e0caf6d2e39f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683335960557109249",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
           "y": 2.0999999046326,
           "z": -28
         },
@@ -4553,1070 +2866,6 @@
           "x": -24,
           "y": 2.0999999046326,
           "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "386f5978-9733-485d-9fb2-abd736d9809c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336057208291329",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "1f9a8f91-fe6a-45a8-b40c-1cd08eb1f043",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336057211207681",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "aaecb361-af18-4223-98a8-6848379eab92",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336057214058497",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "41d8548c-2e09-4483-b6d2-477accfc5c67",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336057216811009",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8a77e6c9-d74d-4a59-a39a-4b4e5e4b292a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336057219235841",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d1604eee-0703-4424-90c4-34e51f74acc0",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336057222021121",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3d6964fc-d127-492d-baa4-cec37edc99a2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336358096535553",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "c5ebb95d-7be8-4d04-8efd-de1d0d99f7ff",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336358099730433",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6bfd1239-608a-4cd0-8174-b10a92662086",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336358102237185",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5ada8290-bc96-4791-9b37-dfdb97fc52f8",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336358105006081",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "277d68c3-50bc-4193-9179-9bc36c417de3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336358107725825",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "9f22db31-e558-4c52-855e-52666abe1b68",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336358110199809",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "cc3dbc5d-62d1-4d68-88ad-0b190b7fd123",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336443063205889",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "fea1bad6-9064-4d88-94be-dd78ba726ef9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336443067727873",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b8c908ab-c87f-4a8a-8804-cefc0a3084d9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336443071070209",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "1cc0d9f3-03f7-4b5d-8fdc-b2f70b8c1b73",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336443074084865",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d7a249f2-966e-4645-a10e-9662039d7d48",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336443077066753",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "c4c52181-698a-4d38-bee6-6b7a83aa83e6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336443080425473",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "134c0236-1cb2-42d2-8c5e-7338be001319",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336900318920705",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0e928ec4-1bd6-45a7-bdca-886c2cfc16b2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336900322607105",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "51e6780d-5eca-491a-8d70-33b55bf3d382",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336900325998593",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "1e7ce1cf-0bf1-437c-9313-df5421113b3c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336900329488385",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "caaed003-65ec-4599-bd01-f57f3b5c70d9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336900333223937",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a90d94ea-581b-4c35-b60b-753f0638c43f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683336900336812033",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3898bb29-12bc-4c11-a6a7-028ba7165648",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337028331257857",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "65f59315-9be4-4c60-a32f-ab75117829d9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337028334649345",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "bbce6d56-ea70-41a4-a1b2-3c15378c2446",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337028337385473",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7ee6e501-adbf-43b8-af1e-5381441789d9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337028340334593",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "93c8bf56-0bc5-407e-b470-b5ef6083aeb5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337028343267329",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "98cb5875-a345-4191-87cf-d26f60d5d842",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337028346085377",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "52c5e3a3-becd-47bd-a141-8f281b515564",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337142816636929",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -28,
-          "y": 2.0999999046326,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2d0b653c-362c-4352-9a6a-e432bf6b3ff7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337142820241409",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -24,
-          "y": 2.0999999046326,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "32e3a7e5-1135-453c-b2ac-a0a3f6a24041",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337142823124993",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "9162950e-c477-4d82-8fa2-f709730b93b3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337142825926657",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -20,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "823623a2-98b5-4fb1-a187-93a050db3255",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337142829580289",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "df89985c-aaa6-4e12-9f43-07cb4085c045",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337142832529409",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8f57372a-93b9-450e-964d-b234e9b4a8d3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337207600381953",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6366ba4d-dffd-4969-8754-0358380cc5b6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337207603576833",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 28
         },
         "restitution": 0.3,
         "scale": {
@@ -5717,34 +2966,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "311767e4-b86e-47f2-8fe1-fe09b3fb88b3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337207617159169",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "94418392-e48f-4ccf-902b-a069e8b43e4a",
         "density": 2.2,
         "friction": 0.37,
@@ -5801,90 +3022,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "1e0e4f5e-2267-463f-b76f-0091c356496c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337291274387457",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -36,
-          "y": 2.0999999046326,
-          "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3bc2ff61-cf8f-4dac-ae75-ffa0466caa12",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337291280547841",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -40,
-          "y": 2.0999999046326,
-          "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "c5adf8e4-55c2-4ebf-8814-bc900f7cb204",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683337291286331393",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -32,
-          "y": 2.0999999046326,
-          "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "57e0149e-60ad-48be-b876-94b5eba7a3be",
         "density": 2.2,
         "friction": 0.37,
@@ -5897,34 +3034,6 @@
           "x": -24,
           "y": 2.0999999046326,
           "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0c98f052-b036-4e5a-ae3e-13a4aa4b4992",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339068151758849",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -16,
-          "y": 2.1,
-          "z": 32
         },
         "restitution": 0.3,
         "scale": {
@@ -5997,34 +3106,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f674d937-28ac-4d08-b4d5-f3c2c1ea8312",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339068160245761",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -16,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "4fcf9c59-b564-48cc-8a90-64641285b722",
         "density": 2.2,
         "friction": 0.37,
@@ -6053,90 +3134,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "40674f1f-b762-4354-bbad-9ed23edd79b6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339068165455873",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -16,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5bcd3c0f-5128-4f8f-86f8-b8ed83d5c1a9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339389245243393",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -12,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "31f89fc0-724a-4bf8-b366-3fcd3a823acb",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339389248962561",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -12,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "1dc59066-73cd-4f30-87ff-70621bd7b898",
         "density": 2.2,
         "friction": 0.37,
@@ -6149,34 +3146,6 @@
           "x": -12,
           "y": 2.1,
           "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "71ff6bf7-fa12-4c0c-bf1a-af1ccfee1183",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339389254811649",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -12,
-          "y": 2.1,
-          "z": 32
         },
         "restitution": 0.3,
         "scale": {
@@ -6249,34 +3218,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5a946ae5-681c-4988-994b-aa4837af453f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339538925289473",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -8,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "788b5d0e-ec2a-4d31-9777-430a362e04f6",
         "density": 2.2,
         "friction": 0.37,
@@ -6289,62 +3230,6 @@
           "x": -8,
           "y": 2.1,
           "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "58f152b4-89b7-4aab-9b47-f15c17685308",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339538941214721",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -8,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "585e0865-fd43-4b2f-8df9-8dce90a454a5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339538949816321",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -8,
-          "y": 2.1,
-          "z": 36
         },
         "restitution": 0.3,
         "scale": {
@@ -6473,34 +3358,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5f05fcd8-3fcb-479c-8291-da2e7878ac33",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339650545156097",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -4,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "6a1a3e7c-e757-4b89-b0c7-6504c67a5bd6",
         "density": 2.2,
         "friction": 0.37,
@@ -6513,62 +3370,6 @@
           "x": -4,
           "y": 2.1,
           "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0fd7ea44-243f-4031-a615-4f12433801e5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339650550562817",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -4,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "28429c24-371d-4018-b92b-8c0d026e80c7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339650553233409",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -4,
-          "y": 2.1,
-          "z": 36
         },
         "restitution": 0.3,
         "scale": {
@@ -6666,115 +3467,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "62d1bb26-a456-4814-9a81-ec335683cf93",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339749441847297",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "23b08cac-e728-4019-b2df-920b9f4b5eb9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339749444567041",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "96be9a06-99ba-4baa-8e74-ece9b9b5340e",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339749447368705",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2d10b74d-32c1-4c0d-b47f-644bca3f46bb",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339876958470145",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 4,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "2c866c44-d737-4297-b6a1-f95c68233ec3",
         "density": 2.2,
         "friction": 0.37,
@@ -6831,34 +3523,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "02505ccb-251d-485c-9ed1-bef12331504b",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339876966940673",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 4,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "848ef393-1886-4fb4-87a6-cfcd6762e1b8",
         "density": 2.2,
         "friction": 0.37,
@@ -6871,90 +3535,6 @@
           "x": 4,
           "y": 2.1,
           "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b9f61a3a-e7f3-4c61-a16b-9e7a6ad0ce54",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683339876971954177",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 4,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "457b964a-a21e-437f-a06d-767a5ef53fca",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340275821199361",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 8,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "80635a04-ee32-4639-8bf6-cd7193e251c7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340275826802689",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 8,
-          "y": 2.1,
-          "z": 40
         },
         "restitution": 0.3,
         "scale": {
@@ -7027,34 +3607,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6b1eb393-687b-49ef-87c2-c81a3e18a327",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340275840499713",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 8,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "ef24c43f-3871-4f54-a8f1-2d19f1ef6402",
         "density": 2.2,
         "friction": 0.37,
@@ -7083,34 +3635,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b452c1d9-b7c9-49be-816c-0282dc33b055",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340355829317633",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 12,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "e0348359-5f78-4602-8681-8cc0cac323eb",
         "density": 2.2,
         "friction": 0.37,
@@ -7123,34 +3647,6 @@
           "x": 12,
           "y": 2.1,
           "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f5a3bb3c-15b5-413e-9f6b-61f474c84b95",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340355835035649",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 12,
-          "y": 2.1,
-          "z": 32
         },
         "restitution": 0.3,
         "scale": {
@@ -7223,34 +3719,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "76d8b93d-fba7-4a36-932c-c6e7a6e7aa1f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340355843063809",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 12,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "b076652f-d761-44de-a1c7-f84da546b96a",
         "density": 2.2,
         "friction": 0.37,
@@ -7263,90 +3731,6 @@
           "x": 16,
           "y": 2.1,
           "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d088419c-e4f7-499d-98c4-bf5b4937e600",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340422224510977",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 16,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d58061a6-70d7-4062-9b0b-0ff325e13553",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340422227017729",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 16,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "dcf689b3-52e3-4f2a-a612-ba10980e4493",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340422229786625",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 16,
-          "y": 2.1,
-          "z": 40
         },
         "restitution": 0.3,
         "scale": {
@@ -7475,62 +3859,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5f22402d-07ee-4811-b2bc-001650cc6a53",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340498077335553",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 20,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2c18e828-765c-494e-8d8d-b9cb48933f6c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340498080137217",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 20,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "0f828c0b-5fef-4761-9a23-285aa81af6ab",
         "density": 2.2,
         "friction": 0.37,
@@ -7543,34 +3871,6 @@
           "x": 20,
           "y": 2.1,
           "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7de314f9-56e3-4650-9e1a-f71c1e136a32",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340498085773313",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 20,
-          "y": 2.1,
-          "z": 36
         },
         "restitution": 0.3,
         "scale": {
@@ -7643,34 +3943,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "75ab210a-d0fa-4af3-b70a-a4ea16e07262",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340580244832257",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 24,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "87b60881-c897-43ad-86da-2613f839f6b6",
         "density": 2.2,
         "friction": 0.37,
@@ -7683,118 +3955,6 @@
           "x": 24,
           "y": 2.1,
           "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "47a79d73-97db-4a9e-917f-dcf9f7ff9132",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340580251074561",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 24,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "24d5b57a-3690-4999-a2a8-e7d6483885b3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340580254547969",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 24,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5df3bb24-c575-4ada-b190-ae86e8b793dc",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340655794569217",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 28,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "bd210161-92b3-40c2-944a-cd40853e45f5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340655798484993",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 28,
-          "y": 2.1,
-          "z": 32
         },
         "restitution": 0.3,
         "scale": {
@@ -7877,538 +4037,6 @@
         "name": "Color plate",
         "position": {
           "x": 28,
-          "y": 2.1,
-          "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b7a63680-90d0-4db3-941e-28a5406ccfea",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340655823749121",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 28,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "cccea6d1-a390-45ca-9e16-459788a5cfd4",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340724423163905",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "4bfba2e9-3eb2-490e-b1cd-e752906f6632",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340724426571777",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "379f1716-5107-4334-8769-d972e98fba05",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340724429504513",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "38d9964a-f74a-4857-aa45-3647770ce729",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340724432388097",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e7e737f9-3b94-4ab1-b65c-fd99a93c2bac",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340724434878465",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f5dfb751-6f79-4253-958b-05d5881d9585",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340724437663745",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3203272a-1377-43b5-9154-0c90aad05ae8",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340801789624321",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "4f8bec3e-5b1a-4c37-997f-6384cb00ebae",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340801793769473",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "392c15c8-35c6-429d-afda-646db4f5ad8a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340801798127617",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "9bb851ae-7c32-43d4-9879-d86f7cf31ae8",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340801805697025",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5a71f85a-ce1b-4e26-97fc-e38e997b578e",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340801809154049",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "43010af0-bf15-4e0a-b2b3-f6e3347a6351",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340801812381697",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "da3cb5b9-fbbc-4df6-bb90-0016a0e5da8c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340908535300097",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3e7399ec-54f8-4025-8185-9899e8018f51",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340908538527745",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "63dbcce2-96e6-4bdf-93db-c810a6082be9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340908541362177",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a1179cee-b843-4537-a98e-fd1e8a2954e1",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340908544131073",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3966fe10-6f73-4e38-bc76-5868445fc863",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340908546850817",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "95b373a6-a49d-4d1e-8b41-622b788965fe",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683340908549554177",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
           "y": 2.1,
           "z": 28
         },
@@ -8511,146 +4139,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6ebff351-69e2-4bb5-a9a6-5da1fb22a441",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341328670588929",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d4e3031a-b0e4-4d9a-bbb6-689a39e1777c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341328673390593",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "dd05b82e-f9f6-416d-99ae-91d7a5b7855e",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341328675913729",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "ac667c16-3cf5-443b-a20c-7a041273b8d0",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341594641039361",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "66747b4a-797a-43ba-aea8-d10f9b8b9766",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341594644283393",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "ec85042b-6330-48e6-91e7-dbf4421955c0",
         "density": 2.2,
         "friction": 0.37,
@@ -8661,34 +4149,6 @@
         "name": "Color plate",
         "position": {
           "x": 28,
-          "y": 2.1,
-          "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d8d92f96-e144-4f00-907b-0abbe576fc07",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341594649903105",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
           "y": 2.1,
           "z": 12
         },
@@ -8747,34 +4207,6 @@
           "x": 24,
           "y": 2.1,
           "z": 12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d89277bf-2162-4eee-8eff-7cc9f2bd7149",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341846737534977",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 8
         },
         "restitution": 0.3,
         "scale": {
@@ -8875,146 +4307,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e5864232-cac5-4cb7-954b-07ad5ff83dfa",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341846747774977",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "157d63d0-da92-4a08-a161-615b0a8a5a3a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341846750199809",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f1fa9b44-cfa5-4ae6-a78d-1718a9bb6aae",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341927504642049",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": 4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6423afcd-1466-4742-80cf-eed5a205c321",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341927507853313",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": 4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "569ff0f5-0171-4aef-9620-7e7e17168003",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683341927510786049",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": 4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "fceab2a8-8248-485a-959c-c204b7c1d9c8",
         "density": 2.2,
         "friction": 0.37,
@@ -9099,87 +4391,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "39f4d694-ef3f-46f1-9ccf-6029fc08ddb4",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342013876977665",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8c0727f3-41db-4c8e-a103-3673423242c8",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342013885693953",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "ca1f4e15-d2c0-429a-a143-f7c8391097a7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342013893705729",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "b7c6b6d2-8210-47f4-8c74-b832ae70249d",
         "density": 2.2,
         "friction": 0.37,
@@ -9245,34 +4456,6 @@
         "position": {
           "x": 28,
           "y": 2.1
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "75cd6a52-bedb-4d02-a664-b7caf308af5c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342096458825729",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -4
         },
         "restitution": 0.3,
         "scale": {
@@ -9373,62 +4556,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "823acb46-6184-445f-8d46-562b94edfc63",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342096471425025",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "153d8592-4efb-4ad5-80ee-786a73c0bf42",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342096474456065",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -4
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "f7474c4e-fd79-41bb-8df1-0430017a7fd2",
         "density": 2.2,
         "friction": 0.37,
@@ -9467,90 +4594,6 @@
         "name": "Color plate",
         "position": {
           "x": 20,
-          "y": 2.1,
-          "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "552e03b0-be26-4aaa-ada1-6892610ce98a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342219691671553",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "0ee434d5-5a2f-4c61-b297-4e9d39c43246",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342219694587905",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -8
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "24c3dc08-0436-4c5a-b499-d7d382a2ea9b",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342219697569793",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
           "y": 2.1,
           "z": -8
         },
@@ -9625,34 +4668,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "79785ec8-5ad5-4fac-84cb-0f89adf974b2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342493664722945",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "49e70382-77a3-42d1-aef1-4b95fbeba2a8",
         "density": 2.2,
         "friction": 0.37,
@@ -9663,34 +4678,6 @@
         "name": "Color plate",
         "position": {
           "x": 24,
-          "y": 2.1,
-          "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "b49c4c43-6ba1-4336-b5e5-31c2a5433122",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342493670391809",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
           "y": 2.1,
           "z": -12
         },
@@ -9721,62 +4708,6 @@
           "x": 20,
           "y": 2.1,
           "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "319ee72f-6ee1-498d-aa4e-44974b7416c2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342493676060673",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -12
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e01ddc6f-9a1b-452d-a1b1-32cd0442706c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342582050357249",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -16
         },
         "restitution": 0.3,
         "scale": {
@@ -9849,34 +4780,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2c6edc06-150d-47a4-9797-0dc2cc8dbc45",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342582059286529",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "33ebd9bd-2a72-496a-9d65-6b5ecb9fa902",
         "density": 2.2,
         "friction": 0.37,
@@ -9889,62 +4792,6 @@
           "x": 20,
           "y": 2.1,
           "z": -16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a26b1d07-7d28-4e19-8c0b-fa0aac8480a7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342582065283073",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -16
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5f328505-f5a3-49af-bc66-32dfa5c20f9c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342661713707009",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -20
         },
         "restitution": 0.3,
         "scale": {
@@ -10017,34 +4864,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "380dbfb3-c697-49ea-a6ec-89d664ae6cce",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342661721473025",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "adfd5108-b99c-4679-ade6-5cbad3c2c90e",
         "density": 2.2,
         "friction": 0.37,
@@ -10055,34 +4874,6 @@
         "name": "Color plate",
         "position": {
           "x": 20,
-          "y": 2.1,
-          "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a4d3e873-d0a9-4da6-ab9f-6a010b6da43c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342661726470145",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
           "y": 2.1,
           "z": -20
         },
@@ -10157,90 +4948,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "9b19157d-42e1-4f0c-85e3-4e45cc516c8b",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342746570080257",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f07861f8-373f-40a7-b6c1-0bed5309bfac",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342746572980225",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d64332ad-4825-4a82-95da-a25cf4575b07",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342746575847425",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "e7cfff38-11e2-47e5-8102-0b5c8a88feca",
         "density": 2.2,
         "friction": 0.37,
@@ -10269,34 +4976,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "eec23d68-dd8b-4aa2-8e7b-a157f2a30180",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342814804443137",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "a7a71ff2-f066-4374-a595-de5a30a08d4a",
         "density": 2.2,
         "friction": 0.37,
@@ -10307,34 +4986,6 @@
         "name": "Color plate",
         "position": {
           "x": 24,
-          "y": 2.1,
-          "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "564a9464-78d4-4563-9a35-6b683d47a3b3",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342814811488257",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
           "y": 2.1,
           "z": -28
         },
@@ -10381,34 +5032,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "15fc83a4-1230-460f-8069-3f01cbf17854",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342814818074625",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "fc8f5d40-ef30-4dc1-94bd-638f06cff70f",
         "density": 2.2,
         "friction": 0.37,
@@ -10421,566 +5044,6 @@
           "x": 20,
           "y": 2.1,
           "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2aeea452-acff-4d01-a47a-20a3534de81f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342883548413953",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "af0dd177-0d70-49b7-ae80-d718e2e60b2a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342883551952897",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a903badd-7712-48f1-84b7-a43209fe67d2",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342883555557377",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 28,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "521f84c7-ff85-4109-b403-1b7ac9d9f54c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342883558572033",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 20,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7d29051e-219d-4474-ac88-c0777fc2857a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342883561373697",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "11aa3b0a-5ea5-4a63-b647-d0fcd4ac89a8",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342883564273665",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 24,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "857cf8b2-96bd-4e18-b9c0-4d784b0fe771",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342958087274497",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e8321794-b5eb-4b5e-9d2f-2f4acdd5ceee",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342958092091393",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 20,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "74c60601-e9f5-4b4f-ad24-fb005660c7ff",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342958095564801",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 28,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6f58cf3f-a5c4-4142-9b6b-6387183bf148",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342958098956289",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8416ad84-e368-4ad6-b369-785d24fdb927",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342958102495233",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 24,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "41c78e7c-168c-4aa0-ae7b-8c7ab5de118c",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683342958105657345",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8bdc03b7-e9ab-4e9a-9e29-912f18a70823",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343025666752513",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 20,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d2c0e2cf-bb8d-435f-8259-2e379bcc4eca",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343025670750209",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 32,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "5ff8b6f5-f781-4ec4-8446-29f95e0fa798",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343025674043393",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 40,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a27f91b5-ef24-4e4c-aae4-f5ef9864575f",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343025677565953",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 28,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8fcf3766-2590-40f2-823a-f060f9c22e69",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343025681973249",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 24,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d4d25ef1-e9ac-46c8-8200-66b69d1028db",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343025685528577",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 36,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "a88b22ba-7838-401e-b456-ef46f2c3d822",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343459422519297",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 16,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "c47ae529-c2ce-4c94-849e-aea5b5caa470",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343459425583105",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 16,
-          "y": 2.1,
-          "z": -36
         },
         "restitution": 0.3,
         "scale": {
@@ -11081,34 +5144,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "96efb379-e506-4a26-a958-8146a15989f6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343459437117441",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 16,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "e9801623-1c3e-4686-a2f6-95b6fae01e29",
         "density": 2.2,
         "friction": 0.37,
@@ -11121,34 +5156,6 @@
           "x": 12,
           "y": 2.1,
           "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "34e92f27-7975-4dae-aaf7-e07ab47f68ac",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343677396762625",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 12,
-          "y": 2.1,
-          "z": -40
         },
         "restitution": 0.3,
         "scale": {
@@ -11193,62 +5200,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "3e5ee1d2-7f9c-4120-99d8-87508e5ff932",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343677401858049",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 12,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7543986d-995b-4e6e-8d55-b7c63b54e3a1",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343677404332033",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 12,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "73cdc247-5fce-47e1-b3ad-2a1cbcd49f01",
         "density": 2.2,
         "friction": 0.37,
@@ -11261,34 +5212,6 @@
           "x": 12,
           "y": 2.1,
           "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "68452a49-cc8e-4320-9261-616deee4e75d",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343763058769921",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 8,
-          "y": 2.1,
-          "z": -32
         },
         "restitution": 0.3,
         "scale": {
@@ -11361,62 +5284,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "35c21393-e2ae-4221-9590-a21e61604199",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343763068141569",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 8,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8adfaa85-cd08-41eb-be71-f8fbdcd71769",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343763070599169",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 8,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "e39d52f8-955f-44a5-b15d-81b3b9edb855",
         "density": 2.2,
         "friction": 0.37,
@@ -11429,34 +5296,6 @@
           "x": 8,
           "y": 2.1,
           "z": -28
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "493aec19-21a4-4605-9b20-ba9c450919d7",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343850019192833",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 4,
-          "y": 2.1,
-          "z": -36
         },
         "restitution": 0.3,
         "scale": {
@@ -11529,62 +5368,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f9bf5e76-f136-442d-9b6f-6de4bb3209d8",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343850029006849",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 4,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "433716f1-1fd9-4dc2-8e74-33b9f0bcf113",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343850031448065",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": 4,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "419e55cc-bf61-43cb-8043-61fd238b5270",
         "density": 2.2,
         "friction": 0.37,
@@ -11624,87 +5407,6 @@
         "position": {
           "y": 2.1,
           "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7724a1fb-f8fe-46e0-bfe7-52f1b04acf50",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343912030601217",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "7f24ea03-69f4-4599-88e7-1601be92430a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343912033140737",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e8041256-368e-4ee7-9691-e204352054d0",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683343912036007937",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "y": 2.1,
-          "z": -32
         },
         "restitution": 0.3,
         "scale": {
@@ -11803,62 +5505,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "6e70450a-01e7-4c44-8935-335a4475d447",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344009174302721",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -4,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "09b2c41a-fa11-43fd-8af3-b881db83c2f6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344009179660289",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -4,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "d4afac3b-c75c-4cdd-9db6-f5e684d442ef",
         "density": 2.2,
         "friction": 0.37,
@@ -11871,34 +5517,6 @@
           "x": -4,
           "y": 2.1,
           "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "d1015bc7-a235-4f83-b030-511cc8a9e8a5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344009187442689",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -4,
-          "y": 2.1,
-          "z": -32
         },
         "restitution": 0.3,
         "scale": {
@@ -11999,62 +5617,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "c949b107-909a-49ad-b9e7-ea913b5bfe35",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344093194108929",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -8,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "e6a266ce-145c-4088-bcb3-9e06c6ecc919",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344093196877825",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -8,
-          "y": 2.1,
-          "z": -40
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "9a38e1e8-08b2-4534-a429-81d0ee935de2",
         "density": 2.2,
         "friction": 0.37,
@@ -12067,62 +5629,6 @@
           "x": -8,
           "y": 2.1,
           "z": -24
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2cb39d1c-656c-489c-9210-9a7edd565402",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344093202563073",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -8,
-          "y": 2.1,
-          "z": -32
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "ae62ce7e-b28a-47a0-8b1f-945fead0597d",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344167080525825",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -12,
-          "y": 2.1,
-          "z": -40
         },
         "restitution": 0.3,
         "scale": {
@@ -12167,34 +5673,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "2ad7721b-6748-4549-9152-387a13e6e266",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344167086718977",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -12,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "777aa507-e63e-4d42-b9fd-f7304c1d5109",
         "density": 2.2,
         "friction": 0.37,
@@ -12207,34 +5685,6 @@
           "x": -12,
           "y": 2.1,
           "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "95b08e9a-4c24-4b49-b17d-fa669c153c66",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344167092486145",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -12,
-          "y": 2.1,
-          "z": -32
         },
         "restitution": 0.3,
         "scale": {
@@ -12279,34 +5729,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "8d427779-9799-450a-bbd5-110a275e6158",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344254418731009",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -16,
-          "y": 2.1,
-          "z": -36
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
         "btsKey": "57bd8f93-feb1-47b2-80f2-8d4e598705db",
         "density": 2.2,
         "friction": 0.37,
@@ -12319,34 +5741,6 @@
           "x": -16,
           "y": 2.1,
           "z": -20
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "f0e25d0f-d75b-49bc-8624-c5d1ab10a7c5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8683344254424449025",
-        "material": {
-          "discardAlpha": 1
-        },
-        "name": "Color plate",
-        "position": {
-          "x": -16,
-          "y": 2.1,
-          "z": -40
         },
         "restitution": 0.3,
         "scale": {
@@ -12419,29 +5813,420 @@
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "81537298-35ce-4a54-bced-b77f7609d494",
+        "btsKey": "798b6c75-3e81-46f7-9e4d-b50578827cbd",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8683344254433296385",
+        "id": "8681752630652305409",
+        "isLockedInEditor": true,
         "material": {
-          "discardAlpha": 1
+          "color": {
+            "b": 143,
+            "g": 194,
+            "r": 0
+          }
         },
-        "name": "Color plate",
         "position": {
-          "x": -16,
-          "y": 2.1,
-          "z": -32
+          "y": 4.5
         },
         "restitution": 0.3,
         "scale": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
+          "x": 24,
+          "y": 5,
+          "z": 24
         },
         "size": {
-          "x": 3,
-          "y": 0.1,
-          "z": 3
+          "x": 24,
+          "y": 5,
+          "z": 24
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "d1a2a28b-2a50-4f5e-9a3e-728edfb6640c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332948049921",
+            "material": {
+              "color": {
+                "b": 138,
+                "g": 189,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": -0.121639,
+              "y": 4.5,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332952064001",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              }
+            },
+            "position": {
+              "x": -3.82272,
+              "y": 7.40844,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 15
+            },
+            "scale": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            },
+            "size": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681765395802996737",
+        "isLockedInEditor": true,
+        "material": {
+          "color": {
+            "b": 143,
+            "g": 194,
+            "r": 0
+          }
+        },
+        "mergeShapesDataKey": "8681763332955029505",
+        "position": {
+          "x": -14.5,
+          "y": 4.4999995231628
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "36fd3fa3-8715-413e-b7c7-1fabd6bc08d6",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332948049921",
+            "material": {
+              "color": {
+                "b": 138,
+                "g": 189,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": -0.121639,
+              "y": 4.5,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332952064001",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              }
+            },
+            "position": {
+              "x": -3.82272,
+              "y": 7.40844,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 15
+            },
+            "scale": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            },
+            "size": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681763333035098113",
+        "isLockedInEditor": true,
+        "material": {
+          "color": {
+            "b": 143,
+            "g": 194,
+            "r": 0
+          }
+        },
+        "mergeShapesDataKey": "8681763332955029505",
+        "position": {
+          "y": 4.4999995231628,
+          "z": 14.5
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "34a7cc8a-86cf-46d1-9960-45bd4041ae34",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332948049921",
+            "material": {
+              "color": {
+                "b": 138,
+                "g": 189,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": -0.121639,
+              "y": 4.5,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332952064001",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              }
+            },
+            "position": {
+              "x": -3.82272,
+              "y": 7.40844,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 15
+            },
+            "scale": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            },
+            "size": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681764599486431233",
+        "isLockedInEditor": true,
+        "material": {
+          "color": {
+            "b": 143,
+            "g": 194,
+            "r": 0
+          }
+        },
+        "mergeShapesDataKey": "8681763332955029505",
+        "position": {
+          "y": 4.4999995231628,
+          "z": -14.5
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 180
+        },
+        "scale": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "6b9864db-f6b0-4d7a-b403-437689f70495",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332948049921",
+            "material": {
+              "color": {
+                "b": 138,
+                "g": 189,
+                "r": 0
+              }
+            },
+            "position": {
+              "x": -0.121639,
+              "y": 4.5,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            },
+            "size": {
+              "x": 24,
+              "y": 5,
+              "z": 5
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "booleanOperation": 2,
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8681763332952064001",
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              }
+            },
+            "position": {
+              "x": -3.82272,
+              "y": 7.40844,
+              "z": 49.2726
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": 15
+            },
+            "scale": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            },
+            "size": {
+              "x": 25,
+              "y": 6,
+              "z": 6
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8681765083832631297",
+        "isLockedInEditor": true,
+        "material": {
+          "color": {
+            "b": 143,
+            "g": 194,
+            "r": 0
+          }
+        },
+        "mergeShapesDataKey": "8681763332955029505",
+        "position": {
+          "x": 14.5,
+          "y": 4.4999995231628
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 24,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 24,
+          "y": 5,
+          "z": 5
         },
         "useAnchor": true
       }
@@ -12453,7 +6238,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "b2b42dbc55e6f078da49467110db8e10"
+      "setting.json": "f9fd3b5318b1a96bd73703c84e18c936"
     },
     "VERSION": "0.21"
   }
