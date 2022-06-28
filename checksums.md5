@@ -308,7 +308,7 @@ dea9ffb30fd77b22640d7bff198986ca *gui/events/tutorial01/dc2dd61a-bce8-4313-aecf-
 2f8badcfbf2d40664d002a8db97c2012 *gui/events/tutorial01/setting.json
 d751713988987e9331980363e24189ce *gui/schemes/user_font.json
 1fce38776494c2922bc6b81253774249 *id_mappings.json
-c1948e54df3c4c4c536286c6a438d567 *lang/lang.csv
+80ba15104bb35fde06abf437701e1e3e *lang/lang.csv
 99a366a78ce928a3b42a4066e4311cc0 *lua/main.lua
 bb64b6b0ff4293b460d0811e48ff17b0 *lua/script_client/main.lua
 30c164339dc95230e9a2fc3335b95945 *lua/script_common/main.lua
@@ -321,19 +321,19 @@ ca9c491ac66b2c62500882e93f3719a8 *map/27a941fa-b79b-42da-a2d4-3332396ea2d5/part.
 de8aae4ed305a880a18bef5bca2df2bf *map/27a941fa-b79b-42da-a2d4-3332396ea2d5/setting.json
 c06857e9ea338f3f3a24bb78f8fbdf6f *map/45f20b7f-eab8-45ae-bfc3-4e23eeba0151/meshPart.batch
 ca9c491ac66b2c62500882e93f3719a8 *map/45f20b7f-eab8-45ae-bfc3-4e23eeba0151/part.batch
-089b0e4f6e6598d99a619576b1990081 *map/45f20b7f-eab8-45ae-bfc3-4e23eeba0151/setting.json
+bfb0d25aab4cf208cec72bacf1d7397a *map/45f20b7f-eab8-45ae-bfc3-4e23eeba0151/setting.json
 c06857e9ea338f3f3a24bb78f8fbdf6f *map/5b3b47b8-2434-41bf-822b-ab260f7a13ee/meshPart.batch
 ca9c491ac66b2c62500882e93f3719a8 *map/5b3b47b8-2434-41bf-822b-ab260f7a13ee/part.batch
 01d81aa8eae44253e559616032d8515a *map/5b3b47b8-2434-41bf-822b-ab260f7a13ee/setting.json
 c06857e9ea338f3f3a24bb78f8fbdf6f *map/604d24da-0c59-4780-8b25-d274668c9e8f/meshPart.batch
 ca9c491ac66b2c62500882e93f3719a8 *map/604d24da-0c59-4780-8b25-d274668c9e8f/part.batch
 d6905b959ae1266b8ebb057d02a36b62 *map/604d24da-0c59-4780-8b25-d274668c9e8f/setting.json
-7d82b3095f831b5fab214fa4f37464e0 *map/ecfea41a-1ce7-487f-86e8-e7dff6aa1932/meshPart.batch
+e591b69e4bd99d245fcbf47847dfb947 *map/ecfea41a-1ce7-487f-86e8-e7dff6aa1932/meshPart.batch
 ca9c491ac66b2c62500882e93f3719a8 *map/ecfea41a-1ce7-487f-86e8-e7dff6aa1932/part.batch
-63131e1444b4e02d4fa4cc4f85fc6c6f *map/ecfea41a-1ce7-487f-86e8-e7dff6aa1932/setting.json
+cf8cc79afdaab603cf4ec5085960f947 *map/ecfea41a-1ce7-487f-86e8-e7dff6aa1932/setting.json
 c06857e9ea338f3f3a24bb78f8fbdf6f *map/map001/meshPart.batch
 ca9c491ac66b2c62500882e93f3719a8 *map/map001/part.batch
-d7c5eb9bd55c9ea90c9b099b5cfaca55 *map/map001/setting.json
+b2b2445df4877323f2d4debeffb97b57 *map/map001/setting.json
 84f02ca8f96b9115f1d89c3f3271add2 *meshpart_collision/asset_Mesh_Big Purple Cherry Tree_g2030_yinghua_2
 e54a41cbafffec759bc576449b54ab04 *meshpart_collision/asset_Mesh_Purple Cherry Tree_g2030_yinghua_1
 667d4542f96e719c066851543bace19a *meshpart_collision/asset_Mesh_White Gold Arch_g2038_race_gate
@@ -366,11 +366,11 @@ abe8fb0387e4fe67659f7d71daba301f *part_collision/8681765395802996737
 278c2f6a36bdb5cd65d7cc95f704c2ea *part_collision/8684453218103361537
 60efef5617bf110325739ad12c81c52a *part_collision/8684454263240130561
 618bb616517e4d01c94fd6ca9c548e79 *part_collision/8691475304868757505
-96f5df39524ca74d34af81efd3ea94f6 *part_storage/events/3ab8a4c0-7175-47b1-beb5-4ef8d28fae95.bts
+71c9138271db25231fd615d50d28cbdf *part_storage/events/3ab8a4c0-7175-47b1-beb5-4ef8d28fae95.bts
 d9183c7ff478a3d1127c133eb76294cb *part_storage/events/5b178a7f-e620-4b02-ad7b-5b5518319f48.bts
 b897a2ee41cea9e376ad133b852f7059 *part_storage/events/75a0f329-6015-47bc-b023-c80546cbc3a9.bts
 cb46072dc67e58d3479f36baab2296f8 *part_storage/events/9661a34c-7969-4bc0-821f-2f4585e8f5d1.bts
-24e900022b43942f1b55151028425caa *part_storage/setting.json
+8b0e5645b110b442ec622a298efef443 *part_storage/setting.json
 e714c9dcf7e67ed84fa71bddf386bfeb *plugin/myplugin/bluefunc/c0187b86069_79e73bdc-2c73-4fba-92b5-2fb66d125abc/setting.json
 7d638aea6bf748863a285171c25423e1 *plugin/myplugin/bluefunc/c0187b86069_79e73bdc-2c73-4fba-92b5-2fb66d125abc/triggers.bts
 b8404e20b0a523a6d35b65aa2cdc5d03 *plugin/myplugin/buff/76c54988-1df6-4d47-979f-f4666faa49eb/setting.json
@@ -378,14 +378,14 @@ b8404e20b0a523a6d35b65aa2cdc5d03 *plugin/myplugin/buff/76c54988-1df6-4d47-979f-f
 1305ae181bedb5fee2633c685403645f *plugin/myplugin/buff/86a189c9-e72e-400e-97c6-5ff51c456714/setting.json
 93097e48f6be6115b0580a0b1a4bc693 *plugin/myplugin/buff/fa02716a-467d-406a-b59c-0354e429af09/setting.json
 6cf23932123508879c7fee13b670a25c *plugin/myplugin/entity/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc/setting.json
-fc175ce258699244a018f7f2e883bcc0 *plugin/myplugin/entity/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc/triggers.bts
+03c0c2973e0b4044ec5889e85e80a54b *plugin/myplugin/entity/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc/triggers.bts
 2aa8626b020650348ec61e9478b49ffb *plugin/myplugin/entity/77b65fe9-3363-47f5-bd02-80a01b4ecbe0/setting.json
-f98872ed8bc02fff8929c6185828b6a4 *plugin/myplugin/entity/77b65fe9-3363-47f5-bd02-80a01b4ecbe0/triggers.bts
+a961fa1ada386839ef1ea5850e7cb563 *plugin/myplugin/entity/77b65fe9-3363-47f5-bd02-80a01b4ecbe0/triggers.bts
 a9e6f32cb5cd4e9f38e8043817acb382 *plugin/myplugin/entity/78bd0283-6172-46a7-a9a0-ae20a9275e25/setting.json
 e79b412c931e213f7ac69e3a77979efe *plugin/myplugin/entity/9ffa6e2c-5d77-4338-a441-a0b7c66d5689/setting.json
 6ef865bb8028ccd82ed9f7c30b0d2965 *plugin/myplugin/entity/9ffa6e2c-5d77-4338-a441-a0b7c66d5689/triggers.bts
 1165cbda11d61cc77465307243498419 *plugin/myplugin/entity/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2/setting.json
-e3f27a4ba38f7aa9e98327c7704c28f3 *plugin/myplugin/entity/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2/triggers.bts
+0a0783569a8b80251ddf0fc50570ed69 *plugin/myplugin/entity/e33e5b4e-8938-47c5-ab0a-5df8e728f9e2/triggers.bts
 83c2d9dc66125e1a113886fc4a017973 *plugin/myplugin/entity/f359f20e-349c-4068-b095-6bda256f4da3/setting.json
 e9e8bad11e4635ca651d65f0a246c138 *plugin/myplugin/entity/f6ea95c8-6f2f-491b-a310-8e2acaf93ba4/setting.json
 bb8f840586b42706e94b2fb5c6cc6900 *plugin/myplugin/entity/f6ea95c8-6f2f-491b-a310-8e2acaf93ba4/triggers.bts
@@ -432,8 +432,8 @@ b99d540dc9f2e8c2c9119592fc7574e8 *plugin/myplugin/region/d89bd0d1-91b8-4100-a04a
 8ad290f6a5fc9913ee866e20c61c27ca *plugin/myplugin/skill/ea8ac345-e652-4073-bc9e-15c0e1e7e3ed/setting.json
 6ec934ec06849001b2df6d005ea9f7f9 *plugin/myplugin/skill/f8fe3f04-548c-472b-bde8-c7ac34f3e312/setting.json
 cc2b06ff33b78e5d1f29f2937c28b67d *scene_asset/mergeShapesData/8681763332955029505.json
-6c776aaa2f2566fae2eb173a3a69533a *scene_asset/mergeShapesData/8691470367134695425.json
-f478795d2522e91fbab632fc2bf92374 *scene_asset/mergeShapesData/8691473132553699329.json
+b80f1566b1b8173d24f4d3be33a09978 *scene_asset/mergeShapesData/8691470367134695425.json
+4fbd10f44a5779fee36f3f3ca614d83e *scene_asset/mergeShapesData/8691473132553699329.json
 91d349d8ab8b333971279ee7bbff49a5 *setting.json
 3fedcd08b2f085f5aec1753a7d6916db *shop.csv
 e3120b762dc4bd35d985f1132390043a *terrain/06c5de00-572a-4157-8cc8-bdda31d12163/blocks/lod0/-1.-1.-1.chunk
@@ -519,5 +519,5 @@ ca9c491ac66b2c62500882e93f3719a8 *terrain/map001/terrain.batch
 f43a3c791559b556902b9c17dff7105d *trigger_script/ScriptableNode.lua
 26fdf3e320f4747dd5a354639a8325e0 *trigger_script/ScriptableNode_2.lua
 95d2736a533f348c225b381f54d31d4f *triggers_client.bts
-9523aaf93da40250a8929c243888d5c1 *user_data.json
+a9a660c03d0b461987149dc9cd7c0910 *user_data.json
 094b1c6517224b152be0bd52492644bd *terrain/terrain_files.json

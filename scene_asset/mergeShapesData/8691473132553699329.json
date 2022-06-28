@@ -1,9 +1,6 @@
 {
   "additionalData": {
-    "local_transform": [
-      "14 0 0 0 1.2 0 0 0 14 0 0 9.53674e-07",
-      "13 0 0 0 3 0 0 0 13 0 0 9.53674e-07"
-    ],
+    "local_transform": [],
     "tillBaseScale": {
       "x": 13.999998092651,
       "y": 1.1999998092651,

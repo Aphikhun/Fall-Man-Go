@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 142,
+          "b": 143,
           "g": 133
         },
         "skyLineColor": {
-          "g": 61,
+          "g": 62,
           "r": 62
         }
       },
@@ -253,7 +253,7 @@
             "id": "8690193630077878273",
             "material": {
               "color": {
-                "g": 173
+                "g": 174
               }
             },
             "position": {
@@ -281,7 +281,7 @@
             "id": "8690196279381164033",
             "material": {
               "color": {
-                "g": 173
+                "g": 174
               }
             },
             "position": {
@@ -309,7 +309,7 @@
             "id": "8690196810260971521",
             "material": {
               "color": {
-                "g": 173
+                "g": 174
               }
             },
             "position": {
@@ -643,7 +643,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 173,
+                "g": 174,
                 "r": 85
               }
             },
@@ -688,7 +688,7 @@
             "material": {
               "color": {
                 "b": 127,
-                "g": 173,
+                "g": 174,
                 "r": 85
               }
             },
@@ -766,246 +766,6 @@
           "x": 40.207458496094,
           "y": 1.1840020418167,
           "z": -0.11966913938522
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Model",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "6240bc32-9daf-4699-80df-1bbcded44b2c",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "id": "8690384380791783425"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8690384380791144449",
-            "material": {
-              "color": {
-                "b": 117,
-                "g": 216
-              },
-              "discardAlpha": 1
-            },
-            "name": "Broken plate",
-            "position": {
-              "x": -4.7310950890278e-07,
-              "y": 20,
-              "z": 21.961423873901
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "698523e9-d60b-4ed9-838b-9294d684cd0b",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "id": "8690384380800270337"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8690384380799598593",
-            "material": {
-              "color": {
-                "b": 117,
-                "g": 216
-              },
-              "discardAlpha": 1
-            },
-            "name": "Broken plate",
-            "position": {
-              "x": 4.5029397010803,
-              "y": 20,
-              "z": 21.961423873901
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "c80aab8a-1fef-4eac-a9fa-cba860e18dda",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "id": "8690384380805496833"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8690384380804841473",
-            "material": {
-              "color": {
-                "b": 117,
-                "g": 216
-              },
-              "discardAlpha": 1
-            },
-            "name": "Broken plate",
-            "position": {
-              "x": -4.6239399909973,
-              "y": 20,
-              "z": 21.961423873901
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "a0a2caa7-6102-449d-bf0e-d65ff45d46ab",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "id": "8690384380810706945"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8690384380810100737",
-            "material": {
-              "color": {
-                "b": 117,
-                "g": 216
-              },
-              "discardAlpha": 1
-            },
-            "name": "Broken plate",
-            "position": {
-              "x": -4.7310950890278e-07,
-              "y": 20,
-              "z": 26.424411773682
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "2f7b8663-ec47-4339-9a43-c322f7a1cdd8",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "id": "8690384380815867905"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8690384380815278081",
-            "material": {
-              "color": {
-                "b": 117,
-                "g": 216
-              },
-              "discardAlpha": 1
-            },
-            "name": "Broken plate",
-            "position": {
-              "x": 4.5029397010803,
-              "y": 20,
-              "z": 26.424411773682
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "useAnchor": true
-          },
-          {
-            "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "57ce6454-f1ed-44dc-9c37-5caefb343e24",
-            "children": [
-              {
-                "__OBJ_TYPE": "Instance_Decal",
-                "id": "8690384380820963329"
-              }
-            ],
-            "density": 2.2,
-            "friction": 0.37,
-            "id": "8690384380820357121",
-            "material": {
-              "color": {
-                "b": 117,
-                "g": 216
-              },
-              "discardAlpha": 1
-            },
-            "name": "Broken plate",
-            "position": {
-              "x": -4.6239399909973,
-              "y": 20,
-              "z": 26.424411773682
-            },
-            "restitution": 0.3,
-            "scale": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "size": {
-              "x": 3,
-              "y": 0.2,
-              "z": 3
-            },
-            "useAnchor": true
-          }
-        ],
-        "id": "8690384380789587969",
-        "name": "Zone4",
-        "position": {
-          "x": -0.060500144958496,
-          "y": 20,
-          "z": 24.192918777466
         }
       },
       {
@@ -1100,7 +860,7 @@
             },
             "material": {
               "color": {
-                "g": 173
+                "g": 174
               }
             },
             "position": {
@@ -1141,7 +901,7 @@
             },
             "material": {
               "color": {
-                "g": 173
+                "g": 174
               }
             },
             "position": {
@@ -1185,7 +945,7 @@
             },
             "material": {
               "color": {
-                "g": 173
+                "g": 174
               }
             },
             "position": {
@@ -1230,7 +990,7 @@
         "friction": 0.37,
         "id": "8690388167222706177",
         "lineVelocity": {
-          "z": 2
+          "z": -2
         },
         "name": "Zone2",
         "position": {
@@ -1253,6 +1013,276 @@
           "z": 10
         },
         "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6240bc32-9daf-4699-80df-1bbcded44b2c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8691673041739366401"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691673041738481665",
+            "massCenter": {
+              "x": -5.6996566399903e-07,
+              "y": 20,
+              "z": 21.90043258667
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -5.6996566399903e-07,
+              "y": 20,
+              "z": 21.90043258667
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "698523e9-d60b-4ed9-838b-9294d684cd0b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8691673041745772545"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691673041744904193",
+            "massCenter": {
+              "x": 4.5029273033142,
+              "y": 20,
+              "z": 21.90043258667
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 4.5029273033142,
+              "y": 20,
+              "z": 21.90043258667
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "c80aab8a-1fef-4eac-a9fa-cba860e18dda",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8691673041751408641"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691673041750884353",
+            "massCenter": {
+              "x": -4.6239275932312,
+              "y": 20,
+              "z": 21.90043258667
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -4.6239275932312,
+              "y": 20,
+              "z": 21.90043258667
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "a0a2caa7-6102-449d-bf0e-d65ff45d46ab",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8691673041757306881"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691673041756438529",
+            "massCenter": {
+              "x": -5.6996566399903e-07,
+              "y": 20,
+              "z": 26.363418579102
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -5.6996566399903e-07,
+              "y": 20,
+              "z": 26.363418579102
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "2f7b8663-ec47-4339-9a43-c322f7a1cdd8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8691673041763221505"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691673041762369537",
+            "massCenter": {
+              "x": 4.5029273033142,
+              "y": 20,
+              "z": 26.363418579102
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": 4.5029273033142,
+              "y": 20,
+              "z": 26.363418579102
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "57ce6454-f1ed-44dc-9c37-5caefb343e24",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "id": "8691673041768939521"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691673041768398849",
+            "massCenter": {
+              "x": -4.6239275932312,
+              "y": 20,
+              "z": 26.363418579102
+            },
+            "material": {
+              "color": {
+                "b": 117,
+                "g": 216
+              },
+              "discardAlpha": 1
+            },
+            "name": "Broken plate",
+            "position": {
+              "x": -4.6239275932312,
+              "y": 20,
+              "z": 26.363418579102
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8691673041736925185",
+        "name": "Zone4",
+        "position": {
+          "x": -0.060500144958496,
+          "y": 20,
+          "z": 24.131927490234
+        }
       }
     ],
     "name": {
@@ -1262,7 +1292,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "93038780409954df620e579592f79b6c"
+      "setting.json": "bfb0d25aab4cf208cec72bacf1d7397a"
     },
     "VERSION": "0.21"
   }

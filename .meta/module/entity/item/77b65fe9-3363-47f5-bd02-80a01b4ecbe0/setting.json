@@ -4195,7 +4195,7 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_String",
-                        "rawval": "player"
+                        "rawval": "i"
                       }
                     }
                   ]
@@ -4248,7 +4248,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "2aa8626b020650348ec61e9478b49ffb",
-      "triggers.bts": "dca2abcfac858b2e38070bc461140c3a"
+      "triggers.bts": "a961fa1ada386839ef1ea5850e7cb563"
     },
     "VERSION": "0.21"
   }

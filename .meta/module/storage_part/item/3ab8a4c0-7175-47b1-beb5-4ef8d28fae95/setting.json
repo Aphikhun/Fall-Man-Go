@@ -963,7 +963,8 @@
           "custom_trigger_data": {
             "name": {
               "value": "ea45c14b-5c58-4e79-bc3c-b34cffaa0c82"
-            }
+            },
+            "type": "Trigger_PartTouchEntityBegin"
           },
           "root": {
             "components": [

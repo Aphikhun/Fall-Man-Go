@@ -106,7 +106,7 @@ ENTITY_TOUCH_ALL {
 				}
 			}
 			Foreach(array = $npc.listPlayer, key = "i") {
-				$player.WinStage = false
+				$i.WinStage = false
 			}
 		}
 	}

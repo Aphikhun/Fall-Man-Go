@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "12473a4f52bdb6c9474ce862ea868523",
+    "md5": "8162ad5b7fb18347425d914db8caa74d",
     "path": "asset/match.layout",
     "root": {
       "anchor": {
@@ -15,7 +15,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "157900e0-bde4-4fe5-b5d1-d0e346006f39"
+            "value": "646e3961-9183-46c2-8c7b-d37a46abe0f1"
           },
           "Image": {
             "asset": "asset/Component/Icon/Icon_ColorIcon_Weapon_Battle_l.png"
@@ -39,7 +39,7 @@
           "Font_size": 56,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "144c7900-93d9-43ad-8340-fb4d2753297c"
+            "value": "59c9e4d2-112c-4af9-9e6a-c0b5d8f7ea3a"
           },
           "size": {
             "UDim_X": {
@@ -55,7 +55,7 @@
         }
       ],
       "id": {
-        "value": "fdce0db9-0ab3-4be9-b9e3-31e63096edd2"
+        "value": "794ae57d-bdcb-4d92-8cfd-cb2286942648"
       },
       "size": {
         "UDim_X": {
@@ -71,7 +71,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "12473a4f52bdb6c9474ce862ea868523",
+      "layout": "8162ad5b7fb18347425d914db8caa74d",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

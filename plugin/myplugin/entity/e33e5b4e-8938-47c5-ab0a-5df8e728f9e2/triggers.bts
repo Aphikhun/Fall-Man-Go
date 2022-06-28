@@ -170,7 +170,7 @@ ENTITY_TOUCH_ALL {
 			}
 		}
 		Foreach(array = $localEntity.listPlayer, key = "i") {
-			$curPlayer.WinStage = false
+			$i.WinStage = false
 		}
 	}
 }
