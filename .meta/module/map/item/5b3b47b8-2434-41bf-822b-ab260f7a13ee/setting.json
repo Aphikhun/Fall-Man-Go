@@ -29,7 +29,6 @@
         "__OBJ_TYPE": "Instance_RegionPart",
         "cfgName": "myplugin/0f513041-55d5-4aea-8d09-3cd248dcda95",
         "id": "8680149632523059201",
-        "isLockedInEditor": true,
         "name": "Return",
         "position": {
           "y": 5
@@ -195,7 +194,6 @@
           }
         ],
         "id": "8680342229086863361",
-        "isLockedInEditor": true,
         "name": "start",
         "position": {
           "y": 3.5,

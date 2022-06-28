@@ -1,6 +1,9 @@
 {
   "additionalData": {
-    "local_transform": [],
+    "local_transform": [
+      "14 0 0 0 1.2 0 0 0 14 0 0 9.53674e-07",
+      "13 0 0 0 3 0 0 0 13 0 0 9.53674e-07"
+    ],
     "tillBaseScale": {
       "x": 13.999998092651,
       "y": 1.1999998092651,
@@ -19,7 +22,7 @@
         "collisionFidelity": "0",
         "collisionGroup": "1",
         "collisionUniqueKey": "",
-        "customColor": "r:1 g:0.666667 b:1 a:1",
+        "customColor": "r:1 g:0.670588 b:1 a:1",
         "customThreshold": "1",
         "density": "2.2",
         "friction": "0.37",
@@ -30,7 +33,7 @@
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
         "materialAlpha": "1",
-        "materialColor": "r:1 g:0.666667 b:1 a:1",
+        "materialColor": "r:1 g:0.670588 b:1 a:1",
         "materialOffset": "x:1 y:1 z:1",
         "materialTexture": "part_suliao.tga",
         "name": "zone1",
@@ -67,7 +70,7 @@
         "collisionFidelity": "0",
         "collisionGroup": "1",
         "collisionUniqueKey": "",
-        "customColor": "r:1 g:0.666667 b:1 a:1",
+        "customColor": "r:1 g:0.670588 b:1 a:1",
         "customThreshold": "1",
         "density": "2.2",
         "friction": "0.37",
@@ -78,7 +81,7 @@
         "isVisibleInEditor": "true",
         "lineVelocity": "x:0 y:0 z:0",
         "materialAlpha": "1",
-        "materialColor": "r:1 g:0.666667 b:1 a:1",
+        "materialColor": "r:1 g:0.670588 b:1 a:1",
         "materialOffset": "x:1 y:1 z:1",
         "materialTexture": "part_suliao.tga",
         "name": "zone1",

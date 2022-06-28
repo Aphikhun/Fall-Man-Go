@@ -45,7 +45,7 @@
           "alpha": 0.994,
           "color": {
             "b": 0,
-            "g": 170
+            "g": 171
           }
         },
         "restitution": 0.3,
@@ -72,13 +72,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691456306066751489",
-        "massCenter": {
-          "x": 21,
-          "z": -12.17
-        },
         "material": {
           "color": {
-            "g": 170
+            "g": 171
           }
         },
         "name": "zone1",
@@ -137,7 +133,6 @@
         "shape": "3",
         "size": {
           "x": 19,
-          "y": 0.99999994039536,
           "z": 19
         },
         "useAnchor": true
@@ -148,7 +143,6 @@
         "children": [
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "70c0e285-97a3-4cdb-8ba6-96b295dc6897",
             "density": 2.2,
             "friction": 0.37,
             "id": "8691470367126110209",
@@ -156,7 +150,7 @@
               "alpha": 0.994,
               "color": {
                 "b": 0,
-                "g": 170
+                "g": 171
               }
             },
             "restitution": 0.3,
@@ -176,7 +170,6 @@
           {
             "__OBJ_TYPE": "Instance_Part",
             "booleanOperation": 2,
-            "btsKey": "669ebcaf-0fb9-460c-b0a8-2024805bead4",
             "density": 2.2,
             "friction": 0.37,
             "id": "8691470367130828801",
@@ -184,7 +177,7 @@
               "alpha": 0.994,
               "color": {
                 "b": 0,
-                "g": 170
+                "g": 171
               }
             },
             "restitution": 0.3,
@@ -209,7 +202,7 @@
           "alpha": 0.994,
           "color": {
             "b": 0,
-            "g": 170
+            "g": 171
           }
         },
         "mergeShapesDataKey": "8691470367134695425",
@@ -220,9 +213,9 @@
           "z": 20
         },
         "size": {
-          "x": 19.999994277954,
-          "y": 1.1999998092651,
-          "z": 19.999994277954
+          "x": 20,
+          "y": 1.2,
+          "z": 20
         },
         "useAnchor": true
       },
@@ -232,17 +225,12 @@
         "children": [
           {
             "__OBJ_TYPE": "Instance_Part",
-            "btsKey": "689d9431-65e3-4a8a-9b33-1008a81c901b",
             "density": 2.2,
             "friction": 0.37,
             "id": "8691473132546048001",
-            "massCenter": {
-              "x": 21,
-              "z": -12.17
-            },
             "material": {
               "color": {
-                "g": 170
+                "g": 171
               }
             },
             "name": "zone1",
@@ -259,7 +247,7 @@
             "shape": "3",
             "size": {
               "x": 14,
-              "y": 1.1999999284744,
+              "y": 1.2,
               "z": 14
             },
             "useAnchor": true
@@ -267,17 +255,12 @@
           {
             "__OBJ_TYPE": "Instance_Part",
             "booleanOperation": 2,
-            "btsKey": "74a40110-cb03-48d9-a790-50789ccee2fa",
             "density": 2.2,
             "friction": 0.37,
             "id": "8691473132550012929",
-            "massCenter": {
-              "x": 21,
-              "z": -12.17
-            },
             "material": {
               "color": {
-                "g": 170
+                "g": 171
               }
             },
             "name": "zone1",
@@ -303,13 +286,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691473132657967105",
-        "massCenter": {
-          "x": 20.999998092651,
-          "z": -12.169998168945
-        },
         "material": {
           "color": {
-            "g": 170
+            "g": 171
           }
         },
         "mergeShapesDataKey": "8691473132553699329",
@@ -324,9 +303,9 @@
           "z": 14
         },
         "size": {
-          "x": 13.999997138977,
-          "y": 1.1999998092651,
-          "z": 13.99999332428
+          "x": 14,
+          "y": 1.2,
+          "z": 14
         },
         "useAnchor": true
       },
@@ -336,10 +315,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691473395831554049",
-        "massCenter": {
-          "x": 21,
-          "z": -12.17
-        },
         "material": {
           "alpha": 0.7
         },
@@ -366,11 +341,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691475304868757505",
-        "massCenter": {
-          "x": 8.227,
-          "y": 2.688,
-          "z": -4.75
-        },
         "mesh": "asset/Mesh/White Gold Arch/g2038_race_gate.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Gold Arch/g2038_race_gate.mesh",
@@ -392,9 +362,9 @@
           "z": 0.51688
         },
         "size": {
-          "x": 5.0000004768372,
-          "y": 4.6656937599182,
-          "z": 1.3155740499496
+          "x": 5.0000019073486,
+          "y": 4.665696144104,
+          "z": 1.3155746459961
         },
         "staticBatchNo": "1",
         "useAnchor": true
@@ -405,11 +375,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691478653466984449",
-        "massCenter": {
-          "x": 12.03,
-          "y": 2,
-          "z": -6.95
-        },
         "material": {
           "color": {
             "b": 127
@@ -442,14 +407,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691482589123182593",
-        "massCenter": {
-          "x": 9,
-          "y": 0.847,
-          "z": -5.25
-        },
         "material": {
           "color": {
-            "g": 170,
+            "g": 171,
             "r": 85
           }
         },
@@ -478,15 +438,10 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691483335663190017",
-        "massCenter": {
-          "x": 9.7,
-          "y": 1.2,
-          "z": -5.75
-        },
         "material": {
           "color": {
-            "b": 162,
-            "r": 49
+            "b": 163,
+            "r": 50
           }
         },
         "position": {
@@ -514,15 +469,10 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691483816247279617",
-        "massCenter": {
-          "x": 10.47,
-          "y": 1.641,
-          "z": -6.05
-        },
         "material": {
           "color": {
-            "g": 170,
-            "r": 170
+            "g": 171,
+            "r": 171
           }
         },
         "position": {
@@ -550,11 +500,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691484580012654593",
-        "massCenter": {
-          "x": 13.51,
-          "y": 1.641,
-          "z": -7.8
-        },
         "material": {
           "color": {
             "b": 85,
@@ -586,15 +531,10 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691485299661783041",
-        "massCenter": {
-          "x": 14.2,
-          "y": 1.2,
-          "z": -8.2
-        },
         "material": {
           "color": {
-            "b": 182,
-            "g": 162
+            "b": 183,
+            "g": 163
           }
         },
         "position": {
@@ -622,14 +562,9 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8691485742188986369",
-        "massCenter": {
-          "x": 14.89,
-          "y": 0.847,
-          "z": -8.6
-        },
         "material": {
           "color": {
-            "r": 170
+            "r": 171
           }
         },
         "position": {
@@ -679,27 +614,12 @@
             },
             "rotation": {
               "y": -60
-            },
-            "size": {
-              "x": 9.150634765625,
-              "y": 5.9999995231628,
-              "z": 5.9999990463257
-            },
-            "transform": {
-              "rotate": {
-                "y": -90
-              }
             }
           }
         ],
         "density": 2.2,
         "friction": 0.37,
         "id": "8691497137974296577",
-        "massCenter": {
-          "x": 8.26,
-          "y": 7.1,
-          "z": -4.724
-        },
         "material": {
           "alpha": 0
         },
@@ -732,7 +652,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "63131e1444b4e02d4fa4cc4f85fc6c6f"
+      "setting.json": "d6a8a2026eb2fb70a3fb88f0c179ff41"
     },
     "VERSION": "0.21"
   }

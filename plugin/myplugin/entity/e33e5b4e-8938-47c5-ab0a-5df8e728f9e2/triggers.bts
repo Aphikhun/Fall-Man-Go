@@ -20,8 +20,8 @@ ENTITY_TOUCH_ALL {
 			If (not ExecScript(listPlayer = $localEntity.listPlayer, player = $curPlayer, script_name = "ScriptableNode_2")) {
 				ArrayAppend(
 					array = $localEntity.listPlayer,
-					entity = $localEntity,
-					value = $curPlayer
+					value = $curPlayer,
+					entity = $localEntity
 				)
 				$curPlayer.curNpcPlayer = $localEntity
 				Parallel {
@@ -124,6 +124,14 @@ ENTITY_TOUCH_ALL {
 						}
 						$localEntity.GameWin = true
 					}
+					If (ArraySize(array = $localEntity.listPlayer, entity = $localEntity) <= 0) {
+						ArrayGet(
+							array = $localEntity.listPlayer,
+							index = 1,
+							entity = $localEntity
+						).WinStage = true
+						$localEntity.GameWin = true
+					}
 					If ($localEntity.GameWin) {
 						Foreach(array = $localEntity.listPlayer, key = "winPlayer") {
 														If ($winPlayer.WinStage) {
@@ -160,6 +168,9 @@ ENTITY_TOUCH_ALL {
 					}
 				}
 			}
+		}
+		Foreach(array = $localEntity.listPlayer, key = "i") {
+			$curPlayer.WinStage = false
 		}
 	}
 }
