@@ -1,0 +1,80 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" SoundName5="" IntervalTime="2" AttackScale="1" Volume="0.8" SoundFileNum="0" SoundName3="" Skeleton="girl_01.skel" MaxDistance="16" SoundName1="" WoundBone="" IsShowShadow="true" TextHeight="0" SoundName2="" WoundAngle="25" Originalscale="1 1 1" MinDistance="1" SelectedRingSize="1" name="111.actor" Alpha="1">
+		<Anims/>
+		<Skills/>
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="group0" EdgeColor="1 1 1 1" MasterName="mutex_name_0" ColorParams="1 1 1 1">
+				<Effect>
+					<Position_X value="-4.8471074104309"/>
+					<pitch value="0"/>
+					<FileName value="asset/effects/Garena202_sign_1_3d.effect"/>
+					<Position_Z value="8.7460155487061"/>
+					<SocketName value="Origin197011"/>
+					<Alpha value="1"/>
+					<type_name value="Garena202_sign_1_3d"/>
+					<TimeScale value="1"/>
+					<scale value="3"/>
+					<roll value="0"/>
+					<Position_Y value="2"/>
+					<yaw value="149.29722595215"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-5.7180886268616"/>
+					<pitch value="0"/>
+					<FileName value="asset/effects/Garena202_sign_2_3d.effect"/>
+					<Position_Z value="8.3767862319946"/>
+					<SocketName value="Origin197011"/>
+					<Alpha value="1"/>
+					<type_name value="Garena202_sign_2_3d"/>
+					<TimeScale value="1"/>
+					<scale value="3"/>
+					<roll value="0"/>
+					<Position_Y value="2"/>
+					<yaw value="136.11904907227"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-6.7452654838562"/>
+					<pitch value="0"/>
+					<FileName value="asset/effects/Garena202_sign_3_3d.effect"/>
+					<Position_Z value="8.1779365539551"/>
+					<SocketName value="Origin197011"/>
+					<Alpha value="1"/>
+					<type_name value="Garena202_sign_3_3d"/>
+					<TimeScale value="1"/>
+					<scale value="3"/>
+					<roll value="0"/>
+					<Position_Y value="2"/>
+					<yaw value="120.60540771484"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-8.1204147338867"/>
+					<pitch value="0"/>
+					<FileName value="asset/effects/Garena202_sign_4_3d.effect"/>
+					<Position_Z value="7.815553188324"/>
+					<SocketName value="Origin197011"/>
+					<Alpha value="1"/>
+					<type_name value="Garena202_sign_4_3d"/>
+					<TimeScale value="1"/>
+					<scale value="3"/>
+					<roll value="0"/>
+					<Position_Y value="2"/>
+					<yaw value="106.48489379883"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-9.9925994873047"/>
+					<pitch value="0"/>
+					<FileName value="asset/effects/Garena202_sign_5_3d.effect"/>
+					<Position_Z value="7.3356237411499"/>
+					<SocketName value="Origin197011"/>
+					<Alpha value="1"/>
+					<type_name value="Garena202_sign_5_3d"/>
+					<TimeScale value="1"/>
+					<scale value="3"/>
+					<roll value="0"/>
+					<Position_Y value="2"/>
+					<yaw value="90"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

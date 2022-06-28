@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate SoundName1="" Skeleton="girl_01.skel" WoundBone="" SoundName5="" MaxDistance="16" TextHeight="0" IntervalTime="2" Originalscale="1 1 1" SoundName4="" MinDistance="1" IsShowShadow="true" SoundName2="" SoundFileNum="0" WoundAngle="25" name="111.actor" Volume="0.8" SoundName3="" AttackScale="1" Alpha="1" SelectedRingSize="1">
+		<Anims/>
+		<Skills/>
+		<BodyParts>
+			<BodyPart DefaultUse="true" MasterName="mutex_name_0" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" SlaveName="group0">
+				<Effect>
+					<yaw value="0"/>
+					<FileName value="asset/effects/Garena202_playground_sign_lighting_3d_03.effect"/>
+					<scale value="1"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<type_name value="Garena202_playground_sign_lighting_3d_03"/>
+					<Alpha value="1"/>
+					<Position_Y value="0"/>
+					<TimeScale value="1"/>
+					<SocketName value="Origin197011"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

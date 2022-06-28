@@ -26,107 +26,351 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc",
-        "id": "8680986852948590593",
-        "name": "Match",
-        "position": {
-          "y": 2.5,
-          "z": 15
-        },
-        "rotation": {
-          "y": 180
-        }
-      },
-      {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "bc1b95cc-2612-457e-9605-0642a95c3932",
+        "btsKey": "f86d890b-bfd8-4d66-965b-f943e128c8b5",
         "children": [
           {
             "__OBJ_TYPE": "Instance_Decal",
-            "decalSurface": "4",
+            "decalSurface": "5",
             "decalTexture": {
-              "asset": "asset/Texture/Item/jinengdian.png"
+              "asset": "asset/texture2/floor/floor_012.png"
             },
-            "id": "8682975287252271105"
+            "id": "8691463540528611329"
           }
         ],
         "density": 2.2,
         "friction": 0.37,
-        "id": "8682934025699557377",
-        "name": "Floor",
-        "position": {
-          "y": 1.25
+        "id": "8691454653905846273",
+        "material": {
+          "alpha": 0.994,
+          "color": {
+            "b": 0,
+            "g": 170
+          }
         },
         "restitution": 0.3,
-        "scale": {
-          "x": 50,
-          "y": 0.2,
-          "z": 50
+        "rotation": {
+          "y": 120,
+          "z": 180
         },
+        "scale": {
+          "x": 12,
+          "y": 1.2,
+          "z": 12
+        },
+        "shape": "3",
         "size": {
-          "x": 50,
-          "y": 0.2,
-          "z": 50
-        }
+          "x": 12,
+          "y": 1.2,
+          "z": 12
+        },
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_Part",
-        "btsKey": "489e3292-e641-4562-b009-a2608ddca826",
+        "btsKey": "502228fc-bed6-4890-9c5d-21b3b22d5c76",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8682939661999669249",
+        "id": "8691456306066751489",
+        "massCenter": {
+          "x": 21,
+          "z": -12.17
+        },
         "material": {
-          "alpha": 0,
           "color": {
-            "g": 174,
-            "r": 85
+            "g": 170
           }
         },
-        "name": "Stage",
+        "name": "zone1",
         "position": {
-          "y": 1.850147485733,
-          "z": 15
+          "x": 21,
+          "z": -12.17
         },
         "restitution": 0.3,
         "scale": {
-          "x": 9.5,
-          "y": 0.63,
-          "z": 2.5
+          "x": 8,
+          "y": 1.2,
+          "z": 8
         },
+        "shape": "3",
         "size": {
-          "x": 9.5,
-          "y": 0.63,
-          "z": 2.5
-        }
+          "x": 8,
+          "y": 1.2,
+          "z": 8
+        },
+        "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "3c2ee08e-2799-4f8e-8512-e4fd15460804",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c0e0f22f-aa0b-4733-a53d-d7de900e92f7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalAlpha": 0.4,
+            "decalImageType": "2",
+            "decalOffset": {
+              "x": 1,
+              "y": 1
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/texture2/floor/floor_003.png"
+            },
+            "decalTiling": {
+              "x": 10,
+              "y": 10
+            },
+            "id": "8691459176329740289"
+          }
+        ],
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684432985573277697",
-        "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-          "selector": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh"
-        },
-        "name": "g2038_column_02.mesh",
-        "position": {
-          "x": -17,
-          "y": 5.2,
-          "z": 17
+        "id": "8691457528229756929",
+        "material": {
+          "alpha": 0.7
         },
         "restitution": 0.3,
-        "staticBatchNo": "1",
+        "scale": {
+          "x": 19,
+          "z": 19
+        },
+        "shape": "3",
+        "size": {
+          "x": 19,
+          "y": 0.99999994039536,
+          "z": 19
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "28acb6b6-6bca-4518-8a91-fa4527fdbbf8",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "70c0e285-97a3-4cdb-8ba6-96b295dc6897",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691470367126110209",
+            "material": {
+              "alpha": 0.994,
+              "color": {
+                "b": 0,
+                "g": 170
+              }
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 20,
+              "y": 1.2,
+              "z": 20
+            },
+            "shape": "3",
+            "size": {
+              "x": 20,
+              "y": 1.2,
+              "z": 20
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "booleanOperation": 2,
+            "btsKey": "669ebcaf-0fb9-460c-b0a8-2024805bead4",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691470367130828801",
+            "material": {
+              "alpha": 0.994,
+              "color": {
+                "b": 0,
+                "g": 170
+              }
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 18,
+              "y": 3,
+              "z": 18
+            },
+            "shape": "3",
+            "size": {
+              "x": 18,
+              "y": 3,
+              "z": 18
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8691470367232802817",
+        "material": {
+          "alpha": 0.994,
+          "color": {
+            "b": 0,
+            "g": 170
+          }
+        },
+        "mergeShapesDataKey": "8691470367134695425",
+        "restitution": 0.3,
+        "scale": {
+          "x": 20,
+          "y": 1.2,
+          "z": 20
+        },
+        "size": {
+          "x": 19.999994277954,
+          "y": 1.1999998092651,
+          "z": 19.999994277954
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_PartOperation",
+        "btsKey": "77fe3b33-4cb5-4abd-9c02-940ac3b9c307",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "689d9431-65e3-4a8a-9b33-1008a81c901b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691473132546048001",
+            "massCenter": {
+              "x": 21,
+              "z": -12.17
+            },
+            "material": {
+              "color": {
+                "g": 170
+              }
+            },
+            "name": "zone1",
+            "position": {
+              "x": 21,
+              "z": -12.17
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 14,
+              "y": 1.2,
+              "z": 14
+            },
+            "shape": "3",
+            "size": {
+              "x": 14,
+              "y": 1.1999999284744,
+              "z": 14
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "booleanOperation": 2,
+            "btsKey": "74a40110-cb03-48d9-a790-50789ccee2fa",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8691473132550012929",
+            "massCenter": {
+              "x": 21,
+              "z": -12.17
+            },
+            "material": {
+              "color": {
+                "g": 170
+              }
+            },
+            "name": "zone1",
+            "position": {
+              "x": 21,
+              "z": -12.17
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 13,
+              "y": 3,
+              "z": 13
+            },
+            "shape": "3",
+            "size": {
+              "x": 13,
+              "y": 3,
+              "z": 13
+            },
+            "useAnchor": true
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8691473132657967105",
+        "massCenter": {
+          "x": 20.999998092651,
+          "z": -12.169998168945
+        },
+        "material": {
+          "color": {
+            "g": 170
+          }
+        },
+        "mergeShapesDataKey": "8691473132553699329",
+        "position": {
+          "x": 20.999998092651,
+          "z": -12.169998168945
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 14,
+          "y": 1.2,
+          "z": 14
+        },
+        "size": {
+          "x": 13.999997138977,
+          "y": 1.1999998092651,
+          "z": 13.99999332428
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "60ff2dae-4fcc-4a67-80ef-ea73007c8d29",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8691473395831554049",
+        "massCenter": {
+          "x": 21,
+          "z": -12.17
+        },
+        "material": {
+          "alpha": 0.7
+        },
+        "name": "zone1",
+        "position": {
+          "x": 21,
+          "z": -12.17
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 13,
+          "z": 13
+        },
+        "shape": "3",
+        "size": {
+          "x": 13,
+          "z": 13
+        },
         "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "c3c03f04-fe01-4af3-b8d9-0f4dfdde7264",
+        "btsKey": "bc36c7bd-382b-47cc-961c-9b0767c1a152",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684433553807081473",
+        "id": "8691475304868757505",
+        "massCenter": {
+          "x": 8.227,
+          "y": 2.688,
+          "z": -4.75
+        },
         "mesh": "asset/Mesh/White Gold Arch/g2038_race_gate.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White Gold Arch/g2038_race_gate.mesh",
@@ -134,611 +378,349 @@
         },
         "name": "g2038_race_gate.mesh",
         "position": {
-          "y": 5.85,
-          "z": 15
+          "x": 8.227,
+          "y": 2.688,
+          "z": -4.75
         },
         "restitution": 0.3,
-        "staticBatchNo": "1",
-        "useAnchor": true,
-        "useCollide": false
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "e3eedaab-75ab-4899-9981-c486cce0741a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684438100958838785",
-        "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-          "selector": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh"
+        "rotation": {
+          "y": 120
         },
-        "name": "g2038_column_02.mesh",
-        "position": {
-          "x": 17,
-          "y": 5.2,
-          "z": 17
+        "scale": {
+          "x": 0.51688,
+          "y": 0.51688,
+          "z": 0.51688
         },
-        "restitution": 0.3,
+        "size": {
+          "x": 5.0000004768372,
+          "y": 4.6656937599182,
+          "z": 1.3155740499496
+        },
         "staticBatchNo": "1",
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "2b05d10c-512d-42ba-84a7-3ca8d199c578",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b1205e36-86e3-4fc0-a6a8-38214346f384",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684438551058284545",
-        "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-          "selector": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh"
+        "id": "8691478653466984449",
+        "massCenter": {
+          "x": 12.03,
+          "y": 2,
+          "z": -6.95
         },
-        "name": "g2038_column_02.mesh",
+        "material": {
+          "color": {
+            "b": 127
+          }
+        },
         "position": {
-          "x": -17,
-          "y": 5.2,
-          "z": -17
-        },
-        "restitution": 0.3,
-        "staticBatchNo": "1",
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "184264b6-fb47-41ad-aeb1-f26f39341e4d",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684438551062380545",
-        "mesh": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh",
-          "selector": "asset/Mesh/White Slender Stone Pillar/g2038_column_02.mesh"
-        },
-        "name": "g2038_column_02.mesh",
-        "position": {
-          "x": 17,
-          "y": 5.2,
-          "z": -17
-        },
-        "restitution": 0.3,
-        "staticBatchNo": "1",
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "fbe0eb6c-f9fe-4152-b9b3-efeca8149799",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684443127288725505",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
-        },
-        "name": "g2030_yinghua_2.mesh",
-        "position": {
-          "x": 11.076804161072,
-          "y": 6.474835395813,
-          "z": 25.717805862427
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "size": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "044a6ef4-a855-47ee-aaa2-ee822d86d3c9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684443880935489537",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
-        },
-        "name": "g2030_yinghua_2.mesh",
-        "position": {
-          "x": -11.051494598389,
-          "y": 6.7468376159668,
-          "z": 30.042604446411
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "size": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "6f5b5147-28da-4eea-9f41-15876ef996d0",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684444339684081665",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
-        },
-        "name": "g2030_yinghua_1.mesh",
-        "position": {
-          "x": -24.131721496582,
-          "y": 5.7314324378967,
-          "z": 34.785865783691
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "f8c62302-f40c-406d-ac06-628bc42fca63",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684444823145119745",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
-        },
-        "name": "g2030_yinghua_1.mesh",
-        "position": {
-          "x": 5.5242805480957,
-          "y": 5.7314324378967,
-          "z": 34.785865783691
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "821fbae2-b688-4d37-89ab-6e1eef12b0bc",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684445078012674049",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
-        },
-        "name": "g2030_yinghua_1.mesh",
-        "position": {
-          "x": -33.164710998535,
-          "y": 5.7314324378967,
-          "z": 22.251865386963
+          "x": 12.03,
+          "y": 2,
+          "z": -6.95
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90
+          "y": 120
         },
         "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
+          "x": 3,
+          "y": 0.1,
+          "z": 3
         },
         "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
+          "x": 3,
+          "y": 0.1,
+          "z": 3
         },
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "0fc0900b-3c11-4008-9017-4255b08a4c70",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "dd1b8464-c3fa-4aa0-a218-5ba67dae8565",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684445078016393217",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
+        "id": "8691482589123182593",
+        "massCenter": {
+          "x": 9,
+          "y": 0.847,
+          "z": -5.25
         },
-        "name": "g2030_yinghua_1.mesh",
+        "material": {
+          "color": {
+            "g": 170,
+            "r": 85
+          }
+        },
         "position": {
-          "x": -32.899700164795,
-          "y": 5.7314324378967,
-          "z": 6.3628606796265
+          "x": 9,
+          "y": 0.847,
+          "z": -5.25
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90
+          "y": 120
         },
         "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
+          "x": 3,
+          "y": 0.1
         },
         "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
+          "x": 3,
+          "y": 0.1
         },
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "c3e12ae8-1b85-48aa-8832-8cc384cb84b2",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "aa2fe03b-3208-4112-aa54-ea2d27f8df58",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684445078020440065",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
+        "id": "8691483335663190017",
+        "massCenter": {
+          "x": 9.7,
+          "y": 1.2,
+          "z": -5.75
         },
-        "name": "g2030_yinghua_2.mesh",
+        "material": {
+          "color": {
+            "b": 162,
+            "r": 49
+          }
+        },
         "position": {
-          "x": -30.873477935791,
-          "y": 6.7468376159668,
-          "z": -16.934394836426
+          "x": 9.7,
+          "y": 1.2,
+          "z": -5.75
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90
+          "y": 120
         },
         "scale": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 3,
+          "y": 0.1
         },
         "size": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 3,
+          "y": 0.1
         },
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "d91ca98b-019f-4223-b745-95a3dc4952bf",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "2ffdec2a-31a4-459e-b011-664b754b55e7",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684445078023176193",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
+        "id": "8691483816247279617",
+        "massCenter": {
+          "x": 10.47,
+          "y": 1.641,
+          "z": -6.05
         },
-        "name": "g2030_yinghua_2.mesh",
+        "material": {
+          "color": {
+            "g": 170,
+            "r": 170
+          }
+        },
         "position": {
-          "x": -27.347177505493,
-          "y": 6.474835395813,
-          "z": -2.7052013874054
+          "x": 10.47,
+          "y": 1.641,
+          "z": -6.05
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90
+          "y": 120
         },
         "scale": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 3,
+          "y": 0.1
         },
         "size": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 3,
+          "y": 0.1
         },
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "fa03ca56-04ca-469a-b99c-89c852d496ec",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d84e8244-b266-4cf3-bbd5-2865239d5c78",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684446292415168513",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
+        "id": "8691484580012654593",
+        "massCenter": {
+          "x": 13.51,
+          "y": 1.641,
+          "z": -7.8
         },
-        "name": "g2030_yinghua_1.mesh",
+        "material": {
+          "color": {
+            "b": 85,
+            "g": 113
+          }
+        },
         "position": {
-          "x": 31.762269973755,
-          "y": 5.7314324378967,
-          "z": 4.955883026123
+          "x": 13.51,
+          "y": 1.641,
+          "z": -7.8
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 15
+          "y": 120
         },
         "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
+          "x": 3,
+          "y": 0.1
         },
         "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
+          "x": 3,
+          "y": 0.1
         },
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "61a9dbc0-0a62-4220-8035-9bdc1ee88d76",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "6d767c27-53d2-4e83-8617-81ef0e03a202",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684446292418969601",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
+        "id": "8691485299661783041",
+        "massCenter": {
+          "x": 14.2,
+          "y": 1.2,
+          "z": -8.2
         },
-        "name": "g2030_yinghua_2.mesh",
+        "material": {
+          "color": {
+            "b": 182,
+            "g": 162
+          }
+        },
         "position": {
-          "x": 31.895498275757,
-          "y": 6.7468376159668,
-          "z": -20.064380645752
+          "x": 14.2,
+          "y": 1.2,
+          "z": -8.2
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90
+          "y": 120
         },
         "scale": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 3,
+          "y": 0.1
         },
         "size": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 3,
+          "y": 0.1
         },
         "useAnchor": true
       },
       {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "b61eed63-d12c-49fc-83ed-d2c4f4010e26",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "e73cef2c-569b-43e3-915c-91a151a95129",
         "density": 2.2,
         "friction": 0.37,
-        "id": "8684446292421836801",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
+        "id": "8691485742188986369",
+        "massCenter": {
+          "x": 14.89,
+          "y": 0.847,
+          "z": -8.6
         },
-        "name": "g2030_yinghua_2.mesh",
+        "material": {
+          "color": {
+            "r": 170
+          }
+        },
         "position": {
-          "x": 35.421802520752,
-          "y": 6.474835395813,
-          "z": -9.0091991424561
+          "x": 14.89,
+          "y": 0.847,
+          "z": -8.6
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 120
+        },
+        "scale": {
+          "x": 3,
+          "y": 0.1
+        },
+        "size": {
+          "x": 3,
+          "y": 0.1
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/71c0090f-51f9-47fb-8b1a-11f3c4b3f6cc",
+        "id": "8691491552370933761",
+        "name": "Match",
+        "position": {
+          "x": 20.882999420166,
+          "y": 0.60045772790909,
+          "z": -12.10200214386
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "ff8154a7-7104-4fbb-a005-5af193438dc9",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/texture2/MAP/sots208_ title_01_yellow.effect"
+            },
+            "id": "8691499127787831297",
+            "position": {
+              "x": 8.26,
+              "y": 7.1,
+              "z": -4.724
+            },
+            "rotation": {
+              "y": -60
+            },
+            "size": {
+              "x": 9.150634765625,
+              "y": 5.9999995231628,
+              "z": 5.9999990463257
+            },
+            "transform": {
+              "rotate": {
+                "y": -90
+              }
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8691497137974296577",
+        "massCenter": {
+          "x": 8.26,
+          "y": 7.1,
+          "z": -4.724
+        },
+        "material": {
+          "alpha": 0
+        },
+        "position": {
+          "x": 8.26,
+          "y": 7.1,
+          "z": -4.724
         },
         "restitution": 0.3,
         "rotation": {
           "y": 30
         },
         "scale": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 0.68,
+          "y": 2.8,
+          "z": 3.646
         },
         "size": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "c853b06a-e163-4d8d-864f-63f73e2a0ef9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684446292430536705",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
-        },
-        "name": "g2030_yinghua_1.mesh",
-        "position": {
-          "x": 29.604261398315,
-          "y": 5.7314324378967,
-          "z": 19.121891021729
-        },
-        "restitution": 0.3,
-        "rotation": {
-          "y": 90
-        },
-        "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "26fdfdd3-4a30-43b5-b89e-e41d4cb1cbe9",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684446706558238721",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
-        },
-        "name": "g2030_yinghua_1.mesh",
-        "position": {
-          "x": -17.443717956543,
-          "y": 5.7314324378967,
-          "z": -26.214139938354
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "f63ec591-1a5d-4ba1-9da8-1b9778ccf0e5",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684446706584911873",
-        "mesh": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh",
-          "selector": "asset/Mesh/Purple Cherry Tree/g2030_yinghua_1.mesh"
-        },
-        "name": "g2030_yinghua_1.mesh",
-        "position": {
-          "x": 12.212280273438,
-          "y": 5.7314324378967,
-          "z": -26.214139938354
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "size": {
-          "x": 4.50976,
-          "y": 4.50976,
-          "z": 4.50976
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "be2c2485-2511-4f32-bd99-4b4e07c7de59",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684446706597920769",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
-        },
-        "name": "g2030_yinghua_2.mesh",
-        "position": {
-          "x": -4.3634958267212,
-          "y": 6.7468376159668,
-          "z": -30.957399368286
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "size": {
-          "x": 4.84023,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "0f0b977f-d645-4e49-8dce-424a1d0b955a",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684446706600902657",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
-        },
-        "name": "g2030_yinghua_2.mesh",
-        "position": {
-          "x": 25.031803131104,
-          "y": 6.474835395813,
-          "z": -30.540193557739
-        },
-        "restitution": 0.3,
-        "scale": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "size": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "732afcb3-e847-476f-a9c9-8efed7c9cb41",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8684447305798746113",
-        "mesh": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh",
-          "selector": "asset/Mesh/Big Purple Cherry Tree/g2030_yinghua_2.mesh"
-        },
-        "name": "g2030_yinghua_2.mesh",
-        "position": {
-          "x": 24.951219558716,
-          "y": 6.474835395813,
-          "z": 29.163394927979
-        },
-        "restitution": 0.3,
-        "rotation": {
-          "y": 45
-        },
-        "scale": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
-        },
-        "size": {
-          "x": 4.84024,
-          "y": 4.84023,
-          "z": 4.84023
+          "x": 0.68,
+          "y": 2.8,
+          "z": 3.646
         },
         "useAnchor": true
       }
@@ -750,7 +732,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "fd3fe31f02b6757e731f5368f667fcc2"
+      "setting.json": "63131e1444b4e02d4fa4cc4f85fc6c6f"
     },
     "VERSION": "0.21"
   }

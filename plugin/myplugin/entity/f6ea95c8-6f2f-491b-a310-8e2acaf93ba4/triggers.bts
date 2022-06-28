@@ -34,9 +34,9 @@ ENTITY_TOUCH_ALL {
 							entity = $py,
 							map = GetEntityMap(entity = $npc),
 							pos = {
-								x = 0.40115737915039,
+								x = 0,
 								y = 20.140086212158,
-								z = -49.943778991699
+								z = -81
 							},
 							rp = 0,
 							ry = 0

@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate SelectedRingSize="1" Alpha="1" MaxDistance="16" SoundFileNum="0" SoundName2="" MinDistance="1" IntervalTime="2" WoundBone="" SoundName3="" SoundName5="" WoundAngle="25" SoundName4="" Skeleton="8_weapon.skel" TextHeight="0" name="111.actor" Originalscale="3 3 3" SoundName1="" Volume="0.8" AttackScale="1" IsShowShadow="true">
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" MasterName="mutex_name_0" DefaultUse="true" ColorParams="1 1 1 1" SlaveName="group0">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<FileName value="asset/texture2/match/sots208_arrows_red_3d.effect"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<type_name value="sots208_arrows_red_3d"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+					<yaw value="0"/>
+					<TimeScale value="0.5"/>
+					<Position_Z value="0"/>
+					<Position_Y value="0"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate name="111.actor" IsShowShadow="true" TextHeight="0" WoundAngle="25" SoundName3="" SoundName4="" MaxDistance="16" Alpha="1" Volume="0.8" Skeleton="girl_01.skel" SoundName5="" SelectedRingSize="1" Originalscale="1 1 1" SoundFileNum="0" WoundBone="" SoundName1="" SoundName2="" MinDistance="1" AttackScale="1" IntervalTime="2">
+		<Skills/>
+		<Anims/>
+		<BodyParts>
+			<BodyPart SlaveName="group0" MasterName="mutex_name_0" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<Effect>
+					<Position_X value="0"/>
+					<type_name value="lr204_falls_blue_3_3d "/>
+					<TimeScale value="0.5"/>
+					<FileName value="asset/effects/lr204_falls_blue_3_3d .effect"/>
+					<scale value="1"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<SocketName value="Origin197011"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

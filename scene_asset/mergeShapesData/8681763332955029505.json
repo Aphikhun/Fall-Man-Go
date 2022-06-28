@@ -1,9 +1,6 @@
 {
   "additionalData": {
-    "local_transform": [
-      "1 0 0 0 1 0 0 0 1 0 0 0",
-      "1.00617 -0.0647048 0 1.2941 1.15911 0 0 0 1.2 -0.154212 0.581688 0"
-    ],
+    "local_transform": [],
     "tillBaseScale": {
       "x": 23.999996185303,
       "y": 4.9999990463257,
@@ -91,7 +88,7 @@
         "partNavMeshType": "1",
         "position": "x:-3.82272 y:7.40844 z:49.2726",
         "restitution": "0.3",
-        "rotation": "x:0 y:0 z:15",
+        "rotation": "x:-0 y:0 z:15",
         "scale": "x:25 y:6 z:6",
         "selectable": "true",
         "shape": "1",
